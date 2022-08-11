@@ -1,0 +1,380 @@
+{
+	"ID": "20220806221143-qelhf2s",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221143-qelhf2s",
+		"title": "Minimize Repetition",
+		"updated": "20220806221210"
+	},
+	"Children": [
+		{
+			"ID": "20220806221210-vvdr136",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221210-vvdr136",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "重复最少化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-muu9h7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221210-muu9h7d",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-ha72vig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221210-ha72vig",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "消除重复"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-oywqk54",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221210-oywqk54",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"ID": "20220806221210-9gkg0x6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221210-9gkg0x6",
+						"updated": "20220806221210"
+					},
+					"Children": [
+						{
+							"ID": "20220806221210-3mokb1d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221210-3mokb1d",
+								"updated": "20220806221210"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "极力消除重复。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221210-bj93bhi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221210-bj93bhi",
+						"updated": "20220806221210"
+					},
+					"Children": [
+						{
+							"ID": "20220806221210-bywt7yg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221210-bywt7yg",
+								"updated": "20220806221210"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "函数化是以实现重复最少化为目标的技术之一。该技术将重复的逻辑函数化，整合成一段共享代码来使用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-pf9dzpl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221210-pf9dzpl",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-sep0has",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221210-sep0has",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将修改带来的影响局部化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-2o6268b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221210-2o6268b",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"ID": "20220806221210-yr5ae4o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221210-yr5ae4o",
+						"updated": "20220806221210"
+					},
+					"Children": [
+						{
+							"ID": "20220806221210-d069y4j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221210-d069y4j",
+								"updated": "20220806221210"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复的代码不符合效应局部化原则，增加了修改成本。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-x50bbb4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221210-x50bbb4",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-iagq6bp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221210-iagq6bp",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "对代码进行分割管理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221210-7t3lt5t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221210-7t3lt5t",
+				"updated": "20220806221210"
+			},
+			"Children": [
+				{
+					"ID": "20220806221210-nabsyrh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221210-nabsyrh",
+						"updated": "20220806221210"
+					},
+					"Children": [
+						{
+							"ID": "20220806221210-oxynniw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221210-oxynniw",
+								"updated": "20220806221210"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将代码分割成多个小块。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221210-308fviw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221210-308fviw",
+								"updated": "20220806221210"
+							},
+							"Children": [
+								{
+									"ID": "20220806221210-zp9whvh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221210-zp9whvh",
+										"updated": "20220806221210"
+									},
+									"Children": [
+										{
+											"ID": "20220806221210-uzj84cb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221210-uzj84cb",
+												"updated": "20220806221210"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大块代码之间一般会存在重复的部分。将大块代码分割成多个小块之后，就能轻松找出共同的部分了。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221210-tw8o1ay",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221210-tw8o1ay",
+										"updated": "20220806221210"
+									},
+									"Children": [
+										{
+											"ID": "20220806221210-ka410j2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221210-ka410j2",
+												"updated": "20220806221210"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码的可读性会提高，修改成本会下降。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

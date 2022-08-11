@@ -1,0 +1,1255 @@
+{
+	"ID": "20220806222558-8c3srsj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222558-8c3srsj",
+		"title": "Reusability",
+		"updated": "20220806222601"
+	},
+	"Children": [
+		{
+			"ID": "20220806222601-gmwy7uo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-gmwy7uo",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可复用性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-d6uogpk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222601-d6uogpk",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-bm6anzx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-bm6anzx",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "重复使用与被重复使用的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-n1cmjyt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222601-n1cmjyt",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"ID": "20220806222601-v3y4esu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-v3y4esu",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-04ohvpp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-04ohvpp",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可复用性指软件的整体或其中一部分可以在其他软件的开发过程中重复使用的能力。表现在两个方面："
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-ekrfqvj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-ekrfqvj",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-xp6krv7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-xp6krv7",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-xj9qjoe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-xj9qjoe",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重复使用现有代码的软件开发：指在开发过程中重复使用项目内的既有模块、以往项目的模块和各种库等。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222601-vx5mql0",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222601-vx5mql0",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"ID": "20220806222601-9gfxppg",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-9gfxppg",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-ola0atx",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-ola0atx",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "将可重复使用的现有代码直接或变形后整合至正在开发的软件中。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-6zvohur",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-6zvohur",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-a12rijp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-a12rijp",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以重复使用为目的的软件开发：指在当前软件开发中创造出可供未来项目重复使用的模块。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222601-s2cbtr3",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222601-s2cbtr3",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"ID": "20220806222601-xrwz5us",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-xrwz5us",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-frff8aa",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-frff8aa",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "为其他软件提供可重复使用的模块是这类软件开发的目的。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-0gndmec",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222601-0gndmec",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-c89d0oy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-c89d0oy",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "能不做就不做，提高开发效率"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-k19rw4a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222601-k19rw4a",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"ID": "20220806222601-x3cca3i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-x3cca3i",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-3urs3ia",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-3urs3ia",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了提高软件开发的效率和软件质量，应该尽量避免从零开发。也就是说，从其他地方借用代码是最好的选择。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222601-oka44v9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-oka44v9",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-93nre95",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-93nre95",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复使用现有代码可以让我们少编写一些代码，降低软件开发的成本，缩短周期。同时，使用已取得成绩的成熟模块能够提高软件的质量。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-9fo65ki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222601-9fo65ki",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-eedctp2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-eedctp2",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "“插件”软件架构"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-0uscb7n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222601-0uscb7n",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"ID": "20220806222601-onsb1dc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-onsb1dc",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-o87jpcm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-o87jpcm",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要设计出能作为现有结构或模块插件使用的软件架构。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222601-bqi840o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-bqi840o",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-udquqlt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-udquqlt",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复使用现有代码的软件开发："
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-0e3m6sj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-0e3m6sj",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-ev43fi7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-ev43fi7",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-y0tuqhp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-y0tuqhp",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要设计出能作为现有结构或模块插件使用的软件架构。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-66nlsyw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-66nlsyw",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-qymww3d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-qymww3d",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "软件合成："
+												}
+											]
+										},
+										{
+											"ID": "20220806222601-ewon2uk",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222601-ewon2uk",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"ID": "20220806222601-xca48mw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-xca48mw",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-txy7vsb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-txy7vsb",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "指通过利用现有模块来组成软件。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222601-c0iy5l5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-c0iy5l5",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-7l2bz74",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-7l2bz74",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "需要实现能够作为黏合剂使用的模块，从而使现有模块适应当前的开发需求。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222601-bvxc8a9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-bvxc8a9",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-94zl9yg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-94zl9yg",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以重复使用为目的的软件开发："
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-aove7wt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-aove7wt",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-76ltpcd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-76ltpcd",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-kzjiqkt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-kzjiqkt",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要设计出能将自给自足的部分从正在开发的软件中分离出来的软件架构。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-41kwy6h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-41kwy6h",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-ia4qxn8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-ia4qxn8",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "自给自足的部分要能在不进行任何修改的情况下直接被其他系统使用。这部分最好做成可独立构建的模块或包。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-7to9zrn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222601-7to9zrn",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-xa3syf9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-xa3syf9",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "重复使用的“三之法则”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-lihmbzd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222601-lihmbzd",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"ID": "20220806222601-4m6p4gs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-4m6p4gs",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-87ljt35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-87ljt35",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三倍难度法则：指开发可重复使用的模块的难度是开发在单一软件中使用的模块的难度的三倍。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-br8s6w1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-br8s6w1",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-36mzsnp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-36mzsnp",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-u83txxp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-u83txxp",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在开发可重复使用的模块时，程序员需要考虑一般化问题的处理。除了模块自身要做到一般化，模块的测试也必须能在普通实例中使用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-wbmavb6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-wbmavb6",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-ix95lzz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-ix95lzz",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块的可复用性越高，复杂度就越高，对想象力的要求也就越高。整个过程的难度陡然提升。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222601-0i58vpt",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222601-0i58vpt",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"ID": "20220806222601-hnxo52i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-hnxo52i",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-dmsdx5d",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-dmsdx5d",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在设计方面必须考虑“什么是一般化问题”。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222601-7yviqsi",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-7yviqsi",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-67tg2t4",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-67tg2t4",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "在编程和测试方面需要考虑“如何处理一般化问题”。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222601-urygrad",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-urygrad",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-8kha9t9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-8kha9t9",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "三种测试法则：该法则指可重复使用的模块在共享之前需要在三个不同的软件中通过测试。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-8a3yuuq",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-8a3yuuq",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-40pgwx5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-40pgwx5",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-hdnot3f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-hdnot3f",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可重复使用的模块不能满足于解决当前面对的问题，解决更加一般化的问题才是这些模块要达到的目标。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-72rlmql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-72rlmql",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-ddv1ouj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-ddv1ouj",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在开发模块时，我们很难（甚至不可能）将一般化问题想得足够全面，很多问题只有在实践中才会暴露出来。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222601-gxz0lqo",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222601-gxz0lqo",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"ID": "20220806222601-yl5u2ca",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222601-yl5u2ca",
+														"updated": "20220806222601"
+													},
+													"Children": [
+														{
+															"ID": "20220806222601-0l0wwdl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222601-0l0wwdl",
+																"updated": "20220806222601"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "先开发出原型，然后把它放到实际的问题领域中不断完善。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-xou31wc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-xou31wc",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-1qg9iqb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-1qg9iqb",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用于重复使用的模块在开发完成之后，最少要在三个问题领域中进行测试。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-vvlae71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222601-vvlae71",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可拆装组件的框架"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222601-46bj2f6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222601-46bj2f6",
+				"updated": "20220806222601"
+			},
+			"Children": [
+				{
+					"ID": "20220806222601-rziaqa2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-rziaqa2",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-yaces34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-yaces34",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在同一问题领域实现多个软件之后，设计就会愈发成熟，进而突破一些壁垒。此时就可以设计专攻该问题领域的框架了。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222601-pm5epsy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222601-pm5epsy",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"ID": "20220806222601-wmkj6zy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-wmkj6zy",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-75qpnqp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-75qpnqp",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "框架就好比确定了接口的集线器，问题领域的可变部分是可拆装的组件。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222601-vbuq2nl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222601-vbuq2nl",
+										"updated": "20220806222601"
+									},
+									"Children": [
+										{
+											"ID": "20220806222601-lyuoiu9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222601-lyuoiu9",
+												"updated": "20220806222601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "框架设计其实就是插件设计。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222601-si64k00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222601-si64k00",
+						"updated": "20220806222601"
+					},
+					"Children": [
+						{
+							"ID": "20220806222601-t48disn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222601-t48disn",
+								"updated": "20220806222601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只有极少数在反复开发的过程中获得成功的幸运项目才能达到的理想高度，达到这个高度的软件能够自由地进行修改和扩展。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

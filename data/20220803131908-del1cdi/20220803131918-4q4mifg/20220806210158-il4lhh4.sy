@@ -1,0 +1,75 @@
+{
+	"ID": "20220806210158-il4lhh4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806210158-il4lhh4",
+		"title": "Flink",
+		"updated": "20220806210222"
+	},
+	"Children": [
+		{
+			"ID": "20220806210158-1ggdrxf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806210158-1ggdrxf",
+				"updated": "20220806210222"
+			},
+			"Children": [
+				{
+					"ID": "20220806210222-c3oj2ru",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806210222-c3oj2ru",
+						"updated": "20220806210222"
+					},
+					"Children": [
+						{
+							"ID": "20220806210222-qihrqsa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806210222-qihrqsa",
+								"updated": "20220806210222"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806210214-6f5nrxv"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "流式数据架构理论"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

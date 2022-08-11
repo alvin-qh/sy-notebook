@@ -1,0 +1,808 @@
+{
+	"ID": "20220806222745-3lb26li",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222745-3lb26li",
+		"title": "Symmetry Principle",
+		"updated": "20220806222800"
+	},
+	"Children": [
+		{
+			"ID": "20220806222800-s98h9jm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222800-s98h9jm",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "对称原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-myr2vnv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222800-myr2vnv",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-n4n5h7x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222800-n4n5h7x",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "讲究形式上的对称"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-2352hkl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222800-2352hkl",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"ID": "20220806222800-aeh9tme",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-aeh9tme",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-7o7mt1j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-7o7mt1j",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对称原理就是讲究形式上的对称，比如有上就有下，有左就有右，有主动就有被动。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222800-fbxo0vt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222800-fbxo0vt",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"ID": "20220806222800-5rrn9ns",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-5rrn9ns",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-y0wi1gc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-y0wi1gc",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在思考一个处理时，也要想到与之成对的处理。比如有给标志位置1的处理，就要有给标志位置0的处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-1w7b2r1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222800-1w7b2r1",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-2fdra79",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222800-2fdra79",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "帮助读代码的人推测后面的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-8ffyf5q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222800-8ffyf5q",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"ID": "20220806222800-lhlfv89",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-lhlfv89",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-3twhday",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-3twhday",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具有对称性的代码能够帮助读代码的人推测后面的代码，提高其理解代码的速度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222800-xyvetiz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-xyvetiz",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-0oinqwx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-0oinqwx",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对称性会给代码带来美感，这同样有助于他人理解代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222800-ahene0j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-ahene0j",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-c9z2kam",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-c9z2kam",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计代码时将对称性纳入考虑的范围能防止我们在思考问题时出现遗漏。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222800-4o2cuuy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222800-4o2cuuy",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"ID": "20220806222800-1ftmrqe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-1ftmrqe",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-w59aqgt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-w59aqgt",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对称性是思考的框架，能有效阻止条件遗漏。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-4oqjtrt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222800-4oqjtrt",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-fhbknia",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222800-fhbknia",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写有对称性的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222800-6lgt3lx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222800-6lgt3lx",
+				"updated": "20220806222800"
+			},
+			"Children": [
+				{
+					"ID": "20220806222800-1g1dhrk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-1g1dhrk",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-l99llhe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-l99llhe",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在出现“条件”的时候，我们要注意它的“反条件”。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222800-e15ewq3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222800-e15ewq3",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"ID": "20220806222800-3rfnbvh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-3rfnbvh",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-iy1uxxq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-iy1uxxq",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每个控制条件都存在与之成对的反条件（与指示条件相反的条件）。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222800-65nxkcw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-65nxkcw",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-6oj2t8l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-6oj2t8l",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意条件与反条件的统一，保证控制条件具有统一性。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222800-gsfu24x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-gsfu24x",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-o9mjhvd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-o9mjhvd",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要考虑到例外情况并极力避免其发生。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222800-vj8dmou",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222800-vj8dmou",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"ID": "20220806222800-7yme5dm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-7yme5dm",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-dgnywpl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-dgnywpl",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "例外情况的特殊性会破坏对称性，成为故障的温床。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222800-dfo1v5l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-dfo1v5l",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-xqas9tv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-xqas9tv",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "特殊情况过多意味着需求没有得到整理。此时应重新审视需求，尽量从代码中剔除例外情况。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222800-ys5h02y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222800-ys5h02y",
+						"updated": "20220806222800"
+					},
+					"Children": [
+						{
+							"ID": "20220806222800-lzcqp0x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222800-lzcqp0x",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "命名也要讲究对称性。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222800-qjeyp6r",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222800-qjeyp6r",
+								"updated": "20220806222800"
+							},
+							"Children": [
+								{
+									"ID": "20220806222800-q0fxrx8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222800-q0fxrx8",
+										"updated": "20220806222800"
+									},
+									"Children": [
+										{
+											"ID": "20220806222800-b5t8pui",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222800-b5t8pui",
+												"updated": "20220806222800"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命名时建议使用"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "set"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "get"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "start"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "stop"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "begin"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "end"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "和"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "push"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "/"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "pop"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "等成对的词语。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

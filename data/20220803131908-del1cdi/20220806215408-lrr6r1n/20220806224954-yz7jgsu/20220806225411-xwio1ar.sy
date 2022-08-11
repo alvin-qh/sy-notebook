@@ -1,0 +1,1146 @@
+{
+	"ID": "20220806225411-xwio1ar",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806225411-xwio1ar",
+		"title": "认识 Scrum 敏捷开发方法",
+		"updated": "20220809000701"
+	},
+	"Children": [
+		{
+			"ID": "20220806225430-8l5iiqg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225430-8l5iiqg",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 传统团队协作的问题"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-gajeglq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806225430-gajeglq",
+				"updated": "20220806225446"
+			},
+			"Children": [
+				{
+					"ID": "20220806225430-62yy7k8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-62yy7k8",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-bffiyhx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-bffiyhx",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目时间规划不明确，导致项目一拖再拖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-9wfxq74",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-9wfxq74",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-2lhjc5u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-2lhjc5u",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "团队成员信息不对等，对项目的重要性不了解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-iwqgtex",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-iwqgtex",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-sdmrwb7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-sdmrwb7",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "团队成员分工不明，对成员的能力范围不清楚"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-1pkavrk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-1pkavrk",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-yzo47qe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-yzo47qe",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺少流程意识，项目的各个流程衔接不够顺畅"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-0fc14ds",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-0fc14ds",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-cyc0lwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-cyc0lwg",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信息不流通，成员之间不清楚对方的进度和问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-k27w3t2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-k27w3t2",
+						"updated": "20220806225446"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-jz6vwv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-jz6vwv7",
+								"updated": "20220806225446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其它问题"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-r59r4zh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225430-r59r4zh",
+				"updated": "20220806225455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上的问题会导致项目进度缓慢、任务堆积，信息不通、沟通效率降低。这对于一个需要高效率的开发团队来说，无疑是致命的。目前，在互联网行业，比较流行的敏捷开发方法——SCRUM能够解决这些问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220809000647-ikcq7q3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000647-ikcq7q3"
+			}
+		},
+		{
+			"ID": "20220806225430-nz6oecl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225430-nz6oecl",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. SCRUM方法"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-gk37tjt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225430-gk37tjt",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SCRUM是一种敏捷软件开发的管理方法，用于迭代式增量软件开发过程。SCRUM是一个包括了一系列实践和预定义角色的过程骨架"
+				}
+			]
+		},
+		{
+			"ID": "20220809000649-6m9niiu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000649-6m9niiu"
+			}
+		},
+		{
+			"ID": "20220806225430-yknn91h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806225430-yknn91h",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 主要角色"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-h1z48ma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225430-h1z48ma",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SCRUM中的主要角色包括："
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-njohd0j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220806225430-njohd0j",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"ID": "20220806225430-9xknxcf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220806225430-9xknxcf",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-2qmoz3l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-2qmoz3l",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "SCRUM Master"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：SCRUM教练和团队带头人，确保团队合理的运作SCRUM，并帮助团队扫除实施中的障碍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-xyz9l1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220806225430-xyz9l1l",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-2ma2can",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-2ma2can",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "产品负责人"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：负责确定产品的方向和愿景，定义产品发布的内容、优先级及交付时间，为产品投資報酬率负责"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-dcjadnf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220806225430-dcjadnf",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-gnxg5v0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-gnxg5v0",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "开发团队"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：一个跨职能的小团队，人数5~9人，团队拥有交付可用软件需要的各种技能"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000651-fisq1se",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000651-fisq1se"
+			}
+		},
+		{
+			"ID": "20220806225430-q43nw87",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806225430-q43nw87",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 名词解释"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-cjb5b6v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806225430-cjb5b6v",
+				"updated": "20220806225550"
+			},
+			"Children": [
+				{
+					"ID": "20220806225430-pp9bpym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-pp9bpym",
+						"updated": "20220806225523"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-fob93n4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-fob93n4",
+								"updated": "20220806225523"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "迭代（Sprint）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：本意是短距离赛跑的意思，这里面指的是一次 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "迭代"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ，而一次迭代的周期是1个月时间（即4个星期），也就是我们要把一次迭代的开发内容以最快的速度完成它，这个过程我们称它为 Sprint。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-bw02b27",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-bw02b27",
+						"updated": "20220806225520"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-h5locku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-h5locku",
+								"updated": "20220806225520"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "产品订单（Product Backlog）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：即产品需求池，包含定义需求，需求描述，优先级，预计人/工时。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-p8454ao",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-p8454ao",
+						"updated": "20220806225550"
+					},
+					"Children": [
+						{
+							"ID": "20220806225542-1p5o66m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225542-1p5o66m",
+								"updated": "20220806225542"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "迭代订单（Sprint Backlog）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ：是大大细化了的文档，包含团队如何实现下一个冲刺的需求的信息。任务被分解为以小时为单位，没有任务可以超过16个小时。如果一个任务超过16个小时，那么它就应该被进一步分解。冲刺订单上的任务不会被分派，而是由团队成员签名认领他们喜爱的任务。"
+								}
+							]
+						},
+						{
+							"ID": "20220806225430-omufoka",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220806225430-omufoka",
+								"updated": "20220806225550"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220806225542-qls6j75",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220806225542-qls6j75",
+										"updated": "20220806225550"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "在每一次迭代（一个15到30天的周期，其长度由开发团队决定）当中，开发团队创建可用的（可以随时推出）软件的一个增量。每一个迭代所要实现的功能来自产品订单。产品订单按照优先级排列工作需求。在迭代计划会议中，产品负责人告诉开发团队需要完成产品订单中的哪些订单项。开发团队决定在下一次迭代中他们能够承诺完成多少订单项。在迭代的过程中，没有人能够变更迭代订单，这意味着在一个迭代中需求是被冻结的。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000657-ovav3ie",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000657-ovav3ie"
+			}
+		},
+		{
+			"ID": "20220806225430-474vrhg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806225430-474vrhg",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 开发模型"
+				}
+			]
+		},
+		{
+			"ID": "20220806225559-8q4b6mb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225559-8q4b6mb",
+				"updated": "20220806225600"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220806225600-5jwobvw.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-s465713",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220806225430-s465713",
+				"updated": "20220806225625"
+			},
+			"Children": [
+				{
+					"ID": "20220806225430-wk2nu32",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220806225430-wk2nu32",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-rs4vbex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-rs4vbex",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先需要确定一个Product Backlog（按优先顺序排列的一个产品需求列表），这个是由Product Owner 负责的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-n08g6ll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220806225430-n08g6ll",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-010iqqm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-010iqqm",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SCRUM Team根据Product Backlog列表，做工作量的预估和安排"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-fpvcrqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220806225430-fpvcrqt",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-ajukzy1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-ajukzy1",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 Sprint Planning Meeting（迭代计划会议） 来从中挑选出一个Story作为本次迭代完成的目标，这个目标的时间周期是1~4个星期，然后把这个Story进行细化，形成一个Sprint Backlog"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-4lwk9gg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220806225430-4lwk9gg",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-83rfm80",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-83rfm80",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Sprint Backlog是由SCRUM Team去完成的，每个成员根据Sprint Backlog再细化成更小的任务（细到每个任务的工作量在2天内能完成）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-jivgrx4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220806225430-jivgrx4",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-tbrvvm5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-tbrvvm5",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "成员把Sprint Backlog分拆完毕后，需要将详细的开发时间计划以邮件的形式发送给项目组成员，确保信息畅通"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-7xhk8hq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220806225430-7xhk8hq",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-xi9rnq9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-xi9rnq9",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在Scrum Team完成计划会议上选出的Sprint Backlog过程中，需要进行 Daily Scrum Meeting（每日站会），每次会议控制在15分钟左右，每个人都必须发言，并且要向所有成员当面汇报你昨天完成了什么，你今天将要完成什么，同时遇到不能解决的问题也可以提出"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-wo4iha0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220806225430-wo4iha0",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-6ry5mfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-6ry5mfr",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当一个Story完成，也就是Sprint Backlog被完成，也就表示一次Sprint完成，这时我们要进行 Sprint Review Meeting（演示会议），也称为评审会议，产品负责人和客户都要参加（最好本公司老板也参加），每一个Scrum Team的成员都要向他们演示自己完成的软件产品"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-meqipx5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220806225430-meqipx5",
+						"updated": "20220806225625"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-puvi9zt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-puvi9zt",
+								"updated": "20220806225610"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最后就是 Sprint Retrospective Meeting（回顾会议），也称为总结会议，以轮流发言方式进行，每个人都要发言，总结并讨论改进的地方，放入下一轮Sprint的产品需求中。"
+								}
+							]
+						},
+						{
+							"ID": "20220806225611-g7cvuno",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220806225611-g7cvuno",
+								"updated": "20220806225625"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220806225615-3c47qda",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220806225615-3c47qda",
+										"updated": "20220806225625"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "SCRUM前期学习成本很低，容易上手，一般标准的 SCRUM 管理是上面所说，但实际操作中，第7、8步骤通常是省略了的，因为项目进度的原因，通常是一个项目迭代完成后，便马上开始下一个迭代的计划会议。时间允许的团队，最好保留第7、8步骤。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000701-trhq86n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000701-trhq86n"
+			}
+		},
+		{
+			"ID": "20220806225430-8v0d6sx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225430-8v0d6sx",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. SCRUM思想"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-4uw9uf2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225430-4uw9uf2",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "团队作为一个整体前进，敏捷、迅速迭代项目"
+				}
+			]
+		},
+		{
+			"ID": "20220806225430-ev7ulu2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806225430-ev7ulu2",
+				"updated": "20220806225430"
+			},
+			"Children": [
+				{
+					"ID": "20220806225430-qrg4bmc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-qrg4bmc",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-m14ck07",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-m14ck07",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "50% percent of our decisions are wrong. Fail fast, learn fast.（我们作出的决定中，50%都是错误的。早早失败，早早学习）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-yvg1urx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-yvg1urx",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-00zerjb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-00zerjb",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "No matter what you want to do, choose what is good for your team.（无论你选择做什么，选择对你的团队有利的事）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225430-9ayvepn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225430-9ayvepn",
+						"updated": "20220806225430"
+					},
+					"Children": [
+						{
+							"ID": "20220806225430-dzb6h8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225430-dzb6h8s",
+								"updated": "20220806225430"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "做事可以慢，但是不能阻塞别人的工作"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

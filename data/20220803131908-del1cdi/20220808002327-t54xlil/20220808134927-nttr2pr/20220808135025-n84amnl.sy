@@ -1,0 +1,314 @@
+{
+	"ID": "20220808135025-n84amnl",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135025-n84amnl",
+		"title": "虚拟磁盘压缩",
+		"updated": "20220808135558"
+	},
+	"Children": [
+		{
+			"ID": "20220808135326-cb8pub8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808135326-cb8pub8",
+				"updated": "20220808135326"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1. 碎片整理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-n61adkr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135326-n61adkr",
+				"updated": "20220808135326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "打开虚拟机，执行下面的命令："
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-ssa9qqa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808135326-ssa9qqa",
+				"updated": "20220808135424"
+			},
+			"Children": [
+				{
+					"ID": "20220808135326-slbkmqv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135326-slbkmqv",
+						"updated": "20220808135326"
+					},
+					"Children": [
+						{
+							"ID": "20220808135326-ok9p7u8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135326-ok9p7u8",
+								"updated": "20220808135326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux 系统"
+								}
+							]
+						},
+						{
+							"ID": "20220808135332-mexm22u",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808135332-mexm22u",
+								"updated": "20220808135345"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo dd if=/dev/zero of=/EMPTY bs=1M\nsudo rm -f /EMPTY\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808135354-q0g6qmb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135354-q0g6qmb",
+						"updated": "20220808135424"
+					},
+					"Children": [
+						{
+							"ID": "20220808135354-t9xxrga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135354-t9xxrga",
+								"updated": "20220808135401"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Windows 系统"
+								}
+							]
+						},
+						{
+							"ID": "20220808135406-tcndz5j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135406-tcndz5j",
+								"updated": "20220808135408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要下载 Sysinternals Suite 并执行："
+								}
+							]
+						},
+						{
+							"ID": "20220808135416-sx1zvhq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808135416-sx1zvhq",
+								"updated": "20220808135424"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sdelete -z\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-ko4t895",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808135326-ko4t895",
+				"updated": "20220808135326"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2. 压缩磁盘"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-fkn0zrp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135326-fkn0zrp",
+				"updated": "20220808135449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "关闭虚拟机，现在可以开始压缩虚拟硬盘了。如果你的虚拟硬盘是 VirtualBox 自己的 VDI 格式，找到虚拟硬盘文件，执行命令："
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-unsl1rz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808135326-unsl1rz",
+				"updated": "20220808135454"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "VBoxManage modifyhd mydisk.vdi --compact\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-ef6saac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135326-ef6saac",
+				"updated": "20220808135518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果你的虚拟硬盘是 Vmware 的 VMDK 格式，那就要麻烦点，因为 VirtualBox 不支持直接压缩 VMDK 格式，但是可以变通下——先转换成 VDI 并压缩，再转回 VMDK。执行命令："
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-qjegu9k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808135326-qjegu9k",
+				"updated": "20220808135558"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "VBoxManage clonehd \"source.vmdk\" \"cloned.vdi\" --format vdi\nVBoxManage modifyhd \"cloned.vdi\" --compact\nVBoxManage clonehd \"cloned.vdi\" \"compressed.vmdk\" --format vmdk\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808135326-ss164af",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135326-ss164af",
+				"updated": "20220808135538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事实上，执行命令的过程中可以发现：在从 VMDK 转换到 VDI 的过程中似乎已经做了压缩，文件大小已经减少了很多，第二条命令反而没见到文件大小有什么变化，所以这里第二条命令应该可以省略了。"
+				}
+			]
+		}
+	]
+}

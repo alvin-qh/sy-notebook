@@ -1,0 +1,974 @@
+{
+	"ID": "20220806221933-omhqwjs",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221933-omhqwjs",
+		"title": "Separation of Concerns",
+		"updated": "20220806221938"
+	},
+	"Children": [
+		{
+			"ID": "20220806221938-oeb5l5m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-oeb5l5m",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "关注点分离"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-3pauanz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221938-3pauanz",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-3zvfc3q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-3zvfc3q",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "根据关注点分离代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-h0jl93u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221938-h0jl93u",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"ID": "20220806221938-ntxg95e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-ntxg95e",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-h9k9wot",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-h9k9wot",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关注点指软件的功能或目的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221938-x9zj93h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-x9zj93h",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-agvy1zq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-agvy1zq",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把关注点“分离”，就是将与各个关注点有关的代码集中起来做成独立的模块，与其他代码分离。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221938-uur70fy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-uur70fy",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-xzovi1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-xzovi1a",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分离后的模块要尽量减少公开的功能数量，与其他模块的关联也要维持在最低限度。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-bpkly22",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221938-bpkly22",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-rc1fd6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-rc1fd6g",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "修改以关注点为单位"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-rapdfo6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221938-rapdfo6",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"ID": "20220806221938-9at81vp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-9at81vp",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-2qbtmg8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-2qbtmg8",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码的修改通常以关注点为单位。因此，将代码按照关注点进行分离有以下好处。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-runiupk",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-runiupk",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-xll8r0h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-xll8r0h",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-b50mj78",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-b50mj78",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各个关注点互相独立，从而缩小了代码的修改范围，使代码更易于修改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-bo8fgyx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-bo8fgyx",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-7aj8jja",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-7aj8jja",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改带来的影响限制在了关注点之内，因此代码的质量能够保持稳定。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-jizlbjx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-jizlbjx",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-zf3geb1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-zf3geb1",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "因为代码的编写是以关注点为单位进行的，所以能够实现并行开发。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-loxp41x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221938-loxp41x",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-wby2z64",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-wby2z64",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "以关注点为单位模块化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-9p5b9dd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221938-9p5b9dd",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"ID": "20220806221938-i609dgz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-i609dgz",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-dwmsjgt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-dwmsjgt",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以关注点为单位创建模块，把不同的功能、不相关的功能分开。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-pxyep5m",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-pxyep5m",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-0ul638z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-0ul638z",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-y502u31",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-y502u31",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "比如在MVC模式下，业务逻辑、用户显示和输入处理互相分离。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221938-4cv4mzb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-4cv4mzb",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-7plyhg6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-7plyhg6",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果一个模块在不同前提下有不同的功能，我们就需要分割该模块，让各个功能处于独立的状态。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-dmlhox7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-dmlhox7",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-o5ly1ow",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-o5ly1ow",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-dbfrchr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-dbfrchr",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般来讲，一个模块不可以拥有多个功能。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-a41udxr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221938-a41udxr",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-pwjfu61",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-pwjfu61",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MVC（Model View Controller）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-l4auyrt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221938-l4auyrt",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"ID": "20220806221938-7jz2ygr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-7jz2ygr",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-iwsfhc1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-iwsfhc1",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关注点分离在设计技法中最具代表性的模式"
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-ojs3c56",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-ojs3c56",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-dl3bjgy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-dl3bjgy",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-rzvq8zp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-rzvq8zp",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Model（模型）：只关注数据的结构、存储、验证和转换；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-ac06jm1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-ac06jm1",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-yys0emm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-yys0emm",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "View（视图）：只关注于Model的展示，修改和提交；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-wdofiqw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-wdofiqw",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-m0pwmnj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-m0pwmnj",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Controller（控制器）：只关注于用什么模块来处理Model以及处理结束后用什么View来展示结果；"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-ydzwy4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221938-ydzwy4c",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "AOP"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "（Aspect-Oriented Programming）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221938-guu2tse",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221938-guu2tse",
+				"updated": "20220806221938"
+			},
+			"Children": [
+				{
+					"ID": "20220806221938-frd0pym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-frd0pym",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-uljmfaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-uljmfaj",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "面向切面编程是一种擅长分离“横切关注点”的技术。所谓横切关注点，就是指横穿于各个关注点之间的关注点。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-0k63n0m",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-0k63n0m",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-y1urg3m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-y1urg3m",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-by5i4tt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-by5i4tt",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "横切关注点会散布在各个功能之中，是妨碍修改代码的一大因素。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-jqu5php",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-jqu5php",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-0v4wq48",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-0v4wq48",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "横切关注点会根据某种结合规则自动添加到各关注点的相应位置，从而避免被代码直接调用。面向切面编程就是通过这种方式实现关注点分离的。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221938-zm9z4sz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221938-zm9z4sz",
+						"updated": "20220806221938"
+					},
+					"Children": [
+						{
+							"ID": "20220806221938-w70gzm0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221938-w70gzm0",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产生“横切关注点”的场景："
+								}
+							]
+						},
+						{
+							"ID": "20220806221938-c2kjiyq",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221938-c2kjiyq",
+								"updated": "20220806221938"
+							},
+							"Children": [
+								{
+									"ID": "20220806221938-7uxxi86",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-7uxxi86",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-33thy9g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-33thy9g",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "日志功能虽然由独立的模块提供，但日志的调用会直接写在各个功能之中。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221938-ny9ocwx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221938-ny9ocwx",
+										"updated": "20220806221938"
+									},
+									"Children": [
+										{
+											"ID": "20220806221938-76qko92",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221938-76qko92",
+												"updated": "20220806221938"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据库事务的开始及结束处理、防火墙的访问控制处理等也具有横切关注点的特征。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

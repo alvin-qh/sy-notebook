@@ -1,0 +1,180 @@
+{
+	"ID": "20220808031500-d0hb87j",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808031500-d0hb87j",
+		"title": "Docker",
+		"updated": "20220808135826"
+	},
+	"Children": [
+		{
+			"ID": "20220808031500-cfj38io",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808031500-cfj38io",
+				"updated": "20220808135826"
+			},
+			"Children": [
+				{
+					"ID": "20220808135811-zuz4tud",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135811-zuz4tud",
+						"updated": "20220808135826"
+					},
+					"Children": [
+						{
+							"ID": "20220808135811-2nuwlfm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135811-2nuwlfm",
+								"updated": "20220808135826"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135826-lkfhs7k"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "docker"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808135801-2o2odz1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135801-2o2odz1"
+					},
+					"Children": [
+						{
+							"ID": "20220808135801-5huzbk9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135801-5huzbk9",
+								"updated": "20220808135805"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135805-sc9d0mx"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "docker-compose"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808032237-2mjfeei",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808032237-2mjfeei",
+						"updated": "20220808032242"
+					},
+					"Children": [
+						{
+							"ID": "20220808032237-ba0tya5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808032237-ba0tya5",
+								"updated": "20220808135658"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135658-q0bqnge"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "docker-swam"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

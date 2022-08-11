@@ -1,0 +1,391 @@
+{
+	"ID": "20220806221227-s1i1c1d",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221227-s1i1c1d",
+		"title": "Logic and Data Together",
+		"updated": "20220806221238"
+	},
+	"Children": [
+		{
+			"ID": "20220806221238-9otm2sn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221238-9otm2sn",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "逻辑与数据的一体化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-5he62y7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221238-5he62y7",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-zpnyn1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221238-zpnyn1s",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将数据与逻辑放在相近的位置"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-bbc7dgo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221238-bbc7dgo",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"ID": "20220806221238-1hobh6k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221238-1hobh6k",
+						"updated": "20220806221238"
+					},
+					"Children": [
+						{
+							"ID": "20220806221238-wv4prur",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221238-wv4prur",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "逻辑与数据的一体化是指把逻辑和该逻辑处理的数据放在相近的位置。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221238-tmhc3dw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221238-tmhc3dw",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"ID": "20220806221238-7bc7ep9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221238-7bc7ep9",
+										"updated": "20220806221238"
+									},
+									"Children": [
+										{
+											"ID": "20220806221238-wtxhou7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221238-wtxhou7",
+												"updated": "20220806221238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所谓相近的位置，指的是在同一函数或同一模块内。距离越近，代码的质量就越高。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-xcb3xav",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221238-xcb3xav",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-d05u2cr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221238-d05u2cr",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "数据与逻辑往往需要同时修改"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-86ukoov",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221238-86ukoov",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"ID": "20220806221238-asninkw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221238-asninkw",
+						"updated": "20220806221238"
+					},
+					"Children": [
+						{
+							"ID": "20220806221238-zuwonf9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221238-zuwonf9",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改代码时往往需要同时修改逻辑与该逻辑处理的数据。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221238-wz3hei2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221238-wz3hei2",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"ID": "20220806221238-kkisgz9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221238-kkisgz9",
+										"updated": "20220806221238"
+									},
+									"Children": [
+										{
+											"ID": "20220806221238-1js9vck",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221238-1js9vck",
+												"updated": "20220806221238"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "把二者放在同一位置，我们要阅读的代码就会减少，修改也不会波及其他元素。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-aw0untz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221238-aw0untz",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-lh0euy4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221238-lh0euy4",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将数据与逻辑放在相近的位置"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221238-bl80ujl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221238-bl80ujl",
+				"updated": "20220806221238"
+			},
+			"Children": [
+				{
+					"ID": "20220806221238-jhbz0zd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221238-jhbz0zd",
+						"updated": "20220806221238"
+					},
+					"Children": [
+						{
+							"ID": "20220806221238-jilcr03",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221238-jilcr03",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "很难一开始就知道哪个逻辑应该和哪些数据放在一起。这时不妨先大致安排一下，之后再根据具体情况进行调整。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221238-ol49xfv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221238-ol49xfv",
+						"updated": "20220806221238"
+					},
+					"Children": [
+						{
+							"ID": "20220806221238-9d0ncpo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221238-9d0ncpo",
+								"updated": "20220806221238"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编写、运行代码之后，数据与逻辑的关联性会渐渐显露出来。是让代码靠近数据，还是让数据靠近代码；是将代码和数据取出来放到其他位置，还是不进行任何变动……对于这些问题，需要在不断尝试的过程中逐渐了解具体的做法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

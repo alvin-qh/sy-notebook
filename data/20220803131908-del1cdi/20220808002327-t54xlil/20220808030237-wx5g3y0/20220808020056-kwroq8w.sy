@@ -1,0 +1,624 @@
+{
+	"ID": "20220808020056-kwroq8w",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808020056-kwroq8w",
+		"title": "Ubuntu",
+		"updated": "20220808022534"
+	},
+	"Children": [
+		{
+			"ID": "20220808022012-aozxpq5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808022012-aozxpq5",
+				"updated": "20220808022025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见问题"
+				}
+			]
+		},
+		{
+			"ID": "20220808022026-3ua8gas",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808022026-3ua8gas",
+				"updated": "20220808022204"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "双系统启动菜单丢失（设置 Windows EFI 文件）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808022040-o7hfki5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808022040-o7hfki5",
+				"updated": "20220808022059"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "bcdedit /set \"{bootmgr}\" path \\EFI\\ubuntu\\grubx64.efi\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808022126-x5h5o51",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808022126-x5h5o51",
+				"updated": "20220808022151"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "双系统时间不同步（设置 Windows 使用 UTC 时间）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808022142-adewa0w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808022142-adewa0w",
+				"updated": "20220808022144"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "reg add HKLM\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808022206-ixi6f5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808022206-ixi6f5s",
+				"updated": "20220808022246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "apt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "安装时报告"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "NO_PUBKEY"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "错误"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808022238-tymaeeu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808022238-tymaeeu",
+				"updated": "20220808022314"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# PUB KEY 可从错误信息中获取\nsudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys \u003cPUB KEY\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808022324-1t3xjs7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808022324-1t3xjs7",
+				"updated": "20220808022328"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Keychron 键盘 F1-F12 映射修复"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808022340-y9ix3l9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808022340-y9ix3l9",
+				"updated": "20220808022534"
+			},
+			"Children": [
+				{
+					"ID": "20220808022340-p76siep",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808022340-p76siep",
+						"updated": "20220808022340"
+					},
+					"Children": [
+						{
+							"ID": "20220808022340-nr67tyy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808022340-nr67tyy",
+								"updated": "20220808022340"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将侧边模式转换键拨至Windows,（如果你习惯使用Mac模式那么应该不会遇到这个问题）；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808022340-qigekn6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808022340-qigekn6",
+						"updated": "20220808022340"
+					},
+					"Children": [
+						{
+							"ID": "20220808022340-bl51xvh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808022340-bl51xvh",
+								"updated": "20220808022340"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "长按"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Fn"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " + "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "X"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " + "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "L"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "将 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "F1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "-"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "F12"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "优先映射到功能键而不是媒体键；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808022340-iixer3o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808022340-iixer3o",
+						"updated": "20220808022340"
+					},
+					"Children": [
+						{
+							"ID": "20220808022340-wm8ymvy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808022340-wm8ymvy",
+								"updated": "20220808022340"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在终端输入："
+								}
+							]
+						},
+						{
+							"ID": "20220808022345-pch5p6z",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808022345-pch5p6z",
+								"updated": "20220808022413"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "echo 0 | sudo tee /sys/module/hid_apple/parameters/fnmode\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808022428-p08igyg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220808022428-p08igyg"
+					},
+					"Children": [
+						{
+							"ID": "20220808022428-doe40x3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808022428-doe40x3",
+								"updated": "20220808022433"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将设置写入配置文件"
+								}
+							]
+						},
+						{
+							"ID": "20220808022439-8tqpvy6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808022439-8tqpvy6",
+								"updated": "20220808022442"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "echo \"options hid_apple fnmode=0\" | sudo tee -a /etc/modprobe.d/hid_apple.conf\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808022506-ibhgm92",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220808022506-ibhgm92",
+						"updated": "20220808022534"
+					},
+					"Children": [
+						{
+							"ID": "20220808022506-n1ky0bl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808022506-n1ky0bl",
+								"updated": "20220808022516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重启或执行如下命令"
+								}
+							]
+						},
+						{
+							"ID": "20220808022517-gnlmkvb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808022517-gnlmkvb",
+								"updated": "20220808022534"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo update-initramfs -u  # Ubuntu\n# 或者\nmkinitcpio -P  # ArchLinux\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

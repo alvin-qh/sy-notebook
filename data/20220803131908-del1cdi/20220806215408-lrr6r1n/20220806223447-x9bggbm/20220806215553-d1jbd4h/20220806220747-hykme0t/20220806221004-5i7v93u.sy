@@ -1,0 +1,492 @@
+{
+	"ID": "20220806221004-5i7v93u",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221004-5i7v93u",
+		"title": "Flexibility",
+		"updated": "20220806221040"
+	},
+	"Children": [
+		{
+			"ID": "20220806221040-3x2k4f9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221040-3x2k4f9",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "灵活性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-3l3kekx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221040-3l3kekx",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-z39vn21",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221040-z39vn21",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码易于修改"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-6mrvz4t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221040-6mrvz4t",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"ID": "20220806221040-jgs8lts",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-jgs8lts",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-ivok7c2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-ivok7c2",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码的灵活性是指修改代码的难易程度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221040-26e31ov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-26e31ov",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-92wc3l9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-92wc3l9",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“灵活”是指在添加新代码的时候，已有代码能够不受影响、不产生冲突、不出现排斥，在保证自身不遭到破坏的前提下灵活地接纳新代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-18n626y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221040-18n626y",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-1zwwj9v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221040-1zwwj9v",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码必然会被修改"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-vrkf8ei",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221040-vrkf8ei",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"ID": "20220806221040-p1lxfb1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-p1lxfb1",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-tneusdh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-tneusdh",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码早晚会被修改。因此，易于修改、具有灵活性成了代码的必备条件。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221040-lgj2ou7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-lgj2ou7",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-aj98uyi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-aj98uyi",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件开发并不是在软件发布之后就结束了。为了持续向用户提供服务，发布后我们还要对软件进行维护，比如修复故障、调整功能、添加新功能等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221040-x0742oz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-x0742oz",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-jrvvorc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-jrvvorc",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改代码的难易程度关系到维护工作能否顺利进行。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-4d3cr7u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221040-4d3cr7u",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-5v0i71d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221040-5v0i71d",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "提高代码的可扩展性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221040-rqtm3kn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221040-rqtm3kn",
+				"updated": "20220806221040"
+			},
+			"Children": [
+				{
+					"ID": "20220806221040-tty7gha",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-tty7gha",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-23u2ksv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-23u2ksv",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保证代码易于扩展且扩展时不会波及无关的元素。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221040-fkcshgz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-fkcshgz",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-34qyj1t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-34qyj1t",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "灵活性是一把双刃剑。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221040-w8ue3lw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221040-w8ue3lw",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"ID": "20220806221040-0rl5hmv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221040-0rl5hmv",
+										"updated": "20220806221040"
+									},
+									"Children": [
+										{
+											"ID": "20220806221040-drf5qlo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221040-drf5qlo",
+												"updated": "20220806221040"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "会成为将复杂的代码或设计正当化的借口。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221040-3tbe8n2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221040-3tbe8n2",
+										"updated": "20220806221040"
+									},
+									"Children": [
+										{
+											"ID": "20220806221040-oq0btk7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221040-oq0btk7",
+												"updated": "20220806221040"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不能以牺牲简洁性为前提来提高灵活性，因为多余的灵活性是无用的，为这种灵活性服务的代码到头来很可能成为一堆带来多余复杂性的无用代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221040-559mdr0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221040-559mdr0",
+						"updated": "20220806221040"
+					},
+					"Children": [
+						{
+							"ID": "20220806221040-vuz85oe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221040-vuz85oe",
+								"updated": "20220806221040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "相较于通过设计自上而下地获取灵活性，从确保简洁出发，通过单元测试自下而上地获取灵活性会更好。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

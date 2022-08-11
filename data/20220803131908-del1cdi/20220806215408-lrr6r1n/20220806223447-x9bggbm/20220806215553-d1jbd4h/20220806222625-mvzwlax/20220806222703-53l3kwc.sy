@@ -1,0 +1,458 @@
+{
+	"ID": "20220806222703-53l3kwc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222703-53l3kwc",
+		"title": "Simplicity Principle",
+		"updated": "20220806222720"
+	},
+	"Children": [
+		{
+			"ID": "20220806222720-gny60mb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222720-gny60mb",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "简单性原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-qwchtbe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222720-qwchtbe",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-grywszx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222720-grywszx",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "追求简单"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-wd4h3np",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222720-wd4h3np",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"ID": "20220806222720-8u4nuk4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222720-8u4nuk4",
+						"updated": "20220806222720"
+					},
+					"Children": [
+						{
+							"ID": "20220806222720-9i8e525",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222720-9i8e525",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自始至终都以最简单的逻辑编写代码，让编程初学者一眼就能看懂。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222720-b3lhr2g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222720-b3lhr2g",
+						"updated": "20220806222720"
+					},
+					"Children": [
+						{
+							"ID": "20220806222720-0o6jnuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222720-0o6jnuu",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程时要重视的是局部的完整性，而不是复杂的整体关联性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-pua2stx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222720-pua2stx",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-71a5ena",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222720-71a5ena",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Bug喜欢出现在复杂的地方"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-rcfi15v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222720-rcfi15v",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"ID": "20220806222720-1yl0ygs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222720-1yl0ygs",
+						"updated": "20220806222720"
+					},
+					"Children": [
+						{
+							"ID": "20220806222720-9pcviag",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222720-9pcviag",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件故障常集中在某一个区域，而这些区域都有一个共同的特点，那就是复杂。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222720-2d9psqc",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222720-2d9psqc",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"ID": "20220806222720-oz4tsqu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222720-oz4tsqu",
+										"updated": "20220806222720"
+									},
+									"Children": [
+										{
+											"ID": "20220806222720-drn926q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222720-drn926q",
+												"updated": "20220806222720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编写代码时如果追求简单易懂，代码就很难出现问题。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222720-in882ax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222720-in882ax",
+						"updated": "20220806222720"
+					},
+					"Children": [
+						{
+							"ID": "20220806222720-m0mzczk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222720-m0mzczk",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单易懂的代码往往给人一种不够专业的感觉。这也是经验老到的程序员喜欢写老练高深的代码的原因。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222720-fwirk5k",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222720-fwirk5k",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"ID": "20220806222720-5tnsdvy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222720-5tnsdvy",
+										"updated": "20220806222720"
+									},
+									"Children": [
+										{
+											"ID": "20220806222720-l0ajclc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222720-l0ajclc",
+												"updated": "20220806222720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要有足够的定力来抵挡这种诱惑。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-x95im6r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222720-x95im6r",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-864exsu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222720-864exsu",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写自然的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222720-3t1mx63",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222720-3t1mx63",
+				"updated": "20220806222720"
+			},
+			"Children": [
+				{
+					"ID": "20220806222720-w701sgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222720-w701sgt",
+						"updated": "20220806222720"
+					},
+					"Children": [
+						{
+							"ID": "20220806222720-w5t6m2f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222720-w5t6m2f",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "放下高超的技巧，坚持用简单的逻辑编写代码。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222720-0tfw2en",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222720-0tfw2en",
+								"updated": "20220806222720"
+							},
+							"Children": [
+								{
+									"ID": "20220806222720-pyrkgfl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222720-pyrkgfl",
+										"updated": "20220806222720"
+									},
+									"Children": [
+										{
+											"ID": "20220806222720-y9q7je1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222720-y9q7je1",
+												"updated": "20220806222720"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让代码简单到让故障无处可藏即可。不要盲目地让代码复杂化、臃肿化，要保证代码简洁。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1244 @@
+{
+	"ID": "20220806222231-c4r33fn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222231-c4r33fn",
+		"title": "Changeability",
+		"updated": "20220806222234"
+	},
+	"Children": [
+		{
+			"ID": "20220806222234-vmpjr3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-vmpjr3z",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "易变性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-xnsv58k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222234-xnsv58k",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-wqi9fs3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-wqi9fs3",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "轻松修改软件的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-n3b4l02",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222234-n3b4l02",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"ID": "20220806222234-pyfv8kd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-pyfv8kd",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-qlqdzyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-qlqdzyx",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "易变性指软件能被轻松改良的能力。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-nlxqf8d",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-nlxqf8d",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-toikykz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-toikykz",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-gn52nus",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-gn52nus",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "易变性要求软件能被轻易修改、轻易扩展、轻易重组、轻易移植到其他平台。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-trlprxl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-trlprxl",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-dccmzhd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-dccmzhd",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在保证质量的前提下迅速完成改良。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-jpoc78s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222234-jpoc78s",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-x6z3np1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-x6z3np1",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件的寿命比预想的长"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-bmqd5uv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222234-bmqd5uv",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"ID": "20220806222234-80hgjy1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-80hgjy1",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-0pbbrwh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-0pbbrwh",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件在使用周期内会不断被修改和扩展。原需求会不断发生变更，新需求也会不断添加进来。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-3q7i3bp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-3q7i3bp",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-bk89fsv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-bk89fsv",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-7cenpvg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-7cenpvg",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务领域中使用的大规模软件，这类软件通常有着很长的寿命，某些软件甚至能存活几十年。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222234-ttk471j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-ttk471j",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-iv1vkie",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-iv1vkie",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要设计出便于修改代码的软件架构，以长期快速应对用户的各种琐碎要求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-e9cn17b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222234-e9cn17b",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-oz85q9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-oz85q9f",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可维护性、可扩展性、重组和可移植性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-fabp60w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222234-fabp60w",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"ID": "20220806222234-e9i52l9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-e9i52l9",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-vwc6e8s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-vwc6e8s",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件架构的设计要从可维护性、可扩展性、重组和可移植性这四个方面进行考察。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-2kubt1a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-2kubt1a",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-mgexqf0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-mgexqf0",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-64bhqbh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-64bhqbh",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可维护性：指解决问题的难易度，即修改故障代码的难易度。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222234-cbb77y5",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222234-cbb77y5",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"ID": "20220806222234-rd842es",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-rd842es",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-bvf82nq",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-bvf82nq",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "要提高可维护性，使用的软件架构就必须能将修改控制在局部范围内，把对其他模块的副作用降至最低。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-m57p07c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-m57p07c",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-i6v0m4j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-i6v0m4j",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可扩展性：指添加新功能、更新模块版本以及删除不需要的功能和模块等操作的难易度。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222234-ib74nsr",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222234-ib74nsr",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"ID": "20220806222234-5flf4yx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-5flf4yx",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-1tecfa6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-1tecfa6",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "追求的是能在不给客户端造成影响的情况下完成模块交换的结构，以及能将新模块整合到现有软件架构中的结构。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222234-6ywp6a0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-6ywp6a0",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-bflb2u9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-bflb2u9",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "提高可扩展性需要降低模块之间的结合度。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-oz6js78",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-oz6js78",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-2lpbh6n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-2lpbh6n",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重组：指重新组织模块间的关系。当对模块的位置进行调整时（比如将模块移至其他子系统），就需要进行重组。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222234-f349nny",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222234-f349nny",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"ID": "20220806222234-0j8zbjy",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-0j8zbjy",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-y60uinn",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-y60uinn",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "为方便重组，我们设计的软件架构要能在不影响模块实现的前提下灵活对模块进行配置。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-uqbjrqr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-uqbjrqr",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-f9y94il",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-f9y94il",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可移植性：指将软件移植至各种硬件平台、用户接口、操作系统、编程语言和编译器等的难易度。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222234-9l17tms",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222234-9l17tms",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"ID": "20220806222234-3kea4g8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-3kea4g8",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-zqt4k67",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-zqt4k67",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "要提高可移植性，就要在设计软件时考虑软件对硬件的依赖性。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222234-w9s3q4f",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222234-w9s3q4f",
+														"updated": "20220806222234"
+													},
+													"Children": [
+														{
+															"ID": "20220806222234-m2iont5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222234-m2iont5",
+																"updated": "20220806222234"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "要想做出不依赖于硬件的软件，就要将系统库和用户接口库等对平台特有功能进行操作的部分整合成一个独立的专用模块。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-k19k6ms",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222234-k19k6ms",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-1h06ojb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-1h06ojb",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "灵活性的取舍"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-8fheoeh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222234-8fheoeh",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"ID": "20220806222234-iir1bs8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-iir1bs8",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-v5l9x58",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-v5l9x58",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "灵活性不是越高越好。我们要考虑灵活性与简洁性之间的平衡。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-ickl1ac",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-ickl1ac",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-0xeib6k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-0xeib6k",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-n5ko1mx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-n5ko1mx",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计优质软件架构的关键点在于，要清楚软件的哪些部分需要具备较高的灵活性以应对修改，哪些部分不会被修改。在此基础上，对需要具备较高灵活性的部分套用支持修改的设计模式，提高灵活性。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-qsqfy6r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-qsqfy6r",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-ugtr3jv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-ugtr3jv",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在选择高灵活性的软件构架时，人们往往把灵活性设计得过高。这样一来，模块就会失去简洁性，导致软件的可扩展性下降。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-heb5uh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222234-heb5uh2",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件老化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222234-rozclpl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222234-rozclpl",
+				"updated": "20220806222234"
+			},
+			"Children": [
+				{
+					"ID": "20220806222234-6vqhdb4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-6vqhdb4",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-s8a1vuc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-s8a1vuc",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件老化是指软件随着时间的流逝慢慢退化。软件老化的原因有以下几点。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-cgldpn6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-cgldpn6",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-y6r6jaq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-y6r6jaq",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-6o8lgtt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-6o8lgtt",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计灵活性不足，代码的修改使软件架构遭到破坏。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-o7z8z1f",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-o7z8z1f",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-xh69i75",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-xh69i75",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计本身没有问题，但负责修改的人没有理解设计，于是软件架构遭到破坏。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-36q28j2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-36q28j2",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-07bnplt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-07bnplt",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "软件架构难以让人理解，最终被混乱的修改所破坏。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-jv6fi0h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-jv6fi0h",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-o6rdfkj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-o6rdfkj",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更新停滞，被时代抛弃，软件越来越陈旧。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222234-zsydnff",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222234-zsydnff",
+						"updated": "20220806222234"
+					},
+					"Children": [
+						{
+							"ID": "20220806222234-ckaw8bq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222234-ckaw8bq",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "无法阻止软件老化，但能够减缓软件的老化速度。通过了解软件老化的原因，按照一定步骤抑制老化进程，及时弥补损伤。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222234-9edb9ba",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222234-9edb9ba",
+								"updated": "20220806222234"
+							},
+							"Children": [
+								{
+									"ID": "20220806222234-r3sol4o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-r3sol4o",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-i2xap0t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-i2xap0t",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "准确进行文档化。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-oecdwak",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-oecdwak",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-e6x9ezx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-e6x9ezx",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改时注意保护软件架构。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-w6vgpyf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-w6vgpyf",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-84xbkqc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-84xbkqc",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "认真审查。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222234-nwqgtl1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222234-nwqgtl1",
+										"updated": "20220806222234"
+									},
+									"Children": [
+										{
+											"ID": "20220806222234-hd8cte8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222234-hd8cte8",
+												"updated": "20220806222234"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用具有灵活性的设计准确预测修改位置。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

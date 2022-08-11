@@ -1,0 +1,397 @@
+{
+	"ID": "20220806215938-55zo3f6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806215938-55zo3f6",
+		"title": "Code Will Be Changed",
+		"updated": "20220806215954"
+	},
+	"Children": [
+		{
+			"ID": "20220806215954-2njx3ry",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215954-2njx3ry",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码必然被修改"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-hri0ye0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215954-hri0ye0",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-jwscrk1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215954-jwscrk1",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码总是要修改的"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-sbnam3r",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215954-sbnam3r",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"ID": "20220806215954-t9igo1z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-t9igo1z",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-0txqjtp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-0txqjtp",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码在日后必然会被修改，在编写代码的时候，应将“代码会被修改”这一点作为进行判断和选择时的优先考虑事项。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-tkdo5mh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215954-tkdo5mh",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-ohyt6kw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215954-ohyt6kw",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码是无常的"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-ay5fbs0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215954-ay5fbs0",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"ID": "20220806215954-weo9bc3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-weo9bc3",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-4r8ab46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-4r8ab46",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件在本质上具有复杂性，这就决定了它不可能是完美无缺的。软件在发布后必然会发生故障，这时我们就需要对故障进行修复。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215954-bt9nt4p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-bt9nt4p",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-742za7i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-742za7i",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户可能在软件发布后产生新的需求，因为有些问题只有等到用户实际使用软件之后才能被发现。任何软件都不可能在首次发布时就满足用户所有的需求。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215954-j0h2run",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-j0h2run",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-y6mysp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-y6mysp3",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户所在商务环境的变化也会导致需求发生变化。软件必须迎合这种变化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215954-rh3fhef",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-rh3fhef",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-iwxsz0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-iwxsz0l",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编程时，我们会给昨天编写的代码添加新代码，会为了让代码更易读而重构。从团队的层面来讲也是一样的，比如第一次迭代中的代码会在第二次迭代中被修改。不管在哪个阶段，代码都会因各种各样的理由而被修改。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-g8uyomz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215954-g8uyomz",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-7hnvbem",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215954-7hnvbem",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写经得起修改的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215954-oqi1odk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215954-oqi1odk",
+				"updated": "20220806215954"
+			},
+			"Children": [
+				{
+					"ID": "20220806215954-8rfcqhb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-8rfcqhb",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-2507rwq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-2507rwq",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程中的任何一个判断都要以代码会被修改为前提，编写的代码要经得起修改。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215954-spyzktd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215954-spyzktd",
+						"updated": "20220806215954"
+					},
+					"Children": [
+						{
+							"ID": "20220806215954-a1tlrsi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215954-a1tlrsi",
+								"updated": "20220806215954"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提高代码的可读性尤为重要了。如果以代码会被修改为前提，那么不管写代码需要耗费多少时间，只要读代码的时间能够缩短，我们就能把消耗在写代码上的时间赚回来。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

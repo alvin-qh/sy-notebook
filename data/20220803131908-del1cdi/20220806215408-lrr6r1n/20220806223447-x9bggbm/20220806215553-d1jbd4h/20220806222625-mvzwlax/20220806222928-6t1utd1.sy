@@ -1,0 +1,769 @@
+{
+	"ID": "20220806222928-6t1utd1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222928-6t1utd1",
+		"title": "Safty Principle",
+		"updated": "20220806222939"
+	},
+	"Children": [
+		{
+			"ID": "20220806222939-7pr4afg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222939-7pr4afg",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "安全原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-a7yvlix",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222939-a7yvlix",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-a4ja9hx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222939-a4ja9hx",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意安全性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-y0aiazt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222939-y0aiazt",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"ID": "20220806222939-ofjruko",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-ofjruko",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-6xubp6i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-6xubp6i",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "采用相对安全的方法来对具有不确定性的、模糊的部分进行设计和编程。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222939-8bfgew3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222939-8bfgew3",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"ID": "20220806222939-lin3np0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-lin3np0",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-upct1w4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-upct1w4",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在编写代码时刻意将不可能的条件考虑进去。例如："
+												}
+											]
+										},
+										{
+											"ID": "20220806222939-77w73za",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222939-77w73za",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"ID": "20220806222939-r3wjrsp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222939-r3wjrsp",
+														"updated": "20220806222939"
+													},
+													"Children": [
+														{
+															"ID": "20220806222939-w8khgzt",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222939-w8khgzt",
+																"updated": "20220806222939"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "即便某个if语句一定成立，我们也要考虑else语句的情况。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222939-ugunh48",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222939-ugunh48",
+														"updated": "20220806222939"
+													},
+													"Children": [
+														{
+															"ID": "20220806222939-1khsmfd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222939-1khsmfd",
+																"updated": "20220806222939"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "即便某个case语句一定成立，我们也要考虑default语句的情况。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222939-qjd11m4",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222939-qjd11m4",
+														"updated": "20220806222939"
+													},
+													"Children": [
+														{
+															"ID": "20220806222939-2v1wmtl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222939-2v1wmtl",
+																"updated": "20220806222939"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "即便某个变量不可能为空，我们也要检查该变量是否为NULL。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-i2ziuld",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222939-i2ziuld",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-c78ioli",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222939-c78ioli",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "防止故障发展成重大事故"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-twjhzom",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222939-twjhzom",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"ID": "20220806222939-hxptosr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-hxptosr",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-w0f39og",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-w0f39og",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保证软件在各种情况下都能安全地运行。这一做法在持续运营服务和防止数据损坏等方面有着积极的意义。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-mxd3srj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222939-mxd3srj",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-23sbvkg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222939-23sbvkg",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写安全的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-tag5hms",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222939-tag5hms",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"ID": "20220806222939-9p13jg8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-9p13jg8",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-rzcax5h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-rzcax5h",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选择相对安全的方法对具有不确定性的部分进行设计。这样能有效提高软件安全运行的概率。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222939-r4d0qvn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222939-r4d0qvn",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"ID": "20220806222939-bt26wjg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-bt26wjg",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-bivbiu3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-bivbiu3",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "列出所有可能的运行情况，确保软件在每种情况下都能安全运行。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222939-eetp086",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-eetp086",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-bffs6c3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-bffs6c3",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "理解需求和功能，将各种情况正确分解到代码中。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222939-5drkrx8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-5drkrx8",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-pd3axsj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-pd3axsj",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要将不可能的条件视为考察对象，对其进行设计和编程。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222939-q6u60ob",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222939-q6u60ob",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"ID": "20220806222939-619o292",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-619o292",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-9niy3rj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-9niy3rj",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "为了统一标准，我们在编写代码前最好规定哪些条件需要写，哪些条件不需要写。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-mipoibt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222939-mipoibt",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-c1xrul6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222939-c1xrul6",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码的必要条件与充分条件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222939-ru1g8tw",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222939-ru1g8tw",
+				"updated": "20220806222939"
+			},
+			"Children": [
+				{
+					"ID": "20220806222939-vc6hgu1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-vc6hgu1",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-a2sjwed",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-a2sjwed",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对代码的实现来说，需求和功能的说明书只能算必要条件。例如："
+								}
+							]
+						},
+						{
+							"ID": "20220806222939-emlme1e",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222939-emlme1e",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"ID": "20220806222939-yzy9rng",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-yzy9rng",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-rtz8rq2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-rtz8rq2",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "说明书里写了需要添加某项数据。然而，当添加数据的操作使数据库发生错误时，说明书并没有明确告诉我们具体的应对措施，比如继续处理然后重试、中止处理并生成日志、让软件停止运行等。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222939-fr5gx5y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-fr5gx5y",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-1ald7xw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-1ald7xw",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果只能根据说明书来编写代码，那么能否写出满足充分条件的代码，就得看程序员的本事了。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222939-5wv0gbg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222939-5wv0gbg",
+						"updated": "20220806222939"
+					},
+					"Children": [
+						{
+							"ID": "20220806222939-262fels",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222939-262fels",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安全性是满足充分条件必不可少的要素。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222939-fu1tvbn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222939-fu1tvbn",
+								"updated": "20220806222939"
+							},
+							"Children": [
+								{
+									"ID": "20220806222939-zke2xrg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222939-zke2xrg",
+										"updated": "20220806222939"
+									},
+									"Children": [
+										{
+											"ID": "20220806222939-dl2vgwa",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222939-dl2vgwa",
+												"updated": "20220806222939"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要让代码在满足必要条件的同时准确涵盖各种功能和情况，在与用户保持沟通的过程中，让每个实例都坚实可靠。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

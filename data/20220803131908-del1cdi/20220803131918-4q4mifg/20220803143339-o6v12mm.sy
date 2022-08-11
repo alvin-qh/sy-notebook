@@ -1,0 +1,2954 @@
+{
+	"ID": "20220803143339-o6v12mm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220803143339-o6v12mm",
+		"title": "数据仓库建设规范指南 — 数仓命名规范",
+		"updated": "20220809001322"
+	},
+	"Children": [
+		{
+			"ID": "20220803143801-gwgbowl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803143801-gwgbowl",
+				"updated": "20220803143805"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "1. 词根设计规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803143801-392fk5b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803143801-392fk5b",
+				"updated": "20220803143830"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "词根"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "属于数仓建设中的规范，属于元数据管理的范畴，现在把这个划到数据治理的一部分。完整的数仓建设是包含数据治理的，只是现在谈到数仓偏向于数据建模， 而谈到数据治理，更多的是关于数据规范、数据管理。"
+				}
+			]
+		},
+		{
+			"ID": "20220803143813-h21g6xc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803143813-h21g6xc",
+				"updated": "20220803143913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "表命名，其实在很大程度上是对元数据描述的一种体现，表命名规范越完善，我们能从表名获取到的信息就越多。比如：一部分业务是关于货架的，英文名是："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "rack"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "， "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "rack"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 就是一个词根，那我们就在所有的表、字段等用到的地方都叫 rack，不要叫成别的什么。这就是词根的作用，用来统一命名，表达同一个含义。"
+				}
+			]
+		},
+		{
+			"ID": "20220803143848-gmrpamz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803143848-gmrpamz",
+				"updated": "20220803143937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指标体系中有很多"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "“率”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的指标，都可以拆解成 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "XXX + 率"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，率可以叫 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "rate"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，那我们所有的指标都叫做 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "XXX + rate"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220803144634-k5fa0rl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144634-k5fa0rl",
+				"updated": "20220803144643"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "词根：可以用来统一表名、字段名、主题域名等等。"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144637-j5py7it",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144637-j5py7it",
+				"updated": "20220803144707"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "举例"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：以流程图的方式来展示，更加直观和易懂，本图侧重 DWM 层表的命名规范，其余命名是类似的道理："
+				}
+			]
+		},
+		{
+			"ID": "20220803144714-4ys8r2h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144714-4ys8r2h",
+				"updated": "20220803144715"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803144715-dgihbg7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220803144719-dvkze03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144719-dvkze03",
+				"updated": "20220803144916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一个判断条件是该表的用途，是中间表、原始日志还是业务展示用的表如果该表被判断为中间表，就会走入下一个判断条件：表是否有 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "group"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 操作 通过是否有 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "group"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 操作来判断该表该划分在 DWD 层还是 DWM 和 DWS 层。如果不是 DWD 层，则需要判断该表是否是多个行为的汇总表（即宽表）最后再分别填上事业群、部门、业务线、自定义名称和更新频率等信息即可。"
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-kygtstp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-kygtstp",
+				"updated": "20220803145020"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​分层：​表的使​用范围"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-zf9ncan",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-zf9ncan",
+				"updated": "20220803145026"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​事业群和部门：生产该表或者该数据的团队"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-ytjalyw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-ytjalyw",
+				"updated": "20220803145028"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "业务线：表明该数据是哪个产品或者业务线相关"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-me0n6kj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-me0n6kj",
+				"updated": "20220803145031"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "主题域：分析问题的角度，对象实体"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-mpx9r9p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-mpx9r9p",
+				"updated": "20220803145032"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "自定义：一般会尽可能多描述该表的信息，比如活跃表、留存表等"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803144838-5dz6a45",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803144838-5dz6a45",
+				"updated": "20220803145033"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "更新周期：比如说天级还是月级更新"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001036-itc1z56",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001036-itc1z56"
+			}
+		},
+		{
+			"ID": "20220803145049-q1szzu7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145049-q1szzu7",
+				"updated": "20220803145332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 数仓表的命名规范"
+				}
+			]
+		},
+		{
+			"ID": "20220803145342-wdbwtb3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220803145342-wdbwtb3",
+				"updated": "20220803145407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.1. 数仓层次:"
+				}
+			]
+		},
+		{
+			"ID": "20220803145342-vyuk5ne",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803145342-vyuk5ne",
+				"updated": "20220803145440"
+			},
+			"Children": [
+				{
+					"ID": "20220803145342-f118wdj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-f118wdj",
+						"updated": "20220803145427"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-87ze2k9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-87ze2k9",
+								"updated": "20220803145427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "公用维度："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "dim"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-4niomfg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-4niomfg",
+						"updated": "20220803145434"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-63vmq5b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-63vmq5b",
+								"updated": "20220803145434"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "DM"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 层："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "dm"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-okugb7k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-okugb7k",
+						"updated": "20220803145433"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-ovus257",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-ovus257",
+								"updated": "20220803145433"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ODS"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 层："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ods"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-oee9tuq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-oee9tuq",
+						"updated": "20220803145437"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-0lbqx7z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-0lbqx7z",
+								"updated": "20220803145437"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "DWD"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 层："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "dwd"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-oev8x2g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-oev8x2g",
+						"updated": "20220803145440"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-d4x7jpd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-d4x7jpd",
+								"updated": "20220803145440"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "DWS"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 层："
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "dws"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001040-503ge3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001040-503ge3f"
+			}
+		},
+		{
+			"ID": "20220803145342-r1qykc4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220803145342-r1qykc4",
+				"updated": "20220803145416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.2. 周期/数据范围："
+				}
+			]
+		},
+		{
+			"ID": "20220803145342-q65ap04",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803145342-q65ap04",
+				"updated": "20220803145833"
+			},
+			"Children": [
+				{
+					"ID": "20220803145342-i2yu39a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-i2yu39a",
+						"updated": "20220803145342"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-n7wlebh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-n7wlebh",
+								"updated": "20220803145824"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "日快照："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "d"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-4nbn36t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-4nbn36t",
+						"updated": "20220803145342"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-mb8d6i0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-mb8d6i0",
+								"updated": "20220803145826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "增量："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "i"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-55se9pg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-55se9pg",
+						"updated": "20220803145342"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-0zpgbae",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-0zpgbae",
+								"updated": "20220803145827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全量："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "f"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-11f91m9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-11f91m9",
+						"updated": "20220803145342"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-97puwo4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-97puwo4",
+								"updated": "20220803145829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "周："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "w"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-02u0cf0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-02u0cf0",
+						"updated": "20220803145342"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-x8mhm50",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-x8mhm50",
+								"updated": "20220803145831"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拉链表："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "l"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803145342-0c6acdb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803145342-0c6acdb",
+						"updated": "20220803145833"
+					},
+					"Children": [
+						{
+							"ID": "20220803145342-44sv8uq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803145342-44sv8uq",
+								"updated": "20220803145833"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "非分区全量表："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "a"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001042-qr7swdi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001042-qr7swdi"
+			}
+		},
+		{
+			"ID": "20220803150030-htjteux",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803150030-htjteux",
+				"updated": "20220803150034"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2. 表命名规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-z3afg07",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145956-z3afg07",
+				"updated": "20220803150040"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 常规表"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-hlw8k5o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-hlw8k5o",
+				"updated": "20220803150046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常规表是我们需要固化的表，是正式使用的表，是目前一段时间内需要去维护去完善的表。"
+				}
+			]
+		},
+		{
+			"ID": "20220803150129-smoc5nk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803150129-smoc5nk",
+				"updated": "20220803150131"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：分层前缀 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "[dwd | dws | ads]_部门_业务域_主题域_XXX_更新周期 | 数据范围"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-68mia48",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-68mia48",
+				"updated": "20220803150137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中："
+				}
+			]
+		},
+		{
+			"ID": "20220803150137-1rhe8v2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803150137-1rhe8v2",
+				"updated": "20220803150138"
+			},
+			"Children": [
+				{
+					"ID": "20220803150138-ko6mat7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803150138-ko6mat7",
+						"updated": "20220803150138"
+					},
+					"Children": [
+						{
+							"ID": "20220803150138-0k7eslu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803150138-0k7eslu",
+								"updated": "20220803150138"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "业务域、主题域我们都可以用词根的方式枚举清楚，不断完善。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803150142-7hgl6ig",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803150142-7hgl6ig"
+					},
+					"Children": [
+						{
+							"ID": "20220803150142-zop8hmg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803150142-zop8hmg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新周期主要的是时间粒度、日、月、年、周等。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001045-jo6eplo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001045-jo6eplo"
+			}
+		},
+		{
+			"ID": "20220803145956-pdjpwwk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145956-pdjpwwk",
+				"updated": "20220806224251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 中间表"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-n162ggc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-n162ggc",
+				"updated": "20220803150202"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中间表一般出现在 Job 中，是 Job 中临时存储的中间数据的表，中间表的作 用域只限于当前 Job 执行过程中，Job 一旦执行完成，该中间表的使命就完成了，是可以删除的（按照自己公司的场景自由选择，以前公司会保留几天 的中间表数据，用来排查问题）。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-qr6e3iz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-qr6e3iz",
+				"updated": "20220803150233"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "mid_table_name_[0~9 | dim]"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-5gmftr9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-5gmftr9",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "table_name 是我们任务中目标表的名字，通常来说一个任务只有一个目标表。这里加上表名，是为了防止自由发挥的时候表名冲突，而末尾大家可以选择自由发挥，起一些有意义的名字，或者简单粗暴，使用数字代替，各有优劣吧，谨慎选择。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-gi626kt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-gi626kt",
+				"updated": "20220804100155"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通常会遇到需要补全维度的表，这里使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "dim"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 结尾。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-yic1hcc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-yic1hcc",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果要保留历史的中间表，可以加上日期或者时间戳。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001048-9sd2h75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001048-9sd2h75"
+			}
+		},
+		{
+			"ID": "20220803145956-k76ccpz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145956-k76ccpz",
+				"updated": "20220806224256"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 临时表"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-j3slnri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-j3slnri",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "临时表是临时测试的表，是临时使用一次的表，就是暂时保存下数据看看，后续一般不再使用的表，是可以随时删除的表。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-tm9k4fu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-tm9k4fu",
+				"updated": "20220804100205"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "tmp_xxx"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-n35md7i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-n35md7i",
+				"updated": "20220804100210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "只要加上 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "tmp"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 开头即可，其他名字随意，注意 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "tmp"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 开头的表不要用来实际使用，只是测试验证而已。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001050-ow9mnzr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001050-ow9mnzr"
+			}
+		},
+		{
+			"ID": "20220803145956-sask43m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145956-sask43m",
+				"updated": "20220806224300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.4. 维度表"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-d5c4ihm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-d5c4ihm",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "维度表是基于底层数据，抽象出来的描述类的表。维度表可以自动从底层表抽象出来，也可以手工来维护。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-y3gikp0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-y3gikp0",
+				"updated": "20220804100402"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "dim_xxx"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-cp4yyog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-cp4yyog",
+				"updated": "20220804100255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "维度表，统一以 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "dim"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 开头，后面加上，对该指标的描述。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001052-nig1rkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001052-nig1rkd"
+			}
+		},
+		{
+			"ID": "20220803145956-11jneu3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803145956-11jneu3",
+				"updated": "20220806224303"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.5. 手工表"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-gikc1hh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-gikc1hh",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "手工表是手工维护的表，手工初始化一次之后，一般不会自动改变，后面变更，也是手工来维护。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-n6bh4d0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-n6bh4d0",
+				"updated": "20220804100420"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般来说，手工的数据粒度是偏细的，所以暂时统一放在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "DWD"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 层，后面如果有目标值或者其他类型手工数据，再根据实际情况分层。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-39o3edq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-39o3edq",
+				"updated": "20220804100407"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "dwd_业务域_manual_xxx"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145956-5qiqlmd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145956-5qiqlmd",
+				"updated": "20220803145956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "手工表，增加特殊的主题域，manual，表示手工维护表。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001053-wwnubju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001053-wwnubju"
+			}
+		},
+		{
+			"ID": "20220804100505-3medgrf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220804100505-3medgrf",
+				"updated": "20220809001318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 指标命名规范"
+				}
+			]
+		},
+		{
+			"ID": "20220804100505-tbcnb81",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804100505-tbcnb81",
+				"updated": "20220809001319"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. 公共规则"
+				}
+			]
+		},
+		{
+			"ID": "20220804100505-l6x8t55",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220804100505-l6x8t55",
+				"updated": "20220804100639"
+			},
+			"Children": [
+				{
+					"ID": "20220804100505-qz37pb4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-qz37pb4",
+						"updated": "20220804100505"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-lu34yez",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-lu34yez",
+								"updated": "20220804100505"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所有单词小写"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-qlidho3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-qlidho3",
+						"updated": "20220804100537"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-kb5cij3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-kb5cij3",
+								"updated": "20220804100537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单词之间下划线分割（反例："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "appName"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "AppName"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-6gukwrr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-6gukwrr",
+						"updated": "20220804100548"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-eix59mv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-eix59mv",
+								"updated": "20220804100548"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可读性优于长度 （词根，避免出现同一个指标，命名一致性）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-qpmnflg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-qpmnflg",
+						"updated": "20220804100614"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-1wq38dq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-1wq38dq",
+								"updated": "20220804100614"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "禁止使用 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "sql"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 关键字，如字段名与关键字冲突时 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "+col"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-662amae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-662amae",
+						"updated": "20220804100604"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-nqzjrl8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-nqzjrl8",
+								"updated": "20220804100604"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数量字段后缀 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "_cnt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 等标识..."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-jt2wdup",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-jt2wdup",
+						"updated": "20220804100606"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-pup2k9y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-pup2k9y",
+								"updated": "20220804100606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "金额字段后缀 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "_price"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 标识"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-72uoj7a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-72uoj7a",
+						"updated": "20220804100624"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-y7izx8t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-y7izx8t",
+								"updated": "20220804100624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "天分区使用字段 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "dt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，格式统一（"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yyyymmdd"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "yyyy-mm-dd"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-o5w5pbs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-o5w5pbs",
+						"updated": "20220804100637"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-pl4n9cq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-pl4n9cq",
+								"updated": "20220804100637"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "小时分区使用字段 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "hh"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，范围（"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "00-23"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-bk9ydg5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-bk9ydg5",
+						"updated": "20220804100639"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-6es90c3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-6es90c3",
+								"updated": "20220804100639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分钟分区使用字段 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "mi"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，范围（"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "00-59"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804100505-dfniua7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220804100505-dfniua7",
+						"updated": "20220804100632"
+					},
+					"Children": [
+						{
+							"ID": "20220804100505-kf3uhwg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100505-kf3uhwg",
+								"updated": "20220804100632"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "布尔类型标识："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "is_{业务}"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，不允许出现空值"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001057-oz7l8hm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001057-oz7l8hm"
+			}
+		},
+		{
+			"ID": "20220804100656-ztpyb7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220804100656-ztpyb7d",
+				"updated": "20220809001322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. 指标命名规范"
+				}
+			]
+		},
+		{
+			"ID": "20220804100656-01hnavr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804100656-01hnavr",
+				"updated": "20220804100656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "结合指标的特性以及词根管理规范，将指标进行结构化处理。"
+				}
+			]
+		},
+		{
+			"ID": "20220804100656-bf82qjq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220804100656-bf82qjq",
+				"updated": "20220804103806"
+			},
+			"Children": [
+				{
+					"ID": "20220804100830-s9rxcty",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220804100830-s9rxcty",
+						"updated": "20220804103806"
+					},
+					"Children": [
+						{
+							"ID": "20220804100830-5oh1czn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804100830-5oh1czn",
+								"updated": "20220804103806"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指标词根，即所有指标必须包含以下基础词根：\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220804103806-ttdrd9i.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​业务修饰词，用于描述业务场景的词汇，例如 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "trade-"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 交易。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804100726-i7ptjjo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220804100726-i7ptjjo",
+				"updated": "20220804103818"
+			},
+			"Children": [
+				{
+					"ID": "20220804101137-gs8mvbh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220804101137-gs8mvbh",
+						"updated": "20220804103818"
+					},
+					"Children": [
+						{
+							"ID": "20220804101137-vd2k78v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804101137-vd2k78v",
+								"updated": "20220804103818"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "日期修饰词，用于修饰业务发生的时间区间\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220804103818-1uupbd0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804101229-hmmqulu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220804101229-hmmqulu",
+				"updated": "20220804104233"
+			},
+			"Children": [
+				{
+					"ID": "20220804103741-v4zwxkr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220804103741-v4zwxkr",
+						"updated": "20220804103917"
+					},
+					"Children": [
+						{
+							"ID": "20220804103741-rxtxnw2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804103741-rxtxnw2",
+								"updated": "20220804103917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "聚合修饰词，对结果进行聚集操作\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220804103917-x8kmr46.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804103742-c1s3ava",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220804103742-c1s3ava",
+						"updated": "20220804104217"
+					},
+					"Children": [
+						{
+							"ID": "20220804103742-mp6p8zj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804103742-mp6p8zj",
+								"updated": "20220804104217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基础指标：单一的业务修饰词 + 基础指标词根构建基础指标 ，例如："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "交易金额-trade_amt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804104012-h36unco",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220804104012-h36unco",
+						"updated": "20220804104220"
+					},
+					"Children": [
+						{
+							"ID": "20220804104012-881lc32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804104012-881lc32",
+								"updated": "20220804104220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "派生指标：多修饰词 + 基础指标词根构建派生指标。派生指标继承基础指标的特性，例如："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "安装门店数量-install_poi_cnt"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220804104205-dfdz45v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220804104205-dfdz45v",
+						"updated": "20220804104233"
+					},
+					"Children": [
+						{
+							"ID": "20220804104205-pr20qgr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220804104205-pr20qgr",
+								"updated": "20220804104233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "普通指标命名规范，与字段命名规范一致，由词汇转换即可以\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220804104233-tw2h78m.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220804103930-vwb88aa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220804103930-vwb88aa"
+			}
+		}
+	]
+}

@@ -1,0 +1,180 @@
+{
+	"ID": "20220806224954-yz7jgsu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806224954-yz7jgsu",
+		"title": "敏捷方法",
+		"updated": "20220806225420"
+	},
+	"Children": [
+		{
+			"ID": "20220806224954-3p8f3t6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224954-3p8f3t6",
+				"updated": "20220806225420"
+			},
+			"Children": [
+				{
+					"ID": "20220806225052-ihkzxix",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225052-ihkzxix",
+						"updated": "20220806225052"
+					},
+					"Children": [
+						{
+							"ID": "20220806225052-zml2xj7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225052-zml2xj7",
+								"updated": "20220806225103"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806225102-kv7rp10"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "敏捷软件开发宣言"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225157-uf8lyqg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225157-uf8lyqg"
+					},
+					"Children": [
+						{
+							"ID": "20220806225157-lmg03nj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225157-lmg03nj",
+								"updated": "20220806225226"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806225226-5li1qp8"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "敏捷宣言遵循的原则"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225418-jukxmsx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225418-jukxmsx",
+						"updated": "20220806225420"
+					},
+					"Children": [
+						{
+							"ID": "20220806225418-01ziuu9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225418-01ziuu9",
+								"updated": "20220806225420"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806225411-xwio1ar"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "认识 Scrum 敏捷开发方法"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,128 @@
+{
+	"ID": "20220806215408-lrr6r1n",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806215408-lrr6r1n",
+		"title": "软件开发理论",
+		"updated": "20220806215509"
+	},
+	"Children": [
+		{
+			"ID": "20220806215408-7rs71ik",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215408-7rs71ik",
+				"updated": "20220806215509"
+			},
+			"Children": [
+				{
+					"ID": "20220806215453-59tuf0m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215453-59tuf0m",
+						"updated": "20220806215453"
+					},
+					"Children": [
+						{
+							"ID": "20220806215453-w9n98fr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215453-w9n98fr",
+								"updated": "20220806215458"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806215457-1qmbp0r"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "领域知识"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215506-5n35tjr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215506-5n35tjr",
+						"updated": "20220806215509"
+					},
+					"Children": [
+						{
+							"ID": "20220806215506-9aqdthf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215506-9aqdthf",
+								"updated": "20220806215509"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806215509-nsvq7bi"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "专业知识"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

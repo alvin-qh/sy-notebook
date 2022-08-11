@@ -1,0 +1,2224 @@
+{
+	"ID": "20220808030403-30m1stk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808030403-30m1stk",
+		"title": "How to Clean Up Component Store (WinSxS folder) in Windows 10",
+		"updated": "20220808030748"
+	},
+	"Children": [
+		{
+			"ID": "20220808030432-ya57isd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-ya57isd",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "One commonly asked question is can I delete the WinSxS folder to regain some disk space? The short answer is no. However, there are ways to reduce the size of the WinSxS folder."
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-imt89k9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-imt89k9",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The component store (WinSxS folder) contains all the components that make-up Windows to allow you operate your system. These components are kept to rollback any problematic change or to "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "repair a file"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.tenforums.com/tutorials/2895-run-sfc-command-windows-10-a.html"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " that becomes corrupted."
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-pqb3ob8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-pqb3ob8",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "The WinSxS folder is located in the Windows folder, for example \"C:\\Windows\\WinSxS\". It’s the location for Windows Component Store files. The Windows Component Store is used to support the functions needed for the customization and updating of Windows. Here are some examples of how the Windows Component Store files are used:"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-7wcllqx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808030432-7wcllqx",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-jbk2iz7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-jbk2iz7",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-lq53izz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-lq53izz",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Using Windows Update to install new component versions. This keeps systems secure and up-to-date."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-a852p09",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-a852p09",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-gbm6us2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-gbm6us2",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Enabling or disabling Windows features."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-fist0aq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-fist0aq",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-yijyp2j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-yijyp2j",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Adding roles or features using Server Manager."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-1pp1qcx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-1pp1qcx",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-r24f7m1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-r24f7m1",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Moving systems between different Windows Editions."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-ru4ul0b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-ru4ul0b",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-myxbokb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-myxbokb",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "System recovery from corruption or boot failures"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-7km2rxh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-7km2rxh",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-pbrlyyg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-pbrlyyg",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Uninstalling problematic updates"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-89rudiw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-89rudiw",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-yrg8h3w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-yrg8h3w",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Running programs using side-by-side assemblies"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-uq8o52i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-uq8o52i",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Windows 10 and Windows Server 2016 automatically reduces the size of the WinSxS by using methods similar to the ones described in this tutorial, however these methods also include internal processes, such as uninstalling and deleting packages with components that have been replaced by other components with newer versions. Previous versions of some components are kept on the system for a period of time, allowing you to rollback if necessary. After a period of time, these components are removed from the installation."
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-3nuc8k0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-3nuc8k0",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "In Windows 10 and Windows Server 2016, you have a number of ways to start the cleanup of the component store, which use a combination of package deletion and component compression to clean up the WinSxS folder."
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-qc9q5ep",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-qc9q5ep",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "For more information about the Windows Component Store (WinSxS folder), see:"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-cigqpmn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808030432-cigqpmn",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-kzdkp6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-kzdkp6h",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-66880np",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-66880np",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Manage the Component Store | Microsoft Docs"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/manage-the-component-store"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-8f1x6pl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-8f1x6pl",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-eivjv0m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-eivjv0m",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Determine the Actual Size of the WinSxS Folder | Microsoft Docs"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/determine-the-actual-size-of-the-winsxs-folder"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-vdob7uh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030432-vdob7uh",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-xcay934",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-xcay934",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Clean Up the WinSxS Folder | Microsoft Docs"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-o79q3dh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-o79q3dh",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "This tutorial will show you different ways on how to clean up the Component Store (WinSxS folder) to reduce its size in  "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Windows 10"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ."
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-t34t8hl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-t34t8hl",
+				"updated": "20220808030536"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030536-1itpssb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030536-1itpssb",
+						"updated": "20220808030536"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "You must be signed in as an "
+						},
+						{
+							"Type": "NodeLink",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "administrator"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://www.tenforums.com/tutorials/21680-determine-account-type-windows-10-a.html"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " to clean up the component store (WinSxS folder)."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-c2n4frb",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-c2n4frb",
+				"updated": "20220808030541"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030541-k5pntdv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030541-k5pntdv",
+						"updated": "20220808030541"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "If you like, you can "
+						},
+						{
+							"Type": "NodeLink",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "analyze the Component Store (WinSxS folder)"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://www.tenforums.com/tutorials/82638-analyze-component-store-winsxs-folder-windows-10-a.html"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " first to see if it is recommended to clean up or not."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-97iym39",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808030432-97iym39",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OPTION ONE"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-3rtwflh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-3rtwflh",
+				"updated": "20220808030550"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Clean Up Component Store (WinSxS folder) using StartComponentCleanup Task"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-he2cd4n",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-he2cd4n",
+				"updated": "20220808030553"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030553-ba4orsy",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030553-ba4orsy",
+						"updated": "20220808030553"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "The StartComponentCleanup task was created in Windows 8 to regularly clean up components automatically when the system is not in use. This task is set to run automatically when triggered by the operating system. When run automatically, the task will wait at least 30 days after an updated component has been installed before uninstalling the previous versions of the component."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-ddbbyn7",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-ddbbyn7",
+				"updated": "20220808030557"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030557-ndugd9n",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030557-ndugd9n",
+						"updated": "20220808030557"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "If you choose to run this task, the task will have a 1 hour timeout and may not completely clean up all files."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-y8om1lt",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-y8om1lt",
+				"updated": "20220808030601"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030601-3s46lcs",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030601-3s46lcs",
+						"updated": "20220808030601"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "The StartComponentCleanup task can also be started from an "
+						},
+						{
+							"Type": "NodeLink",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "elevated command prompt"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": ":  "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "schtasks.exe /Run /TN \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\""
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-yoj82ig",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808030432-yoj82ig",
+				"updated": "20220808030510"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-x8i86se",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808030432-x8i86se",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-veaw426",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-veaw426",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Press the "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Win+R"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " keys to open Run, type "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "taskschd.msc"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " into Run, and click/tap on "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "OK"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " to open Task Scheduler."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-qs86dt1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808030432-qs86dt1",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-78c3r25",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-78c3r25",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Navigate to and open the folder below in the left pane of Task Scheduler. (see screenshot below step 3)\n→ "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Task Scheduler Library\\Microsoft\\Windows\\Servicing"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-l6fg610",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808030432-l6fg610",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-z1hxa2e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-z1hxa2e",
+								"updated": "20220808030454"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "In the middle pane of  "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Servicing"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " , select the "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "StartComponentCleanup"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " task, and click/tap on "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Run"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " under "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Selected Item"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " in the right pane. (see screenshot below)\n"
+								}
+							]
+						},
+						{
+							"ID": "20220808030455-iwwybty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030455-iwwybty",
+								"updated": "20220808030458"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808030455-i9i46q0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-f9xa5g1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220808030432-f9xa5g1",
+						"updated": "20220808030510"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-65685ji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-65685ji",
+								"updated": "20220808030508"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "The StartComponentCleanup task will now be running until finished. This may take a while to finish running. (see screenshot below)\n"
+								}
+							]
+						},
+						{
+							"ID": "20220808030508-m6i2lo1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030508-m6i2lo1",
+								"updated": "20220808030510"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808030510-nw96f07.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-0nfld8n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808030432-0nfld8n",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OPTION TWO"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-qe8lxyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-qe8lxyo",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Clean Up Component Store (WinSxS folder) using /StartComponentCleanup with Dism Command"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-iq67uif",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-iq67uif",
+				"updated": "20220808030527"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030527-thm3kih",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030527-thm3kih",
+						"updated": "20220808030527"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Using the /StartComponentCleanup parameter of Dism.exe on a running version of Windows 10 gives you similar results to running the StartComponentCleanup task in Task Scheduler, except previous versions of updated components will be immediately deleted (without a 30 day grace period) and you will not have a 1-hour timeout limitation."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-ijqir6h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808030432-ijqir6h",
+				"updated": "20220808030623"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-rtbxke2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808030432-rtbxke2",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-8yklnhc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-8yklnhc",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Open an elevated command prompt."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-p9y1j61",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808030432-p9y1j61",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-w1eobri",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-w1eobri",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Enter the command below into the elevated command prompt, and press Enter. (see screenshot below)\n→ "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Dism.exe /online /Cleanup-Image /StartComponentCleanup"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-lx8h9wr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808030432-lx8h9wr",
+						"updated": "20220808030623"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-8jvne42",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-8jvne42",
+								"updated": "20220808030620"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "When finished, you can close the elevated command prompt if you like. This may take a while to finish running.\n"
+								}
+							]
+						},
+						{
+							"ID": "20220808030621-cg6wze2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030621-cg6wze2",
+								"updated": "20220808030623"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808030623-72j5dhc.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-ycr30rs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808030432-ycr30rs",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OPTION THREE"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-fagg9lo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-fagg9lo",
+				"updated": "20220808030632"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Clean Up Component Store (WinSxS folder) using /StartComponentCleanup and /ResetBase with Dism Command"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-bvu3mds",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-bvu3mds",
+				"updated": "20220808030634"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030634-ebegm7l",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030634-ebegm7l",
+						"updated": "20220808030634"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Using the /ResetBase switch with the /StartComponentCleanup parameter of DISM.exe on a running version of Windows 10 removes all superseded versions of every component in the component store."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-x2xadih",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-x2xadih",
+				"updated": "20220808030639"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030639-v5uu8d6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030639-v5uu8d6",
+						"updated": "20220808030639"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "All existing service packs and updates cannot be uninstalled after this command is completed. This will not block the uninstallation of future service packs or updates."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-mf9iqsd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808030432-mf9iqsd",
+				"updated": "20220808030654"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-zso3ezf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808030432-zso3ezf",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-8tjvxvh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-8tjvxvh",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Open an "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "elevated command prompt"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-w5fdf4v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808030432-w5fdf4v",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-jo4svex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-jo4svex",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Enter the command below into the elevated command prompt, and press  "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Enter"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " . (see screenshot below)\n→ "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-md5lxd1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808030432-md5lxd1",
+						"updated": "20220808030654"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-yx8bb4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-yx8bb4i",
+								"updated": "20220808030651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "When finished, you can close the elevated command prompt if you like. This may take a while to finish running.\n"
+								}
+							]
+						},
+						{
+							"ID": "20220808030653-0bip1c7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030653-0bip1c7",
+								"updated": "20220808030654"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808030654-tqwvw9l.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-jr1jioz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808030432-jr1jioz",
+				"updated": "20220808030432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OPTION FOUR"
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-6pi5d6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808030432-6pi5d6g",
+				"updated": "20220808030703"
+			},
+			"Children": [
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Clean Up Component Store (WinSxS folder) using /SPSuperseded with Dism Co​mmand"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-dfqsugz",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-dfqsugz",
+				"updated": "20220808030729"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030708-fzqgg7u",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030708-fzqgg7u",
+						"updated": "20220808030708"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "To reduce the amount of space used by a Service Pack, use the "
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "/SPSuperseded"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " parameter of Dism.exe on a running version of Windows 10 to remove any backup components needed for uninstallation of the service pack. A service pack is a collection of cumulative updates for a particular release of Windows."
+						}
+					]
+				},
+				{
+					"ID": "20220808030728-4dy9mcp",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030728-4dy9mcp",
+						"updated": "20220808030729"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "This option will most likely never be needed for Windows 10 since service packs are no longer used for Windows 10."
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-ukjzleg",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808030432-ukjzleg",
+				"updated": "20220808030733"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220808030733-sny2zim",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220808030733-sny2zim",
+						"updated": "20220808030733"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "The service pack cannot be uninstalled after this command is completed."
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808030432-d79hxqc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808030432-d79hxqc",
+				"updated": "20220808030748"
+			},
+			"Children": [
+				{
+					"ID": "20220808030432-mio11ic",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808030432-mio11ic",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-54xuxqx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-54xuxqx",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Open an "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "elevated command prompt"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-ud0700b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808030432-ud0700b",
+						"updated": "20220808030432"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-rlqsvu7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-rlqsvu7",
+								"updated": "20220808030432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Enter the command below into the elevated command prompt, and press  "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Enter"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " . (see screenshot below)\n→ "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Dism.exe /online /Cleanup-Image /SPSuperseded"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030432-0b4vst1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808030432-0b4vst1",
+						"updated": "20220808030748"
+					},
+					"Children": [
+						{
+							"ID": "20220808030432-5b4r9up",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030432-5b4r9up",
+								"updated": "20220808030745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "When finished, you can close the elevated command prompt if you like. This may take a while to finish running.\n"
+								}
+							]
+						},
+						{
+							"ID": "20220808030746-a1u12v3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030746-a1u12v3",
+								"updated": "20220808030748"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220808030748-k8mr860.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

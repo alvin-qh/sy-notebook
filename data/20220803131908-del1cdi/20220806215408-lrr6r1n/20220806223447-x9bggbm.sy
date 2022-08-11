@@ -1,0 +1,128 @@
+{
+	"ID": "20220806223447-x9bggbm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223447-x9bggbm",
+		"title": "软件质量",
+		"updated": "20220806223516"
+	},
+	"Children": [
+		{
+			"ID": "20220806223447-ansffcq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223447-ansffcq",
+				"updated": "20220806223516"
+			},
+			"Children": [
+				{
+					"ID": "20220806223459-uvav3hm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223459-uvav3hm",
+						"updated": "20220806223459"
+					},
+					"Children": [
+						{
+							"ID": "20220806223459-dg7d9jx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223459-dg7d9jx",
+								"updated": "20220806223503"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806215553-d1jbd4h"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "代码质量改善"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223505-jt365i4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223505-jt365i4",
+						"updated": "20220806223516"
+					},
+					"Children": [
+						{
+							"ID": "20220806223505-9gi4oua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223505-9gi4oua",
+								"updated": "20220806223516"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806223511-qbzkvow"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "质量管理"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

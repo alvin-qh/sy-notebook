@@ -1,0 +1,792 @@
+{
+	"ID": "20220806224803-oxq3fpf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806224803-oxq3fpf",
+		"title": "Code Review 体系与团队文化",
+		"updated": "20220806224909"
+	},
+	"Children": [
+		{
+			"ID": "20220806224909-6zx9ckx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806224909-6zx9ckx",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Code Review不只是一种管理方法，也是开发者特有的沟通方式，更是一种团队文化。Code Review机制是否健全是评价一个研发团队技术氛围好坏的重要参考"
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-5mgh2yp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806224909-5mgh2yp",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. Code Review的意义"
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-613ck2a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224909-613ck2a",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"ID": "20220806224909-q3bk0jh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-q3bk0jh",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-t23lqcj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-t23lqcj",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "交叉排查缺陷：绝大多数BUG都可以在代码层面被发现，甚至测试难以覆盖到的深层次BUG也可以通过团队成员相互审核而避免"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-s5en0ju",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-s5en0ju",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-ho5tml1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-ho5tml1",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提高代码质量：Code Review意味着开发者要接受团队成员的建议与监督，在完成功能的基础之上不断完善代码结构"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-fpfevwb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-fpfevwb",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-7mx1fb3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-7mx1fb3",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "建立团队意识：代码是团队财产，团队成员在相互督促与改进中共同成长"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-bx1agmj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806224909-bx1agmj",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. Code Review的体系"
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-8o1kymz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224909-8o1kymz",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"ID": "20220806224909-txhawdf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-txhawdf",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-ylobxxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-ylobxxy",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本体系："
+								}
+							]
+						},
+						{
+							"ID": "20220806224909-x37wf0v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806224909-x37wf0v",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"ID": "20220806224909-rom711u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-rom711u",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-ms1u58m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-ms1u58m",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Daily Code Review：开发者完成初步结构设计，或者完成一个相对完整的小模块都可以提交PR让团队成员Review"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-urvkqgq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-urvkqgq",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-jzwpftv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-jzwpftv",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需求Code Review：评估需求完成度，与其它需求的潜在冲突"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-a7gv6oe",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-a7gv6oe",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-jmrn4px",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-jmrn4px",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "上线Code Review：上线前Review，重点排查配置问题，安全问题，代码冲突"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-9008vdp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-9008vdp",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-ij4m4rb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-ij4m4rb",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重点代码走读：每个迭代/双周/月度对具有代表性的代码集体走读，重点在于解决团队共性问题，讨论改进方法"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-v7ao9yg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-v7ao9yg",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-cfkyq5c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-cfkyq5c",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "整个Code Review体系中最重要的是Daily Code Review，绝大多数问题应该在每天的Code Review中沟通解决"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-hcfdaid",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-hcfdaid",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-ud3adj6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-ud3adj6",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Code Review有几个重要的参考指标："
+								}
+							]
+						},
+						{
+							"ID": "20220806224909-2s27t78",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806224909-2s27t78",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"ID": "20220806224909-wkp8z1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-wkp8z1a",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-17ps6gi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-17ps6gi",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单次提交Review的代码量：在思路相对完整的情况下越少越好"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-s13i3ho",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-s13i3ho",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-6r4rl8l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-6r4rl8l",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "评论的数量，参与程度：每个PR至少2人Review通过之后才能合并代码，但参与人数也不宜过多，避免盲目通过的情况"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-0lqq3pa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-0lqq3pa",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-vurjge3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-vurjge3",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "更新的次数：通常情况下Code Review不应该直接通过，平均要Update至少一次"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-qkmxllg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806224909-qkmxllg",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. Code Review的文化"
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-u1f7363",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224909-u1f7363",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"ID": "20220806224909-on9ydvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-on9ydvq",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-upptg4w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-upptg4w",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过多层次的Code Review体系，在团队中建立起集体认知："
+								}
+							]
+						},
+						{
+							"ID": "20220806224909-m1uov4a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806224909-m1uov4a",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"ID": "20220806224909-7tili9l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-7tili9l",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-na9alb3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-na9alb3",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码是团队共有的知识财富，而不是个人的私有地"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-w0msyde",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-w0msyde",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-i7li47m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-i7li47m",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有人对所有代码的最终质量负责，而非某个人对某些代码负责"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-rsrls4k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-rsrls4k",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-febblob",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-febblob",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "完成功能只是开始，代码需要持续改进以符合团队标准"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-dyawiiv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-dyawiiv",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-52lxeth",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-52lxeth",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Code Review对于团队中的新人来说是很好的锻炼机会，我们团队的新人首次提交代码，被打回更新四五次是很正常的事情。集体对代码质量的追求，也能提升新人的成就感、荣誉感"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224909-lmtcf50",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224909-lmtcf50",
+						"updated": "20220806224909"
+					},
+					"Children": [
+						{
+							"ID": "20220806224909-udhc4og",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224909-udhc4og",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实践中注意强调以下问题："
+								}
+							]
+						},
+						{
+							"ID": "20220806224909-qvesmd9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806224909-qvesmd9",
+								"updated": "20220806224909"
+							},
+							"Children": [
+								{
+									"ID": "20220806224909-twpnyrn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-twpnyrn",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-wdr9bmd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-wdr9bmd",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Code Review不能形式化，没看过PR、没改进意见不能通过"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-woijmt6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-woijmt6",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-c8f9ws5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-c8f9ws5",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "被Decline PR不是丢面子的事情，被提改进建议也不是批评，对事不对人"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806224909-94awgu1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806224909-94awgu1",
+										"updated": "20220806224909"
+									},
+									"Children": [
+										{
+											"ID": "20220806224909-3b9ueyc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806224909-3b9ueyc",
+												"updated": "20220806224909"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将别人提交的代码视作自己将维护的代码，个人标准与集体标准对齐"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-rqlywen",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806224909-rqlywen",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 总结"
+				}
+			]
+		},
+		{
+			"ID": "20220806224909-suk0wmr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806224909-suk0wmr",
+				"updated": "20220806224909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Code Review体现的是团队对于代码质量的追求，对于团队内部协作的重视。对于新人来讲，对于日常工作的钻研与打磨比偶尔一次的技术培训或分享更有学习价值"
+				}
+			]
+		}
+	]
+}

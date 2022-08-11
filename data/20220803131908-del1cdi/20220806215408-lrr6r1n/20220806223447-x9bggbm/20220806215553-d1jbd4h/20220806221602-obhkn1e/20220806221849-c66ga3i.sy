@@ -1,0 +1,492 @@
+{
+	"ID": "20220806221849-c66ga3i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221849-c66ga3i",
+		"title": "Packaging",
+		"updated": "20220806221852"
+	},
+	"Children": [
+		{
+			"ID": "20220806221852-qlf6fdk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221852-qlf6fdk",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "打包"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-10bkk1q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221852-10bkk1q",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-8bqv5qr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221852-8bqv5qr",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "给模块分组"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-s0owtpx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221852-s0owtpx",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"ID": "20220806221852-t24lsn9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-t24lsn9",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-uz3getm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-uz3getm",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将模块按照某种有意义的单位整理并分组，其实就是将整个软件按照某种有意义的单位进行分割。这种分割后的产物称为“包”。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221852-30lddnv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-30lddnv",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-xj801xw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-xj801xw",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包起到的是物理容器的作用，主要用来以某种有意义的单位存放软件的功能。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-ryjt50r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221852-ryjt50r",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-s4w53so",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221852-s4w53so",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "降低模块群的复杂度"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-22nrnxc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221852-22nrnxc",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"ID": "20220806221852-junphn8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-junphn8",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-mtz93z9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-mtz93z9",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打包有以下优点："
+								}
+							]
+						},
+						{
+							"ID": "20220806221852-cw2y11s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221852-cw2y11s",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"ID": "20220806221852-5omyhes",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221852-5omyhes",
+										"updated": "20220806221852"
+									},
+									"Children": [
+										{
+											"ID": "20220806221852-2o0bw9j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221852-2o0bw9j",
+												"updated": "20220806221852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "整个软件被分割成包，复杂度下降。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221852-pkbj2k0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221852-pkbj2k0",
+										"updated": "20220806221852"
+									},
+									"Children": [
+										{
+											"ID": "20220806221852-g3etsf2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221852-g3etsf2",
+												"updated": "20220806221852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "包内没有不相关的模块，便于管理。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221852-yj0kntn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221852-yj0kntn",
+										"updated": "20220806221852"
+									},
+									"Children": [
+										{
+											"ID": "20220806221852-wjo6nou",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221852-wjo6nou",
+												"updated": "20220806221852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本可以把修改带来的影响限制在包内，代码的修改因此变得更加方便。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221852-4ufov9j",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221852-4ufov9j",
+										"updated": "20220806221852"
+									},
+									"Children": [
+										{
+											"ID": "20220806221852-er60hl6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221852-er60hl6",
+												"updated": "20220806221852"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "依赖关系得到整理，方便代码以包为单位重复使用。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-vv1ir9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221852-vv1ir9i",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-1fs9rbk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221852-1fs9rbk",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "自下而上地设计包"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221852-zp9uyg7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221852-zp9uyg7",
+				"updated": "20220806221852"
+			},
+			"Children": [
+				{
+					"ID": "20220806221852-2bn7lkh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-2bn7lkh",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-msvgmlq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-msvgmlq",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将相互关联的模块集中起来打包。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221852-5lhapeo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-5lhapeo",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-jgs0duw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-jgs0duw",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包是表现软件构建方法的“图纸”。项目最初并没有可以构建的软件，所以不可能实现自上而下的设计。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221852-bdg0rvn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221852-bdg0rvn",
+						"updated": "20220806221852"
+					},
+					"Children": [
+						{
+							"ID": "20220806221852-fv8psha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221852-fv8psha",
+								"updated": "20220806221852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包的设计并不是一锤子买卖，包还要随着编程的推进不断成长和进化。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

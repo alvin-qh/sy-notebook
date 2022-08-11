@@ -1,0 +1,1762 @@
+{
+	"ID": "20220806220258-3e67c99",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220258-3e67c99",
+		"title": "DRY",
+		"updated": "20220806220347"
+	},
+	"Children": [
+		{
+			"ID": "20220806220309-82h7l0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-82h7l0f",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Don't Repeat Yourself（不要重复）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-b8yomon",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220309-b8yomon",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-blyly0u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-blyly0u",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "严禁复制粘贴代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-b0zgqra",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-b0zgqra",
+				"updated": "20220806220347"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-zmi46qj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-zmi46qj",
+						"updated": "20220806220347"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-2ual948",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-2ual948",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不可以重复写相同的代码。一旦发现重复的代码，要立刻予以消除。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220309-573vda7",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220309-573vda7",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-esc87q4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-esc87q4",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-gs9scp0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-gs9scp0",
+												"updated": "20220806220321"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将整个逻辑随便复制粘贴到其他地方去用是造成代码重复的主要原因。这样一来，同一个逻辑将出现在多个地方。\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806220321-mabho1q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220321-mabho1q",
+								"updated": "20220806220322"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220322-l7eqwhu.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20220806220321-7g2gn7l",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220321-7g2gn7l",
+								"updated": "20220806220321"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-278ityz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-278ityz",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-v3bssy0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-v3bssy0",
+												"updated": "20220806220329"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "条件相同的控制语句的代码块有时会重复出现在代码各处。\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806220331-oqjkvgr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220331-oqjkvgr",
+								"updated": "20220806220332"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220332-x5aojto.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20220806220331-8n0nogx",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220331-8n0nogx",
+								"updated": "20220806220331"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-ub535k3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-ub535k3",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-2qqozn9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-2qqozn9",
+												"updated": "20220806220346"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "直接将常量写入代码也会造成代码重复。如果意义相同的常量在多处使用，常量表达的信息就会重复出现多次。\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806220347-19dvmx1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220347-19dvmx1",
+								"updated": "20220806220347"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220347-b62oaj2.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20220806220347-sa9fuem",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220347-sa9fuem",
+								"updated": "20220806220347"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-49gbwy0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-49gbwy0",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-iwcjffz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-iwcjffz",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用于对代码进行说明的注释虽然不属于纯粹意义上的代码重复，但它也是重复的一种。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-k7i341p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220309-k7i341p",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-9wxn0jw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-9wxn0jw",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码无法得到改善"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-mklx330",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-mklx330",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-q3g9yg6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-q3g9yg6",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-73ueuex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-73ueuex",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码一旦出现重复，故障修复、添加功能等，代码的改善措施就会变得难以实施。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220309-wlnl9h8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220309-wlnl9h8",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-f321ifd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-f321ifd",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-xfcv813",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-xfcv813",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码的可读性下降。相同的代码出现多次，从量的角度来看是“代码量变大”，从质的角度来看是“复杂度变高”。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-j39m2jj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-j39m2jj",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-3uwg7hb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-3uwg7hb",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码难以修改。当相同的代码出现在多处时，只有正确修改每一处代码，才能确保整体的一致性。稍有不慎，修改就会出现遗漏，需要阅读前后代码，判断每一处是否需要修改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-4jjauav",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-4jjauav",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-1nj5ol6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-1nj5ol6",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "没有测试。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-890vhlo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220309-890vhlo",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-85l173t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-85l173t",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-6jzat8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-6jzat8m",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-emhnwb3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-emhnwb3",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过对代码执行抽象化操作来消除重复。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-dg8m89m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-dg8m89m",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-30qav2i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-30qav2i",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对代码的逻辑执行抽象化操作，需要给整个处理命名，将其 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "函数化"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 、 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "模块化"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-ipk9ups",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-ipk9ups",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-1tz2d2a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-1tz2d2a",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对数据行抽象化操作，需要定义为常量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-9vmdjx4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-9vmdjx4",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-ofxlg04",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-ofxlg04",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象化有以下几个优点："
+								}
+							]
+						},
+						{
+							"ID": "20220806220309-0k20bz0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220309-0k20bz0",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-j2vzs4b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-j2vzs4b",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-jy2j1l4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-jy2j1l4",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "减少了代码量，减轻了阅读负担。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-07mq1nb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-07mq1nb",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-jp9zajm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-jp9zajm",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "因为逻辑和数据有了名称，所以代码的可读性变高了。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-vqkk81b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-vqkk81b",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-e6z800n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-e6z800n",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重复的代码集中到了一处，我们只对这一处进行修改即可。于是，代码的修改操作变得简单，代码的质量也得到了保证。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-hp50gfg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-hp50gfg",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-xz7t1rj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-xz7t1rj",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "抽象化的部分易于重复使用。在添加新功能的时候，重复使用代码可以更快、更好地完成编程。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-1bfg4wm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-1bfg4wm",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-12ds4v5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-12ds4v5",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "避免重复这一点没有商量的余地。从长远看来，避免重复的利大于弊，这是历史总结出来的结论。所以，即便要花时间重构，即便要花时间消除代码不能正常运行的风险，即便操作起来有些麻烦，我们也要消除重复的代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-74ads1v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220309-74ads1v",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-2eb778k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-2eb778k",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "适用范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-fxaekqz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-fxaekqz",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-kkrjz5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-kkrjz5q",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-dny3hb2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-dny3hb2",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不仅适用于代码，还适用于有关软件开发的一切活动。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-r6jc3lx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-r6jc3lx",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-mloykwl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-mloykwl",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具体来说就是将重复作业自动化。这样就可以消除手动作业的负担，同时保证操作的正确性，排除人为的离散因素。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-eiamczw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-eiamczw",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-amuhbyz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-amuhbyz",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最具代表性的自动化作业是对软件进行测试、构建和发布的持续集成。持续集成就是由设置了特定任务的集成服务器准确且频繁地自动执行软件的构建、测试和部署等作业。除了能消除重复的手动作业，持续集成还有保证构建质量、使构建不再依赖于特定人物、帮助我们尽早发现问题等优点。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-q86y26s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-q86y26s",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "DRY与编程技术"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-yd81ptv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-yd81ptv",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-kz6razl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-kz6razl",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-d4crmub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-d4crmub",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程技术以消除重复作为目标之一（比如结构化编程和面向对象编程）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-1yjrwkx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-1yjrwkx",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-bcfpr6g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-bcfpr6g",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消除重复是设计手法的目标之一："
+								}
+							]
+						},
+						{
+							"ID": "20220806220309-gmayimh",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220309-gmayimh",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"ID": "20220806220309-xwvxyyz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-xwvxyyz",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-nicurnk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-nicurnk",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计模式是具有代表性的一种设计手法，它提供了代码结构模式以达到重复使用代码的目的。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220309-y07s6xi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220309-y07s6xi",
+										"updated": "20220806220309"
+									},
+									"Children": [
+										{
+											"ID": "20220806220309-92oosmu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220309-92oosmu",
+												"updated": "20220806220309"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "设计模式是一种防止重复思考（重复思考同一问题的解决方案）的手法。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-786glzi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-786glzi",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不得已的重复"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-uvanhi6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-uvanhi6",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-jcid0yk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-jcid0yk",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-ynf5l6i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-ynf5l6i",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "阻抗失配：发生在不同抽象化风格的交界处，造成重复。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-snhmyl0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-snhmyl0",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-ohp05b3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-ohp05b3",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当关系数据库与使用关系数据库的编程语言同时存在时，为填补二者的失配，需要在关系数据库端的表定义、代码端的表映射配置文件和源文件三处存放相同的信息，造成重复。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-zootp40",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-zootp40",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-0kxh4ks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-0kxh4ks",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对策：可以将信息集中存放在一处，然后想办法让其他信息自动生成。这样就能对信息进行统一管理了。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-gynro8v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220309-gynro8v",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-za7d829",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-za7d829",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "WET（Write Every Time，Write Everything Twice）："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-vj0azff",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-vj0azff",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-idsuipb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-idsuipb",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-m2sqxem",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-m2sqxem",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表示重复同样的事情。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-d3njn9v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-d3njn9v",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-brmi2dd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-brmi2dd",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用于讽刺那些没有实现DRY的代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-qhevie9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-qhevie9",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "OFOP（One Fact in One Place）："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-anrkfzu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-anrkfzu",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-qpbohi1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-qpbohi1",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-vo3mlhz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-vo3mlhz",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是数据库理论设计中表设计的一项重要原则，要求数据库中不能存储重复的数据，原则可以防止数据冗长和数据不一致（更新异常）的情况发生。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-fyrgpc0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-fyrgpc0",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-tq2tsv9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-tq2tsv9",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要想实现OFOP，“标准化”这一设计手法必不可少。在编程中，消灭重复的方法有很多，但对数据库而言，“标准化”是独一无二的设计手法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-vnft2e1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-vnft2e1",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "OAOO（Once and Only Once）："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-oidpep6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-oidpep6",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-dybtb9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-dybtb9o",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-o16g42k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-o16g42k",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表示不可以出现重复，与DRY的意思和目的相同。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-y42eb07",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-y42eb07",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-8fcfxi4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-8fcfxi4",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "OAOO的适用范围要比DRY小，它只能用在编程语法上。OAOO强调的是代码不能重复以及不能有多余的代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-rbt2sn2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220309-rbt2sn2",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "遗留代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220309-0si44al",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220309-0si44al",
+				"updated": "20220806220309"
+			},
+			"Children": [
+				{
+					"ID": "20220806220309-yzu59l6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-yzu59l6",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-1f23v89",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-1f23v89",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复出现的代码大多没有测试程序。没有测试程序的代码称为遗留代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-f4bdmxs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-f4bdmxs",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-pd4l8re",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-pd4l8re",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "没有测试程序的代码就全部变成了垃圾代码。就算代码整齐，结构严谨，只要没有测试程序，那它就是遗留代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220309-iabyqxr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220309-iabyqxr",
+						"updated": "20220806220309"
+					},
+					"Children": [
+						{
+							"ID": "20220806220309-1wpi5vg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220309-1wpi5vg",
+								"updated": "20220806220309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当遇到遗留代码时，我先要为其编写测试程序。一定要先测试再修改。为了保证代码质量，这个步骤必不可少。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

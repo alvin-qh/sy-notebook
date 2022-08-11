@@ -1,0 +1,1684 @@
+{
+	"ID": "20220806222207-367b3yo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222207-367b3yo",
+		"title": "软件架构的非功能需求",
+		"updated": "20220806222612"
+	},
+	"Children": [
+		{
+			"ID": "20220806222218-orzgcz6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-orzgcz6",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Non-functional requirement for Architecture"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-n0aesth",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222218-n0aesth",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-5bs0l3p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-5bs0l3p",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "“功能之外的功能”的观点"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-h39abm8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-h39abm8",
+				"updated": "20220806222612"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-wch96rh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-wch96rh",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-3w2iuke",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-3w2iuke",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "非功能需求指功能方面以外的一切需求。在软件架构设计中，非功能需求与功能需求一样重要。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-w62ym11",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-w62ym11",
+						"updated": "20220806222612"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-o1ia1mm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-o1ia1mm",
+								"updated": "20220806222251"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "非功能需求包含以下几种观点："
+								}
+							]
+						},
+						{
+							"ID": "20220806222253-3y2ckbr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222253-3y2ckbr",
+								"updated": "20220806222612"
+							},
+							"Children": [
+								{
+									"ID": "20220806222251-edez37r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222251-edez37r"
+									},
+									"Children": [
+										{
+											"ID": "20220806222251-26ot93d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222251-26ot93d",
+												"updated": "20220806222303"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222231-c4r33fn"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Changeability"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222303-l0gtzly",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222303-l0gtzly"
+									},
+									"Children": [
+										{
+											"ID": "20220806222303-qud3hg4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222303-qud3hg4",
+												"updated": "20220806222448"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222432-8zqnxkx"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Interoperability"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222507-t7welql",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222507-t7welql"
+									},
+									"Children": [
+										{
+											"ID": "20220806222507-qlgqj9q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222507-qlgqj9q",
+												"updated": "20220806222507"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222456-ulgu2sy"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Efficiency"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222521-43q4osp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222521-43q4osp"
+									},
+									"Children": [
+										{
+											"ID": "20220806222521-b0zu7p6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222521-b0zu7p6",
+												"updated": "20220806222522"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222514-wyyru11"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Reliability"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222550-e1hwer4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222550-e1hwer4"
+									},
+									"Children": [
+										{
+											"ID": "20220806222550-5l7oghu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222550-5l7oghu",
+												"updated": "20220806222551"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222540-e91l3ub"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Testability"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222606-0wiio5s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222606-0wiio5s",
+										"updated": "20220806222612"
+									},
+									"Children": [
+										{
+											"ID": "20220806222606-0qudzv3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222606-0qudzv3",
+												"updated": "20220806222612"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222558-8c3srsj"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Reusability"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-3lmapfj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222218-3lmapfj",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-vkginhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-vkginhz",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "非功能需求在软件发布后具有很大的影响力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-fh0823h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-fh0823h",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-1k7h4wk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-1k7h4wk",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-jglhbjh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-jglhbjh",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "非功能需求对开发、运维以及计算机资源的高效运用有着很大的影响。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-9o93v3r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-9o93v3r",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-5r3zb7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-5r3zb7w",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在发布后的运维阶段，比较大的问题多是由性能、系统宕机等非功能需求引起的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-3robezk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222218-3robezk",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-we072e5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-we072e5",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "从非功能需求的观点进行设计"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-yyfr5vr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-yyfr5vr",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-29tmues",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-29tmues",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-ig4eoo1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-ig4eoo1",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件架构的设计阶段就将非功能需求纳入考量，绝对不能拖到后面再做。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222218-5wi256l",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222218-5wi256l",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"ID": "20220806222218-mgcjqg9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-mgcjqg9",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-0w1mr3a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-0w1mr3a",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在需求定义方面，确认各个观点的被需求程度。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-vvu9mrc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-vvu9mrc",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-ehgtgkx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-ehgtgkx",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在开发方面，从软件架构的设计阶段开始就将非功能需求纳入结构之中。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-weulj9s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-weulj9s",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-93wp6c6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-93wp6c6",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在测试方面，确认需求是否得到满足。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-fk5yxsl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222218-fk5yxsl",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-r9iaw76",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-r9iaw76",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "非功能测试"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-bt9fco9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-bt9fco9",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-5o7hcm6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-5o7hcm6",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-7l49ev0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-7l49ev0",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件的目的不是实现功能，而是让用户达到自己的目的。其中，非功能需求占了很大的比重。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222218-kwh13vv",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222218-kwh13vv",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"ID": "20220806222218-4k74pgq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-4k74pgq",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-3kvrbsu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-3kvrbsu",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "想满足非功能需求，首先要找出适合当前软件的非功能需求标准，然后给非功能测试设置一个合格线，毕竟没有目标就无法满足需求。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-kt7yu7r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-kt7yu7r",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-zcp7t8f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-zcp7t8f",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "功能测试着眼于“做什么”，而非功能测试着眼于“怎样运作”。二者的着眼点不同。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-d63lkxv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222218-d63lkxv",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-zqbhe0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-zqbhe0x",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "非功能安全性需求"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-h4c6d8d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-h4c6d8d",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-uc8lkk0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-uc8lkk0",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-33dwpar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-33dwpar",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在非功能需求中，“安全性”（Security）非常重要。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222218-w07zy99",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222218-w07zy99",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"ID": "20220806222218-18xg9pr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-18xg9pr",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-5j97oja",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-5j97oja",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "信息的安全性就是指保护软件所涉及的信息资产不被非法访问、泄露和篡改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-g345r9g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-g345r9g",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-uv50try",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-uv50try",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "随着以使用网络为前提的软件越来越多，用户对安全性的要求也变得越来越高。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-1ojvlrq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-1ojvlrq",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-pe6xds5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-pe6xds5",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信息安全CIA（信息安全三要素）："
+								}
+							]
+						},
+						{
+							"ID": "20220806222218-2opnb6j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222218-2opnb6j",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"ID": "20220806222218-zg6cooy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-zg6cooy",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-x39bn69",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-x39bn69",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "机密性（Confidentiality）"
+												}
+											]
+										},
+										{
+											"ID": "20220806222218-7bbaoqz",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222218-7bbaoqz",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"ID": "20220806222218-a3eak4d",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-a3eak4d",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-xz7sate",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-xz7sate",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "机密性指对未获授权的个人、实体或进程不公开信息或禁止其使用信息。也就是不让未获得许可的人或其他对象使用信息。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222218-c72lu89",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-c72lu89",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-01lawta",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-01lawta",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "需要给重要的信息添加访问控制，也可以给信息加密。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-v3a917d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-v3a917d",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-iw4hwjf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-iw4hwjf",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "完整性（Integrity）"
+												}
+											]
+										},
+										{
+											"ID": "20220806222218-il9z9s8",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222218-il9z9s8",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"ID": "20220806222218-eqjoqu0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-eqjoqu0",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-qgl5lth",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-qgl5lth",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "完整性指确保信息正确、完整。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222218-pkzxkmo",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-pkzxkmo",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-tqbbhw5",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-tqbbhw5",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果第三者擅自改写、删除重要的信息，这些信息就会失去使用价值。一旦使用者没有发现信息遭到篡改，问题的严重性就可能会进一步加大。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222218-h08logk",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-h08logk",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-xhbaw2c",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-xhbaw2c",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "人们通常使用数字签名等技术来确保完整性。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-6yjqpcj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-6yjqpcj",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-sib65g7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-sib65g7",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可用性（Availability）"
+												}
+											]
+										},
+										{
+											"ID": "20220806222218-sdbykzi",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222218-sdbykzi",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"ID": "20220806222218-r4sb8mn",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-r4sb8mn",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-2kbgd5a",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-2kbgd5a",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "实体可以随时访问和使用信息。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222218-w9roihe",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-w9roihe",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-j1slkin",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-j1slkin",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "因系统故障而无法访问信息，或者计算机病毒导致系统无法使用等，都属于重大问题。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222218-ss1eoz7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222218-ss1eoz7",
+														"updated": "20220806222218"
+													},
+													"Children": [
+														{
+															"ID": "20220806222218-o35xczd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222218-o35xczd",
+																"updated": "20220806222218"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "需要通过对系统和信息进行备份、设置防火墙抵御病毒等手段来防范问题发生。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-5myc0lg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-5myc0lg",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-ao5n45p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-ao5n45p",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信息安全性的定义是维持信息的机密性、完整性和可用性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-z53v98p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222218-z53v98p",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "检验安全性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222218-biks2l5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222218-biks2l5",
+				"updated": "20220806222218"
+			},
+			"Children": [
+				{
+					"ID": "20220806222218-wkq74hb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-wkq74hb",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-781vgwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-781vgwn",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在检验安全性的时候，首先要进行“渗透测试”（Penetration Test）。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222218-9ypqndd",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222218-9ypqndd",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"ID": "20220806222218-ach7v1b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-ach7v1b",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-6jv5h0k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-6jv5h0k",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "渗透测试是一种为寻找安全漏洞而对软件进行攻击并尝试入侵的检验方法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-grmxo07",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-grmxo07",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-m5up0j4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-m5up0j4",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "这种检验方法需要一些高级知识和高超的技术水平作为支撑。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222218-0qvrafz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222218-0qvrafz",
+										"updated": "20220806222218"
+									},
+									"Children": [
+										{
+											"ID": "20220806222218-ovirt50",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222218-ovirt50",
+												"updated": "20220806222218"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在检验时，借助漏洞攻击工具，可以减少检验项目的遗漏。另外，外包给专门的组织，由外部来进行安全性诊断也是一个不错的方法。这种做法虽然会提高成本，但可以得到专家的验证，能让用户更放心地使用软件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-ck9osek",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-ck9osek",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-bzj7nsc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-bzj7nsc",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要考察发生安全事故时软件的追踪能力和监察能力。从这一角度出发，访问日志的内容、保存时间等也需要检验。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222218-mu8tm6p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222218-mu8tm6p",
+						"updated": "20220806222218"
+					},
+					"Children": [
+						{
+							"ID": "20220806222218-eowv9j1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222218-eowv9j1",
+								"updated": "20220806222218"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在检验安全性需求的同时也要把握其与易用性之间的平衡。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

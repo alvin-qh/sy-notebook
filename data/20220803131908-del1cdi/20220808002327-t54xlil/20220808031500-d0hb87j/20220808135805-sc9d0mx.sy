@@ -1,0 +1,19 @@
+{
+	"ID": "20220808135805-sc9d0mx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135805-sc9d0mx",
+		"title": "docker-compose",
+		"updated": "20220808135805"
+	},
+	"Children": [
+		{
+			"ID": "20220808135805-d16zujk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135805-d16zujk",
+				"updated": "20220808135805"
+			}
+		}
+	]
+}

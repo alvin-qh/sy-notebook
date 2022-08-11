@@ -1,0 +1,564 @@
+{
+	"ID": "20220806215656-c3cxkbf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806215656-c3cxkbf",
+		"title": "No Silver Bullet in Programming",
+		"updated": "20220806215703"
+	},
+	"Children": [
+		{
+			"ID": "20220806215703-glk9y8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215703-glk9y8n",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编程没有银弹"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-sbez28k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215703-sbez28k",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-izz57e2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215703-izz57e2",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编程没有特效药"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-hn59n37",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215703-hn59n37",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"ID": "20220806215703-titxd4w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215703-titxd4w",
+						"updated": "20220806215703"
+					},
+					"Children": [
+						{
+							"ID": "20220806215703-bwm4c2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215703-bwm4c2x",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程中没有魔法般的万能解决方案，没有包治百病的特效药。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-pjohojo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215703-pjohojo",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-fj7s5it",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215703-fj7s5it",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件在本质上具有难度"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-r8aofoh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215703-r8aofoh",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"ID": "20220806215703-99drs03",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215703-99drs03",
+						"updated": "20220806215703"
+					},
+					"Children": [
+						{
+							"ID": "20220806215703-0kipzfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215703-0kipzfr",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在软件的本质中，有四种性质体现了其难度："
+								}
+							]
+						},
+						{
+							"ID": "20220806215703-wb3i2hf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806215703-wb3i2hf",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"ID": "20220806215703-pu4cdof",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215703-pu4cdof",
+										"updated": "20220806215703"
+									},
+									"Children": [
+										{
+											"ID": "20220806215703-zv2lldx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215703-zv2lldx",
+												"updated": "20220806215703"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "复杂性：软件是庞大且复杂的。软件各组成要素之间的依赖关系也随着软件规模的扩大呈非线性增加。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806215703-25ezbyd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215703-25ezbyd",
+										"updated": "20220806215703"
+									},
+									"Children": [
+										{
+											"ID": "20220806215703-2hiy9th",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215703-2hiy9th",
+												"updated": "20220806215703"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同步性：软件并不是单独存在的，它与硬件、网络、其他软件、人类的行动与习惯等现实世界的大量事物相关联。现实世界的复杂性决定了编程存在难度。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806215703-6dkio9a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215703-6dkio9a",
+										"updated": "20220806215703"
+									},
+									"Children": [
+										{
+											"ID": "20220806215703-l65rulb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215703-l65rulb",
+												"updated": "20220806215703"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可变性：软件必须时刻保持变化。 "
+												},
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "无法驻足于安宁之地是软件的宿命"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806215703-0e2cdoj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215703-0e2cdoj",
+										"updated": "20220806215703"
+									},
+									"Children": [
+										{
+											"ID": "20220806215703-q1iraqi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215703-q1iraqi",
+												"updated": "20220806215703"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不可见性：软件是概念的集合体，而概念是肉眼看不见的东西。产品、进程、决策的过程等也都是不可见的。软件的不可见性提升了软件的难度。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-wysjgd0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215703-wysjgd0",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-wbf7rs7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215703-wbf7rs7",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "研习历史，勇斗“复杂”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-bfbki9g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215703-bfbki9g",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"ID": "20220806215703-6bt0j2d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215703-6bt0j2d",
+						"updated": "20220806215703"
+					},
+					"Children": [
+						{
+							"ID": "20220806215703-zteco2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215703-zteco2z",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "研习历史，学习各种方法和思路，努力削减复杂性给软件带来的影响。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-x2lk7wr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215703-x2lk7wr",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-cobeos7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215703-cobeos7",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件非本质部分的改善"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215703-3xuy1bl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215703-3xuy1bl",
+				"updated": "20220806215703"
+			},
+			"Children": [
+				{
+					"ID": "20220806215703-s7oi506",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215703-s7oi506",
+						"updated": "20220806215703"
+					},
+					"Children": [
+						{
+							"ID": "20220806215703-lga1ta8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215703-lga1ta8",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件非本质部分的活动对于推进软件本质部分的活动有着巨大的贡献，因为相对于本质部分，非本质部分更容易改善。比如，选择恰当的编程语言能够大幅提升生产效率。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215703-lbi4lom",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215703-lbi4lom",
+						"updated": "20220806215703"
+					},
+					"Children": [
+						{
+							"ID": "20220806215703-b2colhm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215703-b2colhm",
+								"updated": "20220806215703"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在软件非本质部分的改善中，成效最大的当属自动化。测试、构建、环境搭建等的自动化大幅改善了工作效率和工作质量。我们要对软件的非本质部分进行自动化处理，尽量多留些时间给软件的本质部分。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,844 @@
+{
+	"ID": "20220806222456-ulgu2sy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222456-ulgu2sy",
+		"title": "Efficiency",
+		"updated": "20220806222459"
+	},
+	"Children": [
+		{
+			"ID": "20220806222459-kicy3a5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222459-kicy3a5",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "效率性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-u06q65l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222459-u06q65l",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-r35d7ng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222459-r35d7ng",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "高效使用资源的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-uo13s1u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222459-uo13s1u",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"ID": "20220806222459-5goknvb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-5goknvb",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-1qgbisd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-1qgbisd",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效率性指软件在运行过程中使用资源发挥性能的能力，大致分为以下两种："
+								}
+							]
+						},
+						{
+							"ID": "20220806222459-i5yw0x8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222459-i5yw0x8",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"ID": "20220806222459-zn2eqma",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-zn2eqma",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-h4dnmfu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-h4dnmfu",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "时间效率性：时间效率性从时间的角度来定义资源的使用效率。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222459-u5dion9",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222459-u5dion9",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"ID": "20220806222459-lnh60ss",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222459-lnh60ss",
+														"updated": "20220806222459"
+													},
+													"Children": [
+														{
+															"ID": "20220806222459-zua8n9x",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222459-zua8n9x",
+																"updated": "20220806222459"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "时间效率性可以通过"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "一定时间内可以完成的处理数量（通量）、从用户执行输入操作到应答所花费的时间（响应时间）、从用户开始操作到输出所需信息所花费的时间（周转时间）"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "等来衡量。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222459-jk2z9rd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-jk2z9rd",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-s0g4707",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-s0g4707",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "资源效率性：资源效率性从计算机资源的角度来定义资源的使用效率。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222459-6xwyt8l",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222459-6xwyt8l",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"ID": "20220806222459-0t6uni2",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222459-0t6uni2",
+														"updated": "20220806222459"
+													},
+													"Children": [
+														{
+															"ID": "20220806222459-x7yt34s",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222459-x7yt34s",
+																"updated": "20220806222459"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "资源效率性可以通过"
+																},
+																{
+																	"Type": "NodeStrong",
+																	"Data": "strong",
+																	"Children": [
+																		{
+																			"Type": "NodeStrongA6kOpenMarker",
+																			"Data": "**"
+																		},
+																		{
+																			"Type": "NodeText",
+																			"Data": "CPU占用时间、内存使用量、存储空间占用量和网络传输量"
+																		},
+																		{
+																			"Type": "NodeStrongA6kCloseMarker",
+																			"Data": "**"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "等来衡量。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-ihlhudo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222459-ihlhudo",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-9lhzfp3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222459-9lhzfp3",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "资源是有限的"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-wsq6ibm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222459-wsq6ibm",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"ID": "20220806222459-smefwn7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-smefwn7",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-npw7gip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-npw7gip",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "资源是有限的，所以软件需要高效地使用资源。资源使用方法不当会使软件的运行变得缓慢，导致用户体验变差。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222459-9zm8qsa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-9zm8qsa",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-p84wt01",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-p84wt01",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效率问题并不是使用成体系的算法就能解决的。要想提高效率，就要在软件架构的设计阶段将职责分散到各个模块，并将各个模块适当关联起来。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-w1l6ihp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222459-w1l6ihp",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-6fjag5w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222459-6fjag5w",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "活用资源"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-0b9wbyb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222459-0b9wbyb",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"ID": "20220806222459-1a00sis",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-1a00sis",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-0dsbmhw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-0dsbmhw",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所谓合理使用，是指有效利用既有资源来最大限度地发挥软件性能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222459-xtpmjsq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-xtpmjsq",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-9cl2hes",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-9cl2hes",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "节约是必须的，但我们在设计软件架构时也要将资源的灵活使用纳入考虑的范围。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-oni78ys",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222459-oni78ys",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-3lo2tvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222459-3lo2tvq",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "间接化与效率性的平衡"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222459-lffcltx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222459-lffcltx",
+				"updated": "20220806222459"
+			},
+			"Children": [
+				{
+					"ID": "20220806222459-hi45e1m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-hi45e1m",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-cumr596",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-cumr596",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了避免各个模块直接关联，我们有时会在模块之间导入“媒介模块”。这种方法称为间接化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222459-b1ix7o0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-b1ix7o0",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-ly7drv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-ly7drv7",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "间接化是一种基础且适用范围很广的模块设计方法。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222459-knht1iy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222459-knht1iy",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"ID": "20220806222459-y3pi2yl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-y3pi2yl",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-vxy4a2t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-vxy4a2t",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "“计算机科学领域的任何问题都可以通过增加一个间接的中间层来解决。”"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222459-q0tz4qw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-q0tz4qw",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-nhv68bb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-nhv68bb",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "间接化有助于维持低耦合性，保持较高的可维护性、可扩展性与可复用性。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222459-kjevxbh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-kjevxbh",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-k9yhnkb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-k9yhnkb",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "很多设计模式将间接化作为基本思路之一来使用。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222459-j556hwe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-j556hwe",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-ydfcwah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-ydfcwah",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要掌握好间接化与效率性之间的平衡。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222459-mmqp34y",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222459-mmqp34y",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"ID": "20220806222459-751ybir",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222459-751ybir",
+										"updated": "20220806222459"
+									},
+									"Children": [
+										{
+											"ID": "20220806222459-rminj3m",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222459-rminj3m",
+												"updated": "20220806222459"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "间接化会让处理变得冗长，对效率造成影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222459-1jmg38c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222459-1jmg38c",
+						"updated": "20220806222459"
+					},
+					"Children": [
+						{
+							"ID": "20220806222459-vpjb8i2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222459-vpjb8i2",
+								"updated": "20220806222459"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要对软件所需的效率性有清楚的认识，掌握好效率性与可维护性、可扩展性和可复用性之间的平衡，在此基础上使用间接化这一设计方法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

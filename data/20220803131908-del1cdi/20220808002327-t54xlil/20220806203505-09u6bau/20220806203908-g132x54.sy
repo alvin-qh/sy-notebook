@@ -1,0 +1,8984 @@
+{
+	"ID": "20220806203908-g132x54",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806203908-g132x54",
+		"title": "ADB (Android Debug Bridge)",
+		"updated": "20220806223850"
+	},
+	"Children": [
+		{
+			"ID": "20220806203915-3eknet2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-3eknet2",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Android 调试桥（ADB），它是一个通⽤命令⾏⼯具，可以管理、调试 Emulator（模拟机）或 Device（安卓真机），并且提供对 Unix Shell 的访问。它是一个 C/S 架构的应⽤程序，由三部分组成：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-t7a5ufy",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-t7a5ufy",
+				"updated": "20220806205015"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-clszd8w",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-clszd8w",
+						"updated": "20220806205015"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-xjm79uc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-xjm79uc",
+								"updated": "20220806205015"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Client 端：运⾏在开发机器中，即你的开发 PC 机，用来发送 ADB 命令；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-zfcfzgj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-zfcfzgj",
+						"updated": "20220806204903"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-8aiv462",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-8aiv462",
+								"updated": "20220806204903"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Deamon 守护进程：该组件在设备上运行命令。后台程序在每个模拟器或设备实例上作为后台进程运⾏；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-l8bmd1m",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-l8bmd1m",
+						"updated": "20220806204907"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-xm9twam",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-xm9twam",
+								"updated": "20220806204907"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Server 端：作为一个后台进程运⾏在开发机器中，即你的开发 PC 机。用来管理 PC 中的 Client 端和手机的 Deamon 之间的通信；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000714-lefdrf4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000714-lefdrf4"
+			}
+		},
+		{
+			"ID": "20220806203915-et7b7nr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-et7b7nr",
+				"updated": "20220806223554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-106x8a9",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-106x8a9",
+				"updated": "20220806204826"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-0obnv0u",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-0obnv0u",
+						"updated": "20220806204826"
+					},
+					"Children": [
+						{
+							"ID": "20220806204824-ngnu56z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806204824-ngnu56z",
+								"updated": "20220806204824"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "android_sdk/platform-tools/"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-5uevi1b",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-5uevi1b",
+								"updated": "20220806204826"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export ANDROID_HOME=/Users/zhaohaiyang/Library/Android/sdk\nexport PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-np8zsst",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-np8zsst",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-f2fusmg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-f2fusmg",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-7ish3p4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-7ish3p4",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "brew cask install android-platform-tools",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000716-afhrr6o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000716-afhrr6o"
+			}
+		},
+		{
+			"ID": "20220806203915-6s85rhm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-6s85rhm",
+				"updated": "20220806223603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. ADB 的工作方式"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-zts34ff",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-zts34ff",
+				"updated": "20220806205145"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-1l4a2g7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-1l4a2g7",
+						"updated": "20220806205031"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-2h7p5fw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-2h7p5fw",
+								"updated": "20220806205031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动⼀个 ADB 客户端时，此客户端首先检查是否有已运行的 ADB 服务器进程。如果没有，它将启动服务器进程。当服务器启动时，它与本地 TCP 端口"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5037"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "绑定，并侦听从 ADB 客户端发送的命令。所有 ADB 客户端均使⽤端口"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5037"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "与 ADB 服务器通信"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-t0yzjxp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-t0yzjxp",
+						"updated": "20220806205047"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-lw5l6pm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-lw5l6pm",
+								"updated": "20220806205047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器设置与所有运行的模拟器/设备实例的连接。它通过扫描"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5555"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "到"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5585"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "之间（模拟器/设备使⽤的范围）的奇数号端口查找模拟器/设备实例。服务器⼀旦发现 ADB 后台程序，它将设置与该端口的连接"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-91u0mof",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-91u0mof",
+						"updated": "20220806205145"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-zh6fsx2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-zh6fsx2",
+								"updated": "20220806205145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器和模拟器/设备连接时使⽤两个（⼀组）端口进行。一个奇数的"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5555"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，先建立 ADBServer 与 ADB Daemon 的调试专⽤的连接；⼀个为偶数的"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5554"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，再建立与 Emulator（或 Device）实例的连接。ADB Server 通过扫描"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5555~5585"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "之间的奇数端口搜索 ADB Daemon，进行 ADB 连接；⽽⽤相应的偶数端口（奇数端口号减"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，如"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5555"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "对应"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5554"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）进行 Emulator 或 Device 实例的连接。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000718-j7wlk7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000718-j7wlk7h"
+			}
+		},
+		{
+			"ID": "20220806203915-1lo1ej4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-1lo1ej4",
+				"updated": "20220806223620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 开启 ADB 调试"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-1vp8yxf",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-1vp8yxf",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-1b9z2qt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-1b9z2qt",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-oarbjbw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-oarbjbw",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在开发者选项中打开 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeStrong",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeText",
+											"Data": "USB 调试",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ： ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeEmphasis",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrong",
+											"Properties": {
+												"id": ""
+											},
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Settings",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " \u003e",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeEmphasis",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrong",
+											"Properties": {
+												"id": ""
+											},
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeText",
+													"Data": "About Phone",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "并点按",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeEmphasis",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeStrong",
+											"Properties": {
+												"id": ""
+											},
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeText",
+													"Data": "Build Number",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "七次，就可以找到开发者选项",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-tie61e2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-tie61e2",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-l8xxqb5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-l8xxqb5",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接 USB 线",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000719-hzo602y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000719-hzo602y"
+			}
+		},
+		{
+			"ID": "20220806203915-pnsecid",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-pnsecid",
+				"updated": "20220806223622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 通过 WLAN 连接到设备"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-88cw2x9",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-88cw2x9",
+				"updated": "20220806204841"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-qrn6bp6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-qrn6bp6",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-0cicjn5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-0cicjn5",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PC 和设备连接同⼀ WLAN",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-ej5ubqp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-ej5ubqp",
+						"updated": "20220806204841"
+					},
+					"Children": [
+						{
+							"ID": "20220806204839-ctxis0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806204839-ctxis0y",
+								"updated": "20220806204839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置⽬目标设备以侦听端口 5555 上的 TCP/IP 连接"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-xzcxx91",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-xzcxx91",
+								"updated": "20220806204841"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb tcpip 5555\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-4k6iqlq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-4k6iqlq",
+				"updated": "20220806205203"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-mtwxw2g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-mtwxw2g",
+						"updated": "20220806205203"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-8bo55ag",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-8bo55ag",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接⾄至设备，通过 IP 地址识别此设备"
+								}
+							]
+						},
+						{
+							"ID": "20220806205159-gqu900n",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806205159-gqu900n",
+								"updated": "20220806205203"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb connect 192.168.3.102\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-3fe9g4f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-3fe9g4f",
+				"updated": "20220806205215"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-hxq4cjz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-hxq4cjz",
+						"updated": "20220806205215"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-6l66tv5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-6l66tv5",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请确认您的主计算机已连接⾄至⽬目标设备:"
+								}
+							]
+						},
+						{
+							"ID": "20220806205212-frnwsfd",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806205212-frnwsfd",
+								"updated": "20220806205215"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb devices\n\nList of devices attached\n192.168.3.102:5555      device\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000723-d5tqj6c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000723-d5tqj6c"
+			}
+		},
+		{
+			"ID": "20220806203915-5oboxe9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-5oboxe9",
+				"updated": "20220806223628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 查询设备"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-073eo92",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-073eo92",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在发出 ADB 命令之前，知道哪些模拟器/设备实例已连接到 ADB 服务器会很有帮助。您可以使⽤",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "devices",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 命令生成已连接的模拟器/设备的列表",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-maf4anb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-maf4anb",
+				"updated": "20220806203941"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb devices\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-pgnkox2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-pgnkox2",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输出的格式类似如下：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-o17d3v0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-o17d3v0",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "List of devices attached\nserial_number **state**\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-1za8xee",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-1za8xee",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-wl98b79",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-wl98b79",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-c5e9cex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-c5e9cex",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "序列号(",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "serial_number",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")：⼀个由 ADB 创建的字符串，序列号的格式为 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "type-console-port",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-rumbmjj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-rumbmjj",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-34c7sep",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-34c7sep",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "状态(",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "state",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-otgbjss",
+							"Type": "NodeList",
+							"ListData": {
+								"Tight": true,
+								"BulletChar": 42,
+								"Padding": 2,
+								"Marker": "Kg==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220806203915-otgbjss",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"ID": "20220806203915-a1dzfoi",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220806203915-a1dzfoi",
+										"updated": "20220806203915"
+									},
+									"Children": [
+										{
+											"ID": "20220806203915-kefoyc3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806203915-kefoyc3",
+												"updated": "20220806203915"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "offline",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：实例未连接到 ADB 或不响应",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806203915-g97uzyo",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220806203915-g97uzyo",
+										"updated": "20220806203915"
+									},
+									"Children": [
+										{
+											"ID": "20220806203915-vauppyl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806203915-vauppyl",
+												"updated": "20220806203915"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "device",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：实例现在已连接到 ADB 服务器",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806203915-a7gemlf",
+									"Type": "NodeListItem",
+									"Data": "*",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 42,
+										"Padding": 2,
+										"Marker": "Kg==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220806203915-a7gemlf",
+										"updated": "20220806203915"
+									},
+									"Children": [
+										{
+											"ID": "20220806203915-tam83hj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806203915-tam83hj",
+												"updated": "20220806203915"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"CodeMarkerLen": 1,
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "no device",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker",
+															"Data": "`",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "：未连接模拟器/设备",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000727-l3unjc4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000727-l3unjc4"
+			}
+		},
+		{
+			"ID": "20220806203915-ppx2ya1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-ppx2ya1",
+				"updated": "20220806223634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.4. 设置端⼝转发"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-7kvjesr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-7kvjesr",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使⽤",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "forward",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 命令设置任意端⼝转发，将对特定 PC 端口的请求转发到模拟器/设备实例上的其他端口",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-22fsd7t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-22fsd7t",
+				"updated": "20220806203943"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb forward tcp:6100 tcp:7100   # adb forward \u003clocal\u003e \u003cremote\u003e\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000729-ji21lfz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000729-ji21lfz"
+			}
+		},
+		{
+			"ID": "20220806203915-qj9miyv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-qj9miyv",
+				"updated": "20220806223637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. ADB 命令参考"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-euq1pys",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-euq1pys",
+				"updated": "20220806223638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. 目标设备"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-v59m5y8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-v59m5y8",
+				"updated": "20220806205235"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-nzx8dx7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-nzx8dx7",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-rmeqiw9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-rmeqiw9",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "d"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 将 ADB 命令发送⾄至唯⼀连接的 USB 设备，如果连接了多个 USB 设备，将返回错误"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-alk432k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-alk432k",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-qckoowv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-qckoowv",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "e"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 将 ADB 命令发送⾄至唯⼀运行的模拟器实例，如果有多个模拟器实例在运行，将返回错误"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-xfxi2gu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-xfxi2gu",
+						"updated": "20220806205235"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-3wmbut1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-3wmbut1",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "s"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "serial_number"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，连接指定的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "设备/模拟器"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806205231-tiwuug7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806205231-tiwuug7",
+								"updated": "20220806205235"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb -s 192.168.3.102Z5555 install .....\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000735-snewtjy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000735-snewtjy"
+			}
+		},
+		{
+			"ID": "20220806203915-xykbxz1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-xykbxz1",
+				"updated": "20220806223657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. 常规"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-5f9oxt8",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-5f9oxt8",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-mfo9182",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-mfo9182",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-ln2qjcw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-ln2qjcw",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "devices",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-axurxb9",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-axurxb9",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-9ylr72q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-9ylr72q",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "help",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-3h1tz6p",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-3h1tz6p",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-5i0r5a0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-5i0r5a0",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "version",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000736-6mwjjpf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000736-6mwjjpf"
+			}
+		},
+		{
+			"ID": "20220806203915-e8qjisa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-e8qjisa",
+				"updated": "20220806223701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.3. 调试"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-ro48uoc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-ro48uoc",
+				"updated": "20220806205442"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-6z2hysn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-6z2hysn",
+						"updated": "20220806205442"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-wx5ntar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-wx5ntar",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "logcat [option] [filter-specs]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806205245-r5mtpz9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806205245-r5mtpz9",
+								"updated": "20220806205406"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb logcat -s TAG               # 按TAG过滤\nadb logcat *:V[/D/I/W/E/F/S]    # 指定Level, S表示为不输出该标签的⽇日志\nadb logcat \u003e ~/log.txt          # 输出到⽂文件\nadb logcat | grep \"^..Activity\" # 正则匹配\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220806205431-l3dls0a",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806205431-l3dls0a",
+								"updated": "20220806205442"
+							},
+							"Children": [
+								{
+									"ID": "20220806205434-z6jtu2l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806205434-z6jtu2l",
+										"updated": "20220806205434"
+									},
+									"Children": [
+										{
+											"ID": "20220806205434-13gkpwh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806205434-13gkpwh",
+												"updated": "20220806205437"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "bugreport"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 将 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "dumpsys"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "、"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "dumpstate"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 和 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "logcat"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 数据输出到屏幕，以⽤于报告错误"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806205439-dm5a15x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806205439-dm5a15x",
+										"updated": "20220806205442"
+									},
+									"Children": [
+										{
+											"ID": "20220806205439-fuc5s9w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806205439-fuc5s9w",
+												"updated": "20220806205442"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "jdwp"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 输出给定设备上可⽤的 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "JDWP"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 进程的列表"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000746-wwk2lp1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000746-wwk2lp1"
+			}
+		},
+		{
+			"ID": "20220806203915-ahkxz2v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-ahkxz2v",
+				"updated": "20220806223703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.4. 数据"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-n0x7ywf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-n0x7ywf",
+				"updated": "20220806205453"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-7wuum74",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-7wuum74",
+						"updated": "20220806205453"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-3q3gah8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-3q3gah8",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "install"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806205449-o3jf467",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806205449-o3jf467",
+								"updated": "20220806205453"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb install xx.apk\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-w4bu54r",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-w4bu54r",
+				"updated": "20220806205522"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-mngfzci",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-mngfzci",
+						"updated": "20220806205522"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-6klzmog",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-6klzmog",
+								"updated": "20220806205522"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "pull"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-4rvasxy",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-4rvasxy",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb pull /sdcard/foo.txt foo.txt\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-jtrpk79",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-jtrpk79",
+				"updated": "20220806205528"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-yviepy0",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-yviepy0",
+						"updated": "20220806205528"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-uza6zrc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-uza6zrc",
+								"updated": "20220806205528"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "push"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-yffzxaf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-yffzxaf",
+								"updated": "20220806204005"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb push foo.txt /sdcard/foo.txt\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000751-hfliecw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000751-hfliecw"
+			}
+		},
+		{
+			"ID": "20220806203915-ekhftxx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-ekhftxx",
+				"updated": "20220806223708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.5. 端⼝和⽹络连接"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-8rjtcw1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-8rjtcw1",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "forward",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ": 端⼝规范可使⽤以下架构:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-dw357s8",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-dw357s8",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-t7tfnhc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-t7tfnhc",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-uu0olmy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-uu0olmy",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "tcp",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": port_number",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-1htk3bv",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-1htk3bv",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-7ka3wme",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-7ka3wme",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "local",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": unix_domain_socket_name",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-snst9ud",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-snst9ud",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-kaelhve",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-kaelhve",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "dev",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": character_device_name",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-x0q8cxg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-x0q8cxg",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-yse28oe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-yse28oe",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "jdwp",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": pid",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000752-cpe8qit",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000752-cpe8qit"
+			}
+		},
+		{
+			"ID": "20220806203915-lnpghvy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-lnpghvy",
+				"updated": "20220806223711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.6. 脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-vcs4cfv",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-vcs4cfv",
+				"updated": "20220806205539"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-w8yl1tn",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-w8yl1tn",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-0ozwzdn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-0ozwzdn",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "get-serialno",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 输出 ADB 实例序列号字符串",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-6kydcmi",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-6kydcmi",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-rk49t19",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-rk49t19",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "get-state",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 输出模拟器/设备实例的 ADB 状态",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-fsq0o1x",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-fsq0o1x",
+						"updated": "20220806205539"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-pwia57d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-pwia57d",
+								"updated": "20220806205539"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "wait-for-device"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 阻⽌执行，直⾄至设备处于在线状态，即直⾄至此实例状态为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "device"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-mitmexl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-mitmexl",
+								"updated": "20220806204008"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb wait-for-device install app.apk\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000754-6kcoq1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000754-6kcoq1a"
+			}
+		},
+		{
+			"ID": "20220806203915-8xeb6ki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-8xeb6ki",
+				"updated": "20220806223718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.7. 服务"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-i9koqvb",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-i9koqvb",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-8ef4nuh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-8ef4nuh",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-ryw8nht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-ryw8nht",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "start-server",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-3itxzw2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-3itxzw2",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-9h5djai",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-9h5djai",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "kill-server",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000756-3qfeb3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000756-3qfeb3n"
+			}
+		},
+		{
+			"ID": "20220806203915-uzxpv6s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-uzxpv6s",
+				"updated": "20220806223720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.8. Shell"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-h2ooc4s",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-h2ooc4s",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-bwglzzg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-bwglzzg",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-p8bx1tq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-p8bx1tq",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "shell",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令二进制⽂文件存储在模拟器或设备的文件系统中，其路路径为 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/system/bin/",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-ijddsr3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-ijddsr3",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-tiv5yf6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-tiv5yf6",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "按 ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Control + D",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 或输⼊",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "exit",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 退出",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000758-ga7j04w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000758-ga7j04w"
+			}
+		},
+		{
+			"ID": "20220806203915-jnya5n9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-jnya5n9",
+				"updated": "20220806223722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. Activity Manager(AM)"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-df0et59",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-df0et59",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 ADB Shell 中，可以使⽤ Activity Manager(am)⼯具发出命令以执行各种系统操作，如启动 Activity、强行停止进程、⼴播 intent、修改设备屏幕属性及其他操作",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000759-mes29d1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000759-mes29d1"
+			}
+		},
+		{
+			"ID": "20220806203915-qz2f6eb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-qz2f6eb",
+				"updated": "20220806223724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. start [options] intent"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-uqg8zjf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-uqg8zjf",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动指定启动 intent 指定的 Activity",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-qsr0mwg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-qsr0mwg",
+				"updated": "20220806204016"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am start -n wg.roomis.launcher/.splash.SplashActivity\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000808-id3s927",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000808-id3s927"
+			}
+		},
+		{
+			"ID": "20220806203915-z626rhs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-z626rhs",
+				"updated": "20220806223732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. startservice [options] intent"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-w9lyx0t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-w9lyx0t",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启动 intent 指定的 Service",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-d7b1zgj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-d7b1zgj",
+				"updated": "20220806204019"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell\n\n\u003e su\n\u003e am startservice -n wg.roomis.launcher/.LauncherService -a\n\u003e wg.roomis.action.sync_time         # 需要 root 权限\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000811-705753b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000811-705753b"
+			}
+		},
+		{
+			"ID": "20220806203915-5v80lxc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-5v80lxc",
+				"updated": "20220806223734"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.3. broadcast [options] intent"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-k16olou",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-k16olou",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发出广播 intent",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-6tkhmxm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-6tkhmxm",
+				"updated": "20220806204022"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am broadcast -*a *wg.roomis.CARD_ENTER -e CardNo \"A56BDEC7\"\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000812-y60zs74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000812-y60zs74"
+			}
+		},
+		{
+			"ID": "20220806203915-fhall23",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-fhall23",
+				"updated": "20220806223736"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.4. force-stop"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-zrkx4uu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-zrkx4uu",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "强行停⽌与 package(应⽤的包名称)关联的所有应⽤",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-umasic6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-umasic6",
+				"updated": "20220806204024"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am force-stop wg.roomis.launcher\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000813-fnc5nkq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000813-fnc5nkq"
+			}
+		},
+		{
+			"ID": "20220806203915-muzaks3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-muzaks3",
+				"updated": "20220806223742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.5. kill"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-ygwqw1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-ygwqw1z",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "终⽌与 package(应⽤的包名称)关联的所有进程。此命令仅终⽌可安全终止且不会影响⽤户体验的进程",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-6o7ygqt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-6o7ygqt",
+				"updated": "20220806204026"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am kill wg.roomis.launcher\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000814-hkw12o4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000814-hkw12o4"
+			}
+		},
+		{
+			"ID": "20220806203915-tqq03ad",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-tqq03ad",
+				"updated": "20220806223744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.6. kill-all"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-1z7ozqi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-1z7ozqi",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "终⽌所有后台进程"
+				}
+			]
+		},
+		{
+			"ID": "20220809000819-5biucet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000819-5biucet"
+			}
+		},
+		{
+			"ID": "20220806203915-sqqoxtd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-sqqoxtd",
+				"updated": "20220806223747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.7. display-size [reset|width * height]"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-q8n7iw5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-q8n7iw5",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "替换模拟器/设备显示尺⼨。此命令对于在不同尺寸的屏幕上测试您的应用⾮常有⽤，它支持使用大屏设备模仿⼩屏幕分辨率(反之亦然)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-o1aztyd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-o1aztyd",
+				"updated": "20220806204028"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am display-size 1280x800\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000821-750zxv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000821-750zxv9"
+			}
+		},
+		{
+			"ID": "20220806203915-ofe7cdb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-ofe7cdb",
+				"updated": "20220806223750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.8. display-density [dpi]"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-tes1a8v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-tes1a8v",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "替换模拟器/设备显示密度。此命令对于在不同密度的屏幕上测试您的应⽤⾮常有用，它支持使用低密度屏幕在高密度环境上进行测试(反之亦然)",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-3nvf941",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-3nvf941",
+				"updated": "20220806204030"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell am display-density 480\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000823-2vjc203",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000823-2vjc203"
+			}
+		},
+		{
+			"ID": "20220806203915-fxk3qa5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-fxk3qa5",
+				"updated": "20220806223755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. Package Manager(PM)"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-twmq2m1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-twmq2m1",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 ADB Shell 中，可以使用 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeStrong",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件包管理器",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " (pm)⼯具发出命令，以对设备上安装的应⽤软件包进行操作和查询",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000835-daox15u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000835-daox15u"
+			}
+		},
+		{
+			"ID": "20220806203915-hnn0kwi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-hnn0kwi",
+				"updated": "20220806223758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.1. list packages"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-vkmuwu3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-vkmuwu3",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "list packages [options] filter",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ": 输出所有软件包，或者仅输出包名称包含 filter 中的文本的软件包。选项有:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-su0ul1w",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-su0ul1w",
+				"updated": "20220806205618"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-xnz20nc",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-xnz20nc",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-sk34wnp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-sk34wnp",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "f",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 查看它们的关联⽂文件",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-u1w81b3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-u1w81b3",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-esjdzly",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-esjdzly",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "d",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 进行过滤以仅显示已停⽤的软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-306pxnb",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-306pxnb",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-j4fsivb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-j4fsivb",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "e",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 进行过滤以仅显示已启⽤的软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-ibg55m6",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-ibg55m6",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-3wpvcxp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-3wpvcxp",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "s",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 进行过滤以仅显示系统软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-ims2ogs",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-ims2ogs",
+						"updated": "20220806205618"
+					},
+					"Children": [
+						{
+							"ID": "20220806205617-ep69axz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205617-ep69axz",
+								"updated": "20220806205617"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "3"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 进⾏过滤以仅显示第三方软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-cqtuans",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-cqtuans",
+								"updated": "20220806205618"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb shell pm list pacakges -3\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-v736d1g",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-v736d1g",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-wphodzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-wphodzk",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "i",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 查看软件包的安装程序",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-zz7yswr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-zz7yswr",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-2l82cli",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-2l82cli",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "u",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 也包括卸载的软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000843-0o596jt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000843-0o596jt"
+			}
+		},
+		{
+			"ID": "20220806203915-qprtxhh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-qprtxhh",
+				"updated": "20220806223809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.2. path package"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-j0ue3l2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-j0ue3l2",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输出给定 package 的 APK 的路路径",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-hc81s1b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-hc81s1b",
+				"updated": "20220806204413"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell pm path wg.roomis.launcher\n\n  package:/data/app/wg.roomis.launcher-2/base.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_dependencies_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_0_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_1_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_2_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_3_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_4_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_5_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_6_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_7_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_8_apk.apk\n  package:/data/app/wg.roomis.launcher-2/split_lib_slice_9_apk.apk\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000846-y1yj5e2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000846-y1yj5e2"
+			}
+		},
+		{
+			"ID": "20220806203915-0tgi7nd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-0tgi7nd",
+				"updated": "20220806223812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.3. install [options] path"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-n80s7z3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-n80s7z3",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选项:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-zvpwaz4",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-zvpwaz4",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-3e05hwh",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-3e05hwh",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-9n6bjty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-9n6bjty",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "l",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 安装具有转发锁定功能的软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-818ma4e",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-818ma4e",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-w3oyvrm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-w3oyvrm",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "r",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 重新安装现有应用，保留其数据",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-bqm8o1d",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-bqm8o1d",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-5ok41wn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-5ok41wn",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "t",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 允许安装测试 APK",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-5lhnmqp",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-5lhnmqp",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-ht5t19k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-ht5t19k",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "i installer_package_name",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 指定安装程序软件包名称",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-sbleouz",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-sbleouz",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-rji5c9s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-rji5c9s",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "s",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 在共享的容量量存储(如 sdcard)上安装软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-r3jv864",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-r3jv864",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-ni8g2fg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-ni8g2fg",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "f",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 在内部系统内存上安装软件包",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-1jszfzg",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-1jszfzg",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-awug45r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-awug45r",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "d",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 允许版本代码降级",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-7khnxeu",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-7khnxeu",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-bl3e2dw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-bl3e2dw",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "g",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 授予应⽤清单中列出的所有权限",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000851-68jyjta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000851-68jyjta"
+			}
+		},
+		{
+			"ID": "20220806203915-g7f3266",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-g7f3266",
+				"updated": "20220806223819"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.4. uninstall [options] package"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-jb4svid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-jb4svid",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选项:",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-r1bpp76",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-r1bpp76",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-1e4nl9l",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-1e4nl9l",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-n6hd46g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-n6hd46g",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "k",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 移除软件包后保留留数据和缓存⽬目录",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000852-t9bnuzf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000852-t9bnuzf"
+			}
+		},
+		{
+			"ID": "20220806203915-3ug9543",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-3ug9543",
+				"updated": "20220806223821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.5. clear package"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-pxwrk0e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-pxwrk0e",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除与软件包关联的所有数据",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-mc6cwgg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-mc6cwgg",
+				"updated": "20220806204037"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell pm clear wg.roomis.launcher\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000855-c5ykbxt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000855-c5ykbxt"
+			}
+		},
+		{
+			"ID": "20220806203915-9bc1xz0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-9bc1xz0",
+				"updated": "20220806223822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 其他"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-6l5tqu3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-6l5tqu3",
+				"updated": "20220806223824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.1. 屏幕截图 screencap filename"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-glq1zn8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-glq1zn8",
+				"updated": "20220806204041"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell screencap /sdcard/screen.png\nadb pull /sdcard/screen.png\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000858-d03xj0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000858-d03xj0j"
+			}
+		},
+		{
+			"ID": "20220806203915-vvroyyu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-vvroyyu",
+				"updated": "20220806223830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.2. 录制视频 screenrecord(API\u003e=19 Android 4.4)"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-1j5so4q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806203915-1j5so4q",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "screenrecord [options] \u003cfilename\u003e",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，选项：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-vual8fb",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-vual8fb",
+				"updated": "20220806205645"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-49lxrhv",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-49lxrhv",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-elpr8rb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-elpr8rb",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-help",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 显示命令语法和选项",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-j8mjwh2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-j8mjwh2",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-486onag",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-486onag",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-size widthxheight",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 设置视频⼤小: 1280x720。默认值是设备的原⽣生显示分辨率 (如果⽀持)，如果不支持，则使用 1280x720。为实现最佳结果，请使用设备的 Advanced Video Coding(AVC) 编码器⽀持的⼤小",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-lsx7ruv",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-lsx7ruv",
+						"updated": "20220806205645"
+					},
+					"Children": [
+						{
+							"ID": "20220806205643-t7he0af",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205643-t7he0af",
+								"updated": "20220806205643"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-bit-rate \u003crate\u003e"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 设置视频的视频⽐比特率(以兆⽐比特每秒为单位)。默认值为 4Mbps。您可以增加⽐比特率以提升视频质量量，但这么做会导致影⽚片⽂文件变得更大。以下示例将录制⽐比特率设为 6Mbps"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-lj5woe5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-lj5woe5",
+								"updated": "20220806205645"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "screenrecord --bit-rate 6000000 /sdcard/demo.mp4\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-jeex1l0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-jeex1l0",
+				"updated": "20220806204757"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-qk2aera",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-qk2aera",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-vl663vz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-vl663vz",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-time-limit"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 设置最大录制时⻓长(以秒为单位)。默认值和最大值均为 180(3 分钟)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-7xl5hon",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-7xl5hon",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-ngnu3za",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-ngnu3za",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-rotate"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 将输出旋转 90 度。此功能是实验性的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-bbyiiyq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-bbyiiyq",
+						"updated": "20220806204757"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-o4oqhp2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-o4oqhp2",
+								"updated": "20220806204456"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "-verbose"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 显示命令行屏幕上的⽇日志信息。如果您不设置此选项，则运行时此实用程序不会显示任何信息"
+								}
+							]
+						},
+						{
+							"ID": "20220806204654-ifrkxue",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806204654-ifrkxue",
+								"updated": "20220806204736"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb shell screenrecord --verbose /sdcard/demo.mp4\n\nMain display is 1280x800 @57.45fps (orientation=0)\nConfiguring recorder for 1280x800 video/avc at 4.00Mbps\nContent area is 1280x800 at offset x=0 y=0\n\nadb pull /sdcard/demo.mp4\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220806204458-ncygrjx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806204458-ncygrjx",
+								"updated": "20220806204750"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "注："
+								}
+							]
+						},
+						{
+							"ID": "20220806204751-ntqig2m",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806204751-ntqig2m",
+								"updated": "20220806204757"
+							},
+							"Children": [
+								{
+									"ID": "20220806204750-45cp6n7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806204750-45cp6n7"
+									},
+									"Children": [
+										{
+											"ID": "20220806204750-q33flqz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806204750-q33flqz",
+												"updated": "20220806204751"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不能录⾳音频"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806204757-z7vj8e4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806204757-z7vj8e4",
+										"updated": "20220806204757"
+									},
+									"Children": [
+										{
+											"ID": "20220806204757-fn6o45e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806204757-fn6o45e"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不支持在录制时旋转屏幕"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000905-i9i7477",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000905-i9i7477"
+			}
+		},
+		{
+			"ID": "20220806203915-snxlqi8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-snxlqi8",
+				"updated": "20220806223838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.3. adb shell input"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-zgjeltx",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-zgjeltx",
+				"updated": "20220806205659"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-oj69bt2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-oj69bt2",
+						"updated": "20220806205659"
+					},
+					"Children": [
+						{
+							"ID": "20220806205657-rd62z9n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205657-rd62z9n",
+								"updated": "20220806205657"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell input text"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 向获得焦点的 EditText 控件输⼊内容"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-ypm71tp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-ypm71tp",
+								"updated": "20220806205659"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ adb shell input text \"roomis-k12\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-2t5chpq",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-2t5chpq",
+				"updated": "20220806205708"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-yjqef3a",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-yjqef3a",
+						"updated": "20220806205708"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-rodj8l2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-rodj8l2",
+								"updated": "20220806205708"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb input keyevent"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 该命令主要是向系统发送⼀个按键指令，实现模拟⽤户在键盘上的按键动作"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-97ugqyr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-97ugqyr",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ adb shell input keyevent HOME\n$ adb shell input keyevent BACK\n$ adb shell input keyevent KEYCODE_POWER    # 26\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-c3r8206",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-c3r8206",
+				"updated": "20220806205717"
+			},
+			"Children": [
+				{
+					"ID": "20220806204250-y3pzn17",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806204250-y3pzn17",
+						"updated": "20220806204250"
+					},
+					"Children": [
+						{
+							"ID": "20220806204251-0tti36i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806204251-0tti36i",
+								"updated": "20220806204251"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "KeyCode",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "android.view.KeyEvent.java",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-t6kmzow",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-t6kmzow",
+						"updated": "20220806205717"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-qy7tu71",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-qy7tu71",
+								"updated": "20220806205717"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell input tap"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": 向设备发送⼀个点击操作的指令，参数是 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "x, y"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 坐标"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-mbs4igb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-mbs4igb",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ adb shell input tap 100 100\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000907-6mpbw2d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000907-6mpbw2d"
+			}
+		},
+		{
+			"ID": "20220806203915-joafeje",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-joafeje",
+				"updated": "20220806223844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.4. adb shell dumpsys"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-fzdisde",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-fzdisde",
+				"updated": "20220806205821"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-rjmw5ry",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-rjmw5ry",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-dn8r1bl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-dn8r1bl",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell dumpsys activity [activites|service | providers|intents | broadcasts | processes]"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-4pf0h50",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-4pf0h50",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-31r05q7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-31r05q7",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell dumpsys cpuinfo"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-7esn0hg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-7esn0hg",
+						"updated": "20220806205821"
+					},
+					"Children": [
+						{
+							"ID": "20220806205819-cc9t1y3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205819-cc9t1y3",
+								"updated": "20220806205819"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell dumpsys package"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-xj8n7tf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-xj8n7tf",
+								"updated": "20220806205821"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ adb shell dumpsys package wg.roomis.launcher | grep versonCode  # 查看版本号\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-r7mgels",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203915-r7mgels",
+				"updated": "20220806205827"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-zcrz029",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806203915-zcrz029",
+						"updated": "20220806205827"
+					},
+					"Children": [
+						{
+							"ID": "20220806205826-5kq78q7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205826-5kq78q7",
+								"updated": "20220806205826"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell dumpsys window"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-j6ffoq4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-j6ffoq4",
+								"updated": "20220806205827"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ adb shell dumpsys window displays   # 查看分辨率\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000910-lmx5xhy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000910-lmx5xhy"
+			}
+		},
+		{
+			"ID": "20220806203915-2krc8ub",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-2krc8ub",
+				"updated": "20220806223846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.5. 压⼒测试 adb shell monkey"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-1rol4ce",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-1rol4ce",
+				"linewrap": "true",
+				"updated": "20220806204143"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "adb shell monkey -p wg.roomis.launcher -s 500 --ignore-crashes --ignore-timeouts --monitor-native-crashes -v -v 10000 \u003e ~/monkey_log.txt\n# 产⽣生时间序列的种⼦子值:500，忽略略程序崩溃，忽略略超时，监视本地程序崩溃，详细信息级别为\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000912-lo4dlqn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000912-lo4dlqn"
+			}
+		},
+		{
+			"ID": "20220806203915-c0zz924",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806203915-c0zz924",
+				"updated": "20220806223850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. ROOMIS 相关"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-p23tr5y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-p23tr5y",
+				"updated": "20220806223851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.1. ROOMIS 常⽤文件路径:"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-w9guaug",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-w9guaug",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-lphycrj",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-lphycrj",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-g3ekb0t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-g3ekb0t",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "bindConfig",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/sdcard/roomis/bindConfig",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-8jt1r16",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-8jt1r16",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-0v1m8m0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-0v1m8m0",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "deviceSn",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/sdcard/roomis/deviceSn",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-pkgfezx",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-pkgfezx",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-nzs0u14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-nzs0u14",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "log",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 目录: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/sdcard/roomis/log",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-wltiftq",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-wltiftq",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-9ighre7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-9ighre7",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "database",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/data/data/wg.roomis.launcher/databases/roomisDb.db",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-amoz24v",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-amoz24v",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-usz7cy1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-usz7cy1",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "偏好⽂件: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/data/data/wg.roomis.launcher/shared_prefs/wg.roomis.launcher_preferences.xml",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-w03oo84",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-w03oo84",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-2mbkwtw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-2mbkwtw",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "webview",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 缓存⽬录: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/data/data/wg.roomis.launcher/cache",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000915-48544mp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000915-48544mp"
+			}
+		},
+		{
+			"ID": "20220806203915-1etgrv4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-1etgrv4",
+				"updated": "20220806223858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.2. ADB 命令"
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-f2mgvgp",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 42,
+				"Padding": 2,
+				"Marker": "Kg==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220806203915-f2mgvgp",
+				"updated": "20220806205734"
+			},
+			"Children": [
+				{
+					"ID": "20220806203915-lkarn0z",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-lkarn0z",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-j4ell0l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-j4ell0l",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看设备: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb devices",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-2sn13p4",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-2sn13p4",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-fjo9lvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-fjo9lvj",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连接设备: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb connect 192.168.11.255",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-a874kz1",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-a874kz1",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-mn38otn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-mn38otn",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb install rooomis.apk",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-l925zo2",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-l925zo2",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-9q31oaq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-9q31oaq",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "覆盖安装: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb install -r roomis.apk",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-hl9yvi3",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-hl9yvi3",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-26wvbox",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-26wvbox",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "卸载: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb uninstall wg.roomis.launcher",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-wbbisf7",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-wbbisf7",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-60d6mts",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-60d6mts",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导出 log: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb pull /sdcard/roomis/log/roomis.log ~/",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-luw1eem",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-luw1eem",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-5un7z3z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-5un7z3z",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导出 anr log: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb pull /data/anr/traces.txt ~/",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-hpafnxo",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-hpafnxo",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-s06fvsx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-s06fvsx",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导出数据库: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb pull /data/data/wg.roomis.launcher/databases/roomisDb.db ~/",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-buummaa",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-buummaa",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-5qdynrg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-5qdynrg",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模拟刷卡: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell am broadcast -a wg.roomis.CARD_ENTER -e CardNo \"A56BDEC7\"",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-36zaukr",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-36zaukr",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-wnhv949",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-wnhv949",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开锁: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell am broadcast -a wg.roomis.actions.UNLOCK_PASSWORD",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-xpbdumd",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-xpbdumd",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-cdan5zk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-cdan5zk",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查更更新: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell am broadcast -a wg.roomis.actions.WAKE_UP_UPDATE",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-5j6b67f",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-5j6b67f",
+						"updated": "20220806203915"
+					},
+					"Children": [
+						{
+							"ID": "20220806203915-w6l4qu4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806203915-w6l4qu4",
+								"updated": "20220806203915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看版本号: ",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"CodeMarkerLen": 1,
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "adb shell dumpsys package wg.roomis.launcher | grep versionCode",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker",
+											"Data": "`",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806203915-9ubu2vt",
+					"Type": "NodeListItem",
+					"Data": "*",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 42,
+						"Padding": 2,
+						"Marker": "Kg==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220806203915-9ubu2vt",
+						"updated": "20220806205734"
+					},
+					"Children": [
+						{
+							"ID": "20220806205733-apru3he",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205733-apru3he",
+								"updated": "20220806205733"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同步时间:"
+								}
+							]
+						},
+						{
+							"ID": "20220806203915-48c36gn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220806203915-48c36gn",
+								"updated": "20220806205734"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "adb shell\nsu\nam startservice -n wg.roomis.launcher/.LauncherService -*a * wg.roomis.action.sync_time\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000928-0sqhcwx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000928-0sqhcwx"
+			}
+		},
+		{
+			"ID": "20220806203915-kxadtsx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806203915-kxadtsx",
+				"updated": "20220806203915"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "7.3. sqlite3",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220806203915-oqakj2s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "YmFzaA==",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220806203915-oqakj2s",
+				"updated": "20220806204132"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA==",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cd data/data/wg.roomis.launcher/databases\nsqlite3 roomisDb.db\n\n\u003e .table\n\u003e select * from ApiConfigEntity;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20220809000930-fxhxh4j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000930-fxhxh4j"
+			}
+		}
+	]
+}

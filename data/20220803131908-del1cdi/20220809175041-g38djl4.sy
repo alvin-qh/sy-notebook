@@ -1,0 +1,75 @@
+{
+	"ID": "20220809175041-g38djl4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809175041-g38djl4",
+		"title": "开发相关",
+		"updated": "20220809175113"
+	},
+	"Children": [
+		{
+			"ID": "20220809175041-0a91s0q",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809175041-0a91s0q",
+				"updated": "20220809175113"
+			},
+			"Children": [
+				{
+					"ID": "20220809175103-cqv5d2q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809175103-cqv5d2q",
+						"updated": "20220809175113"
+					},
+					"Children": [
+						{
+							"ID": "20220809175103-ji62ps5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809175103-ji62ps5",
+								"updated": "20220809175113"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220809175113-y8v2pr5"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "ymal"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

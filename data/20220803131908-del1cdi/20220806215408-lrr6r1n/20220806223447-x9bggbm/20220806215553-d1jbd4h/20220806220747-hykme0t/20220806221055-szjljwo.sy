@@ -1,0 +1,676 @@
+{
+	"ID": "20220806221055-szjljwo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221055-szjljwo",
+		"title": "Local Consequences",
+		"updated": "20220806221118"
+	},
+	"Children": [
+		{
+			"ID": "20220806221118-i63sb9w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221118-i63sb9w",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "效应局部化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-v481ifg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221118-v481ifg",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-n5zujvc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221118-n5zujvc",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "减少修改带来的影响"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-vot63nx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221118-vot63nx",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"ID": "20220806221118-fx086af",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-fx086af",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-ehm8rih",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-ehm8rih",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效应局部化是指将修改带来的影响控制在局部。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221118-iimrjz4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221118-iimrjz4",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"ID": "20220806221118-oc7vdkm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-oc7vdkm",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-zmo3kuv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-zmo3kuv",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "效应局部化中的“效应”是指修改带来的影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221118-npwfjlf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-npwfjlf",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-s437sni",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-s437sni",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效应局部化是一个很重要的原则。围绕该原则产生了许多技术，模块化就是其中之一。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221118-fkgc56b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221118-fkgc56b",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"ID": "20220806221118-1lsggqs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-1lsggqs",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-ifiayvu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-ifiayvu",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块化技术的目标之一就是让修改模块所带来的影响停留在该模块的内部。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-4vssmpk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221118-4vssmpk",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-3u5no72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221118-3u5no72",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "更易于修改和确认"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-tt57ljr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221118-tt57ljr",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"ID": "20220806221118-cnkcc3i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-cnkcc3i",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-rsksrkk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-rsksrkk",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在效应非局部化的情况下，某处修改会对其他完全不相关的地方造成影响，使修改成本大幅增加。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221118-xszjzyt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221118-xszjzyt",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"ID": "20220806221118-6gpdzck",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-6gpdzck",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-n8fwskl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-n8fwskl",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大部分情况下，我们对哪些地方受到了影响一无所知的。这时就得先花时间排查影响范围。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221118-5iss22x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-5iss22x",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-ygdzg2g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-ygdzg2g",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在效应局部化的情况下，我们需要阅读的代码以及修改所带来的影响都会限制在一定的范围内。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221118-wzbhj24",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-wzbhj24",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-vmbrb0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-vmbrb0a",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "效应局部化还有让交流更加顺畅的效果。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221118-07rcmw3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221118-07rcmw3",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"ID": "20220806221118-y22t1db",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-y22t1db",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-7xte39l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-7xte39l",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在效应局部化的情况下，程序员只要理解当前阶段所涉及的代码即可，不需要一次性掌握所有代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-9ryzzqz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221118-9ryzzqz",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-hzuazu3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221118-hzuazu3",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "整合关系紧密的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221118-59bhhyk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221118-59bhhyk",
+				"updated": "20220806221118"
+			},
+			"Children": [
+				{
+					"ID": "20220806221118-8aez6k0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-8aez6k0",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-whfexmt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-whfexmt",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编写代码时，要让关系紧密的代码集中在一起，同时保证关联性较弱的代码不互相依赖。为此，我们需要将关系紧密的代码集中起来实现模块化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221118-qzjm1br",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-qzjm1br",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-3t9730f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-3t9730f",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从关联性的角度来看，要格外注意相互频繁调用的模块。模块之间相互频繁调用通常表明原本应在一起的要素被分散到了不同模块中。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221118-mx2qir9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221118-mx2qir9",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"ID": "20220806221118-i8sie7n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-i8sie7n",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-qpgnac1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-qpgnac1",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让合适的单一模块来实现功能。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221118-cnr87l8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-cnr87l8",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-0im20pl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-0im20pl",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将模块功能整合在一起。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221118-wx6xskd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221118-wx6xskd",
+										"updated": "20220806221118"
+									},
+									"Children": [
+										{
+											"ID": "20220806221118-i6jl01q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221118-i6jl01q",
+												"updated": "20220806221118"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重新创建一个模块来实现相应的功能。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221118-vvbhd4x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221118-vvbhd4x",
+						"updated": "20220806221118"
+					},
+					"Children": [
+						{
+							"ID": "20220806221118-bud5wde",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221118-bud5wde",
+								"updated": "20220806221118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要保证单一功能的密集性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

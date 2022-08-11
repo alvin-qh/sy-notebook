@@ -1,0 +1,570 @@
+{
+	"ID": "20220806221433-cmoqfmh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221433-cmoqfmh",
+		"title": "Symmetry",
+		"updated": "20220806221439"
+	},
+	"Children": [
+		{
+			"ID": "20220806221439-dbf8flx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221439-dbf8flx",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "对称性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-1r2cp1s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221439-1r2cp1s",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-zvqjb5e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221439-zvqjb5e",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "让代码具有一贯性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-gy2544g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221439-gy2544g",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"ID": "20220806221439-scuv6jo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221439-scuv6jo",
+						"updated": "20220806221439"
+					},
+					"Children": [
+						{
+							"ID": "20220806221439-i0cesn2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221439-i0cesn2",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程中的对称性是指相同的思路在代码的任何地方都以相同的形式表现出来。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221439-zk8u9x1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221439-zk8u9x1",
+						"updated": "20220806221439"
+					},
+					"Children": [
+						{
+							"ID": "20220806221439-kgfqrib",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221439-kgfqrib",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单来说就是等级整理。同类的东西，也就是拥有相同性质的东西，要使用相同的等级来表现。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-dvjnm7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221439-dvjnm7x",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-36wufz0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221439-36wufz0",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可以类推其他部分"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-wczlihs",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221439-wczlihs",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"ID": "20220806221439-5i802lc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221439-5i802lc",
+						"updated": "20220806221439"
+					},
+					"Children": [
+						{
+							"ID": "20220806221439-yehug1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221439-yehug1a",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码的可读性将大幅提高。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221439-4q1hkim",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221439-4q1hkim",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"ID": "20220806221439-upnjgav",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-upnjgav",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-7m2dtc2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-7m2dtc2",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "具有对称性的代码要比参差不齐的代码更容易理解。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221439-5x3efy2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-5x3efy2",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-3hshfg5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-3hshfg5",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以通过阅读部分代码来类推其他部分。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221439-pdtaflz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221439-pdtaflz",
+						"updated": "20220806221439"
+					},
+					"Children": [
+						{
+							"ID": "20220806221439-xl7ghqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221439-xl7ghqr",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "追求对称性从本质上来说属于消除重复代码的准备工作。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221439-imhk84o",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221439-imhk84o",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"ID": "20220806221439-g6zyljz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-g6zyljz",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-8dzldqk",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-8dzldqk",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "当代码中存在多个相似的部分时，如果对其进行对称化处理，相同的思路就会以相同的形式表现出来。此后只要将完全相同的部分整合到一起，就可以消除代码中重复的内容了。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-fecfzt3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221439-fecfzt3",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-jytvc4l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221439-jytvc4l",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "相同的东西用相同的形式表现"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221439-te27ure",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221439-te27ure",
+				"updated": "20220806221439"
+			},
+			"Children": [
+				{
+					"ID": "20220806221439-bc3kc27",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221439-bc3kc27",
+						"updated": "20220806221439"
+					},
+					"Children": [
+						{
+							"ID": "20220806221439-ol9dq9n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221439-ol9dq9n",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具体如下所示："
+								}
+							]
+						},
+						{
+							"ID": "20220806221439-4reauzt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221439-4reauzt",
+								"updated": "20220806221439"
+							},
+							"Children": [
+								{
+									"ID": "20220806221439-m0dvu5k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-m0dvu5k",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-rwtacbt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-rwtacbt",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果有“添加”方法，就创建与之相对的“删除”方法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221439-o0kz230",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-o0kz230",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-xxc31di",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-xxc31di",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同组的函数用相同的参数。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221439-t7ver8h",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-t7ver8h",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-bijz1jv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-bijz1jv",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让同一个模块里的数据拥有相同的生存周期。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221439-09h47u3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221439-09h47u3",
+										"updated": "20220806221439"
+									},
+									"Children": [
+										{
+											"ID": "20220806221439-k1pez1v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221439-k1pez1v",
+												"updated": "20220806221439"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数内所有调用函数的抽象级别要相同。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

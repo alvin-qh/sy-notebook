@@ -1,0 +1,464 @@
+{
+	"ID": "20220806220858-jk4gewc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220858-jk4gewc",
+		"title": "Communication",
+		"updated": "20220806220915"
+	},
+	"Children": [
+		{
+			"ID": "20220806220915-nkciq1q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220915-nkciq1q",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "交流"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-5goxj2n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220915-5goxj2n",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-8il9x34",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220915-8il9x34",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码是交流的场所"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-a2i5ojl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220915-a2i5ojl",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"ID": "20220806220915-wmnwph3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-wmnwph3",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-gwa762a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-gwa762a",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码也是一种给人看的文档，而文档的本质在于交流。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220915-4ylw2pi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-4ylw2pi",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-qlmg2ji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-qlmg2ji",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编程中，良好的交流意味着读代码的人能够理解、修改和使用代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-e8xfmho",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220915-e8xfmho",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-lmai1u2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220915-lmai1u2",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "顺利的开发源于顺利的交流"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-60w05q7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220915-60w05q7",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"ID": "20220806220915-rlroxpm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-rlroxpm",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-8ub5u2b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-8ub5u2b",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件开发的大部分成本是在开发完成后产生的。这部分成本就是维护成本。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220915-ye2ku45",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220915-ye2ku45",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"ID": "20220806220915-5feutjk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220915-5feutjk",
+										"updated": "20220806220915"
+									},
+									"Children": [
+										{
+											"ID": "20220806220915-a7owkt5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220915-a7owkt5",
+												"updated": "20220806220915"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要想节约维护成本，就需要提高代码的可读性。这是因为程序员之间需要通过代码进行交流。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220915-lzjkgzj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220915-lzjkgzj",
+										"updated": "20220806220915"
+									},
+									"Children": [
+										{
+											"ID": "20220806220915-7qv664r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220915-7qv664r",
+												"updated": "20220806220915"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "读代码的时间远多于写代码的时间。软件从开发到寿终正寝，期间有很多人一遍又一遍地读其中的代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220915-9pxiva8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-9pxiva8",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-km4kg5i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-km4kg5i",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除了在维护阶段需要读代码，在开发阶段程序员也需要一边回顾前面的代码一边编写新代码。通过代码，程序员与片刻之前的自己实现了交流。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-5e5tiki",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220915-5e5tiki",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-90dxcow",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220915-90dxcow",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "从代码阅读者的角度出发"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220915-w41zhll",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220915-w41zhll",
+				"updated": "20220806220915"
+			},
+			"Children": [
+				{
+					"ID": "20220806220915-ktxemny",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-ktxemny",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-sunc960",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-sunc960",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写代码时就得站在代码阅读者的角度思考。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220915-8onu48b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-8onu48b",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-l5s7lch",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-l5s7lch",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把思考的重点从计算机转移到代码阅读者的身上，就是所谓的换位思考。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220915-oaywfra",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220915-oaywfra",
+						"updated": "20220806220915"
+					},
+					"Children": [
+						{
+							"ID": "20220806220915-gndpfh7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220915-gndpfh7",
+								"updated": "20220806220915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码不仅是输入到编译器和解释器中的信息，也是写给人看的“文档”。我们要重视代码在交流方面的作用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

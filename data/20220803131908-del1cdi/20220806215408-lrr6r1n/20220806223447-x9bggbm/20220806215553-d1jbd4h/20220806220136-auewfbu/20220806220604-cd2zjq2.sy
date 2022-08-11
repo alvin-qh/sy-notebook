@@ -1,0 +1,978 @@
+{
+	"ID": "20220806220604-cd2zjq2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220604-cd2zjq2",
+		"title": "OCP",
+		"updated": "20220806220704"
+	},
+	"Children": [
+		{
+			"ID": "20220806220615-e49aumc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-e49aumc",
+				"updated": "20220806220622"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Open-Closed Principle"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-6ea5f15",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220615-6ea5f15",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-mb77ne8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-mb77ne8",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码的修改不相互影响"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-d5cc6nz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-d5cc6nz",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-rzalfd2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-rzalfd2",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-zcxbom5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-zcxbom5",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让代码同时满足对扩展开放、对修改关闭这两个属性。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220615-ao4ke2r",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220615-ao4ke2r",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"ID": "20220806220615-pccdtjz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220615-pccdtjz",
+										"updated": "20220806220615"
+									},
+									"Children": [
+										{
+											"ID": "20220806220615-p8cmdn1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220615-p8cmdn1",
+												"updated": "20220806220615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对扩展开放表示代码的行为可以扩展。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220615-jxec9zm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220615-jxec9zm",
+										"updated": "20220806220615"
+									},
+									"Children": [
+										{
+											"ID": "20220806220615-fgdus1p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220615-fgdus1p",
+												"updated": "20220806220615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对修改关闭表示当对代码的行为进行扩展时，其他代码完全不会受到影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-dwd4tpi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-dwd4tpi",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-xl5hnbe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-xl5hnbe",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码如果同时满足这两个属性，就可以在不影响既有代码的前提下扩展功能。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-lt8cc4z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220615-lt8cc4z",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-70g6rzw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-70g6rzw",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "灵活应对代码的修改"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-un781q4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-un781q4",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-chpxvdd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-chpxvdd",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-ux4ff9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-ux4ff9g",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计出的软件要既能适应变化，又能保持长期的稳定。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-kdivii2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-kdivii2",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-ny6kt1e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-ny6kt1e",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "满足对扩展开放，对修改关闭这一要求，就算需求发生变化，我们只要给代码添加新的行为，就能毫无风险地完成对软件的修改。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-1utbtmy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-1utbtmy",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-ghypppn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-ghypppn",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "死板的设计是非常脆弱的。一个小小的修改也会影响到所有与其存在依赖关系的部分。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-kqhjg38",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220615-kqhjg38",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-4e0nill",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-4e0nill",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "给代码设置接口"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-upts2z2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-upts2z2",
+				"updated": "20220806220704"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-pp38e8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-pp38e8m",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-kjbek3h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-kjbek3h",
+								"updated": "20220806220631"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块的使用者（客户端）不应当直接访问模块的提供者（服务器）\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806220632-duyyuwx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220632-duyyuwx",
+								"updated": "20220806220637"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220637-8ivernt.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-o9un45a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-o9un45a",
+						"updated": "20220806220704"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-qpd7rgh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-qpd7rgh",
+								"updated": "20220806220648"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要在客户端与服务器之间为模块的使用者设置“客户端接口”。这个客户端接口由服务器实现。\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806220650-nge0pfh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220650-nge0pfh",
+								"updated": "20220806220704"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220704-xt0ka52.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-ufyvtkr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220615-ufyvtkr",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-mn12q1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-mn12q1w",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "适用范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-y6tr57u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-y6tr57u",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-8j8149q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-8j8149q",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-kjm5w2c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-kjm5w2c",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能要求所有代码都遵循OCP。因为在没有发生变更的情况下，OCP只会让代码变得复杂、冗长。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-oxahfcl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-oxahfcl",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-8v7xnt8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-8v7xnt8",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以先不管OCP，等内容实际发生变更后再进行处理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-4l8kan0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-4l8kan0",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-4i38g18",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-4i38g18",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "也可以进行预估，不过这里预估的不是变更内容，而是可能会发生变化的部分"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-lqdql56",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-lqdql56",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "实现与设计"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-5ywkfjs",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-5ywkfjs",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-lhn1t2r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-lhn1t2r",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-z1lln5c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-z1lln5c",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "面向对象的多态性是实现OCP的代表技术。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-vbmp3gp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-vbmp3gp",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-qegi0ht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-qegi0ht",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "OCP的适用范围不受语言的限制。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220615-b0641yu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-b0641yu",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-nqexq0k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-nqexq0k",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计模式这类设计手法中，有很多设计模式可以用来实现OCP，具有代表性的有Strategy、Observer、Template Method和Decorator。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-xoearwi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220615-xoearwi",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-bq6bbdq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220615-bq6bbdq",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "受保护变化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220615-ckf3aj8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220615-ckf3aj8",
+				"updated": "20220806220615"
+			},
+			"Children": [
+				{
+					"ID": "20220806220615-1ohen0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220615-1ohen0a",
+						"updated": "20220806220615"
+					},
+					"Children": [
+						{
+							"ID": "20220806220615-swdqjcz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220615-swdqjcz",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "GRASP"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " （General Responsibility Assignment Software Pattern，通用职责分配软件模式）"
+								}
+							]
+						},
+						{
+							"ID": "20220806220615-hvp5889",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220615-hvp5889",
+								"updated": "20220806220615"
+							},
+							"Children": [
+								{
+									"ID": "20220806220615-d6n76wd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220615-d6n76wd",
+										"updated": "20220806220615"
+									},
+									"Children": [
+										{
+											"ID": "20220806220615-iprqqxo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220615-iprqqxo",
+												"updated": "20220806220615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一种职责驱动设计方法。该方法中介绍了一个名为“受保护变化”（Protected Variations）的设计模式，具体来说就是识别出稳定部分与不稳定部分的交界点，然后用稳定的接口将交界点包裹起来。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220615-e0k9e1o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220615-e0k9e1o",
+										"updated": "20220806220615"
+									},
+									"Children": [
+										{
+											"ID": "20220806220615-4dx3s8y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220615-4dx3s8y",
+												"updated": "20220806220615"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不稳定部分中的不稳定因素导致变更多发，受保护变化则用接口这一防护墙将变更带来的影响抵御在外。这样一来，接口就像防止火灾蔓延的防火墙和防止水漫四方的防水堤一样，保护软件不受变更的影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,620 @@
+{
+	"ID": "20220806223112-fe6h2x8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223112-fe6h2x8",
+		"title": "Rule of Modularity",
+		"updated": "20220806223123"
+	},
+	"Children": [
+		{
+			"ID": "20220806223123-njbqypi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223123-njbqypi",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "模块化原则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-u2ebbsm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223123-u2ebbsm",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-nkajdyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223123-nkajdyz",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "以精简的模块为单位"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-zuaua15",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223123-zuaua15",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"ID": "20220806223123-cletkw7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223123-cletkw7",
+						"updated": "20220806223123"
+					},
+					"Children": [
+						{
+							"ID": "20220806223123-4klbfp0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223123-4klbfp0",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件整体的复杂度是可以降低的。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223123-324tvyr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223123-324tvyr",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"ID": "20220806223123-x4o97ug",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-x4o97ug",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-gdlfqg3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-gdlfqg3",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "软件需要由多个简单的模块组装而成。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223123-5aptyvn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-5aptyvn",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-2vjqip8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-2vjqip8",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将代码中关联性较强的元素聚集起来做成模块。模块的接口要简单明了，不能含有多余的东西。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-b3mh3nd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223123-b3mh3nd",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-lc8nwdt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223123-lc8nwdt",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "模块间的关系应简洁"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-adl65of",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223123-adl65of",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"ID": "20220806223123-z5sy8qt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223123-z5sy8qt",
+						"updated": "20220806223123"
+					},
+					"Children": [
+						{
+							"ID": "20220806223123-ginr12w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223123-ginr12w",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口简明的简单模块不容易与其他模块发生关联。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223123-g5bfkmf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223123-g5bfkmf",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"ID": "20220806223123-a0kg4zj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-a0kg4zj",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-oa259ir",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-oa259ir",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "问题能被控制在局部范围。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223123-jdo57ko",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-jdo57ko",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-ppel6i5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-ppel6i5",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以在不破坏整体代码的情况下修改对象模块。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223123-6puo8v5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223123-6puo8v5",
+						"updated": "20220806223123"
+					},
+					"Children": [
+						{
+							"ID": "20220806223123-qeah28x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223123-qeah28x",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "控制复杂度是编程的精髓。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223123-x1an0yo",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223123-x1an0yo",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"ID": "20220806223123-rrwx5uf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-rrwx5uf",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-2kl3ihi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-2kl3ihi",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "控制复杂度没有捷径可走。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223123-7zz2cpj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-7zz2cpj",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-0h5u3kj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-0h5u3kj",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过精简模块、精简接口来一步一步地降低软件的复杂度。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-vpanqww",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223123-vpanqww",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-dpvx7a9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223123-dpvx7a9",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "减少模块的接口"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223123-u4zc7g7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223123-u4zc7g7",
+				"updated": "20220806223123"
+			},
+			"Children": [
+				{
+					"ID": "20220806223123-dv3t48q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223123-dv3t48q",
+						"updated": "20220806223123"
+					},
+					"Children": [
+						{
+							"ID": "20220806223123-mpf0xg2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223123-mpf0xg2",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要尽量减少模块的接口。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223123-qkww022",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223123-qkww022",
+								"updated": "20220806223123"
+							},
+							"Children": [
+								{
+									"ID": "20220806223123-fr8fite",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-fr8fite",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-c60iqd8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-c60iqd8",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块内部的组成元素之间应具有较强的关联性。"
+												}
+											]
+										},
+										{
+											"ID": "20220806223123-ta0qjb6",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806223123-ta0qjb6",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"ID": "20220806223123-mn4k6ew",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806223123-mn4k6ew",
+														"updated": "20220806223123"
+													},
+													"Children": [
+														{
+															"ID": "20220806223123-5js3bjb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806223123-5js3bjb",
+																"updated": "20220806223123"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "可以在修改某项功能时将影响范围封闭在模块内部。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223123-d6ojufi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223123-d6ojufi",
+										"updated": "20220806223123"
+									},
+									"Children": [
+										{
+											"ID": "20220806223123-z2elmgc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223123-z2elmgc",
+												"updated": "20220806223123"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在此基础之上，使用这些简单模块搭建整个软件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

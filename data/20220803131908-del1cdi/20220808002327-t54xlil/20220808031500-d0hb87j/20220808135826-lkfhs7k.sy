@@ -1,0 +1,180 @@
+{
+	"ID": "20220808135826-lkfhs7k",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135826-lkfhs7k",
+		"title": "docker",
+		"updated": "20220808171439"
+	},
+	"Children": [
+		{
+			"ID": "20220808135826-5g70fjm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808135826-5g70fjm",
+				"updated": "20220808171439"
+			},
+			"Children": [
+				{
+					"ID": "20220808135845-skzg3dx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135845-skzg3dx",
+						"updated": "20220808135845"
+					},
+					"Children": [
+						{
+							"ID": "20220808135845-lbn2lb1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135845-lbn2lb1",
+								"updated": "20220808135910"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135910-rmhcrja"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "安装 docker"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164101-4uo02gq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164101-4uo02gq"
+					},
+					"Children": [
+						{
+							"ID": "20220808164101-bts51dp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164101-bts51dp",
+								"updated": "20220808164104"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808164104-dd9s0tc"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "镜像和容器"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171435-3vwtrow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808171435-3vwtrow",
+						"updated": "20220808171439"
+					},
+					"Children": [
+						{
+							"ID": "20220808171435-5br76er",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171435-5br76er",
+								"updated": "20220808171439"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808171439-cva1so5"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "常用技巧"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

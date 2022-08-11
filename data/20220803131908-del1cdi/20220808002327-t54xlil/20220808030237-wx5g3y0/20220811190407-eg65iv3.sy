@@ -1,0 +1,75 @@
+{
+	"ID": "20220811190407-eg65iv3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220811190407-eg65iv3",
+		"title": "VIM",
+		"updated": "20220811190438"
+	},
+	"Children": [
+		{
+			"ID": "20220811190407-rvdeiju",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811190407-rvdeiju",
+				"updated": "20220811190435"
+			},
+			"Children": [
+				{
+					"ID": "20220811190434-7uby381",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811190434-7uby381",
+						"updated": "20220811190435"
+					},
+					"Children": [
+						{
+							"ID": "20220811190434-yjtyjr6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811190434-yjtyjr6",
+								"updated": "20220811190435"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220809181825-vd0l0me"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "快捷键"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

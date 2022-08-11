@@ -1,0 +1,768 @@
+{
+	"ID": "20220808021130-2hv5a36",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808021130-2hv5a36",
+		"title": "ZSH",
+		"updated": "20220809001601"
+	},
+	"Children": [
+		{
+			"ID": "20220808021130-n4v2gvf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808021130-n4v2gvf",
+				"updated": "20220808021307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 zsh"
+				}
+			]
+		},
+		{
+			"ID": "20220808021228-eccoo18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021228-eccoo18",
+				"updated": "20220808021444"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "安装 zsh"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021202-13a8pgc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808021202-13a8pgc",
+				"updated": "20220808021219"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt install zsh\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808021220-56g1ma6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021220-56g1ma6",
+				"updated": "20220808021445"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置 zsh 为默认 shell"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021241-o01unbs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808021241-o01unbs",
+				"updated": "20220808021252"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo chsh -s /bin/zsh\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809001601-omn3snf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001601-omn3snf"
+			}
+		},
+		{
+			"ID": "20220808021301-vz3g825",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808021301-vz3g825",
+				"updated": "20220808021309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装oh-my-zsh"
+				}
+			]
+		},
+		{
+			"ID": "20220808021309-axuocwv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021309-axuocwv",
+				"updated": "20220808021447"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "下载并安装"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021325-a0mypeh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808021325-a0mypeh",
+				"updated": "20220808021327"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808021333-uk6noag",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021333-uk6noag",
+				"updated": "20220808021601"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "安装常用插件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021554-cb3lnk6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808021554-cb3lnk6",
+				"updated": "20220808021626"
+			},
+			"Children": [
+				{
+					"ID": "20220808021555-4j121hn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808021555-4j121hn",
+						"updated": "20220808021626"
+					},
+					"Children": [
+						{
+							"ID": "20220808021555-id544ml",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808021555-id544ml",
+								"updated": "20220808021604"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "安装插件"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "（在"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.oh-my-zsh/custom/plugins"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "目录下操作）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220808021619-j065hww",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808021619-j065hww",
+								"updated": "20220808021626"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git clone https://github.com/zsh-users/zsh-autosuggestions.git # 自动建议插件\ngit clone https://github.com/zsh-users/zsh-syntax-highlighting.git # 语法高亮插件\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021453-p45ccia",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808021453-p45ccia",
+				"updated": "20220808021732"
+			},
+			"Children": [
+				{
+					"ID": "20220808021631-qs0a075",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808021631-qs0a075",
+						"updated": "20220808021732"
+					},
+					"Children": [
+						{
+							"ID": "20220808021631-psdswq6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808021631-psdswq6",
+								"updated": "20220808021706"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "配置插件（编辑"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.zshrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "文件）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220808021710-fjuoanb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808021710-fjuoanb",
+								"updated": "20220808021732"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "plugins=(\n  ...\n  zsh-autosuggestions\n  zsh-syntax-highlighting\n)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021735-6ynttp3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021735-6ynttp3",
+				"updated": "20220808021750"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置主题"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021753-sm5f14s",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808021753-sm5f14s",
+				"updated": "20220808021836"
+			},
+			"Children": [
+				{
+					"ID": "20220808021800-rho5lz2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808021800-rho5lz2",
+						"updated": "20220808021836"
+					},
+					"Children": [
+						{
+							"ID": "20220808021800-xm52s8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808021800-xm52s8k",
+								"updated": "20220808021815"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "编辑"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.oh-my-zsh/custom/themes/alvin.zsh-theme"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220808021821-21erp9f",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808021821-21erp9f",
+								"updated": "20220808021836"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "local ret_status=\"%(?:%{$fg_bold[green]%}# :%{$fg_bold[red]%}# )\"\nPROMPT='\n${ret_status}%{$fg[cyan]%}%n@%m %~\n$(git_prompt_info)%{$fg_bold[green]%}$ %{$reset_color%}'\n\nZSH_THEME_GIT_PROMPT_PREFIX=\"%{$fg_bold[white]%}[%{$fg[blue]%}\"\nZSH_THEME_GIT_PROMPT_SUFFIX=\"%{$reset_color%} \"\nZSH_THEME_GIT_PROMPT_DIRTY=\"%{$fg_bold[white]%}]%{$fg[yellow]%}✗\"\nZSH_THEME_GIT_PROMPT_CLEAN=\"%{$fg_bold[white]%}]\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021815-oikhcw9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808021815-oikhcw9",
+				"updated": "20220808021907"
+			},
+			"Children": [
+				{
+					"ID": "20220808021841-et67gv5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808021841-et67gv5",
+						"updated": "20220808021907"
+					},
+					"Children": [
+						{
+							"ID": "20220808021841-r19irxz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808021841-r19irxz",
+								"updated": "20220808021859"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "编辑"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.zshrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "文件，添加如下配置"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220808021900-hux8vrx",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808021900-hux8vrx",
+								"updated": "20220808021907"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "ZSH_THEME=\"alvin\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808021908-bc30hhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808021908-bc30hhi"
+			}
+		}
+	]
+}

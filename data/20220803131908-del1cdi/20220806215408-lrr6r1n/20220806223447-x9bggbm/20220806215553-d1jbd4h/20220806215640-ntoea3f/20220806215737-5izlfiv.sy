@@ -1,0 +1,680 @@
+{
+	"ID": "20220806215737-5izlfiv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806215737-5izlfiv",
+		"title": "Code as Design",
+		"updated": "20220806215838"
+	},
+	"Children": [
+		{
+			"ID": "20220806215838-vqbwqhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215838-vqbwqhv",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码即设计文档"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-94ovsps",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215838-94ovsps",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-cq1a8l0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215838-cq1a8l0",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码才是设计书"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-h9qpbme",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215838-h9qpbme",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"ID": "20220806215838-2qt7rzw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-2qt7rzw",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-ft9d6kh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-ft9d6kh",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不管是上游的基本设计，还是详细设计、编程、测试和调试，这些都属于设计环节，输出的设计文档就是代码，而构建发布版本属于制造环节。也就是说，负责制造的不是程序员，而是编译器或构建系统。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-rkfrkor",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-rkfrkor",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-57undzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-57undzs",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作为设计行为产物的代码才是设计文档。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-28tmu4c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215838-28tmu4c",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-h94v9y0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215838-h94v9y0",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "改善对象是代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-14uu0ga",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215838-14uu0ga",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"ID": "20220806215838-e8n6154",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-e8n6154",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-xo5wh7o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-xo5wh7o",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品的改善在设计环节进行。产品的性能无法在制造环节得到提升。制造环节和生产环节是按照设计制作产品的过程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-v69rroa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-v69rroa",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-x8aykaf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-x8aykaf",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本设计、详细设计、编程、测试和调试是一个不可分割的整体，各项任务相互依存。拿基础设计来说，很多东西只有在开始编程之后才能搞清楚。位于上层的设计文档必须等到编程结束之后才能确定下来，这就证明了这几项任务是一体的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-xj1agha",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-xj1agha",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-1ods1os",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-1ods1os",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计输出的只有代码。CASE工具和UML（Unified ModelingLanguage，统一建模语言）虽然能够起到辅助作用，但设计最终必须使用编程语言来表现，然后经构建和测试来验证、优化。上游设计和下游设计只能使用编程语言作为共同的表现方式。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-qu4g9zw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215838-qu4g9zw",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-djnm9qs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215838-djnm9qs",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "优秀的程序员必不可少"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-nyrysx4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215838-nyrysx4",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"ID": "20220806215838-byqqism",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-byqqism",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-2rjdbii",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-2rjdbii",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程是一种具有创造性的行为，需要创造力和技艺。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-zlimvla",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-zlimvla",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-lt7k3n0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-lt7k3n0",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本设计、详细设计、编程、测试和调试是设计中不可分割的任务。也就是说，全体程序员要共同参与设计，一起来编写代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-h38y6ff",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-h38y6ff",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-yzhl0d2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-yzhl0d2",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应该尽早开始编写代码。不写代码的话就无法弄清很多事情，设计也只会无限拖延下去。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-gnoskkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215838-gnoskkt",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-uhizfk6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215838-uhizfk6",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "罗塞塔石碑"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806215838-mul0jey",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806215838-mul0jey",
+				"updated": "20220806215838"
+			},
+			"Children": [
+				{
+					"ID": "20220806215838-7ssv5n3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-7ssv5n3",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-dx7c2im",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-dx7c2im",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码是设计文档，但代码不是唯一的文档。除了代码，还有许多文档是必不可少的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-dfu4k1q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-dfu4k1q",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-0paku09",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-0paku09",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "敏捷开发只是不生成无用的文档，并没有主张“不生成文档”。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806215838-eozep2t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806215838-eozep2t",
+						"updated": "20220806215838"
+					},
+					"Children": [
+						{
+							"ID": "20220806215838-iqtkbqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806215838-iqtkbqw",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在具有持续性的编程活动中，最受重视的是一个叫作"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "“罗塞塔石碑”"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的文档。这是一份写给未来维护负责人的简单手册，其中描述了用于理解软件开发环境和软件构架的信息。"
+								}
+							]
+						},
+						{
+							"ID": "20220806215838-2lqw2ox",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806215838-2lqw2ox",
+								"updated": "20220806215838"
+							},
+							"Children": [
+								{
+									"ID": "20220806215838-3h7b21v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215838-3h7b21v",
+										"updated": "20220806215838"
+									},
+									"Children": [
+										{
+											"ID": "20220806215838-e8p3ld3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215838-e8p3ld3",
+												"updated": "20220806215838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在软件开发环境方面，文档描述了构建与测试过程的执行方法。构建中包含的测试能防止维护负责人在理解软件时落入陷阱。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806215838-cwzggqb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215838-cwzggqb",
+										"updated": "20220806215838"
+									},
+									"Children": [
+										{
+											"ID": "20220806215838-ccfdgru",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215838-ccfdgru",
+												"updated": "20220806215838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在软件架构方面，文档中包含了一些能纵观全部代码的图表。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806215838-qgc7wq6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806215838-qgc7wq6",
+										"updated": "20220806215838"
+									},
+									"Children": [
+										{
+											"ID": "20220806215838-1nbk6il",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806215838-1nbk6il",
+												"updated": "20220806215838"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码能很好地表达“怎么做”和“是什么”，却不能表达“为什么”，也就是设计理由。将设计理由描述在文档中，能为维护负责人提供判断材料。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,447 @@
+{
+	"ID": "20220806222045-prv5tf2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222045-prv5tf2",
+		"title": "Separation of Interface and Implementation",
+		"updated": "20220806222049"
+	},
+	"Children": [
+		{
+			"ID": "20220806222049-jc6rj4h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222049-jc6rj4h",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "接口与实现的分离"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-zrhzom8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222049-zrhzom8",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-mdwm1s0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222049-mdwm1s0",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "模块由接口和实现组成"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-ai3ot9a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222049-ai3ot9a",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"ID": "20220806222049-qxr189t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-qxr189t",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-kwtpo9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-kwtpo9t",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口部分：用于定义模块具备的功能，决定模块的使用方法。该部分由用户可访问的函数签名组成。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222049-8iv456d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-8iv456d",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-27556e6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-27556e6",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现部分：就是实现模块功能的代码部分。该部分包含模块内部使用的逻辑和数据。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222049-3eup6ch",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222049-3eup6ch",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"ID": "20220806222049-mozdszg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222049-mozdszg",
+										"updated": "20220806222049"
+									},
+									"Children": [
+										{
+											"ID": "20220806222049-sexsiyi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222049-sexsiyi",
+												"updated": "20220806222049"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调用方无法直接访问实现部分。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-cfb7fue",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222049-cfb7fue",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-5pzbaa7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222049-5pzbaa7",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "使用者只需理解接口"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-1yvqcmn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222049-1yvqcmn",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"ID": "20220806222049-ohbs67p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-ohbs67p",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-ww189vw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-ww189vw",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口与实现分离之后，模块的使用者就不必了解实现的详细内容。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222049-afbus49",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222049-afbus49",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"ID": "20220806222049-je973wi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222049-je973wi",
+										"updated": "20220806222049"
+									},
+									"Children": [
+										{
+											"ID": "20220806222049-j0btsys",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222049-j0btsys",
+												"updated": "20220806222049"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "展现给用户的只有接口，模块变得简单易懂，可以让用户轻松使用。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222049-z3sk0fc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-z3sk0fc",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-eufb2e7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-eufb2e7",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口与实现分离能保证“模块的使用方法”（接口）和“功能的实现方法”（实现）的独立性。修改实现部分时就不必担心会对接口造成影响了。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-as4tj9x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222049-as4tj9x",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-p3i6hi0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222049-p3i6hi0",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "针对接口编程"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222049-n3w55pq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222049-n3w55pq",
+				"updated": "20220806222049"
+			},
+			"Children": [
+				{
+					"ID": "20220806222049-1zpro7z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-1zpro7z",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-asjocbs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-asjocbs",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "针对接口编程，而不是针对实现编程。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222049-gqa6xlo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222049-gqa6xlo",
+						"updated": "20220806222049"
+					},
+					"Children": [
+						{
+							"ID": "20220806222049-u37htz6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222049-u37htz6",
+								"updated": "20220806222049"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块之间的调用要保证只使用接口来完成。接口的实现要隐藏在接口背后，该部分不能被直接调用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

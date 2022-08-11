@@ -1,0 +1,243 @@
+{
+	"ID": "20220806215615-kmwtbgy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806215615-kmwtbgy",
+		"title": "前言-规则",
+		"updated": "20220806215619"
+	},
+	"Children": [
+		{
+			"ID": "20220806215619-4g1y2cm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-4g1y2cm",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Name"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-jtnorl9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-jtnorl9",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍原则的名称，其中包括中文名和英文名，还有全称、略称和别名等。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-d37io15",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-d37io15",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-7p7bf3a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-7p7bf3a",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于说明原则的含义。该部分只对原则内容进行简单说明，复杂的内容以及应用方面的内容将在“扩展”版块中介绍。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-gcou85d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-gcou85d",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-xowoq73",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-xowoq73",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于说明原则的必要性。这是本书最重要的部分。明白了使用原则的目的之后，我们自然就能想到实现目的的手段（技术）了。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-1akk8zt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-1akk8zt",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-615efqs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-615efqs",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍原则的运用方法。其中会介绍有助于灵活运用原则的思考方针，还会介绍将方针与原则联系起来的方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-6a93vhn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-6a93vhn",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-osrsioy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-osrsioy",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍原则的延伸内容。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-p0tbmt3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-p0tbmt3",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-ufr4fmk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-ufr4fmk",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍与该原则相关的、对编程有益的信息。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-3vr7fk0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-3vr7fk0",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Source"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-ipyw6oj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-ipyw6oj",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍原则的主要来源。此处选取的是最具参考价值的图书，不过这些图书不一定是该原则最早出现的地方。"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-q7gix6h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806215619-q7gix6h",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Books"
+				}
+			]
+		},
+		{
+			"ID": "20220806215619-sguazt6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806215619-sguazt6",
+				"updated": "20220806215619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "该版块用于介绍包含了原则的相关信息或延伸信息的图书。"
+				}
+			]
+		}
+	]
+}

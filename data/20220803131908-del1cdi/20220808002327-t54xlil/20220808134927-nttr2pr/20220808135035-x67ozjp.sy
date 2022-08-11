@@ -1,0 +1,190 @@
+{
+	"ID": "20220808135035-x67ozjp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135035-x67ozjp",
+		"title": "Host Only 网络配置",
+		"updated": "20220808135314"
+	},
+	"Children": [
+		{
+			"ID": "20220808135035-e02wudc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135035-e02wudc",
+				"updated": "20220808135133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Host Only 网络模式是将宿主机作为网关，虚拟机作为节点，虚拟机无法访问外网，但可以访问宿主机，同时宿主机也可以访问虚拟机"
+				}
+			]
+		},
+		{
+			"ID": "20220808135137-0k8ocf0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135137-0k8ocf0",
+				"updated": "20220808135144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果此时虚拟机需要上网，最简单的办法是为虚拟机添加双网卡，添加一个 NAT 模式或 Bridged 模式的网卡即可"
+				}
+			]
+		},
+		{
+			"ID": "20220808135148-859m901",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808135148-859m901",
+				"updated": "20220808135152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 设置全局网卡配置"
+				}
+			]
+		},
+		{
+			"ID": "20220808135200-1x5mvl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135200-1x5mvl3",
+				"updated": "20220808135210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 Preferrences -\u003e NetWork -\u003e Host-only Networks 进行全局设置。添加一个 Network 并关闭其 DHCP 服务即可"
+				}
+			]
+		},
+		{
+			"ID": "20220808135219-ipxatlg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135219-ipxatlg",
+				"updated": "20220808135220"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808135220-xweonci.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220808135231-apn38qa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808135231-apn38qa",
+				"updated": "20220808135235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 为虚拟机添加双网卡"
+				}
+			]
+		},
+		{
+			"ID": "20220808135239-eek8uok",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135239-eek8uok",
+				"updated": "20220808135252"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "打开 虚拟机设置 -\u003e Network，添加两个网卡 (Adapter1, Adapter2)，其中一个指定为 Bridged 模式，另一个指定为 Host-Only 模式即可。"
+				}
+			]
+		},
+		{
+			"ID": "20220808135311-4ilph3a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135311-4ilph3a",
+				"updated": "20220808135311"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220808135220-xweonci.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220808135314-7yrusxk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135314-7yrusxk"
+			}
+		}
+	]
+}

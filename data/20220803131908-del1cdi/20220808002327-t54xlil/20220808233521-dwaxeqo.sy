@@ -1,0 +1,75 @@
+{
+	"ID": "20220808233521-dwaxeqo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808233521-dwaxeqo",
+		"title": "NodeJS",
+		"updated": "20220808233543"
+	},
+	"Children": [
+		{
+			"ID": "20220808233521-pdcep4f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808233521-pdcep4f",
+				"updated": "20220808233543"
+			},
+			"Children": [
+				{
+					"ID": "20220808233534-9hnqx5t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808233534-9hnqx5t",
+						"updated": "20220808233543"
+					},
+					"Children": [
+						{
+							"ID": "20220808233534-kq90gci",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808233534-kq90gci",
+								"updated": "20220808233543"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808233543-jvnyxh6"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "NVM"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

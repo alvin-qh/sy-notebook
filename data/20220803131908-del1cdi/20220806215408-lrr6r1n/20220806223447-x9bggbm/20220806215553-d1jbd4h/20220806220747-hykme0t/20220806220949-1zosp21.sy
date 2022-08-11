@@ -1,0 +1,464 @@
+{
+	"ID": "20220806220949-1zosp21",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220949-1zosp21",
+		"title": "Simplicity",
+		"updated": "20220806221031"
+	},
+	"Children": [
+		{
+			"ID": "20220806221031-5nm6nrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221031-5nm6nrr",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "简洁"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-smg52tv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221031-smg52tv",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-wovawoo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221031-wovawoo",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "消除代码的复杂性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-zlxmuk1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221031-zlxmuk1",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"ID": "20220806221031-kc8f2qk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-kc8f2qk",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-5j4gfff",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-5j4gfff",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对代码而言，简洁就是消除了“多余的复杂性”后的状态。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221031-ne0hiiu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-ne0hiiu",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-77jdpi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-77jdpi9",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“多余的复杂性”不是指反映了目标（代码要达成的目的）复杂程度的复杂性，而是指在修改代码的过程中遗留下来的痕迹所带来的复杂性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-hstsklv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221031-hstsklv",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-rh2q9pb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221031-rh2q9pb",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码的复杂性是罪魁祸首"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-q1elsfb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221031-q1elsfb",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"ID": "20220806221031-w9hruh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-w9hruh1",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-e4gyktd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-e4gyktd",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“多余的复杂性”不具有任何价值。这类复杂性会阻碍代码正常运行，提高修改代码的难度，损害软件的价值。它会给代码埋下祸根。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221031-0a9unqk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-0a9unqk",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-5qfv0uj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-5qfv0uj",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消除“多余的复杂性”可以让代码变得简洁。这样一来，阅读、使用、修改代码的人就能快速理解代码。简洁的代码还能大幅降低故障发生的概率。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-40by49s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221031-40by49s",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-yzik29x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221031-yzik29x",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分清代码中的“玉”与“石”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221031-ixo0shv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221031-ixo0shv",
+				"updated": "20220806221031"
+			},
+			"Children": [
+				{
+					"ID": "20220806221031-1delvrm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-1delvrm",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-qen3ckp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-qen3ckp",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在设计时，将代码的本质部分（玉）放在显眼的位置，保证其他元素（石）不会混入其中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221031-6483hmi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-6483hmi",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-ye58sb3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-ye58sb3",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简洁能给交流带来好的影响。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221031-w7b4c2z",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221031-w7b4c2z",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"ID": "20220806221031-3up3uy1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221031-3up3uy1",
+										"updated": "20220806221031"
+									},
+									"Children": [
+										{
+											"ID": "20220806221031-ndotiy1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221031-ndotiy1",
+												"updated": "20220806221031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "消除多余的复杂性后，留下来的本质部分会更加显眼，代码也变得更易于理解。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221031-xap6jzm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221031-xap6jzm",
+										"updated": "20220806221031"
+									},
+									"Children": [
+										{
+											"ID": "20220806221031-ujn23gz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221031-ujn23gz",
+												"updated": "20220806221031"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重视交流，从他人的角度看问题，能够帮助我们判断出应该剔除哪些东西，从而提高简化代码的效率。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221031-qpv7tyg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221031-qpv7tyg",
+						"updated": "20220806221031"
+					},
+					"Children": [
+						{
+							"ID": "20220806221031-a5iu5dq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221031-a5iu5dq",
+								"updated": "20220806221031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简洁与交流偶尔也会发生冲突。过度简洁会使代码变得难以理解。在遇到这种情况时，我们就需要牺牲一部分简洁性，把交流放在优先的位置。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,648 @@
+{
+	"ID": "20220806222842-3tu2bje",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222842-3tu2bje",
+		"title": "Linearity Principle",
+		"updated": "20220806222856"
+	},
+	"Children": [
+		{
+			"ID": "20220806222851-jmd16be",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222851-jmd16be",
+				"updated": "20220806222856"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "线性原理（又名：透明原理）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-utk3feb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222851-utk3feb",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-nlok06w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222851-nlok06w",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "处理流程尽量走直线"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-hgsbifr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222851-hgsbifr",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"ID": "20220806222851-g5pex5q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-g5pex5q",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-qdm3zrk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-qdm3zrk",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线性原理就是让处理流程尽量走直线。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222851-nuxtnyt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222851-nuxtnyt",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"ID": "20220806222851-fjk0oo5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-fjk0oo5",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-upitgbr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-upitgbr",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个功能如果可以通过多个功能的线性结合来实现，那它的结构就会非常简单。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222851-tkx50ww",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-tkx50ww",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-mj95h2g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-mj95h2g",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用条件分支控制代码、毫无章法地增加状态数等行为会让代码变得难以理解。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222851-ysc9nqc",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222851-ysc9nqc",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"ID": "20220806222851-j7os3h1",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222851-j7os3h1",
+														"updated": "20220806222851"
+													},
+													"Children": [
+														{
+															"ID": "20220806222851-e4tm4nl",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222851-e4tm4nl",
+																"updated": "20220806222851"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "要避免做出这些行为，提高代码的可读性。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222851-2o8pcq6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-2o8pcq6",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-7bt4kf3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-7bt4kf3",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“透明”一词可以用来形容代码有较高的可读性，所以线性原理又称为“透明原理”。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-olhgao7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222851-olhgao7",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-79i6jyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222851-79i6jyd",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "直线处理可提高代码的可读性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-axhw9wj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222851-axhw9wj",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"ID": "20220806222851-7rnsncc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-7rnsncc",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-sgghv3a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-sgghv3a",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "复杂的处理流程是故障的温床。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222851-g548xpt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222851-g548xpt",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"ID": "20220806222851-z9egebr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-z9egebr",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-8uv86dr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-8uv86dr",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "故障多出现在复杂的条件语句和循环语句中。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222851-qblzjpo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-qblzjpo",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-8ej5ceb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-8ej5ceb",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自上而下的处理流程简单明快，易于理解。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222851-5key2ny",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222851-5key2ny",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"ID": "20220806222851-5l4z5by",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-5l4z5by",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-0m3ka1t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-0m3ka1t",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让处理由高层次流向低层次，一气呵成，代码的可读性就会大幅提高。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222851-hmfwrrb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-hmfwrrb",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-imyqpo8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-imyqpo8",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可维护性也将提高，添加功能等改良工作将变得更加容易。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-8i41mi7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222851-8i41mi7",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-0vizb9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222851-0vizb9d",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "尽量不在代码中使用条件分支"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222851-r79o8x9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222851-r79o8x9",
+				"updated": "20220806222851"
+			},
+			"Children": [
+				{
+					"ID": "20220806222851-5e16quc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-5e16quc",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-55er0f8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-55er0f8",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少条件分支的数量，编写能让代码阅读者线性地看完整个处理流程的代码。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222851-ztmwufz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222851-ztmwufz",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"ID": "20220806222851-avy748i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-avy748i",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-ugav2xx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-ugav2xx",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需要把一些特殊的处理拿到主处理之外。保证处理的统一性，注意处理的流程。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222851-idl96bu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222851-idl96bu",
+										"updated": "20220806222851"
+									},
+									"Children": [
+										{
+											"ID": "20220806222851-miifidr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222851-miifidr",
+												"updated": "20220806222851"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于经过长期维护而变得过于复杂的部分，可以考虑对其进行重构。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222851-rykk72q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222851-rykk72q",
+						"updated": "20220806222851"
+					},
+					"Children": [
+						{
+							"ID": "20220806222851-az5ooav",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222851-az5ooav",
+								"updated": "20220806222851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "明确且可靠的设计不仅对开发人员自身有益，还可以给负责维护的人带来方便。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,486 @@
+{
+	"ID": "20220806221507-pyc9klo",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221507-pyc9klo",
+		"title": "Declarative Expression",
+		"updated": "20220806221511"
+	},
+	"Children": [
+		{
+			"ID": "20220806221511-dgrhwlf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221511-dgrhwlf",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "声明式表达"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-7z7pcor",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221511-7z7pcor",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-awo80wq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221511-awo80wq",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "声明式编程"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-ikprqe0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221511-ikprqe0",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"ID": "20220806221511-c9u551s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221511-c9u551s",
+						"updated": "20220806221511"
+					},
+					"Children": [
+						{
+							"ID": "20220806221511-8gel237",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221511-8gel237",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在表达代码意图时，尽量用“声明式”的表达方式，而非“命令式”的表达方式。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221511-7jq4ylf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221511-7jq4ylf",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"ID": "20220806221511-5as2k4n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221511-5as2k4n",
+										"updated": "20220806221511"
+									},
+									"Children": [
+										{
+											"ID": "20220806221511-g0e5bxo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221511-g0e5bxo",
+												"updated": "20220806221511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命令式编程描述的是问题的解决方法，也就是数据结构与算法。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221511-oam9t1b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221511-oam9t1b",
+										"updated": "20220806221511"
+									},
+									"Children": [
+										{
+											"ID": "20220806221511-h7u4qy7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221511-h7u4qy7",
+												"updated": "20220806221511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "声明式编程描述的是问题的定义，也就是当前问题的性质及解决问题时应满足的限制条件。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-mespl9u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221511-mespl9u",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-77npd1k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221511-77npd1k",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "没有流程方面的限制，可读性更高"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-ukuaws3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221511-ukuaws3",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"ID": "20220806221511-jjdydje",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221511-jjdydje",
+						"updated": "20220806221511"
+					},
+					"Children": [
+						{
+							"ID": "20220806221511-v0ig7ah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221511-v0ig7ah",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "声明式的代码没有流程方面的限制。这种单纯阐述事实的表达方式能够提升代码的可读性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221511-wgp5pil",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221511-wgp5pil",
+						"updated": "20220806221511"
+					},
+					"Children": [
+						{
+							"ID": "20220806221511-k4yuzrb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221511-k4yuzrb",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要想正确理解命令式的代码，就必须时常在脑中描绘其状态、控制及数据流。为此，我们必须跟着代码的流程走向来进行阅读。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-4rw0agv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221511-4rw0agv",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-7hcp82u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221511-7hcp82u",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "采用声明式的表达方式"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221511-vv11eqa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221511-vv11eqa",
+				"updated": "20220806221511"
+			},
+			"Children": [
+				{
+					"ID": "20220806221511-8gu2hw8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221511-8gu2hw8",
+						"updated": "20220806221511"
+					},
+					"Children": [
+						{
+							"ID": "20220806221511-s3x24sn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221511-s3x24sn",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当编程范式使用了声明式语言时，由于编写出的代码是声明式的，所以不用我们去特别注意什么。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221511-v024xe8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221511-v024xe8",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"ID": "20220806221511-s0nmaie",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221511-s0nmaie",
+										"updated": "20220806221511"
+									},
+									"Children": [
+										{
+											"ID": "20220806221511-jpnxtjz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221511-jpnxtjz",
+												"updated": "20220806221511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "函数式语言就是声明式通用编程语言中的一个典型代表。另外，HTML、CSS和SQL等非通用语言也都是声明式的。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221511-1x4qiuw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221511-1x4qiuw",
+						"updated": "20220806221511"
+					},
+					"Children": [
+						{
+							"ID": "20220806221511-9psw1td",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221511-9psw1td",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当编程范式使用了命令式语言时，也要在代码中合适的部分使用声明式表达，以获取声明式带来的优势。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221511-h4dc3d9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221511-h4dc3d9",
+								"updated": "20220806221511"
+							},
+							"Children": [
+								{
+									"ID": "20220806221511-un9rqvd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221511-un9rqvd",
+										"updated": "20220806221511"
+									},
+									"Children": [
+										{
+											"ID": "20220806221511-lotz5an",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221511-lotz5an",
+												"updated": "20220806221511"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以通过注释和DSL（Domain Specific Language，领域特定语言）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

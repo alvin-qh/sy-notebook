@@ -1,0 +1,1471 @@
+{
+	"ID": "20220809222148-bt44ytn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809222148-bt44ytn",
+		"title": "商业化产品经理",
+		"updated": "20220809222733"
+	},
+	"Children": [
+		{
+			"ID": "20220809222207-vnhg4t2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222207-vnhg4t2",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "产品的最终目标是实现商业价值，因此商业产品经理的需求量日益增加。那么，商业产品经理是做什么的呢？需要哪些技能？"
+				}
+			]
+		},
+		{
+			"ID": "20220809222222-x2v8l7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222222-x2v8l7p"
+			}
+		},
+		{
+			"ID": "20220809222207-uz39dcx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-uz39dcx",
+				"updated": "20220809222648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 定义商业产品经理"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-7qmkoow",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809222207-7qmkoow",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-4y9iydk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809222207-4y9iydk",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-gps2r5x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-gps2r5x",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要专业的知识体系，你必须了解各种研发的专业术语，比如什么是接口，什么是数据库，什么是前端HTML/CSS，什么是后端开发语言，什么是前端和后端的分离，以及各种前端/后端和 C 端/ B 端的交互逻辑。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-kw3mglf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809222207-kw3mglf",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-eu1xaop",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-eu1xaop",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要懂得系统思维/场景思维的产品经理，将来对于产品经理的能力提升还会无限放大，包括产品销售策划能力、产品融资谈判能力等等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-6yrl2bc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809222207-6yrl2bc",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-r4qzwah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-r4qzwah",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商业产品经理简单的说就是：通过做一款产品，满足用户的需求，用户进行付费，这就是商业产品经理。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-vlk1a5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222207-vlk1a5l"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "产品经理需要在思维上突破自己，从两个维度去做"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-ey14pcy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-ey14pcy",
+				"updated": "20220809222256"
+			},
+			"Children": [
+				{
+					"ID": "20220809222256-8lf0p62",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222256-8lf0p62",
+						"updated": "20220809222256"
+					},
+					"Children": [
+						{
+							"ID": "20220809222256-avhavlt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222256-avhavlt",
+								"updated": "20220809222305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "积极提升自己的能力："
+								}
+							]
+						},
+						{
+							"ID": "20220809222306-5znyhjj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222306-5znyhjj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品经理是一个综合能力要求较高的职位，商品经理首先要有能力看清自己，了解自己的能力，能想清自己将来会发展到什么程度？这样才有能力去思考一个产品的未来。"
+								}
+							]
+						},
+						{
+							"ID": "20220809222311-ij82fou",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222311-ij82fou"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果产品经理想要有突破，想要上一个台阶，那么毫无疑问，他需要在思维上进行跃进，而不是更熟练地练习所用的软件。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222319-t5e20gl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222319-t5e20gl"
+					},
+					"Children": [
+						{
+							"ID": "20220809222319-s5ssahr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222319-s5ssahr",
+								"updated": "20220809222323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "识别商业本质的重要性"
+								}
+							]
+						},
+						{
+							"ID": "20220809222329-3fc8pze",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222329-3fc8pze"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们看到一些刚刚进入职场学习做产品经理的早期小白，执着于收集高保证原型、产品需求文档、原型交互风格、产品登录逻辑等基本文档。众所周知，一个产品，商业是它的本质，产品商业的本质其实是让人花钱，产品经理的能力是解决用户购买力的问题。"
+								}
+							]
+						},
+						{
+							"ID": "20220809222332-c0ysezz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222332-c0ysezz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "了解产品的商业本质，至于如何实现，那就再简单不过了，你不一定要把原型画得多漂亮，交互做得多智能，需求文档写得多完美，即使是简单的草图，只要能把业务逻辑说清楚，同样也能做出好的产品。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222235-vue3nm7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222235-vue3nm7"
+			}
+		},
+		{
+			"ID": "20220809222207-tltbftk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-tltbftk",
+				"updated": "20220809222651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 商业产品经理的能力模型"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-4b4bi68",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-4b4bi68",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-8kb12x7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-8kb12x7",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-ikch0h2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-ikch0h2",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商业理解力:具备行业分析能力，能够收集整理，能够输出行业发展报告；商业模式分析能力，能够分析某行业的业务特征，能够根据公司发展战略输出商业分析报告；一定的演讲能力，能够明确公司战略和商业意图，简洁地表达出来。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-snlxgjw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-snlxgjw",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-g5o8460",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-g5o8460",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品规划能力:具有商业产品竞争分析能力，能够输出完整的竞品分析报告；具有产品系统规划能力，能够规划产品发展方向，确定产品核心竞争力，具备产品管理能力，能够利用 MVP、生命周期管理等模型完成产品管理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-sg8e4me",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-sg8e4me",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-zzti40v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-zzti40v",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品设计能力：具有优秀的产品设计能力，能够挖掘行业产业链中的价值，分期付款客户需求，设计产品功能，完整还原或创新和优化业务流程；具有优秀的用户感知力，能够在产品中提前让用户感知，让产品有对象感，符合用户认知；具有提炼价值感的能力，能够设计出用户需要的价值感。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-xdrj7ui",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220809222207-xdrj7ui",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-5xab4yl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-5xab4yl",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户体验力:具有交互设计能力，能够控制整个产品的可用性和易用性；具有良好的审美能力，可以使整个产品的艺术设计符合用户的需求和趋势。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-ey9nm1c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220809222207-ey9nm1c",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-vvu3c8j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-vvu3c8j",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品管理能力:具有良好的项目管理能力，能够控制完整的研发过程；具有良好的沟通能力，能够调动和协调研发资源，有效完成项目；具有良好的全局观，能够协调各种资源，明确产品优先级，保证产品按时发布；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-zqha0ar",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220809222207-zqha0ar",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-gklc0iz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-gklc0iz",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品运营能力:具备用户运营管理能力，关注用户核心指标，如注册用户数、在线用户数、活跃用户数、用户在线时间等。具备产品运输能力，包括线上和线下发布、产品说明书编写、反馈收集、品牌推广和公共关系活动等；具备产品日常运营和营销推广能力，能够独立完成活动规划，达到相应的业务目标。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222451-dutlhp2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222451-dutlhp2"
+			}
+		},
+		{
+			"ID": "20220809222207-y3a8koh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-y3a8koh",
+				"updated": "20220809222656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 商业产品经理的价值模型"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-3zdyhlf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-3zdyhlf",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-aaooqw9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-aaooqw9",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-ecz43d0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-ecz43d0",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品商业蓝图:一个合格的商业产品经理必须能够为公司建立一个产品长期发展的矩阵，清楚地定义公司现在应该做什么和不应该做什么。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-eirg6yn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-eirg6yn",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-gtkjyv1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-gtkjyv1",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "推动组织变更:商业产品经理的价值也体现在推动公司组织变更上。为了完成产品的商业蓝图，能够合理的完成组织的重组搭建。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222346-wjk1f1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222346-wjk1f1z"
+			}
+		},
+		{
+			"ID": "20220809222207-cm1yejb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-cm1yejb",
+				"updated": "20220809222659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 商业产品经理的成长秘籍"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-ihzowym",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809222207-ihzowym",
+				"updated": "20220809222702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. 通用能力"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-sptuiii",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-sptuiii",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-v18ua84",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-v18ua84",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-pfnxgbp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-pfnxgbp",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "学习能力：通过计划、任务和资源的综合利用，使工作目标顺利实现。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-4hpzbg6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-4hpzbg6",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-808e7pg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-808e7pg",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行能力：完成预定任务的能力，包括完成任务的主动意识，方法和进度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-gr1ib8i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-gr1ib8i",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-sazz5ar",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-sazz5ar",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "沟通能力：能有效地传达思想、观念、信息，把握对方的意图，说服对方。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-0kswtl1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220809222207-0kswtl1",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-rzd9dc8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-rzd9dc8",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "融入能力：热爱公司，热爱行业，把产品当作自己的孩子。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-mxq4lvp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220809222207-mxq4lvp",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-mee310e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-mee310e",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "心态和情商：遇到问题要保持良好的心态，要有开放的心态去接受各种各样的问题。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222454-wqhl3w8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222454-wqhl3w8"
+			}
+		},
+		{
+			"ID": "20220809222207-hteqrx5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809222207-hteqrx5",
+				"updated": "20220809222711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. 专业知识"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-f9wyz9y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-f9wyz9y",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-pdysjl5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-pdysjl5",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-uykr2gt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-uykr2gt",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "技术知识：了解与产品相关的技术实现原理和表现形式，能与技术人员进行有效的沟通。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-xkf1em4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-xkf1em4",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-34t6nbo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-34t6nbo",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目管理：通过流程规划、时间安排、任务及人员管理及资源整合应用，顺利实现项目目标。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222455-cfrbn1p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222455-cfrbn1p"
+			}
+		},
+		{
+			"ID": "20220809222207-brf4z1s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809222207-brf4z1s",
+				"updated": "20220809222715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.3. 专业技能"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-dszzviq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-dszzviq",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-wmysyph",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-wmysyph",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-uhx7iwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-uhx7iwn",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "产品规划能力：能准确把握用户需求，优先排序，明确版本规划。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-y9f4rlk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-y9f4rlk",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-wwbquev",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-wwbquev",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "专业设计能力：根据用户使用场景，使用相关领域知识，实现用户预期目标。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-phqh0ed",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-phqh0ed",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-39ya6xm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-39ya6xm",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商业分析能力：掌握和分析行业数据，竞争对手动态，确定产品市场定位。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-9p0kfq2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220809222207-9p0kfq2",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-7ondelb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-7ondelb",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "商业沟通能力：了解合作伙伴的利益点和他们可以提供的资源，形成双赢计划。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222458-ufx2wuo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222458-ufx2wuo"
+			}
+		},
+		{
+			"ID": "20220809222207-n3dm27k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809222207-n3dm27k",
+				"updated": "20220809222722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.4. 组织影响力"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-4z0olco",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-4z0olco",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-ab0usg1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-ab0usg1",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-jqpbizj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-jqpbizj",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "方法论建设：在工作中积极帮助他人提高专业能力或提供发展机会，帮助他人学习和进步。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-6vhuo6a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-6vhuo6a",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-s1xzzit",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-s1xzzit",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "知识传承：从工作积累中不断总结提炼，形成普遍的解决方案，起到指导和示范作用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-l72jhlk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-l72jhlk",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-5jukt46",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-5jukt46",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "人才培养：能主动将自己所掌握的知识信息、资源信息以沟通培训等形式共享，帮助同事共同提升。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222500-x6vy5kx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222500-x6vy5kx"
+			}
+		},
+		{
+			"ID": "20220809222207-nd7wxu5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-nd7wxu5",
+				"updated": "20220809222727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 基本思考模型"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-8vptj6j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-8vptj6j",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-3irb3lv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-3irb3lv",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-bdz69bf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-bdz69bf",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "灰度策略：接受不完美，没有哪一种产品出来是完美的，我们要做好A/B方式，灰度策略，同时还要快速迭代。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-ps7xzra",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-ps7xzra",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-qsve3vv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-qsve3vv",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "整合思维：做长远考虑，做产品不是做项目，一位合格的商业商品经理，一定是一位懂得完美规划产品的产品经理，会预测产品走向，留出产品优化空间，留出产品下一步走向。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-4urm082",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-4urm082",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-kqywmuo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-kqywmuo",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误防范：在我们的日常产品规划过程中，商业产品经理也需要做到错误预防，比如功能太完美，不舍得删除；与研发沟通的过程中缺乏数据支持。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222502-5wthy3s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222502-5wthy3s"
+			}
+		},
+		{
+			"ID": "20220809222207-3tb5okb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-3tb5okb",
+				"updated": "20220809222730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 基本修养模型"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-bd3m124",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222207-bd3m124",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个好的商业产品经理应该有自己的基本修养，这是获得基本能力和练习思维方式的动力。就像一个演员应该有自我修养一样，很多事情都是由产品经理来完成的，而不是由领导来管理你，由公司来培训你，由老员工来帮助你，一切都是靠自己的努力。"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-n8rypys",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809222207-n8rypys",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"ID": "20220809222207-q6kbnje",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809222207-q6kbnje",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-xnpbyd1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-xnpbyd1",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "广度、拓宽视野：身为产品经理，除了每天工作八小时外，你还需要花更多的时间来扩展你的知识能力，多看看一些行业发展报告，竞争公司的产品动态，以及周边新兴行业，当然，除了看还不行，你还需要学会输入，思考，输出过程，这样知识才会成为你的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-s7x301q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809222207-s7x301q",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-1eag14z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-1eag14z",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "深度、持续挖井：获取知识，不只是在广度上获取，一定要深入挖掘，考虑别人为什么会写出这样的观点，他的基本原理是什么？例如，竞品出现了市场上从未有过的功能，但顾客都在叫好，为什么这个功能是他们先推出的，而非你的产品，可以从本质上考虑。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809222207-fsoscow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809222207-fsoscow",
+						"updated": "20220809222207"
+					},
+					"Children": [
+						{
+							"ID": "20220809222207-lz2ur8g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222207-lz2ur8g",
+								"updated": "20220809222207"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高度、敏锐观察：作为一名商业产品经理，你必须把自己的位置放在和公司领导一样的位置上。当你站在领带层看问题时，你会慢慢锻炼你的高度思考能力。你不认为产品属于公司，我只是按照我的劳动分工来完成我应该做的事情。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809222505-r5qenz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222505-r5qenz2"
+			}
+		},
+		{
+			"ID": "20220809222207-2q0fh6k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809222207-2q0fh6k",
+				"updated": "20220809222733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. 产品经理速度、迭代升级"
+				}
+			]
+		},
+		{
+			"ID": "20220809222207-ymx9yr2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222207-ymx9yr2",
+				"updated": "20220809222207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "商场就像战场，产品有生命周期，好的想法在市场上不会长期存在。作为商业产品经理，必须重视瞬息万变的市场环境。听到风吹草动，必须马上动起来，完成你的产品的快速迭代。"
+				}
+			]
+		},
+		{
+			"ID": "20220809222424-34365sf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809222424-34365sf"
+			}
+		}
+	]
+}

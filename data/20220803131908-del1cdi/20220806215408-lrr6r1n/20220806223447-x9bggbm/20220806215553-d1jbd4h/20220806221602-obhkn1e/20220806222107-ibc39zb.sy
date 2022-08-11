@@ -1,0 +1,907 @@
+{
+	"ID": "20220806222107-ibc39zb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222107-ibc39zb",
+		"title": "Single Point of Reference",
+		"updated": "20220806222110"
+	},
+	"Children": [
+		{
+			"ID": "20220806222110-hne7skn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-hne7skn",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单一引用点"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-kyotrl5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222110-kyotrl5",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-upp1gsd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-upp1gsd",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "只定义一次"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-gqh6bc2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222110-gqh6bc2",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"ID": "20220806222110-d6j1e0y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-d6j1e0y",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-bjxofhj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-bjxofhj",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块的各元素仅被声明和定义一次。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-b0hls55",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-b0hls55",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-azs3dxn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-azs3dxn",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以变量为例，仅定义一次就是指初始化之后就不再对值进行更改了。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-nfe8q3s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-nfe8q3s",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-i4fpv9l",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-i4fpv9l",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-xage88v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-xage88v",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不用再追踪变量值的变迁过程，代码的可读性也随之提高。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-6hdiqus",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222110-6hdiqus",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-ol08wxb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-ol08wxb",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "使编程无副作用"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-zidy8b6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222110-zidy8b6",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"ID": "20220806222110-5kxiyo8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-5kxiyo8",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-n98lhkg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-n98lhkg",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "该基本技法可以使编程无副作用。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-22q50p5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-22q50p5",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-bn7bfv5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-bn7bfv5",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-j8xnrpm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-j8xnrpm",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所谓编程的副作用，是指某一功能使模块状态产生变化，对此后得到的结果造成影响。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222110-kx0ykya",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-kx0ykya",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-g0lb7af",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-g0lb7af",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "排除副作用能免去状态的变化，保证相同数据能始终获得相同的结果，从而减少状态依赖引发的故障。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-j72o5ta",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-j72o5ta",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-5lv6o2a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-5lv6o2a",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当某一变量被大范围使用且该变量的值被频繁更改时，我们将很难对代码进行追踪。变量值固定则可以省去这些麻烦，从而提高代码的可读性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-rtvgprd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222110-rtvgprd",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-izsy29d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-izsy29d",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单一赋值"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-npig76m",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222110-npig76m",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"ID": "20220806222110-oaugbmo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-oaugbmo",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-q05gzak",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-q05gzak",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所谓单一赋值，是指仅对变量执行一次赋值操作。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-5xw0dld",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-5xw0dld",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-1t6nc9c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-1t6nc9c",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-wy1eoiq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-wy1eoiq",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要将副作用视为“应该避免的东西”，把变量看作“不变的东西”，给变量赋值后就不再对其进行更改。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-n32yyym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-n32yyym",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-nb61izs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-nb61izs",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "大多数编程语言允许对变量重新赋值。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-3cp082v",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-3cp082v",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-j3p8unu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-j3p8unu",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-zz40qb8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-zz40qb8",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要跳出语法的限制，通过使用常量、设置规则来禁止重新赋值等方式，编写没有副作用的代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-womewur",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222110-womewur",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-troduhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-troduhz",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "通过控制变量提升代码质量"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-egcjoya",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222110-egcjoya",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"ID": "20220806222110-izyexbx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-izyexbx",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-0e7a0me",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-0e7a0me",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "容易发生故障的都是那些非必要的可变变量。如果消除不必要的可变性，增加不可变变量，代码的质量就能得到提升。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-vtaxiaz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-vtaxiaz",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-f022hac",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-f022hac",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于必要的可变变量，要尽量减少访问它的逻辑数量，缩小其作用域。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-fb37kov",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-fb37kov",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-7mmpxb4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-7mmpxb4",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-7v31cjh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-7v31cjh",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "即使我们为变量赋了非法的值，也能轻松找出问题所在。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-p93fopn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222110-p93fopn",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-1ws81kn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222110-1ws81kn",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "引用透明性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222110-q8s89e5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222110-q8s89e5",
+				"updated": "20220806222110"
+			},
+			"Children": [
+				{
+					"ID": "20220806222110-22dzmom",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-22dzmom",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-56atqkt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-56atqkt",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引用透明性指函数拥有以下两种特性："
+								}
+							]
+						},
+						{
+							"ID": "20220806222110-rz20rns",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222110-rz20rns",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"ID": "20220806222110-iqjyfj3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-iqjyfj3",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-3pilx3j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-3pilx3j",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调用结果只依赖于参数：给参数传递相同的值总能得到相同的返回值，也就是说，返回值只依赖于参数的值。这种特性称为“单纯性”（幂等性）。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222110-c1tp07k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222110-c1tp07k",
+										"updated": "20220806222110"
+									},
+									"Children": [
+										{
+											"ID": "20220806222110-nrnfjew",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222110-nrnfjew",
+												"updated": "20220806222110"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "调用不影响其他功能的运行：函数没有副作用。所谓副作用，是指“某一处理引起状态改变，对此后的处理结果产生影响”。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-il9hq1q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-il9hq1q",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-qrkhl3e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-qrkhl3e",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具有引用透明性的函数测试起来非常简单。我们只需准备一系列测试数据作为参数值，然后验证函数调用结果即可。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222110-svjjnpb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222110-svjjnpb",
+						"updated": "20220806222110"
+					},
+					"Children": [
+						{
+							"ID": "20220806222110-4ue62ex",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222110-4ue62ex",
+								"updated": "20220806222110"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引用透明性对优化处理也有一定好处，比如可以用已知的处理结果代替函数调用等。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

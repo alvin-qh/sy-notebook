@@ -1,0 +1,3495 @@
+{
+	"ID": "20220809125740-dar16aa",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809125740-dar16aa",
+		"title": "MSYS2",
+		"updated": "20220810012753"
+	},
+	"Children": [
+		{
+			"ID": "20220809125753-a6yqjqx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-a6yqjqx",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-208b2u8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-208b2u8",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 下载和安装"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-cmnww5f",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809125753-cmnww5f",
+				"updated": "20220809125812"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-y2d2rkm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809125753-y2d2rkm",
+						"updated": "20220809125812"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-bgjo4y0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-bgjo4y0",
+								"updated": "20220809125812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "MSYS2"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.msys2.org/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载安装包"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-e9gpk00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809125753-e9gpk00",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-ubq3syt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-ubq3syt",
+								"updated": "20220809125753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "利用安装包进行安装"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809125840-5mbki1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125840-5mbki1w"
+			}
+		},
+		{
+			"ID": "20220809125753-oc0qeh2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-oc0qeh2",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. 启动"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-oe74rkk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-oe74rkk",
+				"updated": "20220809125825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 CMD 或 Powershell 中执行"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-1aegyy5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-1aegyy5",
+				"updated": "20220809125830"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "C:\\msys64\\msys2_shell.cmd -defterm -no-start -mingw64\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809125843-g8673s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125843-g8673s4"
+			}
+		},
+		{
+			"ID": "20220809125753-3nz3auj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-3nz3auj",
+				"updated": "20220809130120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. pacman"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-lmxzrqv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-lmxzrqv",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 更改软件源"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-5hmsfw5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-5hmsfw5",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-kbbvtmd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-kbbvtmd",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-pfyk38u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-pfyk38u",
+								"updated": "20220809125852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/etc/pacman.d/mirrorlist.mingw32"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，增加如下内容"
+								}
+							]
+						},
+						{
+							"ID": "20220809125938-7trnerd",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809125938-7trnerd",
+								"updated": "20220809125950"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aW5p"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Server = http://mirrors.ustc.edu.cn/msys2/mingw/i686\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125859-hmh15no",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125859-hmh15no"
+					},
+					"Children": [
+						{
+							"ID": "20220809125859-x3711pi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125859-x3711pi",
+								"updated": "20220809125957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/etc/pacman.d/mirrorlist.mingw64"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，增加如下内容"
+								}
+							]
+						},
+						{
+							"ID": "20220809130002-sn3hok1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130002-sn3hok1",
+								"updated": "20220809130006"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aW5p"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Server = http://mirrors.ustc.edu.cn/msys2/mingw/x86_64\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125908-ljaptgc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125908-ljaptgc"
+					},
+					"Children": [
+						{
+							"ID": "20220809125908-fz804mr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125908-fz804mr",
+								"updated": "20220809130018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/etc/pacman.d/mirrorlist.msys"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，增加如下内容"
+								}
+							]
+						},
+						{
+							"ID": "20220809130022-suviiu2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130022-suviiu2",
+								"updated": "20220809130024"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "aW5p"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Server = http://mirrors.ustc.edu.cn/msys2/msys/$arch\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809130058-9bjld2y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809130058-9bjld2y"
+			}
+		},
+		{
+			"ID": "20220809125753-o9hkje3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-o9hkje3",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 更新软件包"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-hh27ssc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-hh27ssc",
+				"updated": "20220809130108"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pacman -Syu\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809130111-dgy3x37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809130111-dgy3x37"
+			}
+		},
+		{
+			"ID": "20220809125753-qc7byva",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-qc7byva",
+				"updated": "20220809130113"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 使用 pacman"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-ix65fag",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-ix65fag",
+				"updated": "20220810012753"
+			},
+			"Children": [
+				{
+					"ID": "20220810012713-eqtq5gu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220810012713-eqtq5gu",
+						"updated": "20220810012742"
+					},
+					"Children": [
+						{
+							"ID": "20220810012713-4ljf7w9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220810012713-4ljf7w9",
+								"updated": "20220810012726"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列举所有可安装软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220810012726-fgc0j42",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220810012726-fgc0j42",
+								"updated": "20220810012742"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pacman -Si\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-ctcg3v2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-ctcg3v2",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-katb4gu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-katb4gu",
+								"updated": "20220809125753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220809130134-48l6497",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130134-48l6497",
+								"updated": "20220809130141"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pacman -S \u003cpackage name\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809130128-gzaybtr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809130128-gzaybtr"
+					},
+					"Children": [
+						{
+							"ID": "20220809130128-als9tep",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809130128-als9tep",
+								"updated": "20220809130149"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220809130154-p2pfjw5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130154-p2pfjw5",
+								"updated": "20220809130156"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pacman -Rs \u003cpackage name\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809130128-tvc3lma",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809130128-tvc3lma",
+						"updated": "20220810012753"
+					},
+					"Children": [
+						{
+							"ID": "20220809130128-bq08j93",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809130128-bq08j93",
+								"updated": "20220809130203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清理安装缓存"
+								}
+							]
+						},
+						{
+							"ID": "20220809130207-1qz9pdp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130207-1qz9pdp",
+								"updated": "20220810012753"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pacman -Sc\npacman -Scc\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809130129-v9rhjdk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809130129-v9rhjdk"
+					},
+					"Children": [
+						{
+							"ID": "20220809130129-k25njdh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809130129-k25njdh",
+								"updated": "20220809130220"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 gcc 工具链"
+								}
+							]
+						},
+						{
+							"ID": "20220809130225-nfhvodz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809130225-nfhvodz",
+								"updated": "20220809130228"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pacman -S mingw-w64-x86_64-toolchain libraries development compression sys-utils net-utils msys2-devel mingw-w64-x86_64-cmake\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809130239-b5gwk8k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809130239-b5gwk8k"
+			}
+		},
+		{
+			"ID": "20220809125753-ag7zc4i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-ag7zc4i",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. GIT"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-qo948ri",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-qo948ri",
+				"updated": "20220809133810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. 生成 ssh key"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-rg3hcgx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-rg3hcgx",
+				"updated": "20220809133817"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ssh-keygen -t rsa -C \"quhao317@163.com“\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-uljuudw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-uljuudw",
+				"updated": "20220809133827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此命令会在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "~/.ssh"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 路径下生成 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "id_rsa"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 和 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "id_rsa.pub"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件"
+				}
+			]
+		},
+		{
+			"ID": "20220809133830-8kc3xww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809133830-8kc3xww"
+			}
+		},
+		{
+			"ID": "20220809125753-xcgyuv9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-xcgyuv9",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. 配置GIT"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-jx3pym1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-jx3pym1",
+				"updated": "20220809133842"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-rn8e6nh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-rn8e6nh",
+						"updated": "20220809133842"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-9nu3km1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-9nu3km1",
+								"updated": "20220809125753"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置用户信息"
+								}
+							]
+						},
+						{
+							"ID": "20220809133834-ij69tl5",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809133834-ij69tl5",
+								"updated": "20220809133842"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "git config --global user.name \"alvin\"\ngit config --global user.email \"quhao317@163.com\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809133854-ce7iv80",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809133854-ce7iv80"
+			}
+		},
+		{
+			"ID": "20220809125753-rjrxud5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-rjrxud5",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. Python"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-qg95j1y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-qg95j1y",
+				"updated": "20220809133903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. 使用 msys2 内置 Python"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-ru2w75g",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809125753-ru2w75g",
+				"updated": "20220809133915"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-x8buu3d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809125753-x8buu3d",
+						"updated": "20220809133912"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-9le75ao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-9le75ao",
+								"updated": "20220809133912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 pacman 安装 Python"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-w729lsv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809125753-w729lsv",
+						"updated": "20220809133915"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-i20f2h6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-i20f2h6",
+								"updated": "20220809133915"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/mingw64/bin/python"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中的 Python"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809133906-auxeh6h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809133906-auxeh6h",
+				"updated": "20220809133907"
+			}
+		},
+		{
+			"ID": "20220809125753-wcjhtt2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-wcjhtt2",
+				"updated": "20220809133921"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. 使用安装在 Windows 中的 Python"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-spaj9ji",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809125753-spaj9ji",
+				"updated": "20220809133923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2.1. 安装 Python for Windows"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-67nyd60",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809125753-67nyd60",
+				"updated": "20220809134026"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-4y8wbvy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809125753-4y8wbvy",
+						"updated": "20220809133958"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-mi19bw8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-mi19bw8",
+								"updated": "20220809133958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Python Releases for Windows | Python.org"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.python.org/downloads/windows/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载安装包"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-zll5r7u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809125753-zll5r7u",
+						"updated": "20220809134026"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-gz1eagp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-gz1eagp",
+								"updated": "20220809134026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 Python"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-1d5kstr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-1d5kstr",
+				"updated": "20220809134029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如：安装如下版本的 Python 包"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-11abvqu",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-11abvqu",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-jpjuyu5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-jpjuyu5",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-mae0bcj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-mae0bcj",
+								"updated": "20220809125753"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "python-3.7.6-amd64.exe"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": Install at "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "C:\\Users\u003cuser name\u003e\\Apps\\Python37"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-qezdppb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-qezdppb",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-q99vsj0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-q99vsj0",
+								"updated": "20220809125753"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "python-3.8.1-amd64.exe"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ": Install at "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "C:\\Users\u003cuser name\u003e\\Apps\\Python38"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809134108-4ccms5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809134108-4ccms5v"
+			}
+		},
+		{
+			"ID": "20220809125753-ko2xbuz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220809125753-ko2xbuz",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2.2. 设置msys2环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-cxlaqt9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809125753-cxlaqt9",
+				"updated": "20220809174905"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-yhykdu0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809125753-yhykdu0",
+						"updated": "20220809174905"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-7skmvch",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-7skmvch",
+								"updated": "20220809134112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.bashrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件中增加如下配置"
+								}
+							]
+						},
+						{
+							"ID": "20220809134306-5e0lkut",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809134306-5e0lkut",
+								"updated": "20220809174905"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export PY37_HOME=\u003cpython3.7 install path\u003e\nexport PY38_HOME=\u003cpython3.8 install path\u003e\n\nexport PATH=$PY38_HOME:$PY38_HOME/Scripts:$PATH\n\nalias py38='\"$PY38_HOME/python.exe\"'\nalias py37='\"$PY37_HOME/python.exe\"'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809134314-dc9liae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809134314-dc9liae"
+					},
+					"Children": [
+						{
+							"ID": "20220809134314-3r0yq4w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809134314-3r0yq4w",
+								"updated": "20220809134318"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置 pip 镜像网站"
+								}
+							]
+						},
+						{
+							"ID": "20220809134320-0eh2sxo",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809134320-0eh2sxo",
+								"updated": "20220809134325"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809134338-mzh0qpu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809134338-mzh0qpu"
+					},
+					"Children": [
+						{
+							"ID": "20220809134338-yb6d4oc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809134338-yb6d4oc",
+								"updated": "20220809134342"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "virtualenv"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809134347-lpvzldw",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809134347-lpvzldw",
+								"updated": "20220809134349"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "$ python -m pip install virtualenv\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809134416-aupcwzk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220809134416-aupcwzk",
+						"updated": "20220809134431"
+					},
+					"Children": [
+						{
+							"ID": "20220809134416-1f8z8ol",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809134416-1f8z8ol",
+								"updated": "20220809134420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "virtualenv"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809134429-eh9vgyk",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220809134429-eh9vgyk",
+								"updated": "20220809134431"
+							},
+							"Children": [
+								{
+									"ID": "20220809134431-i9nl5qg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809134431-i9nl5qg",
+										"updated": "20220809134431"
+									},
+									"Children": [
+										{
+											"ID": "20220809134431-mq7p1iw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809134431-mq7p1iw",
+												"updated": "20220809134432"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用当前版本创建"
+												}
+											]
+										},
+										{
+											"ID": "20220809134437-vooee68",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220809134437-vooee68",
+												"updated": "20220809134440"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "python -m venv .venv --prompt=\u003cenv name\u003e\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809134449-eh6cbut",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809134449-eh6cbut",
+										"updated": "20220809134449"
+									},
+									"Children": [
+										{
+											"ID": "20220809134449-xl0nae3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809134449-xl0nae3",
+												"updated": "20220809134449"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用指定版本创建"
+												}
+											]
+										},
+										{
+											"ID": "20220809134523-wv2l0jh",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220809134523-wv2l0jh",
+												"updated": "20220809134526"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "virtualenv .venv --python=$(py37) --prompt=\u003cenv name\u003e\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809134534-uek2zav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809134534-uek2zav"
+			}
+		},
+		{
+			"ID": "20220809125753-b6swosm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-b6swosm",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. Java"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-ua0ukhh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-ua0ukhh",
+				"updated": "20220809134543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.1. 安装 Java for Windows"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-apip3qy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-apip3qy",
+				"updated": "20220809134650"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Java Platform, Standard Edition 17 Reference Implementations"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://jdk.java.net/java-se-ri/17"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，安装到"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "C:\\Users\\\u003cuser name\u003e\\Apps\\open-jdk17"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809134635-g01dt8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809134635-g01dt8c"
+			}
+		},
+		{
+			"ID": "20220809125753-c06d55q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-c06d55q",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.2. 设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-73aod2f",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220809125753-73aod2f",
+				"updated": "20220809134722"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-b7io63g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220809125753-b7io63g",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-dbnaax1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-dbnaax1",
+								"updated": "20220809134654"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.bashrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件中增加如下配置"
+								}
+							]
+						},
+						{
+							"ID": "20220809134700-zyf9d49",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809134700-zyf9d49",
+								"updated": "20220809134703"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export JAVA8_HOME=\u003cjdk8 install path\u003e\nexport JAVA13_HOME=\u003cjdk13 install path\u003e\nexport JAVA_HOME=$JAVA8_HOME\n\nexport PATH=$PATH:$JAVA_HOME/bin\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809134714-lu7lmf4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220809134714-lu7lmf4",
+						"updated": "20220809134722"
+					},
+					"Children": [
+						{
+							"ID": "20220809134714-aedhjmt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809134714-aedhjmt",
+								"updated": "20220809134717"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "切换当前的 JDK 版本"
+								}
+							]
+						},
+						{
+							"ID": "20220809134720-kmx9kwz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809134720-kmx9kwz",
+								"updated": "20220809134722"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export JAVA_HOME=$JAVA13_HOME\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809134857-vegkty4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809134857-vegkty4"
+			}
+		},
+		{
+			"ID": "20220809125753-qkn3aty",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-qkn3aty",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. Gradle"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-x6kzxb9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-x6kzxb9",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.1. 下载并安装"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-k8fjb8c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-k8fjb8c",
+				"updated": "20220809134948"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-hhegbrx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-hhegbrx",
+						"updated": "20220809134922"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-0ln5xev",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-0ln5xev",
+								"updated": "20220809134922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Gradle | Releases"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://gradle.org/releases/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载 Gradle 二进制分发版 (binary-only)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-1u3d6y0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-1u3d6y0",
+						"updated": "20220809134948"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-6tc20hr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-6tc20hr",
+								"updated": "20220809134948"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将下载好的压缩包解压到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "C:\\Users\\\u003cuser name\u003e\\Apps\\gradle7.02"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809134952-unobah5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809134952-unobah5"
+			}
+		},
+		{
+			"ID": "20220809125753-x74oro9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-x74oro9",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6.2. 设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-sivy35z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-sivy35z",
+				"updated": "20220809135001"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "~/.bashrc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件中增加如下配置"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-0kvq1kz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-0kvq1kz",
+				"updated": "20220809135027"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "WIN_HOME=\"/c/Users/\u003cuser name\u003e\"\nexport GRADLE_HOME=\"$WIN_HOME/Apps/gradle-6.1.1\"\nexport PATH=\"$PATH:$GRADLE_HOME/bin\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809135028-4vzr9mz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135028-4vzr9mz"
+			}
+		},
+		{
+			"ID": "20220809125753-bfy0nde",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-bfy0nde",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. NVM"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-pyiylms",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-pyiylms",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.1. 下载并安装"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-fn2qs5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-fn2qs5h",
+				"updated": "20220809135052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "访问 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Releases · coreybutler/nvm-windows (github.com)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/coreybutler/nvm-windows/releases"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，下载 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "nvm-setup.zip"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件并安装到 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "C:\\Users\\\u003cuser name\u003e\\Apps\\nvm"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809135031-hlaxh7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135031-hlaxh7s"
+			}
+		},
+		{
+			"ID": "20220809125753-0rp86r2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-0rp86r2",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.2. 设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-5bltmhv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-5bltmhv",
+				"updated": "20220809135100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "~/.bashrc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件中增加如下配置"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-hc2qdll",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-hc2qdll",
+				"updated": "20220809135109"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "WIN_PRO=\"/c/Program Files\"\nexport NVM_HOME=\u003cnvm install path\u003e\nexport NODE_HOME=\"$WIN_PRO/nodejs\"\nexport PATH=$PATH:$NVM_HOME:$NODE_HOME\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809135115-1zrjupw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135115-1zrjupw"
+			}
+		},
+		{
+			"ID": "20220809125753-pk4kc68",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-pk4kc68",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7.3. 安装和使用nodejs"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-ibdww22",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-ibdww22",
+				"updated": "20220809135204"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-rdkcj4k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-rdkcj4k",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-000k17b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-000k17b",
+								"updated": "20220809135127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看可用的 node 版本"
+								}
+							]
+						},
+						{
+							"ID": "20220809135128-y4ke8ue",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809135128-y4ke8ue",
+								"updated": "20220809135130"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "nvm list available\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809135137-sexd9dy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809135137-sexd9dy"
+					},
+					"Children": [
+						{
+							"ID": "20220809135137-wkfzue8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809135137-wkfzue8",
+								"updated": "20220809135139"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 node"
+								}
+							]
+						},
+						{
+							"ID": "20220809135143-y6x4lak",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809135143-y6x4lak",
+								"updated": "20220809135146"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "nvm install 12.14.1\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809135153-rl4uryo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809135153-rl4uryo",
+						"updated": "20220809135204"
+					},
+					"Children": [
+						{
+							"ID": "20220809135153-482h7u1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809135153-482h7u1",
+								"updated": "20220809135158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "切换当前的 node 版本"
+								}
+							]
+						},
+						{
+							"ID": "20220809135201-qrdtkix",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809135201-qrdtkix",
+								"updated": "20220809135204"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "nvm use 12.14.1\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809135211-2nyg5zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135211-2nyg5zx"
+			}
+		},
+		{
+			"ID": "20220809125753-mzdv93c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-mzdv93c",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8. MISC"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-2bzs33z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-2bzs33z",
+				"updated": "20220809135213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8.1. 使用 Sublime Text 3"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-mbkhc4d",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-mbkhc4d",
+				"updated": "20220809135236"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-ebyu569",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-ebyu569",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-4uac651",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-4uac651",
+								"updated": "20220809135227"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Download - Sublime Text"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://www.sublimetext.com/3"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载安装包并进行安装"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-8bu60dp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-8bu60dp",
+						"updated": "20220809135236"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-36x92g7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-36x92g7",
+								"updated": "20220809135230"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.bashrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件并增加如下配置"
+								}
+							]
+						},
+						{
+							"ID": "20220809135234-kqkbmve",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809135234-kqkbmve",
+								"updated": "20220809135236"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "alias subl='\"/c/Program Files/Sublime Text 3/subl.exe\"'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809135248-ke512a5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809135248-ke512a5",
+						"updated": "20220809135254"
+					},
+					"Children": [
+						{
+							"ID": "20220809135248-a9lgj3h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809135248-a9lgj3h",
+								"updated": "20220809135254"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "subl"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令使用 Sublime Text 3"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809135257-p7yh0e6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135257-p7yh0e6"
+			}
+		},
+		{
+			"ID": "20220809125753-wer35dc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-wer35dc",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8.2. VSCode"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-h4kztx0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-h4kztx0",
+				"updated": "20220809135320"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-v6yxdiy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-v6yxdiy",
+						"updated": "20220809125753"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-ltq79e7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-ltq79e7",
+								"updated": "20220809135312"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Download Visual Studio Code - Mac, Linux, Windows"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://code.visualstudio.com/download"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载VSCode并安装"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-33n9bwl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-33n9bwl",
+						"updated": "20220809135320"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-djfasqq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-djfasqq",
+								"updated": "20220809135315"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "~/.bashrc"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件并增加如下内容"
+								}
+							]
+						},
+						{
+							"ID": "20220809135318-fwm746l",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809135318-fwm746l",
+								"updated": "20220809135320"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "alias code='\"$WIN_HOME/AppData/Local/Programs/Microsoft VS Code/bin/code\"'\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809135328-0665e27",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809135328-0665e27"
+			}
+		},
+		{
+			"ID": "20220809125753-ordujyf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220809125753-ordujyf",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8.3. PhantomJS"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-pe5bf1h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125753-pe5bf1h",
+				"updated": "20220809162759"
+			},
+			"Children": [
+				{
+					"ID": "20220809125753-l83xqe5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-l83xqe5",
+						"updated": "20220809135339"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-x9o4pj1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-x9o4pj1",
+								"updated": "20220809135339"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Download PhantomJS"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://phantomjs.org/download.html"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 下载 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": ".zip"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 压缩包文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-rbnbhn2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-rbnbhn2",
+						"updated": "20220809162752"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-q2oc5am",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-q2oc5am",
+								"updated": "20220809162752"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将压缩包解压到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "C:\\Users\\\u003cuser name\u003e\\Apps\\phantomjs-2.1.1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125753-vh9s2cm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125753-vh9s2cm",
+						"updated": "20220809162759"
+					},
+					"Children": [
+						{
+							"ID": "20220809125753-5iqvja6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125753-5iqvja6",
+								"updated": "20220809162759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "PATH"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 环境变量中增加 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "\u003cphantomjs install folder\u003e/bin"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 目录"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809165320-32fg8dr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809165320-32fg8dr"
+			}
+		},
+		{
+			"ID": "20220809125753-0crzuvk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220809125753-0crzuvk",
+				"updated": "20220809165315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整的 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "~/.bashrc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件"
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-nhdmbex",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125753-nhdmbex",
+				"updated": "20220809125753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置完毕后，"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "~/.bashrc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "文件中的内容类似："
+				}
+			]
+		},
+		{
+			"ID": "20220809125753-xiugv6a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809125753-xiugv6a",
+				"updated": "20220809174834"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "QmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "PATH=\"/mingw64/bin\":\"/usr/local/bin\":\"/usr/bin:/bin\":\"/c/Windows/System32\":\"/c/Windows\":\"/c/Windows/System32/Wbem\":\"/c/Windows/System32/WindowsPowerShell/v1.0/\":\"/usr/bin/site_perl\":\"/usr/bin/vendor_perl\":\"/usr/bin/core_perl\"\n\nWIN_HOME=\"/c/Users/alvin\"\nWIN_PRO=\"/c/Program Files\"\n\nexport JAVA8_HOME=\"$WIN_HOME/Apps/jdk1.8.0_241\"\nexport JAVA13_HOME=\"$WIN_HOME/Apps/jdk-13.0.2\"\nexport JAVA_HOME=$JAVA8_HOME\n\nexport GRADLE_HOME=\"$WIN_HOME/Apps/gradle-6.1.1\"\nexport CHOCO_HOME=\"/c/ProgramData/chocolatey\"\n\nexport PY37_HOME=\"$WIN_HOME/Apps/python37\"\nexport PY38_HOME=\"$WIN_HOME/Apps/python38\"\n\nexport NVM_HOME=\"$WIN_HOME/Apps/nvm\"\nexport NODE_HOME=\"$WIN_PRO/nodejs\"\nexport PHANTOM_JS_HOME=\"$WIN_HOME/Apps/phantomjs-2.1.1\"\n\nexport PATH=$PY38_HOME:$PY38_HOME/Scripts:$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin:$CHOCO_HOME/bin:$NVM_HOME:$NODE_HOME:$PHANTOM_JS_HOME/bin\n\nalias gradle=gradle.bat\nalias py38='\"$PY38_HOME/python.exe\"'\nalias py37='\"$PY37_HOME/python.exe\"'\nalias subl='\"/c/Program Files/Sublime Text 3/subl.exe\"'\nalias code='\"$WIN_HOME/AppData/Local/Programs/Microsoft VS Code/bin/code.exe\"'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

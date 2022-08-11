@@ -1,0 +1,648 @@
+{
+	"ID": "20220806221951-zodz7j2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221951-zodz7j2",
+		"title": "Sufficiency, Completeness, Primitiveness",
+		"updated": "20220806222002"
+	},
+	"Children": [
+		{
+			"ID": "20220806222002-cqsxn0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222002-cqsxn0g",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "充足性、完整性、原始性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-4o89pbl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222002-4o89pbl",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-1dz995k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222002-1dz995k",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "表达要充足、完备且精练"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-jjd1y86",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222002-jjd1y86",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"ID": "20220806222002-3iz4kzy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222002-3iz4kzy",
+						"updated": "20220806222002"
+					},
+					"Children": [
+						{
+							"ID": "20220806222002-lu954fd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222002-lu954fd",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经过封装，让相互关联的元素集中到一个模块来承载一个抽象概念。该模块承载的抽象概念要具有充足性、完整性和原始性："
+								}
+							]
+						},
+						{
+							"ID": "20220806222002-cn8gbx3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222002-cn8gbx3",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"ID": "20220806222002-b28hj2p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-b28hj2p",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-a23gsnm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-a23gsnm",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "充足性：是指模块表达的抽象概念非常充足。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222002-q9zt630",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222002-q9zt630",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"ID": "20220806222002-sogspm7",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222002-sogspm7",
+														"updated": "20220806222002"
+													},
+													"Children": [
+														{
+															"ID": "20220806222002-7b13zb3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222002-7b13zb3",
+																"updated": "20220806222002"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "比如模块要表达“收集”这一概念，但只提供了remove，没有提供add，这就不足以表达“收集”这一概念了。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222002-p5qp4ku",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-p5qp4ku",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-i9ku2ha",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-i9ku2ha",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "完整性：是指模块表达的抽象概念具有所有特征。涵盖所有特征、没有缺漏的模块方便任何人拿去使用。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222002-b7y2fff",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222002-b7y2fff",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"ID": "20220806222002-0rcru13",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222002-0rcru13",
+														"updated": "20220806222002"
+													},
+													"Children": [
+														{
+															"ID": "20220806222002-wc45adz",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222002-wc45adz",
+																"updated": "20220806222002"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "比如当模块要表达“收集”这一概念时，如果模块没有提供用于获取元素个数的size，我们就不能说该抽象概念具有完整性。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222002-i1g4duq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-i1g4duq",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-punvpi1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-punvpi1",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "原始性：原始性是指模块表达的抽象概念非常精练。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222002-c81pybv",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222002-c81pybv",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"ID": "20220806222002-rusoeud",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222002-rusoeud",
+														"updated": "20220806222002"
+													},
+													"Children": [
+														{
+															"ID": "20220806222002-d4ljhr0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222002-d4ljhr0",
+																"updated": "20220806222002"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "比如当模块要表达“收集”这一概念时，如果已经提供了表示添加1个物品的add，则不需要再提供表示添加10个物品的add10。从抽象的精练性这一角度来看，这么做是多余的。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-2g3qwvv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222002-2g3qwvv",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-3teoxyu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222002-3teoxyu",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "准确表达抽象概念"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-s8wsizp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222002-s8wsizp",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"ID": "20220806222002-yuyzivt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222002-yuyzivt",
+						"updated": "20220806222002"
+					},
+					"Children": [
+						{
+							"ID": "20220806222002-5dml1sy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222002-5dml1sy",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块表达的抽象概念必须能向使用者传递有用的信息，准确表达意图。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222002-kobeigp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222002-kobeigp",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"ID": "20220806222002-j2eqtan",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-j2eqtan",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-8j6kw23",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-8j6kw23",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果模块不具备充足性，信息就会出现缺失，导致用户看不清模块的本质。人们无法把说不清道不明的模块拿来使用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222002-h4gbvth",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-h4gbvth",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-s35dr0o",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-s35dr0o",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果模块不具备完整性的模块无法让用户安心使用。一旦出现功能不足的情况，工作就难以进行下去。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222002-ewtvdum",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222002-ewtvdum",
+										"updated": "20220806222002"
+									},
+									"Children": [
+										{
+											"ID": "20220806222002-u6ytcqz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222002-u6ytcqz",
+												"updated": "20220806222002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果模块不具备原始性的模块用起来很麻烦。复杂的接口提升了理解的难度，让人弄不清楚使用时机和使用方法。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-m4adijv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222002-m4adijv",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-sodub5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222002-sodub5v",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "完美表达模块的抽象概念"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222002-lt5m2hd",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222002-lt5m2hd",
+				"updated": "20220806222002"
+			},
+			"Children": [
+				{
+					"ID": "20220806222002-9izgygn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222002-9izgygn",
+						"updated": "20220806222002"
+					},
+					"Children": [
+						{
+							"ID": "20220806222002-mdn4va0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222002-mdn4va0",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要明确模块要表达的抽象概念。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222002-ew8c8r9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222002-ew8c8r9",
+						"updated": "20220806222002"
+					},
+					"Children": [
+						{
+							"ID": "20220806222002-k6kb7mx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222002-k6kb7mx",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信息过多或过少都会使信息的传达变得不准确。模块提供的函数要满足充足性、完整性和原始性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222002-5kl906c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222002-5kl906c",
+						"updated": "20220806222002"
+					},
+					"Children": [
+						{
+							"ID": "20220806222002-758tw3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222002-758tw3c",
+								"updated": "20220806222002"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当出现多余的内容时，要么将其删除，要么将其移至其他模块。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

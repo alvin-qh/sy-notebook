@@ -1,0 +1,606 @@
+{
+	"ID": "20220806222540-e91l3ub",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222540-e91l3ub",
+		"title": "Testability",
+		"updated": "20220806222543"
+	},
+	"Children": [
+		{
+			"ID": "20220806222543-afyku4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222543-afyku4y",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可测试性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-foqmw3t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222543-foqmw3t",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-yyytft2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222543-yyytft2",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "有效进行测试的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-2v1ru9g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222543-2v1ru9g",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"ID": "20220806222543-bcfhumn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-bcfhumn",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-7f3dkml",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-7f3dkml",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可测试性指软件有效且高效地进行测试的能力。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222543-7estmf8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222543-7estmf8",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"ID": "20220806222543-p7nxyg6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-p7nxyg6",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-fb1p6qm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-fb1p6qm",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "“有效地进行测试”"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "指测试有深度且高质量，即通过测试可以全面检测软件的质量。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222543-r9zotum",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-r9zotum",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-x8oblvc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-x8oblvc",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeStrong",
+													"Data": "strong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "“高效地进行测试”"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "指测试所需成本和劳力较少，即能够花费较少的成本快速地检查软件的质量。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-lm78khj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222543-lm78khj",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-gfaph7s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222543-gfaph7s",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "测试的质量即产品的质量"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-pwk98ad",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222543-pwk98ad",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"ID": "20220806222543-82zsdov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-82zsdov",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-9fe9gjr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-9fe9gjr",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要求软件架构不仅要保证软件正常运行，还要有简化测试的效果。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222543-1iqnd1y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-1iqnd1y",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-86jpvfa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-86jpvfa",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在软件的各项需求中，可测试性的重要程度相对较高。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222543-l7xg148",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-l7xg148",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-bb0n8sf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-bb0n8sf",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简化软件的测试需要有软件架构的支持。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222543-ptyis4m",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222543-ptyis4m",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"ID": "20220806222543-lr7ol81",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-lr7ol81",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-hdhzg7q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-hdhzg7q",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "方便调试代码和调试模块的临时整合。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222543-1yj174y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-1yj174y",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-3r2er3w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-3r2er3w",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提高排查及修复故障的效率。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-qq95kfk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222543-qq95kfk",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-4dv0876",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222543-4dv0876",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "在设计产品时兼顾测试"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222543-4bq6o41",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222543-4bq6o41",
+				"updated": "20220806222543"
+			},
+			"Children": [
+				{
+					"ID": "20220806222543-m7wlest",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-m7wlest",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-vae6ley",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-vae6ley",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从软件架构的设计阶段开始，我们就要将测试方法纳入考虑的范围。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222543-jksldg5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222543-jksldg5",
+						"updated": "20220806222543"
+					},
+					"Children": [
+						{
+							"ID": "20220806222543-jjv1avh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222543-jjv1avh",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提高可测试性的关键在于消除模块之间的依赖关系。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222543-8onuzfw",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222543-8onuzfw",
+								"updated": "20220806222543"
+							},
+							"Children": [
+								{
+									"ID": "20220806222543-850ovoq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-850ovoq",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-colu5yn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-colu5yn",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果存在依赖关系，难以测试的部分就会拖整个软件的后腿。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222543-o2gv5ij",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222543-o2gv5ij",
+										"updated": "20220806222543"
+									},
+									"Children": [
+										{
+											"ID": "20220806222543-q2ujl88",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222543-q2ujl88",
+												"updated": "20220806222543"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "尽量消除模块之间的依赖关系，保证测试能够以较小的单位进行。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

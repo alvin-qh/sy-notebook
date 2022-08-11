@@ -1,0 +1,19 @@
+{
+	"ID": "20220808135658-q0bqnge",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135658-q0bqnge",
+		"title": "docker-swam",
+		"updated": "20220808135658"
+	},
+	"Children": [
+		{
+			"ID": "20220808135658-m01er1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135658-m01er1m",
+				"updated": "20220808135658"
+			}
+		}
+	]
+}

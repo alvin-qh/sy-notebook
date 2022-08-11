@@ -1,0 +1,75 @@
+{
+	"ID": "20220811190144-rh1st07",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220811190144-rh1st07",
+		"title": "iTerm",
+		"updated": "20220811190517"
+	},
+	"Children": [
+		{
+			"ID": "20220811190507-jqbwjxa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220811190507-jqbwjxa",
+				"updated": "20220811190517"
+			},
+			"Children": [
+				{
+					"ID": "20220811190511-q4j8e59",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220811190511-q4j8e59",
+						"updated": "20220811190517"
+					},
+					"Children": [
+						{
+							"ID": "20220811190511-fybydo3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220811190511-fybydo3",
+								"updated": "20220811190517"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220811190517-z15jxi9"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "快捷键"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

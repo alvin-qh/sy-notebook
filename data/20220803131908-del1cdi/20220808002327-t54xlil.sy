@@ -1,0 +1,507 @@
+{
+	"ID": "20220808002327-t54xlil",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808002327-t54xlil",
+		"title": "开发技巧",
+		"updated": "20220810134439"
+	},
+	"Children": [
+		{
+			"ID": "20220808002327-z7smgcz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808002327-z7smgcz",
+				"updated": "20220810134439"
+			},
+			"Children": [
+				{
+					"ID": "20220808030148-ry70vt7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030148-ry70vt7",
+						"updated": "20220808025938"
+					},
+					"Children": [
+						{
+							"ID": "20220808030148-2ps9ihd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030148-2ps9ihd",
+								"updated": "20220808030154"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808030141-42f0yzh"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Windows"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030258-rnl9uj2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030258-rnl9uj2",
+						"updated": "20220808021139"
+					},
+					"Children": [
+						{
+							"ID": "20220808030258-36fxkn5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030258-36fxkn5",
+								"updated": "20220808030306"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808030237-wx5g3y0"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Linux"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808235207-6c5xt1n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808235207-6c5xt1n",
+						"updated": "20220809002950"
+					},
+					"Children": [
+						{
+							"ID": "20220808235207-vmjc71c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235207-vmjc71c",
+								"updated": "20220808235215"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808235215-brw77yz"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "macOs"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809175017-bajcivq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809175017-bajcivq",
+						"updated": "20220809175020"
+					},
+					"Children": [
+						{
+							"ID": "20220809175017-2750h63",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809175017-2750h63",
+								"updated": "20220809175020"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806203505-09u6bau"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Android"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808031551-tu1ce8g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808031551-tu1ce8g",
+						"updated": "20220808032251"
+					},
+					"Children": [
+						{
+							"ID": "20220808031551-mqya30d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808031551-mqya30d",
+								"updated": "20220808031557"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808031500-d0hb87j"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Docker"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809123429-eaw2p3c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809123429-eaw2p3c",
+						"updated": "20220809123454"
+					},
+					"Children": [
+						{
+							"ID": "20220809123429-ae5o6y9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809123429-ae5o6y9",
+								"updated": "20220809123433"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808134927-nttr2pr"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "VirtualBox"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808233138-zb7t49z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808233138-zb7t49z",
+						"updated": "20220808233222"
+					},
+					"Children": [
+						{
+							"ID": "20220808233138-tv1sdzz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808233138-tv1sdzz",
+								"updated": "20220808233145"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808233145-3bh5ui3"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Python"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808233510-n8zr8hu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808233510-n8zr8hu",
+						"updated": "20220808233550"
+					},
+					"Children": [
+						{
+							"ID": "20220808233510-id75p0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808233510-id75p0a",
+								"updated": "20220808233521"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808233521-dwaxeqo"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "NodeJS"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220810134434-t00oxom",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220810134434-t00oxom",
+						"updated": "20220810134439"
+					},
+					"Children": [
+						{
+							"ID": "20220810134434-s1lqwvm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220810134434-s1lqwvm",
+								"updated": "20220810134439"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220810134439-kuto9ll"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "编辑器"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808233231-pzawrf0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808233231-pzawrf0",
+				"updated": "20220809123541"
+			}
+		}
+	]
+}

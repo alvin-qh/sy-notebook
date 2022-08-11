@@ -1,0 +1,2610 @@
+{
+	"ID": "20220808135910-rmhcrja",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808135910-rmhcrja",
+		"title": "安装 docker",
+		"updated": "20220808231812"
+	},
+	"Children": [
+		{
+			"ID": "20220808135910-c799k6w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808135910-c799k6w",
+				"updated": "20220808151617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本文内容部分参考自："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Docker Community Edition 镜像使用帮助"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://mirror.tuna.tsinghua.edu.cn/help/docker-ce/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-ijyo3am",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808151638-ijyo3am",
+				"updated": "20220808151638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-3sn4bfq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808151638-3sn4bfq",
+				"updated": "20220808231629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 通过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "apt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-vtv8ncy",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-vtv8ncy",
+				"updated": "20220808163037"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-83mzqll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-83mzqll",
+						"updated": "20220808163037"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-fz7oiqh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-fz7oiqh",
+								"updated": "20220808163037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除原有 docker 软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220808151648-hgpyw4h",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808151648-hgpyw4h",
+								"updated": "20220808151701"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo apt remove docker docker-engine docker.io\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151717-dyxhxuz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151717-dyxhxuz",
+						"updated": "20220808151729"
+					},
+					"Children": [
+						{
+							"ID": "20220808151717-eike5nc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151717-eike5nc",
+								"updated": "20220808151717"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装依赖软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220808151720-wv4gfbn",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808151720-wv4gfbn",
+								"updated": "20220808151729"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-28gz22r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-28gz22r",
+				"updated": "20220808162916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.1. Debain 系统"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-2r2eqmr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-2r2eqmr",
+				"updated": "20220808231748"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-40htlco",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-40htlco",
+						"updated": "20220808151638"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-tiuvu96",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-tiuvu96",
+								"updated": "20220808151749"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信任 GPG public-key"
+								}
+							]
+						},
+						{
+							"ID": "20220808151754-8ypg9qa",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808151754-8ypg9qa",
+								"updated": "20220808151800"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151810-xjksvrk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151810-xjksvrk",
+						"updated": "20220808231748"
+					},
+					"Children": [
+						{
+							"ID": "20220808151810-7wjfyys",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151810-7wjfyys",
+								"updated": "20220808151813"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加软件源"
+								}
+							]
+						},
+						{
+							"ID": "20220808151819-2njb5fa",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808151819-2njb5fa",
+								"updated": "20220808231748"
+							},
+							"Children": [
+								{
+									"ID": "20220808151818-ieg07i3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808151818-ieg07i3",
+										"updated": "20220808231748"
+									},
+									"Children": [
+										{
+											"ID": "20220808151818-suoy1yq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808151818-suoy1yq",
+												"updated": "20220808231731"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AMD64，国内镜像地址"
+												}
+											]
+										},
+										{
+											"ID": "20220808151824-ifeo2op",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808151824-ifeo2op",
+												"updated": "20220808151835"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "sudo add-apt-repository \\\n  \"deb [arch=amd64] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \\\n  $(lsb_release -cs) \\\n  stable\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20220808231706-xby0emd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808231706-xby0emd",
+												"updated": "20220808231738"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "或者官方源地址"
+												}
+											]
+										},
+										{
+											"ID": "20220808231717-hz8x27b",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808231717-hz8x27b",
+												"updated": "20220808231748"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "sudo add-apt-repository \\\n  \"deb [arch=amd64] https://download.docker.com/linux/debian \\\n  $(lsb_release -cs) \\\n  stable\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808151859-u6c6ztc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808151859-u6c6ztc",
+										"updated": "20220808151921"
+									},
+									"Children": [
+										{
+											"ID": "20220808151859-2n7jpgv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808151859-2n7jpgv",
+												"updated": "20220808151859"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ARM64"
+												}
+											]
+										},
+										{
+											"ID": "20220808151906-2ju3fn2",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808151906-2ju3fn2",
+												"updated": "20220808151921"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "echo \"deb [arch=armhf] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian \\\n  $(lsb_release -cs) stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-bpf6r5f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-bpf6r5f",
+				"updated": "20220808162913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.2. Ubuntu 系统"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-z61wzh5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-z61wzh5",
+				"updated": "20220808231812"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-w5eqip3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-w5eqip3",
+						"updated": "20220808151638"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-yoe3vfw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-yoe3vfw",
+								"updated": "20220808151937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "信任 GPG public-key"
+								}
+							]
+						},
+						{
+							"ID": "20220808151941-x15wb22",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808151941-x15wb22",
+								"updated": "20220808151946"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151954-nwpzr20",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151954-nwpzr20"
+					},
+					"Children": [
+						{
+							"ID": "20220808151954-emz7naa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151954-emz7naa",
+								"updated": "20220808151957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装系统依赖包"
+								}
+							]
+						},
+						{
+							"ID": "20220808152002-mmyvrqm",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808152002-mmyvrqm",
+								"updated": "20220808152008"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808152017-9vpz7yj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808152017-9vpz7yj",
+						"updated": "20220808231812"
+					},
+					"Children": [
+						{
+							"ID": "20220808152017-34m7q1m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808152017-34m7q1m",
+								"updated": "20220808152018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加软件源"
+								}
+							]
+						},
+						{
+							"ID": "20220808162828-rdb9sne",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808162828-rdb9sne",
+								"updated": "20220808231812"
+							},
+							"Children": [
+								{
+									"ID": "20220808162828-tt405d5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808162828-tt405d5",
+										"updated": "20220808231812"
+									},
+									"Children": [
+										{
+											"ID": "20220808162828-qq2qmqc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808162828-qq2qmqc",
+												"updated": "20220808162832"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "AMD64"
+												}
+											]
+										},
+										{
+											"ID": "20220808162837-4iwcs7w",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808162837-4iwcs7w",
+												"updated": "20220808162844"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "sudo add-apt-repository \\\n  \"deb [arch=amd64] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu \\\n  $(lsb_release -cs) \\\n  stable\"\n\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										},
+										{
+											"ID": "20220808231800-r3uox4v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808231800-r3uox4v",
+												"updated": "20220808231805"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "或者官方源地址"
+												}
+											]
+										},
+										{
+											"ID": "20220808231806-i09hl2v",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808231806-i09hl2v",
+												"updated": "20220808231812"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "sudo add-apt-repository \\\n  \"deb [arch=amd64] https://download.docker.com/linux/ubuntu \\\n  $(lsb_release -cs) \\\n  stable\"\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808162855-ao1gj53",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808162855-ao1gj53",
+										"updated": "20220808162903"
+									},
+									"Children": [
+										{
+											"ID": "20220808162855-qqy3rro",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808162855-qqy3rro",
+												"updated": "20220808162856"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ARM64"
+												}
+											]
+										},
+										{
+											"ID": "20220808162859-lzz642c",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220808162859-lzz642c",
+												"updated": "20220808162903"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "echo \"deb [arch=armhf] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/ubuntu \\\n  $(lsb_release -cs) stable\" | \\\n  sudo tee /etc/apt/sources.list.d/docker.list\n\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-keq6gvz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-keq6gvz",
+				"updated": "20220808162932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.3. 执行安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-gegj7md",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808151638-gegj7md",
+				"updated": "20220808162952"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt update\nsudo apt install docker-ce\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-a8qh0hn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808151638-a8qh0hn",
+				"updated": "20220808163027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. 通过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "yum"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-dmhfz3w",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-dmhfz3w",
+				"updated": "20220808163143"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-ka3po31",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-ka3po31",
+						"updated": "20220808151638"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-dzcg7ty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-dzcg7ty",
+								"updated": "20220808163031"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除原有 docker 软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220808163051-2birwzr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163051-2birwzr",
+								"updated": "20220808163058"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo yum remove docker docker-common docker-selinux docker-engine\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163103-dk1wgkp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163103-dk1wgkp"
+					},
+					"Children": [
+						{
+							"ID": "20220808163103-9ro498a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163103-9ro498a",
+								"updated": "20220808163106"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装依赖软件包"
+								}
+							]
+						},
+						{
+							"ID": "20220808163109-q7jvih3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163109-q7jvih3",
+								"updated": "20220808163114"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo yum install -y yum-utils device-mapper-persistent-data lvm2\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163127-e7ouz63",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163127-e7ouz63",
+						"updated": "20220808163143"
+					},
+					"Children": [
+						{
+							"ID": "20220808163127-sdfm88u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163127-sdfm88u",
+								"updated": "20220808163134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "repo"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件"
+								}
+							]
+						},
+						{
+							"ID": "20220808163137-ws2ey1k",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163137-ws2ey1k",
+								"updated": "20220808163143"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-v2foabc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-v2foabc",
+				"updated": "20220808163158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.1. CentOS 系统"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-kcrrq4o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-kcrrq4o",
+				"updated": "20220808231609"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-bnrcmqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-bnrcmqt",
+						"updated": "20220808231552"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-xvbwrp7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-xvbwrp7",
+								"updated": "20220808231552"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "repo"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件，为官方下载源地址"
+								}
+							]
+						},
+						{
+							"ID": "20220808163209-a37dxq3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163209-a37dxq3",
+								"updated": "20220808163212"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/centos/docker-ce.repo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163220-2pr8s8r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163220-2pr8s8r",
+						"updated": "20220808231609"
+					},
+					"Children": [
+						{
+							"ID": "20220808163220-q6pfamz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163220-q6pfamz",
+								"updated": "20220808231609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新源地址，更改为国内镜像地址"
+								}
+							]
+						},
+						{
+							"ID": "20220808163226-illw3jg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163226-illw3jg",
+								"updated": "20220808163236"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo sed -i \"s+download.docker.com+mirrors.tuna.tsinghua.edu.cn/docker-ce+\" /etc/yum.repos.d/docker-ce.repo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-9hykijt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-9hykijt",
+				"updated": "20220808163244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.2. Fedora 系统"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-nxqg0gh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-nxqg0gh",
+				"updated": "20220808231605"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-ymqzhic",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-ymqzhic",
+						"updated": "20220808231556"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-7lizpji",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-7lizpji",
+								"updated": "20220808231556"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下载 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "repo"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件，为官方下载源地址"
+								}
+							]
+						},
+						{
+							"ID": "20220808163250-ixb9hp9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163250-ixb9hp9",
+								"updated": "20220808163254"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "wget -O /etc/yum.repos.d/docker-ce.repo https://download.docker.com/linux/fedora/docker-ce.repo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163301-bgjcz5x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163301-bgjcz5x",
+						"updated": "20220808231605"
+					},
+					"Children": [
+						{
+							"ID": "20220808163301-0guwqn2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163301-0guwqn2",
+								"updated": "20220808231605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更新源地址，更改为国内镜像地址"
+								}
+							]
+						},
+						{
+							"ID": "20220808163309-igs6zcf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163309-igs6zcf",
+								"updated": "20220808163319"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo sed -i \"s+download.docker.com+mirrors.tuna.tsinghua.edu.cn/docker-ce+\" /etc/yum.repos.d/docker-ce.repo\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-qj9yakl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-qj9yakl",
+				"updated": "20220808163336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2.3. 执行安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-vq2av8y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808151638-vq2av8y",
+				"updated": "20220808163344"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo yum makecache fast\nsudo yum install docker-ce\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-ym64onh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808151638-ym64onh",
+				"updated": "20220808151638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 设置"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-v9gpchf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808151638-v9gpchf",
+				"updated": "20220808163400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 将当前用户加入 docker 组"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-ou75xir",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808151638-ou75xir",
+				"updated": "20220808163404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "免于在每次使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "docker"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 命令时添加 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "sudo"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-53jnsaj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-53jnsaj",
+				"updated": "20220808163742"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-6kp0nsp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-6kp0nsp",
+						"updated": "20220808151638"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-up4wj4w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-up4wj4w",
+								"updated": "20220808163414"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看是否存在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "docker"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 分组"
+								}
+							]
+						},
+						{
+							"ID": "20220808163419-riohryh",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163419-riohryh",
+								"updated": "20220808163422"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo cat /etc/group | grep docker\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163429-ci170h9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163429-ci170h9"
+					},
+					"Children": [
+						{
+							"ID": "20220808163429-qt0heir",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163429-qt0heir",
+								"updated": "20220808163434"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若不存在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "docker"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 分组，则创建"
+								}
+							]
+						},
+						{
+							"ID": "20220808163440-5eax5uf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163440-5eax5uf",
+								"updated": "20220808163443"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo groupadd -g 999 docker\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808163504-ccbdhsf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808163504-ccbdhsf",
+								"updated": "20220808163514"
+							},
+							"Children": [
+								{
+									"ID": "20220808163514-gkvhoat",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808163514-gkvhoat",
+										"updated": "20220808163514"
+									},
+									"Children": [
+										{
+											"ID": "20220808163514-cauqfun",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808163514-cauqfun",
+												"updated": "20220808163519"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-g 999"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 组 ID, 可以不指定"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163525-3t6fbsz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163525-3t6fbsz"
+					},
+					"Children": [
+						{
+							"ID": "20220808163525-z3g57nz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163525-z3g57nz",
+								"updated": "20220808163530"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将当前用户加入 docker 组"
+								}
+							]
+						},
+						{
+							"ID": "20220808163536-3wfnxsz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163536-3wfnxsz",
+								"updated": "20220808163540"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo usermod -aG docker $(whoami)\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163600-7mwavf4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163600-7mwavf4"
+					},
+					"Children": [
+						{
+							"ID": "20220808163600-yhyvesn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163600-yhyvesn",
+								"updated": "20220808163603"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重启 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "docker"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 服务，让权限设置生效"
+								}
+							]
+						},
+						{
+							"ID": "20220808163608-gth7hu2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163608-gth7hu2",
+								"updated": "20220808163611"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo systemctl restart docker\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808163619-vnvo8w4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808163619-vnvo8w4",
+						"updated": "20220808163742"
+					},
+					"Children": [
+						{
+							"ID": "20220808163619-s4o8n1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163619-s4o8n1c",
+								"updated": "20220808163621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "测试"
+								}
+							]
+						},
+						{
+							"ID": "20220808163624-q5mh30w",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163624-q5mh30w",
+								"updated": "20220808163626"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker info\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808163726-6ixxc90",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163726-6ixxc90",
+								"updated": "20220808163727"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果提示 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "get ... dial unix /var/run/docker.sock"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 权限不够，则修改 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/var/run/docker.sock"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 权限"
+								}
+							]
+						},
+						{
+							"ID": "20220808163735-o76xchi",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163735-o76xchi",
+								"updated": "20220808163742"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sudo chmod a+rw /var/run/docker.sock\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-eefhz9i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808151638-eefhz9i",
+				"updated": "20220808163801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 安装 docker-compose"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-03qx0mc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-03qx0mc",
+				"updated": "20220808163812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2.1. 通过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "apt"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-pc9cwtn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808151638-pc9cwtn",
+				"updated": "20220808163818"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt install docker-compose\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-1f22r7x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-1f22r7x",
+				"updated": "20220808163824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2.2. 通过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "yum"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-33j7mg1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808151638-33j7mg1",
+				"updated": "20220808163828"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "QmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "yum install -y epel-release\nyum install -y docker-compose\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-ar3jhwi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808151638-ar3jhwi",
+				"updated": "20220808163854"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 配置 docker-hub 镜像代理（Aliyun镜像）"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-frshnh3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-frshnh3",
+				"updated": "20220808151638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.1. 注册并生成镜像地址"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-i66j19b",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-i66j19b",
+				"updated": "20220808163847"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-e94jj75",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-e94jj75",
+						"updated": "20220808163839"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-ni66219",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-ni66219",
+								"updated": "20220808163839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://homenew.console.aliyun.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://homenew.console.aliyun.com/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，注册账号并登录"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151638-d9s3b2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-d9s3b2a",
+						"updated": "20220808163840"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-zp7fmsa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-zp7fmsa",
+								"updated": "20220808163840"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://cr.console.aliyun.com"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://cr.console.aliyun.com/"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，创建新实例（如果需要私有镜像仓库）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151638-0mmycg8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-0mmycg8",
+						"updated": "20220808163847"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-6wnh6o8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-6wnh6o8",
+								"updated": "20220808163847"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "访问 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，复制 docker-hub 地址"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-03nhin1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-03nhin1",
+				"updated": "20220808151638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.2. 设置镜像地址"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-324saft",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-324saft",
+				"updated": "20220808231150"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-tmm3l0m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-tmm3l0m",
+						"updated": "20220808231150"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-yvpda44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-yvpda44",
+								"updated": "20220808163859"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "/etc/docker/daemon.json"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件，添加如下内容"
+								}
+							]
+						},
+						{
+							"ID": "20220808163904-jiaknkq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163904-jiaknkq",
+								"updated": "20220808231150"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anNvbg=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n    \"registry-mirrors\": [\n        \"https://*******.mirror.aliyuncs.com\"\n    ]\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-jfy2lrm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808151638-jfy2lrm",
+				"updated": "20220808163914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.3. 登录 docker-hub"
+				}
+			]
+		},
+		{
+			"ID": "20220808151638-5bm6kua",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808151638-5bm6kua",
+				"updated": "20220808163958"
+			},
+			"Children": [
+				{
+					"ID": "20220808151638-euf87b3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-euf87b3",
+						"updated": "20220808151638"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-q5udnha",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-q5udnha",
+								"updated": "20220808163922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "到 "
+								},
+								{
+									"Type": "NodeLink",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "https://hub.docker.com/signup"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "https://hub.docker.com/signup"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，注册 docker-hub 账号"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808151638-5g7mg41",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808151638-5g7mg41",
+						"updated": "20220808163958"
+					},
+					"Children": [
+						{
+							"ID": "20220808151638-w99uq7z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808151638-w99uq7z",
+								"updated": "20220808151638"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "登录"
+								}
+							]
+						},
+						{
+							"ID": "20220808163927-q7vl9w6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808163927-q7vl9w6",
+								"updated": "20220808163935"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker login\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808163948-iijyy11",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808163948-iijyy11",
+								"updated": "20220808163958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入用户名密码后登录 docker-hub"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808231151-b5ikn5o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808231151-b5ikn5o"
+			}
+		}
+	]
+}

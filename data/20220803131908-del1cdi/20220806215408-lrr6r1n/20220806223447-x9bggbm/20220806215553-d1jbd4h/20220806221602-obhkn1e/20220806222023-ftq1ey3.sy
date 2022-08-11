@@ -1,0 +1,453 @@
+{
+	"ID": "20220806222023-ftq1ey3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222023-ftq1ey3",
+		"title": "Separation of Policy and Implementation",
+		"updated": "20220806222027"
+	},
+	"Children": [
+		{
+			"ID": "20220806222027-zmzvs1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222027-zmzvs1n",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "策略和实现的分离"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-8q6m0xh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222027-8q6m0xh",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-id6usq0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222027-id6usq0",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "策略和实现不同时存在"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-efqtqhl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222027-efqtqhl",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"ID": "20220806222027-kd9cy9c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-kd9cy9c",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-dk263f5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-dk263f5",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块可以承载策略或实现。但是，一个模块不可以同时承载二者。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-quuyi78",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-quuyi78",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-qs8gn4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-qs8gn4i",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "策略模块：策略模块依赖于软件的前提条件，这类模块通常用于给业务逻辑或其他模块选择参数。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-zc9qway",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-zc9qway",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-76dce0h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-76dce0h",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现模块：实现模块不依赖于软件的前提条件，这类模块通常是独立的逻辑部分。软件的前提条件会作为传递给模块的参数给出。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-7w483va",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222027-7w483va",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-rqgthib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222027-rqgthib",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "实现稳定但策略不稳定"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-4k2e7af",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222027-4k2e7af",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"ID": "20220806222027-hyrkgli",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-hyrkgli",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-x6y31ib",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-x6y31ib",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现模块不依赖于特定的软件，是一种纯粹的模块，因此可供其他软件重复使用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-5frks8w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-5frks8w",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-b9kpv5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-b9kpv5l",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "策略模块是为特定软件量身打造的。当软件发生变动时，策略模块也要被迫发生改变。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-lm4smkt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-lm4smkt",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-o5g83rv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-o5g83rv",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因此，如果将实现和策略混在一起，那么当策略发生变动时，实现也会受到牵连，影响模块的重复使用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-9imzi2v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222027-9imzi2v",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-kyhq9cn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222027-kyhq9cn",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将策略与实现存放在不同的模块中"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222027-z9nxejk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222027-z9nxejk",
+				"updated": "20220806222027"
+			},
+			"Children": [
+				{
+					"ID": "20220806222027-f15beu7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-f15beu7",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-5g3rxrl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-5g3rxrl",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计时要有意识地区分依赖于软件前提条件的策略部分和不依赖于软件前提条件的实现部分，然后将二者分别写入不同的模块。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-le9ogy4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-le9ogy4",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-4j1hqii",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-4j1hqii",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当遇到无法分离的情况时，至少要在模块内部明确区分策略部分和实现部分。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222027-m5nnzkr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222027-m5nnzkr",
+						"updated": "20220806222027"
+					},
+					"Children": [
+						{
+							"ID": "20220806222027-41g57rv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222027-41g57rv",
+								"updated": "20220806222027"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "即便最初分离了策略与实现，在维护代码的过程中二者也可能会重新混在一起。因此在开展修改工作之前，要明确修改对象到底属于策略还是实现，至少保证实现部分中不会混入策略的相关代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

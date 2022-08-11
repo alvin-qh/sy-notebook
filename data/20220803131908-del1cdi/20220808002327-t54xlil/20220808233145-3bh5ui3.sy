@@ -1,0 +1,128 @@
+{
+	"ID": "20220808233145-3bh5ui3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808233145-3bh5ui3",
+		"title": "Python",
+		"updated": "20220808235542"
+	},
+	"Children": [
+		{
+			"ID": "20220808233145-3xnpy6n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808233145-3xnpy6n",
+				"updated": "20220808235542"
+			},
+			"Children": [
+				{
+					"ID": "20220808233205-vxo5ud2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808233205-vxo5ud2",
+						"updated": "20220808233207"
+					},
+					"Children": [
+						{
+							"ID": "20220808233205-ve92i8g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808233205-ve92i8g",
+								"updated": "20220808233207"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808232208-k3cnsv8"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "PyENV"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808235531-onrsup7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808235531-onrsup7",
+						"updated": "20220808235542"
+					},
+					"Children": [
+						{
+							"ID": "20220808235531-i580tb7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235531-i580tb7",
+								"updated": "20220808235542"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808235542-bjgm6xb"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "DLib"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

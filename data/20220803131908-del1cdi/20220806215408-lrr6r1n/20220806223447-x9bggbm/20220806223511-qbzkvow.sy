@@ -1,0 +1,128 @@
+{
+	"ID": "20220806223511-qbzkvow",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223511-qbzkvow",
+		"title": "质量管理",
+		"updated": "20220806224919"
+	},
+	"Children": [
+		{
+			"ID": "20220806223511-sep6e03",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223511-sep6e03",
+				"updated": "20220806224919"
+			},
+			"Children": [
+				{
+					"ID": "20220806223532-ziugfi8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223532-ziugfi8",
+						"updated": "20220806223532"
+					},
+					"Children": [
+						{
+							"ID": "20220806223532-x697sg2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223532-x697sg2",
+								"updated": "20220806223533"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806223527-trs25oj"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "代码质量管控的四个阶段"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806224917-5vt3gwe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806224917-5vt3gwe",
+						"updated": "20220806224919"
+					},
+					"Children": [
+						{
+							"ID": "20220806224917-oxjrm4a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224917-oxjrm4a",
+								"updated": "20220806224919"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806224803-oxq3fpf"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Code Review 体系与团队文化"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,144 @@
+{
+	"ID": "20220806223158-9io1nh5",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223158-9io1nh5",
+		"title": "Rule of Composition",
+		"updated": "20220806223203"
+	},
+	"Children": [
+		{
+			"ID": "20220806223203-6l44ifx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223203-6l44ifx",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组合原则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-m7022bc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-m7022bc",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-xq5pfxy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-xq5pfxy",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-9nj6hm4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-9nj6hm4",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-nfz2ko8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-nfz2ko8",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-wq9jpsn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-wq9jpsn",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-qpamkt0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-qpamkt0",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Source"
+				}
+			]
+		},
+		{
+			"ID": "20220806223203-603woiq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223203-603woiq",
+				"updated": "20220806223203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Books"
+				}
+			]
+		}
+	]
+}

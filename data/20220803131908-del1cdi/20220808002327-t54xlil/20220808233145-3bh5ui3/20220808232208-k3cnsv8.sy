@@ -1,0 +1,757 @@
+{
+	"ID": "20220808232208-k3cnsv8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808232208-k3cnsv8",
+		"title": "PyENV",
+		"updated": "20220809125632"
+	},
+	"Children": [
+		{
+			"ID": "20220808232208-clyhplj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808232208-clyhplj",
+				"updated": "20220808232218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 下载并安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808232240-dwvd5fq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232240-dwvd5fq",
+				"updated": "20220808232248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载安装脚本并执行"
+				}
+			]
+		},
+		{
+			"ID": "20220808232222-kr8voxq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232222-kr8voxq",
+				"updated": "20220808232225"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232227-eu60b8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232227-eu60b8y",
+				"updated": "20220808232304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置 shell 启动脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220808232305-u5mlphe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232305-u5mlphe",
+				"updated": "20220808232349"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export PATH=\"~/.pyenv/bin:$PATH\"\neval \"$(pyenv init -)\"\neval \"$(pyenv virtualenv-init -)\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232355-zj7wfzo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808232355-zj7wfzo",
+				"updated": "20220808232432"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 安装 python 环境"
+				}
+			]
+		},
+		{
+			"ID": "20220809125209-oq61h46",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809125209-oq61h46",
+				"updated": "20220809125216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装编译依赖"
+				}
+			]
+		},
+		{
+			"ID": "20220809125222-v8502it",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809125222-v8502it",
+				"updated": "20220809125632"
+			},
+			"Children": [
+				{
+					"ID": "20220809125223-qcutv9o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125223-qcutv9o",
+						"updated": "20220809125632"
+					},
+					"Children": [
+						{
+							"ID": "20220809125223-guc0erm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125223-guc0erm",
+								"updated": "20220809125228"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Linux"
+								}
+							]
+						},
+						{
+							"ID": "20220809125245-2akrvca",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220809125245-2akrvca",
+								"updated": "20220809125632"
+							},
+							"Children": [
+								{
+									"ID": "20220809125245-he7hcft",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809125245-he7hcft"
+									},
+									"Children": [
+										{
+											"ID": "20220809125245-eiial2l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809125245-eiial2l",
+												"updated": "20220809125253"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Debian 体系"
+												}
+											]
+										},
+										{
+											"ID": "20220809125254-ap7nnhe",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220809125254-ap7nnhe",
+												"updated": "20220809125314"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809125332-3ctbpvl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809125332-3ctbpvl"
+									},
+									"Children": [
+										{
+											"ID": "20220809125332-g573h0n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809125332-g573h0n",
+												"updated": "20220809125335"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "RHEL 体系"
+												}
+											]
+										},
+										{
+											"ID": "20220809125336-prjfdgk",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"Properties": {
+												"id": "20220809125336-prjfdgk",
+												"updated": "20220809125346"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```"
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "YmFzaA=="
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "sudo yum install zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809125437-f591gg6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809125437-f591gg6"
+									},
+									"Children": [
+										{
+											"ID": "20220809125437-u1mele4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809125437-u1mele4",
+												"updated": "20220809125548"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果需要 Tcl/Tk 支持，需额外安装 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "tk-dev"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 和 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "python3-tk"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 软件包"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809125549-1vaiypa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809125549-1vaiypa",
+										"updated": "20220809125632"
+									},
+									"Children": [
+										{
+											"ID": "20220809125549-ekzvgwj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809125549-ekzvgwj",
+												"updated": "20220809125632"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果需要 OpenGL 支持，需额外安装 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "freeglut2"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 以及 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "freeglut3-dev"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 软件包"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125229-dff8r3u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125229-dff8r3u"
+					},
+					"Children": [
+						{
+							"ID": "20220809125229-kbfexvo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125229-kbfexvo",
+								"updated": "20220809125231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "macOS"
+								}
+							]
+						},
+						{
+							"ID": "20220809125356-9qnkjqz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809125356-9qnkjqz",
+								"updated": "20220809125358"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "brew install openssl readline sqlite3 xz zlib\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808232435-kqsozpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232435-kqsozpw",
+				"updated": "20220808232443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列举已安装的 python 环境"
+				}
+			]
+		},
+		{
+			"ID": "20220808232443-cgnjcex",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232443-cgnjcex",
+				"updated": "20220808232501"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv versions\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232503-u17gex4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232503-u17gex4",
+				"updated": "20220808232512"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列举可安装的 python 环境"
+				}
+			]
+		},
+		{
+			"ID": "20220808232512-fehcjp7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232512-fehcjp7",
+				"updated": "20220808232754"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv install --list\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232756-k6cimfz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232756-k6cimfz",
+				"updated": "20220808232806"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装指定 python 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808232806-54gyfh7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232806-54gyfh7",
+				"updated": "20220808232820"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv install \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232823-dg2gvxd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232823-dg2gvxd",
+				"updated": "20220808232828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除指定 python 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808232828-koifjl2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232828-koifjl2",
+				"updated": "20220808232834"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv uninstall \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232835-ui4ddgy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232835-ui4ddgy",
+				"updated": "20220808232931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置全局默认 python 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808232855-0qu8lyf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808232855-0qu8lyf",
+				"updated": "20220808232913"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv global \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808232915-jz4s48c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808232915-jz4s48c",
+				"updated": "20220808233024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设定当前路径 python 版本，会在当前目录下产生 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".python-version"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件，记录本地版本号"
+				}
+			]
+		},
+		{
+			"ID": "20220808233025-9aadcz0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808233025-9aadcz0",
+				"updated": "20220808233031"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pyenv local \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808233105-hkuelea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808233105-hkuelea"
+			}
+		}
+	]
+}

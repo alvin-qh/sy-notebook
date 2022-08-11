@@ -1,0 +1,583 @@
+{
+	"ID": "20220806225102-kv7rp10",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806225102-kv7rp10",
+		"title": "敏捷软件开发宣言",
+		"updated": "20220809000637"
+	},
+	"Children": [
+		{
+			"ID": "20220806225118-r6qzufi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225118-r6qzufi",
+				"updated": "20220806225122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "English"
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-3xuwxp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-3xuwxp5",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "We are uncovering better ways of developing software by doing it and helping others do it."
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-ufji1s2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-ufji1s2",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Through this work we have come to value:"
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-rbnu1ku",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806225118-rbnu1ku",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"ID": "20220806225118-1n3eq92",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-1n3eq92",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-n2nqqsz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-n2nqqsz",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Individuals and interactions"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " over processes and tools"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-ksmm31w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-ksmm31w",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-xicsyyf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-xicsyyf",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Working software"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " over comprehensive documentation"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-jlrokit",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-jlrokit",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-jrxha79",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-jrxha79",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Customer collaboration"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " over contract negotiation"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-mdrakrj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-mdrakrj",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-sl3gvtp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-sl3gvtp",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Responding to change"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " over following a plan"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-tizdkxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-tizdkxm",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "That is, while there is value in the items onthe right, we value the items on the left more."
+				}
+			]
+		},
+		{
+			"ID": "20220809000629-eaudprq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000629-eaudprq"
+			}
+		},
+		{
+			"ID": "20220806225126-bge899m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225126-bge899m",
+				"updated": "20220806225127"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中文"
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-we6xz1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-we6xz1r",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们一直在实践中探寻更好的软件开发方法，"
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-gm664z5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-gm664z5",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "身体力行的同时也帮助他人。由此我们建立了如下价值观："
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-a48qp0n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806225118-a48qp0n",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"ID": "20220806225118-ewrisha",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-ewrisha",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-zusvwxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-zusvwxw",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "个体和互动"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 高于 流程和工具"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-m5b8dc1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-m5b8dc1",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-f8lks44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-f8lks44",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "工作的软件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 高于 详尽的文档"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-11kp4mw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-11kp4mw",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-6xmvqbd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-6xmvqbd",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "客户合作"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 高于 合同谈判"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225118-brft1is",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806225118-brft1is",
+						"updated": "20220806225118"
+					},
+					"Children": [
+						{
+							"ID": "20220806225118-0hw8c3g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225118-0hw8c3g",
+								"updated": "20220806225118"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "响应变化"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 高于 遵循计划"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-cwtauo7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-cwtauo7",
+				"updated": "20220806225118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "也就是说，尽管右项有其价值，我们更重视左项的价值。"
+				}
+			]
+		},
+		{
+			"ID": "20220809000637-s2otihv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000637-s2otihv"
+			}
+		},
+		{
+			"ID": "20220806225118-yugzg66",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225118-yugzg66",
+				"updated": "20220806225132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于的原则"
+				}
+			]
+		},
+		{
+			"ID": "20220806225118-3hsk77o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225118-3hsk77o",
+				"updated": "20220806225309"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220806225226-5li1qp8"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "敏捷宣言遵循的原则"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

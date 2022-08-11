@@ -1,0 +1,787 @@
+{
+	"ID": "20220806222514-wyyru11",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222514-wyyru11",
+		"title": "Reliability",
+		"updated": "20220806222518"
+	},
+	"Children": [
+		{
+			"ID": "20220806222518-sp2dgfp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222518-sp2dgfp",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可靠性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-0du5uca",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222518-0du5uca",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-r08sx21",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222518-r08sx21",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "维持功能的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-dekm6m1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222518-dekm6m1",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"ID": "20220806222518-0oj4ny1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222518-0oj4ny1",
+						"updated": "20220806222518"
+					},
+					"Children": [
+						{
+							"ID": "20220806222518-57z25yz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222518-57z25yz",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可靠性指软件在异常情况下或在被非法、非常规使用时维持自身功能的能力。可靠性体现在"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "容错"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "和"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "健壮性"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "这两个方面："
+								}
+							]
+						},
+						{
+							"ID": "20220806222518-21yvkzz",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222518-21yvkzz",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"ID": "20220806222518-0vtxr69",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-0vtxr69",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-jlhq0jq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-jlhq0jq",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "容错：指软件发生故障时仍保持正常运行的能力。它保证软件能在异常情况下正常运行，并在内部完成故障的修复工作。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222518-uol05hs",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222518-uol05hs",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"ID": "20220806222518-gxrzgqz",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222518-gxrzgqz",
+														"updated": "20220806222518"
+													},
+													"Children": [
+														{
+															"ID": "20220806222518-zqq03l6",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222518-zqq03l6",
+																"updated": "20220806222518"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "修复完成后，软件需要继续或从头开始执行异常位置的操作。"
+																}
+															]
+														},
+														{
+															"ID": "20220806222518-lwahgzt",
+															"Type": "NodeBlockquote",
+															"Properties": {
+																"id": "20220806222518-lwahgzt",
+																"updated": "20220806222518"
+															},
+															"Children": [
+																{
+																	"Type": "NodeBlockquoteMarker",
+																	"Data": "\u003e"
+																},
+																{
+																	"ID": "20220806222518-dwwctnh",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220806222518-dwwctnh",
+																		"updated": "20220806222518"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "比如分布式系统在发生通信异常时会先暂时切断连接，等问题修复完成后再重新连接，恢复软件的运行。"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222518-vdddllk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-vdddllk",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-0gnbzme",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-0gnbzme",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "健壮性：是保护软件不受非正常使用方式或非法输入影响的能力。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222518-lqvw3lz",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222518-lqvw3lz",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"ID": "20220806222518-c4sx4qu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222518-c4sx4qu",
+														"updated": "20220806222518"
+													},
+													"Children": [
+														{
+															"ID": "20220806222518-edg2hh1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222518-edg2hh1",
+																"updated": "20220806222518"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "具备该能力后，不论什么样的使用方式，软件都能准确迁移至系统定义的状态。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806222518-fcbxe1s",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222518-fcbxe1s",
+														"updated": "20220806222518"
+													},
+													"Children": [
+														{
+															"ID": "20220806222518-r80pxx7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222518-r80pxx7",
+																"updated": "20220806222518"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "健壮性只保证软件能迁移至系统定义的状态，并不要求软件修复或重新执行引发异常的处理。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-h6v00hr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222518-h6v00hr",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-w2112le",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222518-w2112le",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件对可靠性的需求各不相同"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-hd2uz21",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222518-hd2uz21",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"ID": "20220806222518-bcvg5h5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222518-bcvg5h5",
+						"updated": "20220806222518"
+					},
+					"Children": [
+						{
+							"ID": "20220806222518-5tynrhc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222518-5tynrhc",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件对可靠性的需求是不尽相同的："
+								}
+							]
+						},
+						{
+							"ID": "20220806222518-3eelwxf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222518-3eelwxf",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"ID": "20220806222518-34i3uxc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-34i3uxc",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-ssjxrjl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-ssjxrjl",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "大规模系统或关键的业务系统就不允许出现中断服务的情况，就算缩减功能，也要持续提供服务。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222518-0igzhye",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-0igzhye",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-qvh0pe1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-qvh0pe1",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "个人使用的软件就不需要如此强大的持续性了。相较于在危险状态下继续提供服务，这类软件大多选择保存数据重新启动。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222518-2i7t5o7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222518-2i7t5o7",
+						"updated": "20220806222518"
+					},
+					"Children": [
+						{
+							"ID": "20220806222518-fciirg9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222518-fciirg9",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在设计软件架构时，我们要先明确软件对可靠性的需求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-49qvuz4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222518-49qvuz4",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-6s2o9ej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222518-6s2o9ej",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "冗余化、故障弱化和故障安全"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222518-mg7rlcn",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222518-mg7rlcn",
+				"updated": "20220806222518"
+			},
+			"Children": [
+				{
+					"ID": "20220806222518-yttm0yz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222518-yttm0yz",
+						"updated": "20220806222518"
+					},
+					"Children": [
+						{
+							"ID": "20220806222518-bohjt0x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222518-bohjt0x",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从容错的观点出发："
+								}
+							]
+						},
+						{
+							"ID": "20220806222518-ugzqo3z",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222518-ugzqo3z",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"ID": "20220806222518-zjskosr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-zjskosr",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-g4enqib",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-g4enqib",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "让软件架构存在内部冗余（双重冗余等）。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222518-i5muavh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-i5muavh",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-y8dms9w",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-y8dms9w",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用故障弱化的设计，在软件发生故障时缩减软件提供的功能，只保留关键功能，保证处理继续进行。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222518-fethhzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222518-fethhzh",
+						"updated": "20220806222518"
+					},
+					"Children": [
+						{
+							"ID": "20220806222518-xwm5dg1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222518-xwm5dg1",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从健壮性的观点出发："
+								}
+							]
+						},
+						{
+							"ID": "20220806222518-3ly6w5e",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222518-3ly6w5e",
+								"updated": "20220806222518"
+							},
+							"Children": [
+								{
+									"ID": "20220806222518-wwbswbo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-wwbswbo",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-xqu8qi5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-xqu8qi5",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用故障安全的设计，在发生故障时剥离发生故障的部分。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222518-kg4rnai",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222518-kg4rnai",
+										"updated": "20220806222518"
+									},
+									"Children": [
+										{
+											"ID": "20220806222518-5q4giwg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222518-5q4giwg",
+												"updated": "20220806222518"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用故障保护的设计，保证软件在用户进行了错误操作的情况下也能安全运行，避免故障发生。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

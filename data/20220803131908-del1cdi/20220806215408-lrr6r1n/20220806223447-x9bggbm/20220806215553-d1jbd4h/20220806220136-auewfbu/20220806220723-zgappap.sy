@@ -1,0 +1,1310 @@
+{
+	"ID": "20220806220723-zgappap",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220723-zgappap",
+		"title": "Naming is important",
+		"updated": "20220806220730"
+	},
+	"Children": [
+		{
+			"ID": "20220806220730-qh8x1cu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220730-qh8x1cu",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-qzyn0bw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220730-qzyn0bw",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "命名是代码最重要的课题"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-4czgwq2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220730-4czgwq2",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"ID": "20220806220730-z6p89nu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-z6p89nu",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-6wgromp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-6wgromp",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“命名”这一行为和它的产物“名字”都具有非常重要的价值。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220730-uxfa21k",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220730-uxfa21k",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"ID": "20220806220730-hlfyp32",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-hlfyp32",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-omkxvb9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-omkxvb9",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "命名"
+												}
+											]
+										},
+										{
+											"ID": "20220806220730-ggqhjxq",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806220730-ggqhjxq",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"ID": "20220806220730-ylqrfcb",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220730-ylqrfcb",
+														"updated": "20220806220730"
+													},
+													"Children": [
+														{
+															"ID": "20220806220730-zajj8v8",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220730-zajj8v8",
+																"updated": "20220806220730"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "取一个合适的名字意味着元素被正确理解并被正确地设计了出来。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806220730-v1a15aj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220730-v1a15aj",
+														"updated": "20220806220730"
+													},
+													"Children": [
+														{
+															"ID": "20220806220730-bay1alk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220730-bay1alk",
+																"updated": "20220806220730"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "如果取的名字不合适，就证明程序员还没有充分理解该元素的作用。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806220730-wroeu56",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220730-wroeu56",
+														"updated": "20220806220730"
+													},
+													"Children": [
+														{
+															"ID": "20220806220730-669t8sd",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220730-669t8sd",
+																"updated": "20220806220730"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "取一个合适的名字就表示设计已经完成了一大半。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-kscp33p",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-kscp33p",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-ii4mibi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-ii4mibi",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字本身"
+												}
+											]
+										},
+										{
+											"ID": "20220806220730-8a2bl7y",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806220730-8a2bl7y",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"ID": "20220806220730-5ztq5gu",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220730-5ztq5gu",
+														"updated": "20220806220730"
+													},
+													"Children": [
+														{
+															"ID": "20220806220730-dglugx0",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220730-dglugx0",
+																"updated": "20220806220730"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "程序员之间通过代码进行交流时，名字传递的信息是最多的，一旦名字不够贴切，代码上的沟通就会出现障碍。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-9i5pia4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220730-9i5pia4",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-jlickty",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220730-jlickty",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "名字是面向代码阅读者的“用户界面”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-ig3414c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220730-ig3414c",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"ID": "20220806220730-yng7n8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-yng7n8m",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-1kof9be",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-1kof9be",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "名字是面向代码阅读者的“用户界面”。各元素都有适当名字的代码能有效传达其意图，让人充分理解某个东西是怎样做出来的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-qhvmtyi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-qhvmtyi",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-1ostfrz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-1ostfrz",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以给函数命名为例，名字恰当易懂的函数能通过名字表达其职责，这有助于隐藏函数的内部处理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-acevgtp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-acevgtp",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-jicy378",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-jicy378",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从结果来看，有以下好处："
+								}
+							]
+						},
+						{
+							"ID": "20220806220730-0yg0tug",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220730-0yg0tug",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"ID": "20220806220730-a20qkly",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-a20qkly",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-sw9qll5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-sw9qll5",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在阅读代码时，只看函数名就能大致掌握其内部处理，因此可以跳着阅读内部代码。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-t4hi8pv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-t4hi8pv",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-69en7oq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-69en7oq",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在编写代码时，函数名能帮助我们理解该函数的目的及用法，使函数调用变得简单。对编写完的代码来说，恰当的名字起到了说明作用，使代码的可读性大大提高。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-1l61mjl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-1l61mjl",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-qkr6zje",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-qkr6zje",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "名字晦涩难懂的函数会给代码方面的作业增加很大的负担。具体来说有以下几点："
+								}
+							]
+						},
+						{
+							"ID": "20220806220730-4cvmtn0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220730-4cvmtn0",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"ID": "20220806220730-m8i610x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-m8i610x",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-nnz70zr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-nnz70zr",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在阅读代码时，如果无法通过函数名了解处理内容，就必须解析函数的内部代码。程序员的负担会逐渐加重。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-l563d3t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-l563d3t",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-i3bzkta",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-i3bzkta",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在编写代码时，如果无法通过函数名进行各种判断，就需要对函数内部进行解析。代码会因所调用的函数的名字不当而看上去支离破碎，变得难以读懂。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-iyaj9oq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-iyaj9oq",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-4c6zx1t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-4c6zx1t",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "程序员阅读代码的目的是在充分理解代码后对其进行修改或添加功能。阅读代码时混乱的名字会占用所有的脑部资源，妨碍原本应该进行的作业，使程序员无法着手处理问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-yxbl304",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-yxbl304",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-7p11fcn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-7p11fcn",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不恰当的名字会让代码“负债”。此后，只要代码还在使用，读代码的人、用代码的人都将受到负面影响。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-eq6pook",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220730-eq6pook",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-akyx761",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220730-akyx761",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "写代码前先决定名字"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-xbkirwp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220730-xbkirwp",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"ID": "20220806220730-26vipl9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-26vipl9",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-6fp3cab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-6fp3cab",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程要先从名字入手。先给代码中会出现的各个元素取一个能准确表达意图的名字。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-8ybs6fh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-8ybs6fh",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-2t3o4p9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-2t3o4p9",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "站在代码使用者和阅读者的角度命名，包括："
+								}
+							]
+						},
+						{
+							"ID": "20220806220730-l1zimf5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220730-l1zimf5",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"ID": "20220806220730-p0gvfch",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-p0gvfch",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-s32o93t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-s32o93t",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字中要尽量多包含信息。将名字视为简短的注释有助于将必要的信息添加进去。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-9dn37a4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-9dn37a4",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-55nmtvt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-55nmtvt",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字不能有歧义。命名之后，多问自己几遍这个名字是否存在歧义。要想减少歧义，就需要了解并遵循各编程语言的习惯。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-l4ug1yb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-l4ug1yb",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-rl5w7pb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-rl5w7pb",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字说明的是效果和目的。如果所取名字符合这一条件，读代码和使用代码的人就不用在理解代码内容上花费太多时间。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-bm2byer",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-bm2byer",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-r6fzxah",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-r6fzxah",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以通过先写测试程序后写处理的方式检查一下自己取的名字是否合适。这样能帮助我们从使用者的角度来审视名字合适与否。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-a2fog1t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-a2fog1t",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-u4al2to",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-u4al2to",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字要能念出来。除了便于在现实对话中使用之外，能念出来的名字还可以减轻阅读代码时大脑的负担。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-56vkzdh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-56vkzdh",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-4v96uwc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-4v96uwc",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "名字要能搜索出来。名字如果是一个字母或是一个数字，搜索时就会在代码中产生无数个结果。这会给代码解析带来额外的负担。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-gg2lbx3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220730-gg2lbx3",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-9hkw1uo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220730-9hkw1uo",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "避免心理映射"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-6mu7q3j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220730-6mu7q3j",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"ID": "20220806220730-mqbhdck",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-mqbhdck",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-8d69as6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-8d69as6",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读代码的人看到某元素名字后需要先在心里把它转换成自己知道的东西，这个过程就是心理映射，我们应极力避免这种情况发生。心理映射会给大脑带来极大的负担，分散注意力"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-27nw4do",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-27nw4do",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-523feuy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-523feuy",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要尽可能地用标准术语来命名元素。相比独创的名字，标准术语更能获得大家的共识，从而减轻读写双方的负担。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-mm1qtvj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-mm1qtvj",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-qxu7cnq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-qxu7cnq",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在使用仅有一个字母的变量名（循环计数器除外）时也会发生心理映射。一个字母的变量名只是一个占位符，读代码的人需要在心里将其转换成相应的术语才能理解。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220730-klf7h8t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-klf7h8t",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-4r8u2m9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-4r8u2m9",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应该使用大家能理解的名字，写容易理解的代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-ijqvtzx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220730-ijqvtzx",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-bzm7gs5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220730-bzm7gs5",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "环回检测"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220730-7yp6cz4",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220730-7yp6cz4",
+				"updated": "20220806220730"
+			},
+			"Children": [
+				{
+					"ID": "20220806220730-c85r9a4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220730-c85r9a4",
+						"updated": "20220806220730"
+					},
+					"Children": [
+						{
+							"ID": "20220806220730-nlg73wc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220730-nlg73wc",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用产生命名的说明文本反推名称，检查名称是否合理的技术，例如，说明文本的内容是“一种用语音来操作软件的功能”，则检查如下命名："
+								}
+							]
+						},
+						{
+							"ID": "20220806220730-1itax8r",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220730-1itax8r",
+								"updated": "20220806220730"
+							},
+							"Children": [
+								{
+									"ID": "20220806220730-6tk6w6n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-6tk6w6n",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-4s95xs8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-4s95xs8",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "语音识别功能：这个名字听起来让人觉得该功能是一种对语音加以限制的功能。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-lm4oi46",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-lm4oi46",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-6g596ur",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-6g596ur",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "语音操作功能：这个名字没有表达出语音和操作之间的关系。人们容易把它理解成一种操作语音的功能。由此可以看出，直接使用原说明文中的单词并不能达到理想的效果。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-zcjjfuq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-zcjjfuq",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-4pkbb9k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-4pkbb9k",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "语音控制功能：这个名字听起来让人觉得该功能是一种对语音加以限制的功能。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220730-p13rv4u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220730-p13rv4u",
+										"updated": "20220806220730"
+									},
+									"Children": [
+										{
+											"ID": "20220806220730-q5yfl8d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220730-q5yfl8d",
+												"updated": "20220806220730"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "语音命令功能：这个名字基本不存在歧义。但“命令”可能会被解释为“输出语音”，而不是“输入语音”。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

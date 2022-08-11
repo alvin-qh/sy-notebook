@@ -1,0 +1,337 @@
+{
+	"ID": "20220806220136-auewfbu",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220136-auewfbu",
+		"title": "准则",
+		"updated": "20220806220609"
+	},
+	"Children": [
+		{
+			"ID": "20220806220136-y2fgpvj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220136-y2fgpvj",
+				"updated": "20220806220609"
+			},
+			"Children": [
+				{
+					"ID": "20220806220215-enw6g69",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220215-enw6g69",
+						"updated": "20220806220215"
+					},
+					"Children": [
+						{
+							"ID": "20220806220215-erdvruw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220215-erdvruw",
+								"updated": "20220806220217"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220200-08htiaf"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "KISS"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220301-0jw4qek",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220301-0jw4qek"
+					},
+					"Children": [
+						{
+							"ID": "20220806220301-96lju0z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220301-96lju0z",
+								"updated": "20220806220303"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220258-3e67c99"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "DRY"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220419-8qruaul",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220419-8qruaul"
+					},
+					"Children": [
+						{
+							"ID": "20220806220419-osu8nbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220419-osu8nbm",
+								"updated": "20220806220420"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220404-qd1mbvk"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "YAGNI"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220432-nbf0v4a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220432-nbf0v4a",
+						"updated": "20220806220433"
+					},
+					"Children": [
+						{
+							"ID": "20220806220432-f5smray",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220432-f5smray",
+								"updated": "20220806220433"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220428-tu0xtko"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "PIE"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220502-dvdl9vh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220502-dvdl9vh"
+					},
+					"Children": [
+						{
+							"ID": "20220806220502-wz88o4i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220502-wz88o4i",
+								"updated": "20220806220503"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220458-95qzpk2"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "SLAP"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220608-049hh0q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220608-049hh0q",
+						"updated": "20220806220609"
+					},
+					"Children": [
+						{
+							"ID": "20220806220608-l8dkshz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220608-l8dkshz",
+								"updated": "20220806220609"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806220604-cd2zjq2"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "OCP"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

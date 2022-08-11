@@ -1,0 +1,764 @@
+{
+	"ID": "20220808234723-se6ufbj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808234723-se6ufbj",
+		"title": "Chocolatey",
+		"updated": "20220809001523"
+	},
+	"Children": [
+		{
+			"ID": "20220808234743-ni4yar6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808234743-ni4yar6",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-bq0fz7u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-bq0fz7u",
+				"updated": "20220808234808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考文档 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Chocolatey Software Docs | Setup / Install"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://docs.chocolatey.org/en-us/choco/setup"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808235122-3rknxee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808235122-3rknxee"
+			}
+		},
+		{
+			"ID": "20220808234743-0xwnc1m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808234743-0xwnc1m",
+				"updated": "20220808234845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 使用 CMD"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-l6phftm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-l6phftm",
+				"updated": "20220808234852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以管理员身份打开 CMD，执行如下命令："
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-jzzjb5d",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-jzzjb5d",
+				"updated": "20220808234856"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "UG93ZXJTaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@\"%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command \"[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\" \u0026\u0026 SET \"PATH=%PATH%;%ALLUSERSPROFILE%\\chocolatey\\bin\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809001511-vhb2816",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001511-vhb2816"
+			}
+		},
+		{
+			"ID": "20220808234743-yf7x9v1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808234743-yf7x9v1",
+				"updated": "20220808234905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. 使用 Powershell"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-wq7kjg8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808234743-wq7kjg8",
+				"updated": "20220808234946"
+			},
+			"Children": [
+				{
+					"ID": "20220808234743-hhjd4q4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808234743-hhjd4q4",
+						"updated": "20220808234743"
+					},
+					"Children": [
+						{
+							"ID": "20220808234743-0l6qeps",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234743-0l6qeps",
+								"updated": "20220808234910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以管理员身份打开 Powershell"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808234743-0ilb6rl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808234743-0ilb6rl",
+						"updated": "20220808234743"
+					},
+					"Children": [
+						{
+							"ID": "20220808234743-ahdbupw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234743-ahdbupw",
+								"updated": "20220808234925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Get-ExecutionPolicy"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令，如果返回 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Restricted"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", 则执行 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Set-ExecutionPolicy AllSigned"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令或执行 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Set-ExecutionPolicy Bypass -Scope Process"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808234743-4fyx5nj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220808234743-4fyx5nj",
+						"updated": "20220808234946"
+					},
+					"Children": [
+						{
+							"ID": "20220808234743-nszkaxq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234743-nszkaxq",
+								"updated": "20220808234743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行如下命令"
+								}
+							]
+						},
+						{
+							"ID": "20220808234934-o6xzklo",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808234934-o6xzklo",
+								"updated": "20220808234946"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001513-tbzdv6t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001513-tbzdv6t"
+			}
+		},
+		{
+			"ID": "20220808234743-t14tx17",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808234743-t14tx17",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3. 升级"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-y2juvag",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-y2juvag",
+				"updated": "20220808235002"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "choco upgrade chocolatey\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-8nhnkk2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-8nhnkk2",
+				"updated": "20220808235001"
+			}
+		},
+		{
+			"ID": "20220808234743-nrf5t4e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808234743-nrf5t4e",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. CLI"
+				}
+			]
+		},
+		{
+			"ID": "20220809001515-pa3x0vd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001515-pa3x0vd"
+			}
+		},
+		{
+			"ID": "20220808234743-wh3lf99",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808234743-wh3lf99",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. GUI"
+				}
+			]
+		},
+		{
+			"ID": "20220809001515-g594tgs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001515-g594tgs"
+			}
+		},
+		{
+			"ID": "20220808234743-a2nxu0k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808234743-a2nxu0k",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. Utils"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-1nzvzq6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220808234743-1nzvzq6",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. Choco clean"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-j5h5o93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-j5h5o93",
+				"updated": "20220808235016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用于清理 choco 在使用过程中产生的缓存，历史记录，释放磁盘空间"
+				}
+			]
+		},
+		{
+			"ID": "20220809001519-wwgdxoc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001519-wwgdxoc"
+			}
+		},
+		{
+			"ID": "20220808234743-1c7paf7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808234743-1c7paf7",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1.1. 安装/卸载"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-grg6dlc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-grg6dlc",
+				"updated": "20220808235029"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "choco install choco-cleaner\nchoco upgrade choco-cleaner\nchoco uninstall choco-cleaner \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809001523-u6r5691",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001523-u6r5691"
+			}
+		},
+		{
+			"ID": "20220808234743-ublu74u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808234743-ublu74u",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1.2. 使用"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-v43hdv7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-v43hdv7",
+				"updated": "20220808235038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 CMD 或 Powershell 中（管理员模式）执行如下命令："
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-4dh7wlx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-4dh7wlx",
+				"updated": "20220808235046"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "choco-cleaner\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-xccuuld",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234743-xccuuld",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者直接执行脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-smsqcyf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808234743-smsqcyf",
+				"updated": "20220808234743"
+			},
+			"Children": [
+				{
+					"ID": "20220808234743-3licb57",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808234743-3licb57",
+						"updated": "20220808234743"
+					},
+					"Children": [
+						{
+							"ID": "20220808234743-8e3vb44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234743-8e3vb44",
+								"updated": "20220808234743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CMD"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-rf3ywjh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-rf3ywjh",
+				"updated": "20220808235107"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\\ProgramData\\chocolatey\\lib\\choco-cleaner\\tools\\Choco-Cleaner-manual.bat\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-o761f6h",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808234743-o761f6h",
+				"updated": "20220808235104"
+			},
+			"Children": [
+				{
+					"ID": "20220808234743-setxvo4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808234743-setxvo4",
+						"updated": "20220808235104"
+					},
+					"Children": [
+						{
+							"ID": "20220808234743-388bsvq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234743-388bsvq",
+								"updated": "20220808235104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Powershell"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808234743-iuzl8yj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234743-iuzl8yj",
+				"updated": "20220808235112"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Set-ExecutionPolicy -ExecutionPolicy Unrestricted \\ProgramData\\chocolatey\\bin\\Choco-Cleaner.ps1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

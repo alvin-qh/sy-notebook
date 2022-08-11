@@ -1,0 +1,822 @@
+{
+	"ID": "20220806225226-5li1qp8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806225226-5li1qp8",
+		"title": "敏捷宣言遵循的原则",
+		"updated": "20220809000641"
+	},
+	"Children": [
+		{
+			"ID": "20220806225244-ro5eq5d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806225244-ro5eq5d",
+				"updated": "20220806225247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "English"
+				}
+			]
+		},
+		{
+			"ID": "20220806225244-x23rt7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225244-x23rt7v",
+				"updated": "20220806225244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "We follow these principles:"
+				}
+			]
+		},
+		{
+			"ID": "20220806225244-3yl372p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220806225244-3yl372p",
+				"updated": "20220806225244"
+			},
+			"Children": [
+				{
+					"ID": "20220806225244-g2v56g6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220806225244-g2v56g6",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-w3donie",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-w3donie",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-brstih8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220806225244-brstih8",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-633tosf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-633tosf",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-x41fgcr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220806225244-x41fgcr",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-9lh700u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-9lh700u",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-wnbjt2y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220806225244-wnbjt2y",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-z0d6kt1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-z0d6kt1",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Business people and developers must work together daily throughout the project."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-l5i7k1s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220806225244-l5i7k1s",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-qb71m6c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-qb71m6c",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-scv318h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220806225244-scv318h",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-pb749gv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-pb749gv",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "The most efficient and effective method of conveying information to and within a development team is face-to-face conversation."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-j2ngpo9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220806225244-j2ngpo9",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-oexuexe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-oexuexe",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Working software is the primary measure of progress."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-2ur3m2k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220806225244-2ur3m2k",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-savlfs1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-savlfs1",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-mhq968i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220806225244-mhq968i",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-oegadpj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-oegadpj",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Continuous attention to technical excellence and good design enhances agility."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-f92qd8a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220806225244-f92qd8a",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-h1agj1q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-h1agj1q",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Simplicity--the art of maximizing the amount of work not done--is essential."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-wwquezi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220806225244-wwquezi",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-hwzunx9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-hwzunx9",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "The best architectures, requirements, and designs emerge from self-organizing teams."
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-a36fvgn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220806225244-a36fvgn",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-wjejexf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-wjejexf",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000641-w3npuj6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000641-w3npuj6"
+			}
+		},
+		{
+			"ID": "20220806225244-6a74ze4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806225244-6a74ze4",
+				"updated": "20220806225244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中文"
+				}
+			]
+		},
+		{
+			"ID": "20220806225244-hwgdchu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806225244-hwgdchu",
+				"updated": "20220806225244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们遵循以下原则："
+				}
+			]
+		},
+		{
+			"ID": "20220806225244-b2o8hwt",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220806225244-b2o8hwt",
+				"updated": "20220806225244"
+			},
+			"Children": [
+				{
+					"ID": "20220806225244-aubeq1h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220806225244-aubeq1h",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-65t4457",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-65t4457",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我们最重要的目标，是通过持续不断地及早交付有价值的软件使客户满意。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-dlyxujx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220806225244-dlyxujx",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-p8dselo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-p8dselo",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "欣然面对需求变化，即使在开发后期也一样。为了客户的竞争优势，敏捷过程掌控变化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-rz6ceky",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220806225244-rz6ceky",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-yds2ul0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-yds2ul0",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经常地交付可工作的软件，相隔几星期或一两个月，倾向于采取较短的周期。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-i8fujny",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220806225244-i8fujny",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-38x2kiw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-38x2kiw",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "业务人员和开发人员必须相互合作，项目中的每一天都不例外。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-2n411p1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220806225244-2n411p1",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-lrfgqr8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-lrfgqr8",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "激发个体的斗志，以他们为核心搭建项目。提供所需的环境和支援，辅以信任，从而达成目标。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-u5h1j49",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220806225244-u5h1j49",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-b6wwms9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-b6wwms9",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不论团队内外，传递信息效果最好效率也最高的方式是面对面的交谈。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-qmzcye8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220806225244-qmzcye8",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-rpncqnv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-rpncqnv",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可工作的软件是进度的首要度量标准。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-cv2ctml",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220806225244-cv2ctml",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-rw5uxnw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-rw5uxnw",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "敏捷过程倡导可持续开发。责任人、开发人员和用户要能够共同维持其步调稳定延续。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-khevu06",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220806225244-khevu06",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-hdovebj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-hdovebj",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "坚持不懈地追求技术卓越和良好设计，敏捷能力由此增强。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-9t0rrll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220806225244-9t0rrll",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-7wrss42",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-7wrss42",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以简洁为本，它是极力减少不必要工作量的艺术。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-kdj1w9q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220806225244-kdj1w9q",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-q2uvhjy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-q2uvhjy",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "最好的架构、需求和设计出自自组织团队。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806225244-ww0nifg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220806225244-ww0nifg",
+						"updated": "20220806225244"
+					},
+					"Children": [
+						{
+							"ID": "20220806225244-spdi1fm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806225244-spdi1fm",
+								"updated": "20220806225244"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "团队定期地反思如何能提高成效，并依此调整自身的举止表现。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

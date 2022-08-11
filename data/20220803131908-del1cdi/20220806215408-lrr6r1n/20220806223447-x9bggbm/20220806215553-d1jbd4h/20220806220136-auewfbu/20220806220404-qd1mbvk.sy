@@ -1,0 +1,731 @@
+{
+	"ID": "20220806220404-qd1mbvk",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220404-qd1mbvk",
+		"title": "YAGNI",
+		"updated": "20220806220412"
+	},
+	"Children": [
+		{
+			"ID": "20220806220412-swx7pyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-swx7pyo",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "You Aren't Going to Need It（你不会需要它）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-36rdavd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220412-36rdavd",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-x7c4zv7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-x7c4zv7",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "只写所需最低限度的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-98luzib",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220412-98luzib",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"ID": "20220806220412-xf6tt91",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-xf6tt91",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-80t1qxb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-80t1qxb",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能以“可能会用到”为动机编写代码。我们要在需要的时候写需要的代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-jtdwtgi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-jtdwtgi",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-pun7jr3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-pun7jr3",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "人们不可能预测出软件的变化，写出超前的代码。一定要明确这一点，坚持只写当前需要的代码。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-92uzfcf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220412-92uzfcf",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-enybkq0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-enybkq0",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码无法预测"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-2ro1o8v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220412-2ro1o8v",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"ID": "20220806220412-izr36gv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-izr36gv",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-xxy904d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-xxy904d",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "事先写好了一大堆代码以应对各种情况，这些代码大多也派不上用场。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-wjxc7p0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-wjxc7p0",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-a6aykny",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-a6aykny",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程针对的是特定需求，所以再怎么追求通用性，总有无法满足的情况。考虑到代码的扩展性，有时人们会把自己认为有用的东西设计进去。可惜这些预想大多不会成真，意味着浪费了时间。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-ghu754o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-ghu754o",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-wlfoz9p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-wlfoz9p",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将扩展性纳入考虑的范围会进一步使代码变得复杂。无用的代码混在其中，使得代码的可读性变低，难以维护。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-hklmzut",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-hklmzut",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-fqutkn1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-fqutkn1",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "随着时间的流逝，人们会忘记这些没用的代码为了什么而存在。这样一来，当初费时费力想出的设计就没有了用武之地，成了碍事的垃圾。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-3ee031w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220412-3ee031w",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-shasugx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-shasugx",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "只写当前需要的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-h63as45",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220412-h63as45",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"ID": "20220806220412-s2t0o9j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-s2t0o9j",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-nbr5zcz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-nbr5zcz",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "比起通用性，我们更应该重视单纯性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-7aht2sp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-7aht2sp",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-q3kxa17",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-q3kxa17",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "先把通用性带来的可重复使用的特性和扩展性放到一边，将"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "“能用”"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "这一点放到第一位。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-ek7v9pf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-ek7v9pf",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-y9i282d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-y9i282d",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单方案的通用性更强。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-1o5gk0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-1o5gk0a",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-axglj6d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-axglj6d",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "即使需求增加，功能需要扩展，简单的代码也比通用的复杂代码更容易修改。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-syfj1k3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220412-syfj1k3",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-7dtiyo2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-7dtiyo2",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "适用范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-1w5l4rb",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220412-1w5l4rb",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"ID": "20220806220412-gvandkj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-gvandkj",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-razfivh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-razfivh",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "YAGNI还适用于软件的功能。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-xfs0yax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-xfs0yax",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-pi3paig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-pi3paig",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "丰富的功能看上去很吸引人，但仅凭预想创建出来的“没有必要的”功能不但没有人使用，还会令软件整体的使用方法复杂化。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-vxu1zxk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220412-vxu1zxk",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-hy80opw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220412-hy80opw",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "DTSTTCPW"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " （Do The Simplest Thing That Could Possibly Work）"
+				}
+			]
+		},
+		{
+			"ID": "20220806220412-4u9kj2a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220412-4u9kj2a",
+				"updated": "20220806220412"
+			},
+			"Children": [
+				{
+					"ID": "20220806220412-jt0tz80",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-jt0tz80",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-suqfnt7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-suqfnt7",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在可行方案中选取最简单的方案执行。其含义和目的都与YAGNI相同。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220412-dsqrawp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220412-dsqrawp",
+						"updated": "20220806220412"
+					},
+					"Children": [
+						{
+							"ID": "20220806220412-08x12b7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220412-08x12b7",
+								"updated": "20220806220412"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "想得太远只会增加代码的复杂度，提高修改的成本。所以每次编程时都要想想这些原则，让自己回到原点。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

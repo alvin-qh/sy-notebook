@@ -1,0 +1,451 @@
+{
+	"ID": "20220808233543-jvnyxh6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808233543-jvnyxh6",
+		"title": "NVM",
+		"updated": "20220808234500"
+	},
+	"Children": [
+		{
+			"ID": "20220808233713-9iv8cdy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808233713-9iv8cdy",
+				"updated": "20220808233713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 下载并安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808233726-q6lb837",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808233726-q6lb837",
+				"updated": "20220808233726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载安装脚本并执行"
+				}
+			]
+		},
+		{
+			"ID": "20220808233609-zh6f6th",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808233609-zh6f6th",
+				"updated": "20220808233616"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808233617-xffglzj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808233617-xffglzj",
+				"updated": "20220808233622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "或者"
+				}
+			]
+		},
+		{
+			"ID": "20220808233624-rbjd4pa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808233624-rbjd4pa",
+				"updated": "20220808233630"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808233720-v2k8zc8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808233720-v2k8zc8",
+				"updated": "20220808233720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置 shell 启动脚本"
+				}
+			]
+		},
+		{
+			"ID": "20220808233735-924h2g6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808233735-924h2g6",
+				"updated": "20220808233837"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export NVM_NODEJS_ORG_MIRROR=\"https://npm.taobao.org/mirrors/node\"\t# 设置 nodejs 下载镜像\nexport NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] \u0026\u0026 \\. \"$NVM_DIR/nvm.sh\"\t# This loads nvm\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234002-tbmk6g1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808234002-tbmk6g1",
+				"updated": "20220808234015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 设置 node.js 开发环境"
+				}
+			]
+		},
+		{
+			"ID": "20220808234117-eg6vs0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234117-eg6vs0h",
+				"updated": "20220808234125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看已安装 node.js 环境"
+				}
+			]
+		},
+		{
+			"ID": "20220808234126-wpj9qli",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234126-wpj9qli",
+				"updated": "20220808234127"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm list\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234129-axijzet",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234129-axijzet",
+				"updated": "20220808234152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看可使用的 lts 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234154-w2rlqvd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234154-w2rlqvd",
+				"updated": "20220808234202"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm ls-remote --lts\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234203-g9moaiu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234203-g9moaiu",
+				"updated": "20220808234226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装指定版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234305-9b931vr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234305-9b931vr",
+				"updated": "20220808234311"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm install \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234313-w2uxy16",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234313-w2uxy16",
+				"updated": "20220808234316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除指定版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234317-u7vuxj2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234317-u7vuxj2",
+				"updated": "20220808234322"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm remove \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234335-x7ykr48",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234335-x7ykr48",
+				"updated": "20220808234345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置当前使用的 node.js 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234345-gh1yt8s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234345-gh1yt8s",
+				"updated": "20220808234349"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm use \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234351-e8uyd87",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234351-e8uyd87",
+				"updated": "20220808234357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置默认的 node.js 版本"
+				}
+			]
+		},
+		{
+			"ID": "20220808234357-0ld6hl1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234357-0ld6hl1",
+				"updated": "20220808234419"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm alias default \u003cversion\u003e\nnvm alias node \u003cversion\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808234429-4yhfrtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234429-4yhfrtr",
+				"updated": "20220808234439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "清理 node.js 下载缓存"
+				}
+			]
+		},
+		{
+			"ID": "20220808234440-mp9hk5m",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808234440-mp9hk5m",
+				"updated": "20220808234500"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "nvm cache dir\t# 列举目前的 cache 文件\nnvm cache clear\t# 清理缓存\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

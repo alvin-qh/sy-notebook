@@ -1,0 +1,542 @@
+{
+	"ID": "20220806223136-22si64f",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223136-22si64f",
+		"title": "Rule of Clarity",
+		"updated": "20220806223148"
+	},
+	"Children": [
+		{
+			"ID": "20220806223148-tj3ctgs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223148-tj3ctgs",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "清晰原则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-vu9xtil",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223148-vu9xtil",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-nozd30x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223148-nozd30x",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码要清晰"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-nxgfshl",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223148-nxgfshl",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"ID": "20220806223148-4fcqkc8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223148-4fcqkc8",
+						"updated": "20220806223148"
+					},
+					"Children": [
+						{
+							"ID": "20220806223148-6nux3vb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223148-6nux3vb",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码不应该巧妙，而应该清晰。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223148-5du0zv9",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223148-5du0zv9",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"ID": "20220806223148-g9ag8qs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-g9ag8qs",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-mwj8qq7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-mwj8qq7",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以大幅提升复杂度为代价，用技术使性能得到一点点提升的做法是丢了西瓜捡芝麻。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223148-3jgjyq4",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-3jgjyq4",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-kdmyp9f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-kdmyp9f",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "复杂的代码不仅难以理解，还容易发生故障。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223148-ilwvagb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-ilwvagb",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-tjs2l11",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-tjs2l11",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "清晰的代码既便于理解，又不容易出问题。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-dc6ndm3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223148-dc6ndm3",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-hfmyiim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223148-hfmyiim",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "读代码的是人，不是机器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-dij1w8n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223148-dij1w8n",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"ID": "20220806223148-uoiew3k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223148-uoiew3k",
+						"updated": "20220806223148"
+					},
+					"Children": [
+						{
+							"ID": "20220806223148-oyp4b4d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223148-oyp4b4d",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写代码时最重要的一点就是以人（阅读代码维护软件的程序员）为对象，不以执行代码的计算机为对象。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223148-b8yovp5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223148-b8yovp5",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"ID": "20220806223148-25o76mi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-25o76mi",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-s48rj44",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-s48rj44",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "维护是软件不可避免的一个阶段。这个阶段的所需成本通常比重新开发一款软件的成本还要高。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223148-4lg3um9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-4lg3um9",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-6idwx4r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-6idwx4r",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码不是编译完、解释完之后能在计算机上运行就万事大吉了，它还必须能让人读懂。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-bil7t9l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223148-bil7t9l",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-qc1gnic",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223148-qc1gnic",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不清晰的地方要进行改善"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223148-4l6h4th",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223148-4l6h4th",
+				"updated": "20220806223148"
+			},
+			"Children": [
+				{
+					"ID": "20220806223148-b2vrxlf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223148-b2vrxlf",
+						"updated": "20220806223148"
+					},
+					"Children": [
+						{
+							"ID": "20220806223148-5nqmw3r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223148-5nqmw3r",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要编写可读性高的、清晰的代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223148-y0ed5q6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223148-y0ed5q6",
+						"updated": "20220806223148"
+					},
+					"Children": [
+						{
+							"ID": "20220806223148-viv7xmm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223148-viv7xmm",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在读代码时，不要对难以读懂的部分再三解读。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223148-pjtg6f5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223148-pjtg6f5",
+								"updated": "20220806223148"
+							},
+							"Children": [
+								{
+									"ID": "20220806223148-73kzlu6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-73kzlu6",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-iz8jrqh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-iz8jrqh",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "第一次需要解读可能是因为碰巧没看懂，如果第二次还需要解读，就需要想办法处理了。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223148-pgei06g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223148-pgei06g",
+										"updated": "20220806223148"
+									},
+									"Children": [
+										{
+											"ID": "20220806223148-nazxuo0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223148-nazxuo0",
+												"updated": "20220806223148"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以给代码添加注释，或者把代码修改得更容易理解，以此来避免再三解读同一段代码。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1004 @@
+{
+	"ID": "20220806221531-0r3x3zp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221531-0r3x3zp",
+		"title": "Rate of Change",
+		"updated": "20220806221535"
+	},
+	"Children": [
+		{
+			"ID": "20220806221535-04u61fv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221535-04u61fv",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "变动率"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-wq77xyf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221535-wq77xyf",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-tph117l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221535-tph117l",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "按修改理由进行分组"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-rrd1vt8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221535-rrd1vt8",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"ID": "20220806221535-4rb6wp9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-4rb6wp9",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-zvjjm5b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-zvjjm5b",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "变动率体现了修改代码的时间点，变动率相同意味着代码在同一时间点被修改。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-m9xvi9h",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-m9xvi9h",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-82xx9c2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-82xx9c2",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-9uiiv49",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-9uiiv49",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同时修改的元素要放在同一个地方，在不同时间点修改的元素要放在不同的地方。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-lzl45ll",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-lzl45ll",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-zmzfju2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-zmzfju2",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同样的东西要同等对待，这一点对修改代码的时间来说也一样。同一时间修改的东西要放在同一个地方。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-c3s9v7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221535-c3s9v7d",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-a7b737d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221535-a7b737d",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "能缩小修改范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-9orfhss",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221535-9orfhss",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"ID": "20220806221535-hiddjf5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-hiddjf5",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-wjvo1gv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-wjvo1gv",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在模块等按照某种单位分组的代码中，有多个修改理由的代码比较脆弱。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-bsz17g4",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-bsz17g4",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-ik5x5cf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-ik5x5cf",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-9arw9lj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-9arw9lj",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个模块中如果修改代码的时间不同步，那么修改带来的影响将会波及无关的部分。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-ox8ye5t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-ox8ye5t",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-xrsf0nj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-xrsf0nj",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改理由越多，修改的机会就越多。这种代码一般会承担多项职责，所以代码量较大。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221535-w2hxmft",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-w2hxmft",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-0z52nlk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-0z52nlk",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果模块只存在一个修改理由，就代表该模块由关联性极强的代码集合而成。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-y7580hp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-y7580hp",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-jmzf3cq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-jmzf3cq",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-l3nljma",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-l3nljma",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块满足高聚合性，非常牢固。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-k7s54we",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-k7s54we",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-xk4kcfd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-xk4kcfd",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改范围较小，影响范围也小，所以模块修改起来比较轻松。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-txv30em",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221535-txv30em",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-9f7w2gz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221535-9f7w2gz",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "根据修改理由分配位置"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-jwh8ris",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221535-jwh8ris",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"ID": "20220806221535-t4vs2c1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-t4vs2c1",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-i6throa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-i6throa",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修改时间相同的元素要放在同一个地方，修改时间不同的元素要放在不同的地方。这对逻辑和数据来说都适用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221535-slklhox",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-slklhox",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-mz6ybdx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-mz6ybdx",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "逻辑："
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-f1dpr39",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-f1dpr39",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-c97njk6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-c97njk6",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-qgt3hcg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-qgt3hcg",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果税额计算包括“一般计算逻辑”和“各年固有逻辑”两种，这两种逻辑就要分别放在不同的地方，因为二者的修改时间明显不同。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-siv9g5r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-siv9g5r",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-gnx8j6c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-gnx8j6c",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每年在修改“各年固有逻辑”时，就能保证“一般计算逻辑”不受影响。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221535-ogzzp4r",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-ogzzp4r",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-f79adsl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-f79adsl",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数据："
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-585a243",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-585a243",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-56ax5u2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-56ax5u2",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-39vj8w8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-39vj8w8",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如模块中的一部分数据只在执行某个特定函数时才使用，这时就要将这部分数据移至函数中，把它们用作本地变量。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-zvmprtt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-zvmprtt",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-i2sx7ci",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-i2sx7ci",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "即使某个模块中存在一些同时被修改的数据，如果这些数据不存在与其他变量同步修改的必然性，我们也要把这些数据移至别的（辅助）模块中。"
+												}
+											]
+										},
+										{
+											"ID": "20220806221535-n8o7tyz",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806221535-n8o7tyz",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"ID": "20220806221535-uxt9m1t",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221535-uxt9m1t",
+														"updated": "20220806221535"
+													},
+													"Children": [
+														{
+															"ID": "20220806221535-hideer9",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221535-hideer9",
+																"updated": "20220806221535"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "一个用于对金融商品进行计算的“金融商品”模块，该模块中有“通货”和“金额”两组数据。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806221535-taqjp8i",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221535-taqjp8i",
+														"updated": "20220806221535"
+													},
+													"Children": [
+														{
+															"ID": "20220806221535-he5iwvu",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221535-he5iwvu",
+																"updated": "20220806221535"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "新建一个“货币”模块，将“通货”和“金额”的数据移动过去。这样一来，汇率换算和添加通货种类等处理都可以被“货币”模块吸收，“金融商品”模块就能专注于金融商品的计算了。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-9g81csm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221535-9g81csm",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-r0ghgk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221535-r0ghgk9",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "单一职责原则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221535-erm0jcr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221535-erm0jcr",
+				"updated": "20220806221535"
+			},
+			"Children": [
+				{
+					"ID": "20220806221535-e2nx0te",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221535-e2nx0te",
+						"updated": "20220806221535"
+					},
+					"Children": [
+						{
+							"ID": "20220806221535-lz1100c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221535-lz1100c",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单一职责原则（the Single Responsibility Principle, SRP）：规定一个模块只能有一个修改理由。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221535-gd0l6yt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221535-gd0l6yt",
+								"updated": "20220806221535"
+							},
+							"Children": [
+								{
+									"ID": "20220806221535-cbsnfuw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-cbsnfuw",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-8f6hgjo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-8f6hgjo",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有多个修改理由就意味着模块承担了多项职责。我们不可以创建这样的模块。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-gb0gil6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-gb0gil6",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-9exri36",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-9exri36",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "承担多项职责的模块十分脆弱。当一个模块承担了多项职责时，只要其中一项职责被修改，其他不相关的地方就会受到影响，模块很可能在不经意间遭到破坏。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-da2bwl8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-da2bwl8",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-yo9rzdt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-yo9rzdt",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果负责修改的程序员不是当初编写代码的人，那么这个人在修改代码的时候很可能注意不到模块承担了多项职责。这样一来，模块遭到破坏的风险就会进一步加大。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-j98kf1o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-j98kf1o",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-1twa8g1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-1twa8g1",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一个模块只承担一项职责，模块必须专注于某项职责。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221535-bdh4m4o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221535-bdh4m4o",
+										"updated": "20220806221535"
+									},
+									"Children": [
+										{
+											"ID": "20220806221535-d504g4c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221535-d504g4c",
+												"updated": "20220806221535"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "将变动率相同的代码放在一起，自然而然就能形成满足单一职责原则的模块。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

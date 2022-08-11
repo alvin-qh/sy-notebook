@@ -1,0 +1,960 @@
+{
+	"ID": "20220806220428-tu0xtko",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220428-tu0xtko",
+		"title": "PIE",
+		"updated": "20220806220438"
+	},
+	"Children": [
+		{
+			"ID": "20220806220438-nxqdh5c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-nxqdh5c",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Program Intently and Expressively（编程要表达出意图）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-7ywq5d2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220438-7ywq5d2",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-3vxsspl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-3vxsspl",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "表达出代码的意图"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-avr6h1f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220438-avr6h1f",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"ID": "20220806220438-v5bxgdi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-v5bxgdi",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-tnfihth",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-tnfihth",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表达出代码的意图。在写代码时，明确表达意图十分重要，这是因为代码是写给人看的，而不是写给编译器看的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-vyaj8l4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-vyaj8l4",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-bs7aen6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-bs7aen6",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在写代码时要在表达上多花心思，将软件运行方式直观地传达给阅读代码的人。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-w4ujya0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220438-w4ujya0",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-25p5oyf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-25p5oyf",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码是唯一的线索"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-9x5tuee",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220438-9x5tuee",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"ID": "20220806220438-a0oafp2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-a0oafp2",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-fhpbm47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-fhpbm47",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码是我们正确、完整地了解软件运行方式的唯一线索。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-8bfbtpd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-8bfbtpd",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-nc5kiuj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-nc5kiuj",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文档和代码的用途差异："
+								}
+							]
+						},
+						{
+							"ID": "20220806220438-7yyzcqe",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220438-7yyzcqe",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"ID": "20220806220438-ime1tf9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220438-ime1tf9",
+										"updated": "20220806220438"
+									},
+									"Children": [
+										{
+											"ID": "20220806220438-okdxrus",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220438-okdxrus",
+												"updated": "20220806220438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需求定义文档只描述了需要什么东西。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220438-ee6hynh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220438-ee6hynh",
+										"updated": "20220806220438"
+									},
+									"Children": [
+										{
+											"ID": "20220806220438-wfxri7j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220438-wfxri7j",
+												"updated": "20220806220438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "基本设计文档只描述了用什么样的软件来实现需求。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220438-180bc6e",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220438-180bc6e",
+										"updated": "20220806220438"
+									},
+									"Children": [
+										{
+											"ID": "20220806220438-4m7p4nw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220438-4m7p4nw",
+												"updated": "20220806220438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "详细设计文档只描述了成品软件是什么样的结构。"
+												}
+											]
+										},
+										{
+											"ID": "20220806220438-g2qvj41",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806220438-g2qvj41",
+												"updated": "20220806220438"
+											},
+											"Children": [
+												{
+													"ID": "20220806220438-laghnom",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220438-laghnom",
+														"updated": "20220806220438"
+													},
+													"Children": [
+														{
+															"ID": "20220806220438-1c3h203",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220438-1c3h203",
+																"updated": "20220806220438"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "详细设计文档虽然与代码最接近，但代码是动态变更的，而详细设计文档往往做不到同步。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806220438-z0guawx",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220438-z0guawx",
+														"updated": "20220806220438"
+													},
+													"Children": [
+														{
+															"ID": "20220806220438-1wxza4t",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220438-1wxza4t",
+																"updated": "20220806220438"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "并非每个项目都有详细设计文档。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806220438-6dktku5",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220438-6dktku5",
+														"updated": "20220806220438"
+													},
+													"Children": [
+														{
+															"ID": "20220806220438-sanb6gp",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220438-sanb6gp",
+																"updated": "20220806220438"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "详细设计文档并不是百分之百存在且百分之百有用的。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220438-1v9gcog",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220438-1v9gcog",
+										"updated": "20220806220438"
+									},
+									"Children": [
+										{
+											"ID": "20220806220438-3t0ukny",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220438-3t0ukny",
+												"updated": "20220806220438"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "只能通过阅读代码来掌握软件的运行情况。因此，编写可读性高的代码，用代码表达意图是唯一可取的方法。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-3dgx1u8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220438-3dgx1u8",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-z329ydq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-z329ydq",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "把提高代码可读性作为第一要务"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-2ebj1oi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220438-2ebj1oi",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"ID": "20220806220438-pw5xpgg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-pw5xpgg",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-xq0jcmk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-xq0jcmk",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要重视的是代码的可读性，而不是代码的易写性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-q9ipiz3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-q9ipiz3",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-bfws08l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-bfws08l",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "读代码的次数远比写代码的次数多。代码只写一次，但此后会被人多次阅读。所以，写代码的时间远没有读代码的时间长。包括自己正在写的代码，自己读的时间可能都要比写的时间长。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-4jk6hy8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-4jk6hy8",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-4yppwux",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-4yppwux",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“读代码的效率”应优先于“写代码的效率”。只要代码的可读性能够提高，就算牺牲写代码的效率也是值得的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-jki0cod",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-jki0cod",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-f7c0hya",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-f7c0hya",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码的寿命往往超乎我们的想象。可读性高的代码，其价值也会随着时间的推移不断累积。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-e44ikry",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-e44ikry",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-0hjti25",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-0hjti25",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "“读代码的效率”同样优先于“执行代码的效率”，因为如果代码的可读性较高，提高代码的执行效率也会变得容易一些。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-mx2mf3v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-mx2mf3v",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-g7352gg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-g7352gg",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不能为了炫耀才华而写一些让人难懂的代码。刚学会新技术时，人们很容易落入陷阱，明知学会的新技术用不上还想炫耀一下。不能让人读懂的代码不是好代码。只有能够向读者准确传达意图的代码，才是能够帮我们达到目的的好代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-s224zqq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-s224zqq",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-6gotn7l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-6gotn7l",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不管是自己写的代码还是别人写的代码，只要在阅读的过程中不能立刻理解，就应该马上对其进行修改，提高代码的可读性。久而久之，工作就能顺利开展下去了。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-8zc67e5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220438-8zc67e5",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-mxrc8ge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-mxrc8ge",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "避免打地鼠式的开发"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-ag2ubu3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220438-ag2ubu3",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"ID": "20220806220438-uilqsyz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-uilqsyz",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-0h32npa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-0h32npa",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件的项目经理会面临各种催促交付的压力，对他们来说，时间非常重要。因此，他们更倾向于牺牲代码的质量来提高实现功能的速度。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-1ls9ehf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-1ls9ehf",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-rv3dqjm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-rv3dqjm",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编写可读性高、没有故障的高质量代码（和测试程序）确实需要花费很多时间，从短期来看是一种损失。但这样做能够避免打地鼠式的开发，从长远来看，利大于弊。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-8qgsgi5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220438-8qgsgi5",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "要写注释"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220438-m271rtq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220438-m271rtq",
+				"updated": "20220806220438"
+			},
+			"Children": [
+				{
+					"ID": "20220806220438-gkl1jqc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-gkl1jqc",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-ls6drdb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-ls6drdb",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "理想的代码，是可读性高到没有注释也能读懂的代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-g22waqc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-g22waqc",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-7cuulh9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-7cuulh9",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码毕竟只能表达“做什么”和“怎么做”。要表达“为什么这样做”，还需要用到注释。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220438-kr4ksux",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220438-kr4ksux",
+						"updated": "20220806220438"
+					},
+					"Children": [
+						{
+							"ID": "20220806220438-vrf9eql",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220438-vrf9eql",
+								"updated": "20220806220438"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要把注释当成一种交流的手段。我们在写代码时要找到一个平衡点，一方面要让代码在不需要注释的情况下能被人理解，一方面用注释来弥补代码表达不出来的东西。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

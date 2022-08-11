@@ -1,0 +1,1004 @@
+{
+	"ID": "20220806222911-eenr7uv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222911-eenr7uv",
+		"title": "Clarity Principle",
+		"updated": "20220806222920"
+	},
+	"Children": [
+		{
+			"ID": "20220806222920-4mq1orz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-4mq1orz",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "清晰原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-9zkusgi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222920-9zkusgi",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-z982l6t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-z982l6t",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "注意逻辑的清晰性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-sf344gx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222920-sf344gx",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"ID": "20220806222920-uwcs97x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-uwcs97x",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-9qguumu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-9qguumu",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清晰原理就是注意逻辑的清晰性。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222920-1shl716",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222920-1shl716",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"ID": "20220806222920-ydg11t6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-ydg11t6",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-or2sfpz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-or2sfpz",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "逻辑具有清晰性就代表逻辑能清楚证明自身的正确性。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222920-7gicys7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-7gicys7",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-jcfx8mx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-jcfx8mx",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编写的代码要让人一眼就能判断出没有问题。任何不明确的部分都要附有说明。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-9dw7fst",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-9dw7fst",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-8h7nrjo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-8h7nrjo",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保证逻辑的清晰性要“不择手段”。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222920-nvfhre2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222920-nvfhre2",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"ID": "20220806222920-5ckvjs5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-5ckvjs5",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-z2mev7u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-z2mev7u",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无法用代码证明逻辑正确性的情况下，我们也可以通过写注释、附文档或画图等方法来证明。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222920-znprcvr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-znprcvr",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-x0qsruc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-x0qsruc",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "证明逻辑的正确性是一件麻烦的事，时间一长，人们就会懒得用辅助手段去证明，转而编写逻辑清晰的代码了。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-qk3eqrk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222920-qk3eqrk",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-j32hh5g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-j32hh5g",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "消除不确定性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-7nwgvrf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222920-7nwgvrf",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"ID": "20220806222920-kd99hb2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-kd99hb2",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-erddnk2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-erddnk2",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码必须保持较高的可读性。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222920-hama16q",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222920-hama16q",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"ID": "20220806222920-kpayx2s",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-kpayx2s",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-fn3utmd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-fn3utmd",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编写代码时如果追求高可读性，程序员就不会采用取巧的方式编写代码，编写出的代码会非常自然。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222920-l2erqdv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-l2erqdv",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-m7yabuy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-m7yabuy",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用取巧的方式编写的代码除了能让计算机运行以外没有任何意义。"
+												}
+											]
+										},
+										{
+											"ID": "20220806222920-6cqixp4",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806222920-6cqixp4",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"ID": "20220806222920-lgu4xlp",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806222920-lgu4xlp",
+														"updated": "20220806222920"
+													},
+													"Children": [
+														{
+															"ID": "20220806222920-r6xpd08",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806222920-r6xpd08",
+																"updated": "20220806222920"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "必须以人为对象来编写代码。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-5r54c00",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-5r54c00",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-w3xyvip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-w3xyvip",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消除代码的不确定性是对自己的作品负责，这么做也可以为后续负责维护的人提供方便。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-ekmu8ny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222920-ekmu8ny",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-lrnegi6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-lrnegi6",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写逻辑清晰的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-n1yhvb3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222920-n1yhvb3",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"ID": "20220806222920-pzkwgc5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-pzkwgc5",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-uys2wkd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-uys2wkd",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选用直观易懂的逻辑。会给读代码的人带来疑问的部分要么消除，要么加以注释。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-ybbac3h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-ybbac3h",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-191hdmb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-191hdmb",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应使用任何人都能立刻理解且不存在歧义的术语。要特别注意变量名等一定不能没有意义。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-5x6pr70",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222920-5x6pr70",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-dzckj6i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-dzckj6i",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "重复使用代码的风险"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-oefprs3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222920-oefprs3",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"ID": "20220806222920-4iyd3lb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-4iyd3lb",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-fjjjnmm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-fjjjnmm",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码必须能让人一眼看出其结构，顺利理解其内容，并且没有歧义。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-f4pqes0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-f4pqes0",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-homqhp8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-homqhp8",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复使用现有代码必须建立在真正理解该段代码的基础之上。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222920-qrt7wlk",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222920-qrt7wlk",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"ID": "20220806222920-izjzp14",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-izjzp14",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-16gs3x6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-16gs3x6",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "软件的环境条件是该软件代码与其他代码相互作用形成的“上下文”。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222920-tb02zd9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-tb02zd9",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-oe3clj0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-oe3clj0",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果看到代码被重复使用过就盲目拿来使用，软件就可能会出现意想不到的故障。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-ygze9rk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-ygze9rk",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-lzbjsby",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-lzbjsby",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "重复使用代码是件好事，但也存在风险。在使用某段代码之前，一定要仔细确认其运行条件和上下文。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-j9pvjgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222920-j9pvjgq",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "修复代码故障的风险"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222920-79ts6oj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222920-79ts6oj",
+				"updated": "20220806222920"
+			},
+			"Children": [
+				{
+					"ID": "20220806222920-otq10zj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-otq10zj",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-7nevsad",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-7nevsad",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在修复现有代码的故障时，我们更需要去深入理解代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-kmsfvg3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-kmsfvg3",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-nrb7h47",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-nrb7h47",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修复必须建立在充分理解代码的基础之上，否则考虑的情况就会不全面，导致代码退化。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222920-wg4tu07",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222920-wg4tu07",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"ID": "20220806222920-pcagdex",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-pcagdex",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-cempo4x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-cempo4x",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不能只着眼于发生故障的地方。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222920-5l5zb1k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222920-5l5zb1k",
+										"updated": "20220806222920"
+									},
+									"Children": [
+										{
+											"ID": "20220806222920-aofvk6p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222920-aofvk6p",
+												"updated": "20220806222920"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "“代码能运行就好”的思想并不适用于修复现有代码的故障。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222920-6hgqetw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222920-6hgqetw",
+						"updated": "20220806222920"
+					},
+					"Children": [
+						{
+							"ID": "20220806222920-qhs3vzq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222920-qhs3vzq",
+								"updated": "20220806222920"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "应充分理解代码，充分理解故障类型，进而提出假设，然后在此基础上修复故障，进行全面测试，从而保证代码的质量。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

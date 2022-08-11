@@ -1,0 +1,447 @@
+{
+	"ID": "20220806222138-ze7tpwt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222138-ze7tpwt",
+		"title": "Divide and Conquer",
+		"updated": "20220806222141"
+	},
+	"Children": [
+		{
+			"ID": "20220806222141-oga0gx0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222141-oga0gx0",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分治"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-wg5xpuk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222141-wg5xpuk",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-tmrvuhf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222141-tmrvuhf",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将大问题分割成小问题"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-ftxuvgv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222141-ftxuvgv",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"ID": "20220806222141-oa6bl9h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222141-oa6bl9h",
+						"updated": "20220806222141"
+					},
+					"Children": [
+						{
+							"ID": "20220806222141-zzu18qf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222141-zzu18qf",
+								"updated": "20220806222141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分治是指将难以直接解决的大问题分割成多个小问题，然后逐个解决。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222141-h49xnw8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222141-h49xnw8",
+								"updated": "20220806222141"
+							},
+							"Children": [
+								{
+									"ID": "20220806222141-z29rtea",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222141-z29rtea",
+										"updated": "20220806222141"
+									},
+									"Children": [
+										{
+											"ID": "20220806222141-ivfyw3q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222141-ivfyw3q",
+												"updated": "20220806222141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "分割后的小问题要比最初的问题简单许多，比较容易解决。各个小问题被逐一解决之后，原来的大问题就不复存在了。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-myq9k64",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222141-myq9k64",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-s2klp05",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222141-s2klp05",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "大问题无法控制"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-mzs354l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222141-mzs354l",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"ID": "20220806222141-4uq2p1f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222141-4uq2p1f",
+						"updated": "20220806222141"
+					},
+					"Children": [
+						{
+							"ID": "20220806222141-gmg2hd3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222141-gmg2hd3",
+								"updated": "20220806222141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "规模过大的问题，其复杂度也比较高。先将问题分割成容易控制的大小，再着手解决，这么做效率比较高。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-83j2ote",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222141-83j2ote",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-bcsflvj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222141-bcsflvj",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将问题分割后逐个击破"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222141-a4xdie5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222141-a4xdie5",
+				"updated": "20220806222141"
+			},
+			"Children": [
+				{
+					"ID": "20220806222141-r6r7r5k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222141-r6r7r5k",
+						"updated": "20220806222141"
+					},
+					"Children": [
+						{
+							"ID": "20220806222141-40crjf1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222141-40crjf1",
+								"updated": "20220806222141"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如下面几种做法"
+								}
+							]
+						},
+						{
+							"ID": "20220806222141-bk8v8c6",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222141-bk8v8c6",
+								"updated": "20220806222141"
+							},
+							"Children": [
+								{
+									"ID": "20220806222141-mt8ugjj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222141-mt8ugjj",
+										"updated": "20220806222141"
+									},
+									"Children": [
+										{
+											"ID": "20220806222141-qeep8ii",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222141-qeep8ii",
+												"updated": "20220806222141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在设计整个软件时，先将软件分割成多个可以独立设计的部分，然后对这些部分一一进行设计。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222141-55c3a2w",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222141-55c3a2w",
+										"updated": "20220806222141"
+									},
+									"Children": [
+										{
+											"ID": "20220806222141-w2ebubi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222141-w2ebubi",
+												"updated": "20220806222141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在设计模块时，按照职责对模块进行分割。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222141-jp7jo38",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222141-jp7jo38",
+										"updated": "20220806222141"
+									},
+									"Children": [
+										{
+											"ID": "20220806222141-g8aie90",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222141-g8aie90",
+												"updated": "20220806222141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在设计算法时，可以像归并排序一样，先自下而上地对问题进行分割，再探讨能否解决问题。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222141-l4usqr2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222141-l4usqr2",
+										"updated": "20220806222141"
+									},
+									"Children": [
+										{
+											"ID": "20220806222141-k788yzj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222141-k788yzj",
+												"updated": "20220806222141"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在处理海量数据时，可以像MapReduce一样，先将计算分割成较小的单位，然后探讨能否把这些计算交给分布式环境并行处理。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

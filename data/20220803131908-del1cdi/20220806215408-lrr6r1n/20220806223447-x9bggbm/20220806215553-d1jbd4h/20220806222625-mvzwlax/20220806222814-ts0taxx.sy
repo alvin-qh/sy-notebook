@@ -1,0 +1,514 @@
+{
+	"ID": "20220806222814-ts0taxx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222814-ts0taxx",
+		"title": "Hierarchy Principle",
+		"updated": "20220806222825"
+	},
+	"Children": [
+		{
+			"ID": "20220806222825-pvgwg1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222825-pvgwg1i",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "层次原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-vu06n8b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222825-vu06n8b",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-6jymx6k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222825-6jymx6k",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "讲究层次"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-lvh2bm1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222825-lvh2bm1",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"ID": "20220806222825-ey6mogd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222825-ey6mogd",
+						"updated": "20220806222825"
+					},
+					"Children": [
+						{
+							"ID": "20220806222825-ewc9jbz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222825-ewc9jbz",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "层次原理就是在结构上讲究层次。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222825-wiwrb5b",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222825-wiwrb5b",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"ID": "20220806222825-9su6xfc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222825-9su6xfc",
+										"updated": "20220806222825"
+									},
+									"Children": [
+										{
+											"ID": "20220806222825-4rogbop",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222825-4rogbop",
+												"updated": "20220806222825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "注意事物的主从关系、前后关系和本末关系等层次关系，整理事物的关联性。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222825-togniwi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222825-togniwi",
+						"updated": "20220806222825"
+					},
+					"Children": [
+						{
+							"ID": "20220806222825-dpqzgmd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222825-dpqzgmd",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同层次各司其职，同种处理不跨越多个层次。例如："
+								}
+							]
+						},
+						{
+							"ID": "20220806222825-9pvg29f",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222825-9pvg29f",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"ID": "20220806222825-e89p6c1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222825-e89p6c1",
+										"updated": "20220806222825"
+									},
+									"Children": [
+										{
+											"ID": "20220806222825-p8opvm3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222825-p8opvm3",
+												"updated": "20220806222825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "执行了获取资源的处理，那么释放资源的处理就要在相同的层次进行。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222825-cew4ezn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222825-cew4ezn",
+										"updated": "20220806222825"
+									},
+									"Children": [
+										{
+											"ID": "20220806222825-23bryqg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222825-23bryqg",
+												"updated": "20220806222825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "互斥控制的标志位置1和置0的处理要在同一层次进行。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-5d2tuol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222825-5d2tuol",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-ry7ibip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222825-ry7ibip",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "层次结构有助于提高代码的可读性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-8jg7dry",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222825-8jg7dry",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"ID": "20220806222825-ukolaap",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222825-ukolaap",
+						"updated": "20220806222825"
+					},
+					"Children": [
+						{
+							"ID": "20220806222825-0qufmw7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222825-0qufmw7",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有明确层次结构的代码能帮助读代码的人抽象理解代码的整体结构。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222825-3bc8wng",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222825-3bc8wng",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"ID": "20220806222825-xyo4lt1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222825-xyo4lt1",
+										"updated": "20220806222825"
+									},
+									"Children": [
+										{
+											"ID": "20220806222825-tilxtwh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222825-tilxtwh",
+												"updated": "20220806222825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "读代码的人可以根据自身需要阅读下一层次的代码，掌握更加详细的信息。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222825-yxn9g11",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222825-yxn9g11",
+										"updated": "20220806222825"
+									},
+									"Children": [
+										{
+											"ID": "20220806222825-rav7tk1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222825-rav7tk1",
+												"updated": "20220806222825"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以提高代码的可读性，帮助程序员表达编码意图，降低Bug发生的概率。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-lciz2ce",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222825-lciz2ce",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-xzfpf39",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222825-xzfpf39",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写有抽象层次结构的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222825-5cxj52t",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222825-5cxj52t",
+				"updated": "20220806222825"
+			},
+			"Children": [
+				{
+					"ID": "20220806222825-kf1xvzy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222825-kf1xvzy",
+						"updated": "20220806222825"
+					},
+					"Children": [
+						{
+							"ID": "20220806222825-63bgcjl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222825-63bgcjl",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编写代码时设计各部分的抽象程度，构建层次结构。保证同一个层次中的所有代码抽象程度相同。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222825-u8pcl3g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222825-u8pcl3g",
+						"updated": "20220806222825"
+					},
+					"Children": [
+						{
+							"ID": "20220806222825-neojk0v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222825-neojk0v",
+								"updated": "20220806222825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "高层次的代码要通过外部视角描述低层次的代码。这样做能让调用低层次代码的高层次代码更加简单易懂。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

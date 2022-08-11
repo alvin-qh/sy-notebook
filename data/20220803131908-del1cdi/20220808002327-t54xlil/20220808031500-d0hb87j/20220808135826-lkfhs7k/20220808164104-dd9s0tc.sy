@@ -1,0 +1,1920 @@
+{
+	"ID": "20220808164104-dd9s0tc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808164104-dd9s0tc",
+		"title": "镜像和容器",
+		"updated": "20220808171350"
+	},
+	"Children": [
+		{
+			"ID": "20220808164112-bk6wfte",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808164112-bk6wfte",
+				"updated": "20220808164112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 镜像"
+				}
+			]
+		},
+		{
+			"ID": "20220808164112-egynb56",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808164112-egynb56",
+				"updated": "20220808164655"
+			},
+			"Children": [
+				{
+					"ID": "20220808164112-v72j441",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164112-v72j441",
+						"updated": "20220808164112"
+					},
+					"Children": [
+						{
+							"ID": "20220808164112-llk8lhv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164112-llk8lhv",
+								"updated": "20220808164112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拉取镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220808164117-x5r1dnm",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808164117-x5r1dnm",
+								"updated": "20220808164121"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker pull hello-world:latest\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808164134-gieqe12",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808164134-gieqe12"
+							},
+							"Children": [
+								{
+									"ID": "20220808164133-55hnjdi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164133-55hnjdi"
+									},
+									"Children": [
+										{
+											"ID": "20220808164133-v1thnq7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164133-v1thnq7",
+												"updated": "20220808164138"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--all-tags"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-a"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 下载仓库中所有标记的镜像"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164143-k6dv5ak",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164143-k6dv5ak"
+									},
+									"Children": [
+										{
+											"ID": "20220808164143-umuxwfs",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164143-umuxwfs",
+												"updated": "20220808164158"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--disable-content-trust"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 默认值为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "true"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，跳过镜像验证"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164203-bscwjxo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164203-bscwjxo"
+									},
+									"Children": [
+										{
+											"ID": "20220808164203-fk4lase",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164203-fk4lase",
+												"updated": "20220808164211"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--platform"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 当服务器为多平台时，指定平台"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164213-cbujguk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164213-cbujguk"
+									},
+									"Children": [
+										{
+											"ID": "20220808164213-qhxav2u",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164213-qhxav2u",
+												"updated": "20220808164213"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--quiet"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-q"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 停止输出详细信息"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164222-qf9m2kj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164222-qf9m2kj"
+					},
+					"Children": [
+						{
+							"ID": "20220808164222-74ypul6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164222-74ypul6",
+								"updated": "20220808164223"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "列举所有镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220808164226-jbcv90i",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808164226-jbcv90i",
+								"updated": "20220808164230"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker image ls\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808164241-xvg2588",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808164241-xvg2588",
+								"updated": "20220808164243"
+							},
+							"Children": [
+								{
+									"ID": "20220808164243-1dy0vwy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-1dy0vwy",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-thl8i7j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-thl8i7j",
+												"updated": "20220808164243"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--all"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-a"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 列举所有下载的镜像（默认隐形中间镜像）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164243-vge7d3b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-vge7d3b",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-ccgeasn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-ccgeasn",
+												"updated": "20220808164243"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--digests"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 显示摘要"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164243-rglrm7k",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-rglrm7k",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-3dteemp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-3dteemp",
+												"updated": "20220808164243"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--filter"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-f"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 根据条件过滤输出内容"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164243-x1fnodx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-x1fnodx",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-62k7hoe",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-62k7hoe",
+												"updated": "20220808164330"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--format"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 通过 GO 语言的格式化模板对输出进行格式化"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164243-hdx5nrr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-hdx5nrr",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-4h4ghj5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-4h4ghj5",
+												"updated": "20220808164243"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--no-trunc"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 禁止截断输出内容"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164243-h15rju3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164243-h15rju3",
+										"updated": "20220808164243"
+									},
+									"Children": [
+										{
+											"ID": "20220808164243-4b1zq0g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164243-4b1zq0g",
+												"updated": "20220808164334"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--quiet"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-q"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 仅输出数字形式的 ID"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164346-q51fy2p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164346-q51fy2p"
+					},
+					"Children": [
+						{
+							"ID": "20220808164112-66yvxn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164112-66yvxn9",
+								"updated": "20220808164112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220808164357-8ffedlf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808164357-8ffedlf",
+								"updated": "20220808164406"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker rmi -f hello-world\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808164412-i86f64n",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808164412-i86f64n",
+								"updated": "20220808164414"
+							},
+							"Children": [
+								{
+									"ID": "20220808164414-r2guc69",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164414-r2guc69",
+										"updated": "20220808164414"
+									},
+									"Children": [
+										{
+											"ID": "20220808164414-0mdrlaa",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164414-0mdrlaa",
+												"updated": "20220808164414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--force"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ", "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-f"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 强制删除"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808164414-zqsbssl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808164414-zqsbssl",
+										"updated": "20220808164414"
+									},
+									"Children": [
+										{
+											"ID": "20220808164414-8k55t4t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808164414-8k55t4t",
+												"updated": "20220808164414"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--no-prune"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 不删除未标记的父容器\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164424-c2zk6rh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164424-c2zk6rh"
+					},
+					"Children": [
+						{
+							"ID": "20220808164424-0wmtoj6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164424-0wmtoj6",
+								"updated": "20220808164424"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清理悬空镜像（未被任何容器引用）"
+								}
+							]
+						},
+						{
+							"ID": "20220808164428-f42tffd",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808164428-f42tffd",
+								"updated": "20220808164431"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker image prune -f\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808164443-l8cmk95",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164443-l8cmk95",
+						"updated": "20220808164655"
+					},
+					"Children": [
+						{
+							"ID": "20220808164443-5pafh5t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164443-5pafh5t",
+								"updated": "20220808164446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清理无用镜像"
+								}
+							]
+						},
+						{
+							"ID": "20220808164451-vyap5r8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808164451-vyap5r8",
+								"updated": "20220808164655"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker image prune -f\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808164112-ijwmarw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808164112-ijwmarw",
+				"updated": "20220808164112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 容器"
+				}
+			]
+		},
+		{
+			"ID": "20220808164112-bogiu2z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220808164112-bogiu2z",
+				"updated": "20220808164112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 启动镜像"
+				}
+			]
+		},
+		{
+			"ID": "20220808164112-p1jxg70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808164112-p1jxg70",
+				"updated": "20220808165032"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "docker run [OPTIONS] IMAGE [COMMAND] [ARG...]"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808164112-fdr76qm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808164112-fdr76qm",
+				"updated": "20220808171350"
+			},
+			"Children": [
+				{
+					"ID": "20220808164112-3nra30a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808164112-3nra30a",
+						"updated": "20220808164112"
+					},
+					"Children": [
+						{
+							"ID": "20220808164112-r1tg0gn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808164112-r1tg0gn",
+								"updated": "20220808164112"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从镜像创建容器并启动:"
+								}
+							]
+						},
+						{
+							"ID": "20220808165101-37gr57e",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808165101-37gr57e",
+								"updated": "20220808165113"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run --name \"test\" -it alpine ls /\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808165123-u82ift8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808165123-u82ift8",
+								"updated": "20220808165125"
+							},
+							"Children": [
+								{
+									"ID": "20220808165125-za1hr8n",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808165125-za1hr8n",
+										"updated": "20220808165125"
+									},
+									"Children": [
+										{
+											"ID": "20220808165125-r78qnzf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808165125-r78qnzf",
+												"updated": "20220808165125"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--name"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 容器名称"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220808165125-x2rim5d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808165125-x2rim5d",
+										"updated": "20220808165125"
+									},
+									"Children": [
+										{
+											"ID": "20220808165125-lr3zlqz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808165125-lr3zlqz",
+												"updated": "20220808165132"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-it"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 在宿主机上的 stdin 上为 docker 容器分配伪终端（即将容器的标准输出映射到宿主机上）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808165139-3h65xoe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808165139-3h65xoe"
+					},
+					"Children": [
+						{
+							"ID": "20220808165139-uuiwkq6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808165139-uuiwkq6",
+								"updated": "20220808165139"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看已容器"
+								}
+							]
+						},
+						{
+							"ID": "20220808165143-wchr8c8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808165143-wchr8c8",
+								"updated": "20220808165146"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker ps -a | grep hello\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808165158-27pr3pa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808165158-27pr3pa"
+					},
+					"Children": [
+						{
+							"ID": "20220808165158-dayt418",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808165158-dayt418",
+								"updated": "20220808165158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取容器 ID"
+								}
+							]
+						},
+						{
+							"ID": "20220808165205-p9yq2j1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808165205-p9yq2j1",
+								"updated": "20220808165208"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run --cidfile /tmp/docker_test.cid alpine echo \"test\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808165222-h0mzaco",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808165222-h0mzaco",
+								"updated": "20220808165224"
+							},
+							"Children": [
+								{
+									"ID": "20220808165224-0d2xlje",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808165224-0d2xlje",
+										"updated": "20220808165224"
+									},
+									"Children": [
+										{
+											"ID": "20220808165224-ogvj9o0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808165224-ogvj9o0",
+												"updated": "20220808165234"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--cidfile"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 如果指定的文件不存在，将容器 ID 写入该文件；如果该文件存在，则 docker 返回错误。容器结束运行后，docker 将关闭该文件"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808165302-c4e00ec",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808165302-c4e00ec"
+					},
+					"Children": [
+						{
+							"ID": "20220808165302-hbvnu7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808165302-hbvnu7x",
+								"updated": "20220808165304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启用容器的完整功能"
+								}
+							]
+						},
+						{
+							"ID": "20220808165308-udylk7b",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808165308-udylk7b",
+								"updated": "20220808165312"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run -t -i --privileged alpine bash\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808171205-8x2fcty",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808171205-8x2fcty",
+								"updated": "20220808171207"
+							},
+							"Children": [
+								{
+									"ID": "20220808171207-6u63l8r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808171207-6u63l8r",
+										"updated": "20220808171207"
+									},
+									"Children": [
+										{
+											"ID": "20220808171207-4o760fr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808171207-4o760fr",
+												"updated": "20220808171212"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--privileged"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 解除宿主机 cgroup 对容器实施的所有限制，使容器可以完成几乎所有的工作（例如在容器中运行 docker），仅在一些特殊场合使用"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171143-ui4adws",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808171143-ui4adws"
+					},
+					"Children": [
+						{
+							"ID": "20220808171143-z7xgshq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171143-z7xgshq",
+								"updated": "20220808171217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置容器工作路径"
+								}
+							]
+						},
+						{
+							"ID": "20220808171233-vsfow7r",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808171233-vsfow7r",
+								"updated": "20220808171236"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run -w /path/to/dir/ -i -t alpine pwd\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808171247-59dl94y",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808171247-59dl94y",
+								"updated": "20220808171249"
+							},
+							"Children": [
+								{
+									"ID": "20220808171249-bxxz679",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808171249-bxxz679",
+										"updated": "20220808171249"
+									},
+									"Children": [
+										{
+											"ID": "20220808171249-95qdznt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808171249-95qdznt",
+												"updated": "20220808171249"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-w"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 指定容器启动后默认的工作路径，所有的命令默认在该路径下执行。如果路径不存在，则会创建该路径\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171224-w791u5w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808171224-w791u5w"
+					},
+					"Children": [
+						{
+							"ID": "20220808171224-216c0c0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171224-216c0c0",
+								"updated": "20220808171258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为容器挂载内存文件系统（tmpfs）"
+								}
+							]
+						},
+						{
+							"ID": "20220808171305-1xu2wk3",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808171305-1xu2wk3",
+								"updated": "20220808171310"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run -d --tmpfs /run:rw,noexec,nosuid,size=65536k alpine\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808171221-c3fogv3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808171221-c3fogv3",
+								"updated": "20220808171318"
+							},
+							"Children": [
+								{
+									"ID": "20220808171318-jo5j61a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808171318-jo5j61a",
+										"updated": "20220808171318"
+									},
+									"Children": [
+										{
+											"ID": "20220808171318-76i0557",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808171318-76i0557",
+												"updated": "20220808171318"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "--tmpfs"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 挂载内存文件系统（"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "rw,noexec,nosuid,size=65536k"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "）到"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "/run"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "路径\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808171219-q1kzmen",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808171219-q1kzmen",
+						"updated": "20220808171350"
+					},
+					"Children": [
+						{
+							"ID": "20220808171219-g4o8y03",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808171219-g4o8y03",
+								"updated": "20220808171328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "装载卷"
+								}
+							]
+						},
+						{
+							"ID": "20220808171335-pa05ksg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808171335-pa05ksg",
+								"updated": "20220808171338"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "docker run -v `pwd`:`pwd` -w `pwd` -i -t alpine pwd\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220808171328-mzwt1rj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220808171328-mzwt1rj",
+								"updated": "20220808171350"
+							},
+							"Children": [
+								{
+									"ID": "20220808171346-7bmsx6o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220808171346-7bmsx6o",
+										"updated": "20220808171350"
+									},
+									"Children": [
+										{
+											"ID": "20220808171346-6bzzaqx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220808171346-6bzzaqx",
+												"updated": "20220808171350"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "-v"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 将宿主机的"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "pwd"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "路径挂载到容器的 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "pwd"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 路径上"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

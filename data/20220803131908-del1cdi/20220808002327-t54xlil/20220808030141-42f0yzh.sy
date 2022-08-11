@@ -1,0 +1,293 @@
+{
+	"ID": "20220808030141-42f0yzh",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808030141-42f0yzh",
+		"title": "Windows",
+		"updated": "20220809125740"
+	},
+	"Children": [
+		{
+			"ID": "20220808030141-usokfnx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808030141-usokfnx",
+				"updated": "20220809125740"
+			},
+			"Children": [
+				{
+					"ID": "20220808030352-hggdx8x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030352-hggdx8x",
+						"updated": "20220808030352"
+					},
+					"Children": [
+						{
+							"ID": "20220808030352-n9nrsc5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030352-n9nrsc5",
+								"updated": "20220808030354"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808002341-p7yt0px"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "WSL2"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808030355-9hqfmg7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808030355-9hqfmg7",
+						"updated": "20220808030358"
+					},
+					"Children": [
+						{
+							"ID": "20220808030355-snjvyi1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808030355-snjvyi1",
+								"updated": "20220808030358"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808025931-siytz64"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Power Shell"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808234721-kyk6zv6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808234721-kyk6zv6",
+						"updated": "20220808234723"
+					},
+					"Children": [
+						{
+							"ID": "20220808234721-5vu3dra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808234721-5vu3dra",
+								"updated": "20220808234723"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808234723-se6ufbj"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Chocolatey"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809125734-8vu1fll",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809125734-8vu1fll",
+						"updated": "20220809125740"
+					},
+					"Children": [
+						{
+							"ID": "20220809125734-zxpt3xb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809125734-zxpt3xb",
+								"updated": "20220809125740"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220809125740-dar16aa"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "MSYS2"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808031043-6k1cnws",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808031043-6k1cnws"
+					},
+					"Children": [
+						{
+							"ID": "20220808031043-fv4ceaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808031043-fv4ceaj",
+								"updated": "20220808031048"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808031004-hoqkrh2"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "使用技巧"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808234718-960v9ij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808234718-960v9ij"
+			}
+		}
+	]
+}

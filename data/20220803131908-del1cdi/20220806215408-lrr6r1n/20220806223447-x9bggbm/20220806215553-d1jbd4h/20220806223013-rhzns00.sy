@@ -1,0 +1,631 @@
+{
+	"ID": "20220806223013-rhzns00",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223013-rhzns00",
+		"title": "UNIX 思想",
+		"updated": "20220806223237"
+	},
+	"Children": [
+		{
+			"ID": "20220806223018-nvgh6ky",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223018-nvgh6ky",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "UNIX Culture"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-x6no3rc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223018-x6no3rc",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-qw6c6wq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223018-qw6c6wq",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "根植于UNIX中的约定俗成的规则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-znwrsx9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223018-znwrsx9",
+				"updated": "20220806223237"
+			},
+			"Children": [
+				{
+					"ID": "20220806223018-fnmz579",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-fnmz579",
+						"updated": "20220806223018"
+					},
+					"Children": [
+						{
+							"ID": "20220806223018-x3j47u9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223018-x3j47u9",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNIX思想源于UNIX文化。它是大量经验的结晶，是编写优质代码的实用性技术的集合。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223018-ptwhhi2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-ptwhhi2",
+						"updated": "20220806223018"
+					},
+					"Children": [
+						{
+							"ID": "20220806223018-zvdmj9u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223018-zvdmj9u",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNIX思想并不是真正意义上的方法论，它是UNIX文化孕育出的一系列约定俗成的规则，被人们沿用至今。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223018-vh0dv7l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-vh0dv7l",
+						"updated": "20220806223237"
+					},
+					"Children": [
+						{
+							"ID": "20220806223048-lngeyeq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223048-lngeyeq",
+								"updated": "20220806223048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNIX思想可总结为以下几个原则："
+								}
+							]
+						},
+						{
+							"ID": "20220806223048-b7b2v32",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223048-b7b2v32",
+								"updated": "20220806223237"
+							},
+							"Children": [
+								{
+									"ID": "20220806223054-f0ru6qk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223054-f0ru6qk",
+										"updated": "20220806223118"
+									},
+									"Children": [
+										{
+											"ID": "20220806223054-eldcxm6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223054-eldcxm6",
+												"updated": "20220806223118"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806223112-fe6h2x8"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Rule of Modularity"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223056-3f6uv5o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223056-3f6uv5o",
+										"updated": "20220806223141"
+									},
+									"Children": [
+										{
+											"ID": "20220806223056-tloygfa",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223056-tloygfa",
+												"updated": "20220806223141"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806223136-22si64f"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Rule of Clarity"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223057-b8xsmvv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223057-b8xsmvv",
+										"updated": "20220806223211"
+									},
+									"Children": [
+										{
+											"ID": "20220806223057-m1nwz6d",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223057-m1nwz6d",
+												"updated": "20220806223211"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806223158-9io1nh5"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Rule of Composition"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223058-zq08nxw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223058-zq08nxw",
+										"updated": "20220806223237"
+									},
+									"Children": [
+										{
+											"ID": "20220806223058-xojqpba",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223058-xojqpba",
+												"updated": "20220806223237"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806223219-4ha2vz8"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "新页面"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-of12ls4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223018-of12ls4",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-uf4r5mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223018-uf4r5mr",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "UNIX设计判断的正确性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-auqn401",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223018-auqn401",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"ID": "20220806223018-ll9os4v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-ll9os4v",
+						"updated": "20220806223018"
+					},
+					"Children": [
+						{
+							"ID": "20220806223018-p2j96d3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223018-p2j96d3",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNIX拥有强大的生命力。"
+								}
+							]
+						},
+						{
+							"ID": "20220806223018-15fuipa",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223018-15fuipa",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"ID": "20220806223018-9pe6q1v",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223018-9pe6q1v",
+										"updated": "20220806223018"
+									},
+									"Children": [
+										{
+											"ID": "20220806223018-wdqw8hg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223018-wdqw8hg",
+												"updated": "20220806223018"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "UNIX程序员在设计初期进行了正确的设计判断。这些设计判断得到了全世界优秀开发者的赞同，并被不断完善，于是有了今天的UNIX。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-03o2wxx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223018-03o2wxx",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-12m9oc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223018-12m9oc3",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "遵循UNIX思想"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223018-k51pg8j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223018-k51pg8j",
+				"updated": "20220806223018"
+			},
+			"Children": [
+				{
+					"ID": "20220806223018-n762ojp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-n762ojp",
+						"updated": "20220806223018"
+					},
+					"Children": [
+						{
+							"ID": "20220806223018-9i36yed",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223018-9i36yed",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要将UNIX思想的各个原则作为设计的方针。这些原则都经过了历史的考验。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223018-7xl4le6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223018-7xl4le6",
+						"updated": "20220806223018"
+					},
+					"Children": [
+						{
+							"ID": "20220806223018-om9lqxc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223018-om9lqxc",
+								"updated": "20220806223018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "UNIX思想源于UNIX文化，但它在任何软件开发领域都有借鉴意义。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

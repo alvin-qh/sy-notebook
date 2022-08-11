@@ -1,0 +1,531 @@
+{
+	"ID": "20220806221756-qywty7t",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221756-qywty7t",
+		"title": "Encapsulation",
+		"updated": "20220806221759"
+	},
+	"Children": [
+		{
+			"ID": "20220806221759-afgziwe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221759-afgziwe",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "封装"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-gwcumkk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221759-gwcumkk",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-hph13bz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221759-hph13bz",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "给数据和逻辑分组"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-xwpma0l",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221759-xwpma0l",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"ID": "20220806221759-o4q8ai6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221759-o4q8ai6",
+						"updated": "20220806221759"
+					},
+					"Children": [
+						{
+							"ID": "20220806221759-s9vdwvi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221759-s9vdwvi",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将相互关联的数据和逻辑分到一组，定义为一个模块。用模块这层外衣将关联性较强的数据群和逻辑群包裹起来的做法称为封装。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221759-uqfoe5b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221759-uqfoe5b",
+						"updated": "20220806221759"
+					},
+					"Children": [
+						{
+							"ID": "20220806221759-vgxvfdz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221759-vgxvfdz",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "各个模块会作为完全不相关的东西分开进行处理。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-35x4zxa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221759-35x4zxa",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-xr6pfk9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221759-xr6pfk9",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不混淆抽象概念"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-yb5gld9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221759-yb5gld9",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"ID": "20220806221759-0rpni9s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221759-0rpni9s",
+						"updated": "20220806221759"
+					},
+					"Children": [
+						{
+							"ID": "20220806221759-6ncd4ew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221759-6ncd4ew",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过分组，相互关联的元素被集中到一个模块中，共同担负起一个抽象概念。这种做法有以下优点："
+								}
+							]
+						},
+						{
+							"ID": "20220806221759-eojmdxo",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221759-eojmdxo",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"ID": "20220806221759-ktpe2ji",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-ktpe2ji",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-uhlyul9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-uhlyul9",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块中不存在不相关的元素，代码可读性提高。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221759-6x5lr51",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-6x5lr51",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-7zxfnlr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-7zxfnlr",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "修改带来的影响被限制在模块内。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221759-lijq096",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-lijq096",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-9e8bw7n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-9e8bw7n",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "影响程度明确，代码更易于修改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221759-04uh841",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-04uh841",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-r1x01lj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-r1x01lj",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各个模块都是独立的零件，便于重复使用。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221759-al0gnkm",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-al0gnkm",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-r0ivndf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-r0ivndf",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "数据和逻辑分割成了小单位的模块，便于我们处理复杂问题。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-tez5e52",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221759-tez5e52",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-fdontx5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221759-fdontx5",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将相关元素封装在一起"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221759-8zdg0zj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221759-8zdg0zj",
+				"updated": "20220806221759"
+			},
+			"Children": [
+				{
+					"ID": "20220806221759-cku19qi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221759-cku19qi",
+						"updated": "20220806221759"
+					},
+					"Children": [
+						{
+							"ID": "20220806221759-tmif8qe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221759-tmif8qe",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将相互关联的数据和逻辑分到一组，整理成一个模块。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221759-2mrqtog",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221759-2mrqtog",
+								"updated": "20220806221759"
+							},
+							"Children": [
+								{
+									"ID": "20220806221759-2ta2b1b",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-2ta2b1b",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-stg0u66",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-stg0u66",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "封装时仅添加相关元素，决不能让无关的元素混入模块中。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221759-o1p537u",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221759-o1p537u",
+										"updated": "20220806221759"
+									},
+									"Children": [
+										{
+											"ID": "20220806221759-tttj1va",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221759-tttj1va",
+												"updated": "20220806221759"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "有了关联性很强的数据组成的数据结构，以及关联性很强的逻辑组成的函数群之后，便能获得简洁且高质量的模块。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

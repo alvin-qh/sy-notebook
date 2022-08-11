@@ -1,0 +1,893 @@
+{
+	"ID": "20220806221602-obhkn1e",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221602-obhkn1e",
+		"title": "软件架构基本技法",
+		"updated": "20220806222150"
+	},
+	"Children": [
+		{
+			"ID": "20220806221622-3v0i9u0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806221622-3v0i9u0",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Enabling Techniques for Architecture"
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-xbnmlvw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221622-xbnmlvw",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-ishi812",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221622-ishi812",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "优质代码的基本原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-y4qo9q1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221622-y4qo9q1",
+				"updated": "20220806222150"
+			},
+			"Children": [
+				{
+					"ID": "20220806221622-bysupn7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-bysupn7",
+						"updated": "20220806222150"
+					},
+					"Children": [
+						{
+							"ID": "20220806221745-atbkhpr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221745-atbkhpr",
+								"updated": "20220806221745"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件架构基本技法共有以下10种。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221622-viohcov",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221622-viohcov",
+								"updated": "20220806222150"
+							},
+							"Children": [
+								{
+									"ID": "20220806221745-uunbwgc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221745-uunbwgc",
+										"updated": "20220806221745"
+									},
+									"Children": [
+										{
+											"ID": "20220806221745-rg8vsna",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221745-rg8vsna",
+												"updated": "20220806221805"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221638-xik8cmb"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Abstraction"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221806-5y0y9qb",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221806-5y0y9qb"
+									},
+									"Children": [
+										{
+											"ID": "20220806221806-im7cxow",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221806-im7cxow",
+												"updated": "20220806221837"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221756-qywty7t"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Encapsulation"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221837-8u4q6i3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221837-8u4q6i3"
+									},
+									"Children": [
+										{
+											"ID": "20220806221837-f7mh6x1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221837-f7mh6x1",
+												"updated": "20220806221902"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221819-oj075gi"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Information Hiding"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221902-3rhmpt0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221902-3rhmpt0"
+									},
+									"Children": [
+										{
+											"ID": "20220806221902-w440owj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221902-w440owj",
+												"updated": "20220806221944"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221849-c66ga3i"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Packaging"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221944-lm3hkli",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221944-lm3hkli"
+									},
+									"Children": [
+										{
+											"ID": "20220806221944-zy4989j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221944-zy4989j",
+												"updated": "20220806222008"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221933-omhqwjs"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Separation of Concerns"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222008-jp0849o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222008-jp0849o"
+									},
+									"Children": [
+										{
+											"ID": "20220806222008-14i4p5p",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222008-14i4p5p",
+												"updated": "20220806222036"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221951-zodz7j2"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Sufficiency, Completeness, Primitiveness"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222036-9qdtpsp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222036-9qdtpsp"
+									},
+									"Children": [
+										{
+											"ID": "20220806222036-ps5piyx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222036-ps5piyx",
+												"updated": "20220806222058"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222023-ftq1ey3"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Separation of Policy and Implementation"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222058-1mkq8xw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222058-1mkq8xw"
+									},
+									"Children": [
+										{
+											"ID": "20220806222058-4mczzv6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222058-4mczzv6",
+												"updated": "20220806222117"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222045-prv5tf2"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Separation of Interface and Implementation"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222117-saf6pr2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222117-saf6pr2"
+									},
+									"Children": [
+										{
+											"ID": "20220806222117-xt0sr97",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222117-xt0sr97",
+												"updated": "20220806222148"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222107-ibc39zb"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Single Point of Reference"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222148-q6lkgwo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222148-q6lkgwo",
+										"updated": "20220806222150"
+									},
+									"Children": [
+										{
+											"ID": "20220806222148-4s738pl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222148-4s738pl",
+												"updated": "20220806222150"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806222138-ze7tpwt"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Divide and Conquer"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-rw814vh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221622-rw814vh",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-a4illvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221622-a4illvo",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "优质代码都有“型”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-p0crw41",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221622-p0crw41",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"ID": "20220806221622-ecldld0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-ecldld0",
+						"updated": "20220806221622"
+					},
+					"Children": [
+						{
+							"ID": "20220806221622-pisybv1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221622-pisybv1",
+								"updated": "20220806221622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开发优质的软件需要有基本技法作为支撑。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221622-0un5v9a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-0un5v9a",
+						"updated": "20220806221622"
+					},
+					"Children": [
+						{
+							"ID": "20220806221622-1ditp0a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221622-1ditp0a",
+								"updated": "20220806221622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本技法就好比空手道中的“型”。这些“型”源于软件开发历史中无数程序员积累而来的实践经验。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221622-q1wmjmh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-q1wmjmh",
+						"updated": "20220806221622"
+					},
+					"Children": [
+						{
+							"ID": "20220806221622-9hmcdyk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221622-9hmcdyk",
+								"updated": "20220806221622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于一个问题，特定的解决方案要优于其他方案，于是这些解决方案被重复使用。这些方案就是基本技法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-xbwin4y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221622-xbwin4y",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-rtjjcxo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221622-rtjjcxo",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "掌握“型”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221622-oag7omp",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221622-oag7omp",
+				"updated": "20220806221622"
+			},
+			"Children": [
+				{
+					"ID": "20220806221622-j55qcm5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-j55qcm5",
+						"updated": "20220806221622"
+					},
+					"Children": [
+						{
+							"ID": "20220806221622-il0q1vs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221622-il0q1vs",
+								"updated": "20220806221622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要把基本技法应用到代码之中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221622-rhb03j7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221622-rhb03j7",
+						"updated": "20220806221622"
+					},
+					"Children": [
+						{
+							"ID": "20220806221622-350nj0i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221622-350nj0i",
+								"updated": "20220806221622"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基本技法不是从某种软件开发技术中总结出来的。这些技法是更为本质的东西，它们适用于一切开发方法以及编程语言。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

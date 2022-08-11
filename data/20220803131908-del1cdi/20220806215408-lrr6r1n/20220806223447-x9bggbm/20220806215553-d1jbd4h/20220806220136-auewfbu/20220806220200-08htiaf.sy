@@ -1,0 +1,1159 @@
+{
+	"ID": "20220806220200-08htiaf",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220200-08htiaf",
+		"title": "KISS",
+		"updated": "20220806220206"
+	},
+	"Children": [
+		{
+			"ID": "20220806220206-3139piu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-3139piu",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Keep It Simple/Keep it short and simple"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "（保持代码简洁）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-3g2pp89",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220206-3g2pp89",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-tuhfzsr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-tuhfzsr",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "保持代码简洁"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-du18p2s",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-du18p2s",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-69ifrvq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-69ifrvq",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-2m186jb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-2m186jb",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不管是从零开始编写代码，还是修复故障或扩展功能，都要注意优先保持代码简洁。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-ip7rcyv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220206-ip7rcyv",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-8iaw6bl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-8iaw6bl",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "代码会越来越没有秩序"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-enc6gr0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-enc6gr0",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-6wb0fqs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-6wb0fqs",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-o30khcp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-o30khcp",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "随意修改代码会使代码变得越来越复杂，越来越没有秩序。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-aeuwo5k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-aeuwo5k",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-xyoy6rq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-xyoy6rq",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "复杂代码特点"
+								}
+							]
+						},
+						{
+							"ID": "20220806220206-blhs4ci",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220206-blhs4ci",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"ID": "20220806220206-flksdb0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-flksdb0",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-xdrauaw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-xdrauaw",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可读性较差且难以修改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-ftw8kkx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-ftw8kkx",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-ejo60mn",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-ejo60mn",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无法保证能在合适的时间发布修正版或者对软件进行更新。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-z5g7wfg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-z5g7wfg",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-r10aohp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-r10aohp",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简洁代码特点"
+								}
+							]
+						},
+						{
+							"ID": "20220806220206-1iochzp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220206-1iochzp",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"ID": "20220806220206-86uyfmy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-86uyfmy",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-1ujpe1t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-1ujpe1t",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各个组成要素也是简洁的，各要素承担的职责也都降到了最小，各要素之间的关系也比较简单。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-m45ztzw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-m45ztzw",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-7tvo8t3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-7tvo8t3",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可读性高，容易理解，便于修改。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-3y7moac",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-3y7moac",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-tty9bns",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-tty9bns",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "各要素职责明确，使得测试变得简单易行。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-e9r0oqd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-e9r0oqd",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-v6haxwt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-v6haxwt",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "程序员之间能更加轻松地通过代码进行交流，减少了在现实世界中多余的对话，节约了交流成本。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-nc0aki3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-nc0aki3",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-8zwr8wd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-8zwr8wd",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "保证在不降低开发速度的情况下对软件进行长期维护。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-4chn1av",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-4chn1av",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-yuuwaut",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-yuuwaut",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码必然会被修改，因此易于修改的特性对代码来说不可或缺。保持代码简洁可以使代码拥有易于修改的特性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-o97c2ul",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220206-o97c2ul",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-kvq0zua",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-kvq0zua",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不要画蛇添足"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-xkdm3ye",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-xkdm3ye",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-3vge3fn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-3vge3fn",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-u2yvt8w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-u2yvt8w",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要将简洁视为编程的指南针。尽可能将多余的、过剩的要素从代码中剔除。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-n7uzqef",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-n7uzqef",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-rxdhz6y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-rxdhz6y",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要避免的情况："
+								}
+							]
+						},
+						{
+							"ID": "20220806220206-0cciocf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220206-0cciocf",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"ID": "20220806220206-vpyg3ii",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-vpyg3ii",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-0o3lvz8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-0o3lvz8",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "试图使用新学会的技术，倾向于使用新技术写出一些无谓的代码。"
+												}
+											]
+										},
+										{
+											"ID": "20220806220206-uwm3bh2",
+											"Type": "NodeBlockquote",
+											"Properties": {
+												"id": "20220806220206-uwm3bh2",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockquoteMarker",
+													"Data": "\u003e"
+												},
+												{
+													"ID": "20220806220206-hvigcqb",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220806220206-hvigcqb",
+														"updated": "20220806220206"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "要多多斟酌代码的写法，努力保持代码简洁。"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-i3u80tu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-i3u80tu",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-8lnm7fl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-8lnm7fl",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "以备将来之需，觉得将来会用到某些功能，认为最好趁现在写下来，于是编写了过剩的代码。"
+												}
+											]
+										},
+										{
+											"ID": "20220806220206-a48tkt6",
+											"Type": "NodeBlockquote",
+											"Properties": {
+												"id": "20220806220206-a48tkt6",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockquoteMarker",
+													"Data": "\u003e"
+												},
+												{
+													"ID": "20220806220206-z0qrh6h",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220806220206-z0qrh6h",
+														"updated": "20220806220206"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "应该只写当前需要的代码，保持代码简洁。"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220206-h1uu82o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220206-h1uu82o",
+										"updated": "20220806220206"
+									},
+									"Children": [
+										{
+											"ID": "20220806220206-lqavbxo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220206-lqavbxo",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "擅自增加需求。"
+												}
+											]
+										},
+										{
+											"ID": "20220806220206-qewtmam",
+											"Type": "NodeBlockquote",
+											"Properties": {
+												"id": "20220806220206-qewtmam",
+												"updated": "20220806220206"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockquoteMarker",
+													"Data": "\u003e"
+												},
+												{
+													"ID": "20220806220206-lunf19k",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220806220206-lunf19k",
+														"updated": "20220806220206"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "需求是由用户决定的，程序员不可以擅自增加。\n不写多余的代码是保证代码简洁的秘诀。"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-yx03yuu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220206-yx03yuu",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-y5vbsg3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-y5vbsg3",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "适用范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-0biol3v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-0biol3v",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-qtejzt9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-qtejzt9",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-7xuztu3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-7xuztu3",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "KISS原则不仅适用于代码，还适用于功能设计。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-as00k4b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-as00k4b",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-294asmn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-294asmn",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "功能繁多的复杂软件不会得到用户的青睐，功能简洁、接口简洁的软件才会受欢迎。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-nk7jw82",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-nk7jw82",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-mujjvxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-mujjvxw",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "适用于一切工程。只不过产物的复杂化倾向在软件开发中表现得尤为突出。造成这种情况的原因之一是人们认为软件开发能相对灵活地应对需求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-4n5l0su",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220206-4n5l0su",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-4io7xsp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-4io7xsp",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Less is more"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-r050we0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-r050we0",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-ynt63vi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-ynt63vi",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-0kw4b1u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-0kw4b1u",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不写多余的代码，使代码保持简洁，防患于未然。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-yd8g48v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-yd8g48v",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-v38tprk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-v38tprk",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要时常审视自己写的代码，问问自己这些代码是否多余。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-1vm1s0j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220206-1vm1s0j",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "奥卡姆剃刀"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220206-jtwkhzx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220206-jtwkhzx",
+				"updated": "20220806220206"
+			},
+			"Children": [
+				{
+					"ID": "20220806220206-jozmpq7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-jozmpq7",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-81yjdab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-81yjdab",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "奥卡姆剃刀原理主张不应假设非必要的前提来说明某个事物。就是当一个事物存在多种解释时，最简单的那个解释是正确的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220206-mjq2kzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220206-mjq2kzh",
+						"updated": "20220806220206"
+					},
+					"Children": [
+						{
+							"ID": "20220806220206-e1qfmt7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220206-e1qfmt7",
+								"updated": "20220806220206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在可以实现相同功能的情况下，不含多余内容的代码更能减轻阅读者的负担，可读性更高，也更易于改善。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

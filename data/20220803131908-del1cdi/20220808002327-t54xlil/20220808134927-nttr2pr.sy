@@ -1,0 +1,128 @@
+{
+	"ID": "20220808134927-nttr2pr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808134927-nttr2pr",
+		"title": "VirtualBox",
+		"updated": "20220808135124"
+	},
+	"Children": [
+		{
+			"ID": "20220808134956-pcix45u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808134956-pcix45u",
+				"updated": "20220808135124"
+			},
+			"Children": [
+				{
+					"ID": "20220808135020-v77vutl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135020-v77vutl",
+						"updated": "20220808135020"
+					},
+					"Children": [
+						{
+							"ID": "20220808135020-npvmby5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135020-npvmby5",
+								"updated": "20220808135025"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135025-n84amnl"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "虚拟磁盘压缩"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808135031-f95yldm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808135031-f95yldm",
+						"updated": "20220808135124"
+					},
+					"Children": [
+						{
+							"ID": "20220808135031-vivds0f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808135031-vivds0f",
+								"updated": "20220808135124"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808135035-x67ozjp"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "Host Only 网络配置"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

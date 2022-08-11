@@ -1,0 +1,82 @@
+{
+	"ID": "20220806203505-09u6bau",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806203505-09u6bau",
+		"title": "Android",
+		"updated": "20220806210005"
+	},
+	"Children": [
+		{
+			"ID": "20220806203505-2c6lo4o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806203505-2c6lo4o",
+				"updated": "20220806205954"
+			},
+			"Children": [
+				{
+					"ID": "20220806205947-f8ra3w3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806205947-f8ra3w3",
+						"updated": "20220806205954"
+					},
+					"Children": [
+						{
+							"ID": "20220806205947-n49wo33",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806205947-n49wo33",
+								"updated": "20220806205954"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220806203908-g132x54"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "ADB (Android Debug Bridge)"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806210005-h92idrq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806210005-h92idrq"
+			}
+		}
+	]
+}

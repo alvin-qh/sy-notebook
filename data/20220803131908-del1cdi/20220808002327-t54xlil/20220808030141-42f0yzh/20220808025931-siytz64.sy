@@ -1,0 +1,369 @@
+{
+	"ID": "20220808025931-siytz64",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808025931-siytz64",
+		"title": "Power Shell",
+		"updated": "20220809001503"
+	},
+	"Children": [
+		{
+			"ID": "20220808025945-3cpisjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808025945-3cpisjk",
+				"updated": "20220809001503"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置网络代理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808025945-n7rhloa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808025945-n7rhloa",
+				"updated": "20220808025959"
+			},
+			"Children": [
+				{
+					"ID": "20220808025945-icwjdpt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808025945-icwjdpt",
+						"updated": "20220808025959"
+					},
+					"Children": [
+						{
+							"ID": "20220808025945-vlekpns",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808025945-vlekpns",
+								"updated": "20220808025945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置http代理"
+								}
+							]
+						},
+						{
+							"ID": "20220808025953-gbo04pf",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808025953-gbo04pf",
+								"updated": "20220808025959"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "netsh winhttp set proxy 127.0.0.1:1080\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808025945-lp717z9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808025945-lp717z9",
+				"updated": "20220808030011"
+			},
+			"Children": [
+				{
+					"ID": "20220808025945-sdard7n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808025945-sdard7n",
+						"updated": "20220808030011"
+					},
+					"Children": [
+						{
+							"ID": "20220808025945-d6zvgwr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808025945-d6zvgwr",
+								"updated": "20220808025945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置代理类型和忽略列表"
+								}
+							]
+						},
+						{
+							"ID": "20220808030006-yxdzsgc",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808030006-yxdzsgc",
+								"updated": "20220808030011"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "netsh winhttp set proxy proxy-server=\"socket=localhost:1080\" bypass-list=\"127.0.0.1\"\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808025945-bohh2e6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808025945-bohh2e6",
+				"updated": "20220808030027"
+			},
+			"Children": [
+				{
+					"ID": "20220808025945-x1d1xfl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808025945-x1d1xfl",
+						"updated": "20220808030027"
+					},
+					"Children": [
+						{
+							"ID": "20220808025945-ftdh01t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808025945-ftdh01t",
+								"updated": "20220808025945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "取消代理"
+								}
+							]
+						},
+						{
+							"ID": "20220808030024-zj7htg6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808030024-zj7htg6",
+								"updated": "20220808030027"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "netsh winhttp reset proxy\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808025945-9e9ky7g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808025945-9e9ky7g",
+				"updated": "20220808030037"
+			},
+			"Children": [
+				{
+					"ID": "20220808025945-jan3u8s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808025945-jan3u8s",
+						"updated": "20220808030037"
+					},
+					"Children": [
+						{
+							"ID": "20220808025945-qs2sxeg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808025945-qs2sxeg",
+								"updated": "20220808025945"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看代理设置情况"
+								}
+							]
+						},
+						{
+							"ID": "20220808030034-0i9ondz",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808030034-0i9ondz",
+								"updated": "20220808030037"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "netsh winhttp show proxy\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220808025945-9sa8xvo",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808025945-9sa8xvo",
+				"updated": "20220808030052"
+			},
+			"Children": [
+				{
+					"ID": "20220808025945-oh0wfos",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808025945-oh0wfos",
+						"updated": "20220808030052"
+					},
+					"Children": [
+						{
+							"ID": "20220808025945-ei852bb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808025945-ei852bb",
+								"updated": "20220808030043"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 IE 设置中导入代理设置"
+								}
+							]
+						},
+						{
+							"ID": "20220808030045-rrq0aie",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220808030045-rrq0aie",
+								"updated": "20220808030052"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "netsh winhttp import proxy source=ie\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

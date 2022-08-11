@@ -1,0 +1,380 @@
+{
+	"ID": "20220806222730-fmxvlqj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222730-fmxvlqj",
+		"title": "Isomorphism Principle",
+		"updated": "20220806222742"
+	},
+	"Children": [
+		{
+			"ID": "20220806222742-uabjxoe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222742-uabjxoe",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "同构原理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-xac043g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222742-xac043g",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-q7munes",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222742-q7munes",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "力求规范"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-rt8jq9a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222742-rt8jq9a",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"ID": "20220806222742-izk6nj9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222742-izk6nj9",
+						"updated": "20220806222742"
+					},
+					"Children": [
+						{
+							"ID": "20220806222742-9vb1nth",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222742-9vb1nth",
+								"updated": "20220806222742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同构原理就是力求规范。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222742-in811k3",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222742-in811k3",
+								"updated": "20220806222742"
+							},
+							"Children": [
+								{
+									"ID": "20220806222742-mebdoxp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222742-mebdoxp",
+										"updated": "20220806222742"
+									},
+									"Children": [
+										{
+											"ID": "20220806222742-c5ry110",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222742-c5ry110",
+												"updated": "20220806222742"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同等对待相同的东西，坚持不搞特殊。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222742-hqcvinp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222742-hqcvinp",
+										"updated": "20220806222742"
+									},
+									"Children": [
+										{
+											"ID": "20220806222742-ri8gk0n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222742-ri8gk0n",
+												"updated": "20220806222742"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "同一个模块管理的数值全部采用同一单位、公有函数的参数个数统一等。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-629ek5e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222742-629ek5e",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-mkkckig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222742-mkkckig",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不同的东西会更显眼"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-yk9tcfx",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222742-yk9tcfx",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"ID": "20220806222742-yfhslmc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222742-yfhslmc",
+						"updated": "20220806222742"
+					},
+					"Children": [
+						{
+							"ID": "20220806222742-2z0cg0o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222742-2z0cg0o",
+								"updated": "20220806222742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "遵循同构原理能让开发者更容易嗅出代码的异样，从而找出问题所在。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222742-g8ol30b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222742-g8ol30b",
+						"updated": "20220806222742"
+					},
+					"Children": [
+						{
+							"ID": "20220806222742-oplb2p6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222742-oplb2p6",
+								"updated": "20220806222742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "统一的代码有较高的可读性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-mc4yau6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222742-mc4yau6",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-giyr356",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222742-giyr356",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编写符合规范的代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222742-oo4e3j3",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222742-oo4e3j3",
+				"updated": "20220806222742"
+			},
+			"Children": [
+				{
+					"ID": "20220806222742-7iifmi2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222742-7iifmi2",
+						"updated": "20220806222742"
+					},
+					"Children": [
+						{
+							"ID": "20220806222742-swjty1j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222742-swjty1j",
+								"updated": "20220806222742"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "让代码符合一定的规范。在编写代码时，务必克制住自己的表现欲，以规范为先。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

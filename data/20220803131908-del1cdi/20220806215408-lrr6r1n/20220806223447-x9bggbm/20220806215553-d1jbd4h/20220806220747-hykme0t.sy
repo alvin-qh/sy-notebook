@@ -1,0 +1,1415 @@
+{
+	"ID": "20220806220747-hykme0t",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220747-hykme0t",
+		"title": "思想 编程的意识形态",
+		"updated": "20220806221544"
+	},
+	"Children": [
+		{
+			"ID": "20220806220811-zbyw3s6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806220811-zbyw3s6",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "A Theory of Programming"
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-uiydvsg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-uiydvsg",
+				"updated": "20220806220823"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编程理论"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-xl2run5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220811-xl2run5",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-uri4uwz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-uri4uwz",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "指导编程的思想"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-v1uxzsz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220811-v1uxzsz",
+				"updated": "20220806221013"
+			},
+			"Children": [
+				{
+					"ID": "20220806220811-zvkck62",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-zvkck62",
+						"updated": "20220806221013"
+					},
+					"Children": [
+						{
+							"ID": "20220806220926-hd1jy1o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220926-hd1jy1o",
+								"updated": "20220806220926"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程中有一套理论专门用来指导人们实现高质量（指拥有多种扩展方法、不存在多余要素、可读性高、易于理解的代码）的代码。该理论由以下三个思想作为支撑。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220811-nxr77s1",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220811-nxr77s1",
+								"updated": "20220806221013"
+							},
+							"Children": [
+								{
+									"ID": "20220806220926-z2hqggy",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220926-z2hqggy",
+										"updated": "20220806220926"
+									},
+									"Children": [
+										{
+											"ID": "20220806220926-qzw3xxt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220926-qzw3xxt",
+												"updated": "20220806220954"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806220858-jk4gewc"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Communication"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220954-w298kcd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220954-w298kcd"
+									},
+									"Children": [
+										{
+											"ID": "20220806220954-ea6ucb3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220954-ea6ucb3",
+												"updated": "20220806221012"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806220949-1zosp21"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Simplicity"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221012-s63kgu8",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221012-s63kgu8",
+										"updated": "20220806221013"
+									},
+									"Children": [
+										{
+											"ID": "20220806221012-p73ssgh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221012-p73ssgh",
+												"updated": "20220806221013"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221004-5i7v93u"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Flexibility"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-xvgev0l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220811-xvgev0l",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-2s3suo9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-2s3suo9",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将编程理论展示的思想作为技术的选择基准"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-gs0mi36",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220811-gs0mi36",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"ID": "20220806220811-r58tn8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-r58tn8m",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-2u1gz7b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-2u1gz7b",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编程理论所展示的思想就是使用各项技术的理由。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220811-g3bar85",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220811-g3bar85",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"ID": "20220806220811-g11rwe2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-g11rwe2",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-t2r33sm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-t2r33sm",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编程在不同的问题领域有不同的技术和模式。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220811-u8g1vwx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-u8g1vwx",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-l0a2vnl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-l0a2vnl",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单纯的学习只能帮助我们了解技术的表面，并不能帮助我们真正学会使用这项技术。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220811-iae7e4x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-iae7e4x",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-do4ilhf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-do4ilhf",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编程中解决问题的方式是就事论事。"
+												}
+											]
+										},
+										{
+											"ID": "20220806220811-o9xa6ju",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806220811-o9xa6ju",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"ID": "20220806220811-nyyrztw",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220811-nyyrztw",
+														"updated": "20220806220811"
+													},
+													"Children": [
+														{
+															"ID": "20220806220811-5whaxk7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220811-5whaxk7",
+																"updated": "20220806220811"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "每次出现的问题都不相同，所以如果不先找出问题所在，我们就无法选择合适的技术来使用。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806220811-tq7uphs",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806220811-tq7uphs",
+														"updated": "20220806220811"
+													},
+													"Children": [
+														{
+															"ID": "20220806220811-1k4ckze",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806220811-1k4ckze",
+																"updated": "20220806220811"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "要想熟练掌握一项技术，就得明白为什么要使用这项技术、这项技术有什么价值，以及应该在什么时候使用它。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-2d3e4tf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220811-2d3e4tf",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-q7qfseu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-q7qfseu",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "通过六个原则将编程理论展示的思想应用于代码"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-ubpm9xc",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220811-ubpm9xc",
+				"updated": "20220806221544"
+			},
+			"Children": [
+				{
+					"ID": "20220806220811-qpag0et",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-qpag0et",
+						"updated": "20220806221544"
+					},
+					"Children": [
+						{
+							"ID": "20220806221104-qfzfq13",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221104-qfzfq13",
+								"updated": "20220806221104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要一个“桥梁”来连接思想与编程。这里有六个原则可以充当二者之间的桥梁。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220811-pja27k5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220811-pja27k5",
+								"updated": "20220806221544"
+							},
+							"Children": [
+								{
+									"ID": "20220806221104-gnsrfsz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221104-gnsrfsz",
+										"updated": "20220806221106"
+									},
+									"Children": [
+										{
+											"ID": "20220806221104-guplye8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221104-guplye8",
+												"updated": "20220806221200"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221055-szjljwo"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Local Consequences"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221200-mx7pn15",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221200-mx7pn15"
+									},
+									"Children": [
+										{
+											"ID": "20220806221200-gvfvb21",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221200-gvfvb21",
+												"updated": "20220806221419"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221143-qelhf2s"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Minimize Repetition"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221419-y0dmj9g",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221419-y0dmj9g"
+									},
+									"Children": [
+										{
+											"ID": "20220806221419-mmyrqjl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221419-mmyrqjl",
+												"updated": "20220806221446"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221227-s1i1c1d"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Logic and Data Together"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221446-yg7lf1a",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221446-yg7lf1a"
+									},
+									"Children": [
+										{
+											"ID": "20220806221446-aj1wfs3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221446-aj1wfs3",
+												"updated": "20220806221519"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221433-cmoqfmh"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Symmetry"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221519-40jbc0t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221519-40jbc0t"
+									},
+									"Children": [
+										{
+											"ID": "20220806221519-vc3zxr7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221519-vc3zxr7",
+												"updated": "20220806221542"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221507-pyc9klo"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Declarative Expression"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221543-ho6y6q9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221543-ho6y6q9",
+										"updated": "20220806221544"
+									},
+									"Children": [
+										{
+											"ID": "20220806221543-rhxm3wb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221543-rhxm3wb",
+												"updated": "20220806221544"
+											},
+											"Children": [
+												{
+													"Type": "NodeBlockRef",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeBlockRefID",
+															"Data": "20220806221531-0r3x3zp"
+														},
+														{
+															"Type": "NodeBlockRefSpace"
+														},
+														{
+															"Type": "NodeBlockRefDynamicText",
+															"Data": "Rate of Change"
+														},
+														{
+															"Type": "NodeCloseParen"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-2pjwwvj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220811-2pjwwvj",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-zugmqgr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-zugmqgr",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "视点"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-wabx7km",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220811-wabx7km",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"ID": "20220806220811-6gvmyy9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-6gvmyy9",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-6wbxsnx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-6wbxsnx",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "视点是我们使用某项技术时应该考虑的内容。视点是一种看待事物的方式，它能让我们的思想紧贴当前正在处理的问题。以下几点内容都属于视点。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220811-9mhdrbm",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220811-9mhdrbm",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"ID": "20220806220811-npeq75r",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-npeq75r",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-g85a3io",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-g85a3io",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解决方案应满足的需求（例如需要进程间通信等）。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220811-5ymkse9",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-5ymkse9",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-ydmfm0i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-ydmfm0i",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "课题中包含的限制（例如进程间通信必须符合协议标准等）。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220811-1pa5gpk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-1pa5gpk",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-bu7aul8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-bu7aul8",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "解决方案需要具备的特性（例如便于添加功能、添加的功能不影响现有功能等）。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220811-0f1hy2y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-0f1hy2y",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-znwlqu1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-znwlqu1",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "视点与视点之间可能是相辅相成的，也可能是互相排斥的。我们要做的是掌握各视点之间的平衡。掌握了各视点之间平衡的方案就是该课题的优秀解决方案。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220811-73rdno7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-73rdno7",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-ln8zy05",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-ln8zy05",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要以思想为“动机”，以原则为“桥梁”（将编程理论作为视点来使用）来选择代码的实现方法。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-pfpqrk0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220811-pfpqrk0",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "现有的工具是如何形成的"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220811-79ifkir",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220811-79ifkir",
+				"updated": "20220806220811"
+			},
+			"Children": [
+				{
+					"ID": "20220806220811-9373228",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-9373228",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-pyy711w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-pyy711w",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "形态遵从于功能。这句话是说工具的最终形态由目的决定。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220811-f5b4i09",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220811-f5b4i09",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"ID": "20220806220811-sg3anpv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-sg3anpv",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-ljgpqym",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-ljgpqym",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "技术也是一种工具。在解决问题的过程中，技术经过反复打磨才有了今天的模样。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220811-hatpu1m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220811-hatpu1m",
+										"updated": "20220806220811"
+									},
+									"Children": [
+										{
+											"ID": "20220806220811-6w3x52c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220811-6w3x52c",
+												"updated": "20220806220811"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果掌握了技术的使用步骤而不了解它的演变历史，那么就无法使用该技术真正解决问题，所选技术与要实现的目标并不匹配。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220811-aiskf44",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-aiskf44",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-vu0rasw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-vu0rasw",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在学习技术的同时，我们也要了解它的工作原理、演化过程和设计背景。只有这样，我们才更容易达成目的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220811-3y61ozy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-3y61ozy",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-t2ogv8m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-t2ogv8m",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "好的程序员，不论面对何种语言、工具、技术和问题，都会花时间充分对其进行理解，然后开展工作。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220811-gz7ber6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220811-gz7ber6",
+						"updated": "20220806220811"
+					},
+					"Children": [
+						{
+							"ID": "20220806220811-8crcpzm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220811-8crcpzm",
+								"updated": "20220806220811"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编写代码之前，一定要尽全力去理解眼前的语言、工具、技术和问题。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

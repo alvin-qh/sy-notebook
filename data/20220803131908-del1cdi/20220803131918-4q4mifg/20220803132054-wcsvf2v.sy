@@ -1,0 +1,2003 @@
+{
+	"ID": "20220803132054-wcsvf2v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220803132054-wcsvf2v",
+		"title": "数仓分层",
+		"updated": "20220803132239"
+	},
+	"Children": [
+		{
+			"ID": "20220803132054-p8g20qz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803132054-p8g20qz",
+				"updated": "20220803132204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 数仓分层意义"
+				}
+			]
+		},
+		{
+			"ID": "20220803134016-r7g1wtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803134016-r7g1wtr",
+				"updated": "20220803134016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过数据分层管理可以简化数据清洗的过程，因为把原来一步的工作分到了多个步骤去完成，每一层的处理逻辑都相对简单和容易理解，从而达到解耦的目的，这样我们比较容易保证每一个步骤的正确性，当数据发生错误的时候，方便问题排查和追溯定位。"
+				}
+			]
+		},
+		{
+			"ID": "20220803134018-m483hjl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803134018-m483hjl",
+				"updated": "20220803134024"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "分层的核心思想就是解耦，再解耦，把复杂的问题简单化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，这直接影响了数据架构到底分几层。"
+				}
+			]
+		},
+		{
+			"ID": "20220803134032-s4v77hl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803134032-s4v77hl",
+				"updated": "20220803134036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据分层的好处："
+				}
+			]
+		},
+		{
+			"ID": "20220803134036-vm0m769",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803134036-vm0m769",
+				"updated": "20220803134546"
+			},
+			"Children": [
+				{
+					"ID": "20220803134546-uw0vz6b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803134546-uw0vz6b",
+						"updated": "20220803134546"
+					},
+					"Children": [
+						{
+							"ID": "20220803134546-zr5hji3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803134546-zr5hji3",
+								"updated": "20220803134601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "清晰数据结构：每一个数据分层都有它的作用域和职责，在使用表的时候能更方便地定位和理解"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803134551-5r91ipj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803134551-5r91ipj"
+					},
+					"Children": [
+						{
+							"ID": "20220803134551-xypapvt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803134551-xypapvt",
+								"updated": "20220803134605"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减少重复开发：规范数据分层，开发一些通用的中间层数据，能够减少极大的"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​重复计算统一数据口径：通过数据分层，提供统一的数据出口，统一对外输出的数据口径"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803134614-uuoznle",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803134614-uuoznle"
+					},
+					"Children": [
+						{
+							"ID": "20220803134614-xur9sx4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803134614-xur9sx4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "复杂问题简单化：将一个复杂的任务分解成多个步骤来完成，每一层解决特定的问题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000948-3inz25s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000948-3inz25s"
+			}
+		},
+		{
+			"ID": "20220803132219-plauk6b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803132219-plauk6b",
+				"updated": "20220803132222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 一种通用的分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803134630-vuwg2zi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803134630-vuwg2zi",
+				"updated": "20220803134644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里介绍一种较为常见，也是适用性较广的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "四层"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "分层架构。"
+				}
+			]
+		},
+		{
+			"ID": "20220803134646-jr9pvvs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803134646-jr9pvvs",
+				"updated": "20220803134650"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803134650-fj2tr25.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803140607-k2q9a1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140607-k2q9a1n",
+				"updated": "20220803140608"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803140608-wsj4gsy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803140637-yf2yyjk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140637-yf2yyjk",
+				"updated": "20220803140725"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "数据公共层 CDM（Common Data Model）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "或者"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "企业级数据仓库 EDW （Enterprise Data Warehouse）主要用于存放明细事实数据、维表数据及公共指标汇总数据"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中明细事实数据、维表数据一般根据 ODS 层数据加工生成；公共指标汇总数据一般根据维表数据和明细事实数据加工生成。本层采用维度模型作为建模方法的理论基础，更多的是通过采用一些维度退化手段，将维度退化至事实表中，减少维表和事实表的关联，提高数据易用性。"
+				}
+			]
+		},
+		{
+			"ID": "20220809000953-dni6h7o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000953-dni6h7o"
+			}
+		},
+		{
+			"ID": "20220803132224-41n04i9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803132224-41n04i9",
+				"updated": "20220803132239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 一些不同的分层思路"
+				}
+			]
+		},
+		{
+			"ID": "20220803132246-rnvva1g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803132246-rnvva1g",
+				"updated": "20220803132250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. 爱奇艺数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803140739-ykjmi2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140739-ykjmi2v",
+				"updated": "20220803140740"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803140740-vzy5dsd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-21r0tf0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-21r0tf0",
+				"updated": "20220803140757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从上图可以看到，可以跟看到其实爱奇艺数仓分层和通用的分层架构差别不太大，也是包含原始数据层、明细层，汇总层、应用层以及统一的维度层，下面主要介绍一些不同的地方。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-oavsahr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-oavsahr",
+				"updated": "20220803140758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "爱奇艺的架构中，最底层是统一数仓，其实是将原始数据层、统一明细数据层和统一聚合数据层进行了整合。明细层负责对接下层所有的原始数据，百分之百还原所有业务域和业务过程的数据，同时屏蔽底层原始数据变动对上层造成的影响，是整个爱奇艺数仓的底层基础。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-dcagrmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-dcagrmg",
+				"updated": "20220803140800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最底层是统一数仓，主要分为统一明细数据层和统一聚合数据层。明细层负责对接下层所有的原始数据，百分之百还原所有业务域和业务过程的数据，同时屏蔽底层原始数据变动对上层造成的影响，是整个数仓 2.0 的底层基础。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-vx96q2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-vx96q2q",
+				"updated": "20220803140801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过明细层完成业务关系到数据关系逻辑转换，并补充相关的维度，保存最细粒度数据，进行复杂业务逻辑分离、数据清洗、统一规范化数据格式等 ETL 过程。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-l8497nm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-l8497nm",
+				"updated": "20220803140812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聚合层负责对通用的指标进行沉淀，向上提供统一口径的计算指标，同时避免重复计算。除此之外，还会提供基于 OneID 体系的统一累计设备库和新增设备库供上层使用。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-8pdrdg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-8pdrdg2",
+				"updated": "20220803140814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "业务集市主要以业务诉求为主，建设满足业务分析的各种数据集合。在业务集市建设过程中，按照尽可能细的粒度去划分业务集市，且每个业务集市之间不会出现数据依赖和横向引用，在应用层可以跨集市进行汇总计算对外提供数据服务。这样做的好处是，如果出现一些组织架构调整或者工作职责的变更等情况，每个业务集市无需调整，只需在应用层做相应的修改即可，同时也避免因为计算任务代码混在一起、数据权限拆分等问题带来的数据变更成本。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-pt2e5lp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-pt2e5lp",
+				"updated": "20220803140816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主题数仓以公司范围内公共的主题域/主题角度，以一致性维度为基础，跨各业务做数据的整合分析和相关建设，包括流量数仓、内容数仓、用户数仓等。"
+				}
+			]
+		},
+		{
+			"ID": "20220803140754-quje1r8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803140754-quje1r8",
+				"updated": "20220803140818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应用层包括业务报表、内容分析、用户运营等数据应用产品，按照具体的场景和需求，从业务集市和主题数仓获取数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001000-4gyrw70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001000-4gyrw70"
+			}
+		},
+		{
+			"ID": "20220803132257-ijk6znm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803132257-ijk6znm",
+				"updated": "20220803132302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. SaaS 收银运营数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803141011-20w32ks",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141011-20w32ks",
+				"updated": "20220803141012"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803141012-khr4so7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803141023-olfbz0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141023-olfbz0q",
+				"updated": "20220803141023"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803141023-lg6xn0g.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803141038-adykzwy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141038-adykzwy",
+				"updated": "20220803141449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里的案例是美团站点分享的 SaaS 收银运营数仓建设一文中的架构，这个分层架构大概是五层，虽然从名称上看着和通用分层架构差异比较大，实际具体功能上，只是增加了一个 DWT 主题宽表层，APP 层和通用的 ADS 层作用基本一致，DWA 汇总层其实和通用的 DWS 层是类似的。"
+				}
+			]
+		},
+		{
+			"ID": "20220809000958-521yqk2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000958-521yqk2"
+			}
+		},
+		{
+			"ID": "20220803133928-tazagq8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803133928-tazagq8",
+				"updated": "20220803133931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.3. 美团数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803141518-wk8wov0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141518-wk8wov0",
+				"updated": "20220803141518"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803141518-588dgma.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220803141531-97vmxz3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141531-97vmxz3",
+				"updated": "20220803141533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从上图中，看起来美团数仓分层架构和通用分层架构也是差异较大，但是其实和通用的分层架构也是异曲同工，只不过是将数据分的更新，做更多的解耦。"
+				}
+			]
+		},
+		{
+			"ID": "20220803141531-vj4j5ez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141531-vj4j5ez",
+				"updated": "20220803141830"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ODS 数据源层不用多说，名字都和通用的原始数据层一致，下面主要说下上面四层："
+				}
+			]
+		},
+		{
+			"ID": "20220803141531-2mxjbzi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803141531-2mxjbzi",
+				"updated": "20220803141613"
+			},
+			"Children": [
+				{
+					"ID": "20220803141542-m6rkd71",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803141542-m6rkd71",
+						"updated": "20220803141613"
+					},
+					"Children": [
+						{
+							"ID": "20220803141542-tbtxw2x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803141542-tbtxw2x",
+								"updated": "20220803141613"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "IDL数据集成层"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，整合多数据源的一致性建模，完成数据维度，事实组合。这一层要注重特殊的两个概念，一是宽表，二是聚合表。宽表与 Kimball 的 Fact Table 不一样，我们通常所说的 Fact Table，实际上仅仅是明细表的统称，而宽表，则是把相关的事实表，都整合到一起，这样的好处，一是加快速度，二是一次查询更加全面。这块和《SaaS收银运营数仓建设》案例中的 DWT 又是何其相识。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803141531-obr8ii6",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803141531-obr8ii6",
+				"updated": "20220803141714"
+			},
+			"Children": [
+				{
+					"ID": "20220803141714-08lklcz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803141714-08lklcz",
+						"updated": "20220803141714"
+					},
+					"Children": [
+						{
+							"ID": "20220803141714-hkuc4dg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803141714-hkuc4dg",
+								"updated": "20220803141714"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "CDL数据组件层"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，用来完成聚合汇总，进一步按照粒度划分，完成年月日级的聚合。至此，一个中央数据仓库就完成了。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803141531-kfm3jyr",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803141531-kfm3jyr",
+				"updated": "20220803141820"
+			},
+			"Children": [
+				{
+					"ID": "20220803141718-uz2gph6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803141718-uz2gph6",
+						"updated": "20220803141718"
+					},
+					"Children": [
+						{
+							"ID": "20220803141718-9pksou1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803141718-9pksou1",
+								"updated": "20220803141731"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "MDL数据集市层"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，按照业务单元，做数据集市。比如营运，销售。这样提供给数据应用层，就有了完整的、可复用的数据源。\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220803141731-bjqair0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803141734-eefgdgl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803141734-eefgdgl",
+						"updated": "20220803141820"
+					},
+					"Children": [
+						{
+							"ID": "20220803141734-sjiu8ol",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803141734-sjiu8ol",
+								"updated": "20220803141820"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "最终的ADL应用层"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，会简单很多，主要是选型，也就是针对业务数据应用，会选择哪些数据库技术，分析引擎技术，还有报表计算，归纳起来，离不开存储，计算，可视化。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001004-w243ljc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001004-w243ljc"
+			}
+		},
+		{
+			"ID": "20220803133939-nbj4r8n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803133939-nbj4r8n",
+				"updated": "20220803133943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.4. 网易严选数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803141851-hnhwu01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141851-hnhwu01",
+				"updated": "20220803141851"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803141851-3lpg5fa.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803141859-c8k18sl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141859-c8k18sl",
+				"updated": "20220803141859"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803141859-rrvz3uh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220803141907-iz58805",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141907-iz58805",
+				"updated": "20220803141916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里稍微简单说下吧，其实网易严选数仓分层架构和通用数仓分层架构差别不大，也算是直观的使用体现吧。"
+				}
+			]
+		},
+		{
+			"ID": "20220803141907-rte3fs4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803141907-rte3fs4",
+				"updated": "20220803142014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "严选数仓分层模型将数据分为三层，ODS，DW 和 DM 层。其中 ODS 是操作数据层，保留最原始的数据；DW 包含 DWD 和 DWS 层，这两层共同组成中间层；DM 是应用层，基于 DW 层做汇总加工，满足各产品、分析师和业务方的需求。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001007-jeaye0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001007-jeaye0f"
+			}
+		},
+		{
+			"ID": "20220803133952-gna2lt5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220803133952-gna2lt5",
+				"updated": "20220803133958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.5. 网易云音乐数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803142029-d0mpav0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142029-d0mpav0",
+				"updated": "20220803142029"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803142029-l5jek56.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220809001009-z93bdxc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001009-z93bdxc"
+			}
+		},
+		{
+			"ID": "20220803142032-l10pzxj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803142032-l10pzxj",
+				"updated": "20220803142056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 分享作者数仓分层架构"
+				}
+			]
+		},
+		{
+			"ID": "20220803142101-13rdk1x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142101-13rdk1x",
+				"updated": "20220803142101"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803142101-sykyz7d.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142108-s6c8mc3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142108-s6c8mc3",
+				"updated": "20220803142119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不多说，这里不同之处在于增加了 STG 缓冲层，用于存储每天的增量数据和变更数据，配合 ODS 对数据进行沉淀，减少了抽取的复杂性，比如进行增量数据的合并操作等。"
+				}
+			]
+		},
+		{
+			"ID": "20220809001010-omrm9ax",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001010-omrm9ax"
+			}
+		},
+		{
+			"ID": "20220803142130-sycqo47",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803142130-sycqo47",
+				"updated": "20220803142143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 对如何设计数仓分层架构的想法（数仓到底分几层）"
+				}
+			]
+		},
+		{
+			"ID": "20220803142149-wqeydu6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142149-wqeydu6",
+				"updated": "20220803142158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据仓库分层没有绝对的规范，适合的就是最好的，至于分几层，建议按照目前的业务和建设现状，进行合理解构和分层设计，一般刚开始做，建议 3、4 层。规划 1~1.5 年的架构，然后不断的建设、优化、再优化。不断逼近满足所有需求。"
+				}
+			]
+		},
+		{
+			"ID": "20220803142207-57lzxqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142207-57lzxqr",
+				"updated": "20220803142211"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "下面针对一些场景说下​分层的想法："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142215-m05cek2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803142215-m05cek2",
+				"updated": "20220803142356"
+			},
+			"Children": [
+				{
+					"ID": "20220803142256-f86p3lf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142256-f86p3lf",
+						"updated": "20220803142356"
+					},
+					"Children": [
+						{
+							"ID": "20220803142256-7rascki",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142256-7rascki",
+								"updated": "20220803142356"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "场景一：时间紧任务重，急于看结果"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n这种场景，直接连各个业务数据库，抽取数据到大数据平台，根据需求组合 join 或者汇总 count、sum 就行，就不要不分层了，作者现在公司服务的数仓项目前身就是这样，将各个业务系统数据抽取到 oracle，你看都没有大数据平台就做了。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142250-ifzkdlf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803142250-ifzkdlf",
+				"updated": "20220803142359"
+			},
+			"Children": [
+				{
+					"ID": "20220803142259-zn442sx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142259-zn442sx",
+						"updated": "20220803142359"
+					},
+					"Children": [
+						{
+							"ID": "20220803142259-wdvetgo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142259-wdvetgo",
+								"updated": "20220803142359"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "场景二：公司业务简单，且相对比较固定，数据来源不多，结构也很清晰，需求也不多"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n那么还弄啥来，直接使用通用的数仓架构就行，ODS 起到解耦业务数据库+异构数据源的问题，DWD 解决数据脏乱差的问题，DWS 服用的指标计算，ADS 直接面向前台业务需求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142236-cog5ovs",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803142236-cog5ovs",
+				"updated": "20220803142301"
+			},
+			"Children": [
+				{
+					"ID": "20220803142301-5z0vnao",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142301-5z0vnao",
+						"updated": "20220803142301"
+					},
+					"Children": [
+						{
+							"ID": "20220803142301-bjxxs49",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142301-bjxxs49",
+								"updated": "20220803142412"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "场景三：公司业务复杂，业务变化较快"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n那就多一层 DWT 层做汇总，多一层解耦，业务变化的时候，我们只改 DWS 层就好了，最多穿透到DWT 层。业务变化的时候调整一下，工作量也不会太大，最重要的是能保证底层结构的稳定和数据分析的可持续性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803142414-rf1f5fy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142414-rf1f5fy"
+					},
+					"Children": [
+						{
+							"ID": "20220803142414-7cdbner",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142414-7cdbner",
+								"updated": "20220803142443"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "场景四：公司业务较为复杂，集团性公司，下辖多个部门 BU 事业线，BU 间业务内容交叉不大"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n可以在数仓通用分层架构上，增加一层 DM 层，也就是数据集市层，各个数据集市层，单独供数，甚至有单独的计算资源，这样可以避免因为计算任务代码混在一起、数据权限拆分等问题带来的数据变更成本。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001015-chzt4cm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001015-chzt4cm"
+			}
+		},
+		{
+			"ID": "20220803142457-vvf3zta",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803142457-vvf3zta",
+				"updated": "20220803142501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 一个好的数仓模型分层，应该具备的要素"
+				}
+			]
+		},
+		{
+			"ID": "20220803142507-bjfm61v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142507-bjfm61v",
+				"updated": "20220803142507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个好的数仓模型分层，应该具备的要素是"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "数据模型可复用，完善且规范的"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220803142525-430vd7c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142525-430vd7c",
+				"updated": "20220803142526"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220803142526-h5is8yu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220803142534-jtcbmcj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803142534-jtcbmcj",
+				"updated": "20220803142557"
+			},
+			"Children": [
+				{
+					"ID": "20220803142539-qplqqxq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142539-qplqqxq",
+						"updated": "20220803142557"
+					},
+					"Children": [
+						{
+							"ID": "20220803142539-zoie71c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142539-zoie71c",
+								"updated": "20220803142557"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "从完善度上来讲"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：主要衡量 DWD 层和汇总层两块的完善度，DWD 层完善度，主要是希望 DWD 等尽可能被汇总层引用，ODS 层被除了 DWD 层外的尽可能少的引用，最好是没有。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142534-tf4jpz5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220803142534-tf4jpz5",
+				"updated": "20220803142543"
+			},
+			"Children": [
+				{
+					"ID": "20220803142543-xjfrxpu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142543-xjfrxpu",
+						"updated": "20220803142543"
+					},
+					"Children": [
+						{
+							"ID": "20220803142543-iezirhp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142543-iezirhp",
+								"updated": "20220803142618"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "从复用度上来讲"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：我们希望 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "80%"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 需求由 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "20%"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的表来支持。直接点讲，就是大部分（"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "80%"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 以上）的需求，都用 DWS 的表来支持。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220803142625-5rlectp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220803142625-5rlectp"
+					},
+					"Children": [
+						{
+							"ID": "20220803142625-tbdrjzk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220803142625-tbdrjzk"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "从规范度上来讲"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，主要从表名、字段名来看，一个规范的表名应该包括层级、主题域、分区规则，抽取类型等信息。字段规范应该是和词根一致，同字段同名等，具体这块可以看作者写得《数仓命名规范篇》"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809001018-qugkng1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809001018-qugkng1"
+			}
+		},
+		{
+			"ID": "20220803142641-43kkhrx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220803142641-43kkhrx",
+				"updated": "20220803142647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "总结"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803142641-g4kddwg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142641-g4kddwg",
+				"updated": "20220803142648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据仓库分层没有绝对的规范，适合的就是最好的，数据仓库分层的核心逻辑是解耦，在有限时间、资源等条件下满足业务需求，同时又要兼顾业务的快速变化。所以我们作为数据架构师，需要兼顾业务的复杂变化，以及开发的复杂度和可维护性，在两者之间做一个平衡和取舍，选择合适的分层架构。"
+				}
+			]
+		},
+		{
+			"ID": "20220803142641-51i67i0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803142641-51i67i0",
+				"updated": "20220803142725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "另外分层架构是需要不断的优化调整的，不能超前太多，也不能脱离业务。建议架构设计时，按超越当前实际情况 1~1.5 年的设计是比较合适的。"
+				}
+			]
+		},
+		{
+			"ID": "20220803145509-fipkni5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145509-fipkni5",
+				"updated": "20220803145612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考："
+				},
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220803143339-o6v12mm"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "数据仓库建设规范指南 —数仓命名规范"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

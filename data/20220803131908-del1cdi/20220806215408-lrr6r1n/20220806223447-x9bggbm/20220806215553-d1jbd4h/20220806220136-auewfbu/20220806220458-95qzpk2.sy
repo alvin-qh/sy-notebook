@@ -1,0 +1,874 @@
+{
+	"ID": "20220806220458-95qzpk2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806220458-95qzpk2",
+		"title": "SLAP",
+		"updated": "20220806220552"
+	},
+	"Children": [
+		{
+			"ID": "20220806220509-x4xqp5m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-x4xqp5m",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Single Level of Abstraction Principle"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "（单一抽象层次原则）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-ufeaycs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220509-ufeaycs",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-fq2v41o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-fq2v41o",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "统一代码的级别"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-3lpqnmg",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220509-3lpqnmg",
+				"updated": "20220806220552"
+			},
+			"Children": [
+				{
+					"ID": "20220806220509-qrpky3f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-qrpky3f",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-mtg6rck",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-mtg6rck",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在编写代码时，我们要将高级别的抽象化概念和低级别的抽象化概念分离。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-5fkpjwf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-5fkpjwf",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-6knp2vk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-6knp2vk",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在分离时不能只有高低两层。我们要根据功能的复杂程度对抽象化概念进行分离，然后统一各层的抽象级别。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-q7oqwr6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-q7oqwr6",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-bxtq9q6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-bxtq9q6",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要根据抽象级别对函数进行分割，并且将同一函数中的代码统一为同一个抽象级别。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-536qp3p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-536qp3p",
+						"updated": "20220806220552"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-yy0phhz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-yy0phhz",
+								"updated": "20220806220540"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "统一各抽象级别之后，代码就可以像图书一样供人阅读了。高级到中级的处理相当于图书的目录，级别最低的处理相当于图书的正文。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220549-as4rmi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220549-as4rmi9",
+								"updated": "20220806220552"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806220540-31zb6vr.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-v9e2o0t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220509-v9e2o0t",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-dydgp7q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-dydgp7q",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "使代码具有概括性和可读性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-59pxloj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220509-59pxloj",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"ID": "20220806220509-flhvfx4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-flhvfx4",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-17fujf3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-17fujf3",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将代码分割成级别统一的函数，能使代码具有概括性和可读性。也就是说，函数一览起到了目录的作用，从而使代码拥有概括性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-x7o2dtp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-x7o2dtp",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-2esk59y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-2esk59y",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分割后的函数是小块的代码，这就提升了代码的可读性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-gmlncrs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-gmlncrs",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-csmdq7n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-csmdq7n",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码统一之后，抽象度相同的处理都在同一个地方。于是，代码变得更加顺畅，更容易让人理解。相反，如果读到一半时代码的抽象度突然发生了改变，流畅感就会戛然而止。这就给阅读造成了障碍，并且会扰乱我们对前面代码的理解。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-xjuciz2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220509-xjuciz2",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-0xiugkx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-0xiugkx",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "将函数结构化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-cbifxts",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220509-cbifxts",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"ID": "20220806220509-5f6sn3y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-5f6sn3y",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-w5rkxg6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-w5rkxg6",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将函数结构化。将处理转换为意图清晰、由抽象化级别一致的多个步骤组成的函数。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-txje14z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-txje14z",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-3gyteei",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-3gyteei",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将函数结构化之后，各函数的处理将以调用比自己低一个级别的函数为中心。这种由其他函数的调用组成的函数称为复合函数（Composed Method）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-04a91g9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-04a91g9",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-fky6ho4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-fky6ho4",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "复合函数要尽量小。如果想通过名称来表达意图，那么即使处理只有一行，也可以写成函数。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-3qg4jk4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-3qg4jk4",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-mkjks9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-mkjks9r",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不要在复合函数中调用不同抽象级别的函数。即一个函数中不能既有“连接数据库”这种低级处理，又有“执行业务逻辑”这种高级处理。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-52q8sp0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806220509-52q8sp0",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-ffa0nri",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-ffa0nri",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "适用范围"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-1uahec2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220509-1uahec2",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"ID": "20220806220509-z7zocfn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-z7zocfn",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-9zdlldx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-9zdlldx",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除函数外，SLAP还适用于模块等结构。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-gbkdx04",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-gbkdx04",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-wkjzzrg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-wkjzzrg",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在软件设计中，概念被划分为多个级别，不同级别的概念会装入不同的容器中。"
+								}
+							]
+						},
+						{
+							"ID": "20220806220509-95py6hk",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806220509-95py6hk",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"ID": "20220806220509-jqusnsz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220509-jqusnsz",
+										"updated": "20220806220509"
+									},
+									"Children": [
+										{
+											"ID": "20220806220509-tm8zdpu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220509-tm8zdpu",
+												"updated": "20220806220509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "拿面向对象中的类设计来说，容器是抽象类和它的继承类。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220509-9wp7rvk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220509-9wp7rvk",
+										"updated": "20220806220509"
+									},
+									"Children": [
+										{
+											"ID": "20220806220509-yv56lk6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220509-yv56lk6",
+												"updated": "20220806220509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "用抽象类存放级别较高的概念，用它的继承类存放级别较低的概念，由此便实现了SLAP。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806220509-o043bti",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806220509-o043bti",
+										"updated": "20220806220509"
+									},
+									"Children": [
+										{
+											"ID": "20220806220509-d0stgml",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806220509-d0stgml",
+												"updated": "20220806220509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "确保级别较低的概念只存在于继承类，级别较高的概念只存在于抽象类。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-1w1aq5m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806220509-1w1aq5m",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "实现步骤"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806220509-33vi6ae",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806220509-33vi6ae",
+				"updated": "20220806220509"
+			},
+			"Children": [
+				{
+					"ID": "20220806220509-4zrvod3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-4zrvod3",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-f1zy0o1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-f1zy0o1",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将“编写内容”与“设计结构”这两件事分开来做。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806220509-tn5efio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806220509-tn5efio",
+						"updated": "20220806220509"
+					},
+					"Children": [
+						{
+							"ID": "20220806220509-y2o72bx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806220509-y2o72bx",
+								"updated": "20220806220509"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将编写具体处理的操作和统一抽象化级别的操作视为两个不同的工作，分别以不同的模式去实现。这样操作起来会更加简便，代码的质量也会得到提升。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

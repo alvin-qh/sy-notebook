@@ -1,0 +1,514 @@
+{
+	"ID": "20220806222432-8zqnxkx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806222432-8zqnxkx",
+		"title": "Interoperability",
+		"updated": "20220806222437"
+	},
+	"Children": [
+		{
+			"ID": "20220806222437-fi35eh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222437-fi35eh2",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "互操作性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-m7qinkr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222437-m7qinkr",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-nrvxpv9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222437-nrvxpv9",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "轻松修改软件的能力"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-0sx8wpz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222437-0sx8wpz",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"ID": "20220806222437-ycvxhj3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222437-ycvxhj3",
+						"updated": "20220806222437"
+					},
+					"Children": [
+						{
+							"ID": "20220806222437-l07tw20",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222437-l07tw20",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "互操作性指软件与其他软件交互的能力。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222437-4jjm25d",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222437-4jjm25d",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"ID": "20220806222437-2zv2ypv",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222437-2zv2ypv",
+										"updated": "20220806222437"
+									},
+									"Children": [
+										{
+											"ID": "20220806222437-tm15db2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222437-tm15db2",
+												"updated": "20220806222437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "互操作性要求不同的软件之间使用同一交换方式来交换数据、读取相同格式的文件、使用相同的协议等，从而实现相互连接的状态。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-vguptyt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222437-vguptyt",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-6u4ztun",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222437-6u4ztun",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "软件间协作"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-7hi4cza",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222437-7hi4cza",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"ID": "20220806222437-a7rz3ez",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222437-a7rz3ez",
+						"updated": "20220806222437"
+					},
+					"Children": [
+						{
+							"ID": "20220806222437-pzynpni",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222437-pzynpni",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "软件并不是独立存在的，它是系统的一部分，会频繁地与其他系统或环境发生作用。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222437-lzoo7jf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222437-lzoo7jf",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"ID": "20220806222437-adq7q6d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222437-adq7q6d",
+										"updated": "20220806222437"
+									},
+									"Children": [
+										{
+											"ID": "20220806222437-tr2gqky",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222437-tr2gqky",
+												"updated": "20220806222437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "能与其他软件协作，就意味着我们可以直接使用既有资产。这样一来，需要我们开发的软件就会减少。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222437-hbieuhg",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222437-hbieuhg",
+										"updated": "20220806222437"
+									},
+									"Children": [
+										{
+											"ID": "20220806222437-w23294j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222437-w23294j",
+												"updated": "20220806222437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "良好的连接性能扩大软件的用途，缩短开发周期，减少成本。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-trno9i3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806222437-trno9i3",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-50yspls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806222437-50yspls",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "选择标准规格"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806222437-lrn98n0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806222437-lrn98n0",
+				"updated": "20220806222437"
+			},
+			"Children": [
+				{
+					"ID": "20220806222437-70h7bvc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222437-70h7bvc",
+						"updated": "20220806222437"
+					},
+					"Children": [
+						{
+							"ID": "20220806222437-qzynyao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222437-qzynyao",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设计软件架构时，要明确定义需要访问的外部功能以及数据结构。这么做能够提升软件的价值。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222437-otjcx74",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222437-otjcx74",
+						"updated": "20220806222437"
+					},
+					"Children": [
+						{
+							"ID": "20220806222437-wp43oqo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222437-wp43oqo",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在选择协议和数据格式时，要选择业界标准规格。从长远来看，选用标准规格能长期保持软件的价值。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806222437-7fm907w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806222437-7fm907w",
+						"updated": "20220806222437"
+					},
+					"Children": [
+						{
+							"ID": "20220806222437-ir65w5q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806222437-ir65w5q",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在实际开发中，很多时候开发的软件要迎合一些既有软件，保证与这些软件的互操作性。"
+								}
+							]
+						},
+						{
+							"ID": "20220806222437-3ri42nd",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806222437-3ri42nd",
+								"updated": "20220806222437"
+							},
+							"Children": [
+								{
+									"ID": "20220806222437-eew8rzk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222437-eew8rzk",
+										"updated": "20220806222437"
+									},
+									"Children": [
+										{
+											"ID": "20220806222437-cxqdydl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222437-cxqdydl",
+												"updated": "20220806222437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要仔细确认连接方式以满足既有软件的连接要求。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806222437-ble4mzf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806222437-ble4mzf",
+										"updated": "20220806222437"
+									},
+									"Children": [
+										{
+											"ID": "20220806222437-frfn1sv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806222437-frfn1sv",
+												"updated": "20220806222437"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在两个既有软件相互连接的情况下，可以考虑导入其他软件作为介质。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

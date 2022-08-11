@@ -1,0 +1,158 @@
+{
+	"ID": "20220808235542-bjgm6xb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808235542-bjgm6xb",
+		"title": "DLib",
+		"updated": "20220809000301"
+	},
+	"Children": [
+		{
+			"ID": "20220808235254-ikd5min",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808235254-ikd5min",
+				"updated": "20220808235634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除已安装的 dlib 包"
+				}
+			]
+		},
+		{
+			"ID": "20220808235254-nud572z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808235254-nud572z",
+				"updated": "20220808235730"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "pip uninstall dlib -y\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808235707-kwad0v4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220808235707-kwad0v4",
+				"updated": "20220808235738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下载 dlib 源码并安装"
+				}
+			]
+		},
+		{
+			"ID": "20220808235254-jgp5bs6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220808235254-jgp5bs6",
+				"updated": "20220808235926"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt-get -y install libopenblas-dev\t# 安装依赖包\n\nmkdir dlib\ncd dlib\n\npip download dlib\t# 下载源码\ntar -zxvf dlib-*.tar.gz\t# 解压缩\n\ncd dlib\n\npython setup.py clean\t# 清理之前的编辑文件\npython setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220808235254-j9twebz",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220808235254-j9twebz",
+				"updated": "20220809000259"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220809000025-fpdhn4k",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220809000025-fpdhn4k",
+						"updated": "20220809000259"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "对于 macOS 系统，如果 dlib 无法被当前的 C 编译器编译，可能意味着目前安装的 X-Code Command Line Tools 版本过高，需要降级。可以从 "
+						},
+						{
+							"Type": "NodeLink",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "https://developer.apple.com/download/more/"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://developer.apple.com/download/more/"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 下载旧版本（例如：8.3.2），之后清除 dlib 并重新编译即可"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000301-0f376nv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000301-0f376nv"
+			}
+		}
+	]
+}

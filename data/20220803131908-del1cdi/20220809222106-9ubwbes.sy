@@ -1,0 +1,75 @@
+{
+	"ID": "20220809222106-9ubwbes",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809222106-9ubwbes",
+		"title": "研发管理",
+		"updated": "20220809222128"
+	},
+	"Children": [
+		{
+			"ID": "20220809222106-gw63bde",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809222106-gw63bde",
+				"updated": "20220809222128"
+			},
+			"Children": [
+				{
+					"ID": "20220809222122-islrnr8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809222122-islrnr8",
+						"updated": "20220809222128"
+					},
+					"Children": [
+						{
+							"ID": "20220809222122-tyjrwjt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809222122-tyjrwjt",
+								"updated": "20220809222128"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220809222127-phrsvg5"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "人力资源"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

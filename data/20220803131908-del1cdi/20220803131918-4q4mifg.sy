@@ -1,0 +1,133 @@
+{
+	"ID": "20220803131918-4q4mifg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220803131918-4q4mifg",
+		"title": "大数据",
+		"updated": "20220806210030"
+	},
+	"Children": [
+		{
+			"ID": "20220806210030-yy4yamt",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806210030-yy4yamt",
+				"updated": "20220806210030"
+			},
+			"Children": [
+				{
+					"ID": "20220806210030-xcupajs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806210030-xcupajs"
+					},
+					"Children": [
+						{
+							"ID": "20220806210014-z28uhkk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806210014-z28uhkk",
+								"updated": "20220806210014"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220803132054-wcsvf2v"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "数仓分层"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806210030-wtkurt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806210030-wtkurt0"
+					},
+					"Children": [
+						{
+							"ID": "20220806210017-cuyw5km",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806210017-cuyw5km",
+								"updated": "20220806210017"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220803143339-o6v12mm"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "数据仓库建设规范指南 —数仓命名规范"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220803145723-fj8vmot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220803145723-fj8vmot"
+			}
+		}
+	]
+}

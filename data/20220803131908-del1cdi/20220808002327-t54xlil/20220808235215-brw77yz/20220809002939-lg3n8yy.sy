@@ -1,0 +1,400 @@
+{
+	"ID": "20220809002939-lg3n8yy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220809002939-lg3n8yy",
+		"title": "Privoxy",
+		"updated": "20220809003302"
+	},
+	"Children": [
+		{
+			"ID": "20220809002939-fhoygnr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809002939-fhoygnr",
+				"updated": "20220809003003"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "下载软件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809003036-8vri8po",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809003036-8vri8po",
+				"updated": "20220809003036"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Privoxy - Home Page"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.privoxy.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809003037-atee7y5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809003037-atee7y5"
+			}
+		},
+		{
+			"ID": "20220809003007-hfu6r43",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809003007-hfu6r43",
+				"updated": "20220809003012"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "编辑 config 文件"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809003039-a630n5y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809003039-a630n5y",
+				"updated": "20220809003049"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "vi /usr/local/etc/privoxy/config\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809003039-n9nqsw8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809003039-n9nqsw8",
+				"updated": "20220809003237"
+			},
+			"Children": [
+				{
+					"ID": "20220809003105-xgkk2so",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809003105-xgkk2so",
+						"updated": "20220809003105"
+					},
+					"Children": [
+						{
+							"ID": "20220809003105-ckjl52m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809003105-ckjl52m",
+								"updated": "20220809003109"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查找 forward-socks5t，将该行改为"
+								}
+							]
+						},
+						{
+							"ID": "20220809003114-eie3qn8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809003114-eie3qn8",
+								"updated": "20220809003123"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cGxhaW50ZXh0"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "forward-socks5t  /   127.0.0.1:1080 .\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220809003155-smix5gy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809003155-smix5gy",
+								"updated": "20220809003221"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上述配置使用 shadowsocks 作为本地代理，使用 socket5，如果使用其它方式的代理，则需要查找其它的代理方式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809003127-5cv7qej",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809003127-5cv7qej",
+						"updated": "20220809003237"
+					},
+					"Children": [
+						{
+							"ID": "20220809003127-l366khz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809003127-l366khz",
+								"updated": "20220809003137"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查找 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "listen-address"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，将该行改为"
+								}
+							]
+						},
+						{
+							"ID": "20220809003140-jnkty7j",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809003140-jnkty7j",
+								"updated": "20220809003146"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cGxhaW50ZXh0"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "listen-address  0.0.0.0:9090\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220809003228-74gde30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809003228-74gde30",
+								"updated": "20220809003237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "监听本机 9090 端口，接收所有 IP 地址请求"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809003022-1yr8grr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809003022-1yr8grr",
+				"updated": "20220809003025"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "启动 Privoxy"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809003246-ejxrydt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220809003246-ejxrydt",
+				"updated": "20220809003249"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cGxhaW50ZXh0"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/usr/local/sbin/privoxy --no-daemon /usr/local/etc/privoxy/config\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220809003254-oe87dwe",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220809003254-oe87dwe",
+				"updated": "20220809003302"
+			},
+			"Children": [
+				{
+					"ID": "20220809003302-jifrc48",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220809003302-jifrc48",
+						"updated": "20220809003302"
+					},
+					"Children": [
+						{
+							"ID": "20220809003302-q8nsfz3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809003302-q8nsfz3",
+								"updated": "20220809003302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其它机器即可通过当前机器的IP地址和9090端口进行代理访问"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

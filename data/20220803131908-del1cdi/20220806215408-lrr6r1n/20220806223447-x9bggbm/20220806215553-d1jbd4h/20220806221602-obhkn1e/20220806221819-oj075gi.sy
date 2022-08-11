@@ -1,0 +1,1058 @@
+{
+	"ID": "20220806221819-oj075gi",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221819-oj075gi",
+		"title": "Information Hiding",
+		"updated": "20220806221826"
+	},
+	"Children": [
+		{
+			"ID": "20220806221826-hd8387t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-hd8387t",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "信息隐藏"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-ghnb16r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221826-ghnb16r",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-tlaedl6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-tlaedl6",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "只展示必要的信息"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-bzoz4hm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221826-bzoz4hm",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"ID": "20220806221826-l5wxf86",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-l5wxf86",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-xyftesw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-xyftesw",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对使用模块的用户隐藏模块实现相关的信息。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221826-s5sozzj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221826-s5sozzj",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"ID": "20220806221826-ulzy2yl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-ulzy2yl",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-ckb55yp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-ckb55yp",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "模块内有哪些数据，函数是用何种逻辑实现功能的，这些信息全部对外隐藏。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221826-k4m7m7z",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-k4m7m7z",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-2r0ny29",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-2r0ny29",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "要让外部无法直接访问模块内的数据。模块的函数也尽量不公开。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221826-k3oo0kp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-k3oo0kp",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-uq7m3bg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-uq7m3bg",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户只能通过最低限度公开的函数来操作模块。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-uwpbb8s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221826-uwpbb8s",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-vljfuni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-vljfuni",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "整理关系以达到简洁"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-oda7oou",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221826-oda7oou",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"ID": "20220806221826-2okun26",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-2okun26",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-2bk45hl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-2bk45hl",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将用户不必知晓的内部详细信息隐藏起来，可以减少接口的代码量，让信息交互变得更简洁，降低代码的复杂程度。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221826-ty4rfd0",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221826-ty4rfd0",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"ID": "20220806221826-c1sp4lw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-c1sp4lw",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-ocffy6j",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-ocffy6j",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "从用户的角度来看，由于排除了多余信息的干扰，模块的使用方法变得简单，模块也变得更加好用了。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221826-y37f0dn",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-y37f0dn",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-ys18xec",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-ys18xec",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "公开的部分越少，模块内部的修改就越不容易影响到外部。这样可以将修改代码的影响范围控制到最小。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-kl8ouy9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221826-kl8ouy9",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-vjx1bfk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-vjx1bfk",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "隐藏内部信息"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-qk117rk",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221826-qk117rk",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"ID": "20220806221826-kcic7ls",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-kcic7ls",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-ll0t4ik",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-ll0t4ik",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "仅公开模块简单的功能，内部状态和内部功能全部隐藏。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221826-zdib56p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-zdib56p",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-s9gwdkw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-s9gwdkw",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "禁止外部访问模块内部的数据以及仅供模块内部使用的函数。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221826-xv7q9qr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-xv7q9qr",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-o4oz4us",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-o4oz4us",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现信息隐藏需要使用封装的手段。分组可以整理“关系网”，降低隐藏信息的难度。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-uc0fmql",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221826-uc0fmql",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-j1fly00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-j1fly00",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "封装与信息隐藏的区别"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-x91s38c",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221826-x91s38c",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"ID": "20220806221826-x6uvq9c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-x6uvq9c",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-fboq1tc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-fboq1tc",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "封装与信息隐藏是两个不同的概念。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221826-6labo89",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221826-6labo89",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"ID": "20220806221826-4s9ha9d",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-4s9ha9d",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-oc2hgdy",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-oc2hgdy",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "封装"
+												}
+											]
+										},
+										{
+											"ID": "20220806221826-dvilmy1",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806221826-dvilmy1",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"ID": "20220806221826-hbomif8",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221826-hbomif8",
+														"updated": "20220806221826"
+													},
+													"Children": [
+														{
+															"ID": "20220806221826-1l89p0m",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221826-1l89p0m",
+																"updated": "20220806221826"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "将相关元素集中起来模块化。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806221826-a15g8ph",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221826-a15g8ph",
+														"updated": "20220806221826"
+													},
+													"Children": [
+														{
+															"ID": "20220806221826-os31lpw",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221826-os31lpw",
+																"updated": "20220806221826"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "将关系紧密的数据与函数整合在一起。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221826-3zf8vhf",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-3zf8vhf",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-i7v2qm4",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-i7v2qm4",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "信息隐藏"
+												}
+											]
+										},
+										{
+											"ID": "20220806221826-9odttyr",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806221826-9odttyr",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"ID": "20220806221826-qqhw8at",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221826-qqhw8at",
+														"updated": "20220806221826"
+													},
+													"Children": [
+														{
+															"ID": "20220806221826-nexwgpb",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221826-nexwgpb",
+																"updated": "20220806221826"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "隐藏模块的内部状态和内部函数。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806221826-cqeaxxo",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221826-cqeaxxo",
+														"updated": "20220806221826"
+													},
+													"Children": [
+														{
+															"ID": "20220806221826-hb34enk",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221826-hb34enk",
+																"updated": "20220806221826"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "阻止外部对内部的直接访问。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221826-4zcuvt3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-4zcuvt3",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-xmver6c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-xmver6c",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "很多技术文档将信息隐藏归到了封装中。这种被扩充了语义的“封装”一词被广泛使用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-9olaquo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221826-9olaquo",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Reference"
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-4joqb0t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221826-4joqb0t",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Parnas原则"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221826-82pq22x",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221826-82pq22x",
+				"updated": "20220806221826"
+			},
+			"Children": [
+				{
+					"ID": "20220806221826-ly2g71n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-ly2g71n",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-80eibpk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-80eibpk",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是面向对象编程中使用的原则。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221826-sjh6uxy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221826-sjh6uxy",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"ID": "20220806221826-aa4srmz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-aa4srmz",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-2opw4bp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-2opw4bp",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于模块的使用者，仅提供使用该模块所必需的所有信息，其余信息一概不予提供。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221826-yhfnqhs",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-yhfnqhs",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-wc97rr3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-wc97rr3",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "对于模块的开发者，仅提供实现该模块所必需的所有信息，其余信息一概不予提供。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221826-sygjh76",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221826-sygjh76",
+						"updated": "20220806221826"
+					},
+					"Children": [
+						{
+							"ID": "20220806221826-art4gzy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221826-art4gzy",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模块之间的关系越简单越好。这样我们就能获得两个优势："
+								}
+							]
+						},
+						{
+							"ID": "20220806221826-h2les2o",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221826-h2les2o",
+								"updated": "20220806221826"
+							},
+							"Children": [
+								{
+									"ID": "20220806221826-urxvair",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-urxvair",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-byoki12",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-byoki12",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "即使不知道模块的内部信息，也可以使用模块（重复利用）；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221826-jq4a7jt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221826-jq4a7jt",
+										"updated": "20220806221826"
+									},
+									"Children": [
+										{
+											"ID": "20220806221826-p8yewqt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221826-p8yewqt",
+												"updated": "20220806221826"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "可以轻松替换模块的内部实现，而不必担心对使用者造成影响（维护）。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2188 @@
+{
+	"ID": "20220806223527-trs25oj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806223527-trs25oj",
+		"title": "代码质量管控的四个阶段",
+		"updated": "20220806224854"
+	},
+	"Children": [
+		{
+			"ID": "20220806223539-i82ik3j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806223539-i82ik3j",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 背景"
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-rbtpdyq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-rbtpdyq",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-dhnjde2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-dhnjde2",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-jw9lhuu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-jw9lhuu",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本文讨论的代码质量指的是代码本身的质量，包括复杂度、重复率、代码风格等要素。代码是团队的共同财产，代码质量是团队技术水平和管理水平的直接体现"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-7t4foo7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-7t4foo7",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-sk9bqfu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-sk9bqfu",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码质量下降通常会自成因果，导致恶性循环："
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-oiwetdg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-oiwetdg",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-w960n5x",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-w960n5x",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-88rfee5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-88rfee5",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "破窗效应：在烂代码上继续生产烂代码的心理负担小很多"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-1tl0940",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-1tl0940",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-keldruv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-keldruv",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "传染性：烂代码传递着一种不在意质量，只看业务成果的负面信息，会伤害团队的技术热情和工作氛围，导致更多烂代码出现"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-mwoplct",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-mwoplct",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-x7awc81",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-x7awc81",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "本文会分析代码质量下降的内在机制，并分享在代码质量管控方面的一些实践经验"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-qqbfhnc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806223539-qqbfhnc",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 熵增定律与代码质量"
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-23r9k34",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-23r9k34",
+				"updated": "20220806224540"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-uzqz5iu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-uzqz5iu",
+						"updated": "20220806224540"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-psnrstr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-psnrstr",
+								"updated": "20220806224535"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "熵增定律告诉我们，一个封闭系统总是趋向于熵增，也就是系统的无序程度只会不断增加\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224536-iwobhk5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224536-iwobhk5",
+								"updated": "20220806224540"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224540-i3ywitj.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-lkja9mp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-lkja9mp",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-7lymf8r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-7lymf8r",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于软件项目来说，代码质量代表着系统的有序程度，烂代码增加就是系统无序性上升的体现。在无外力影响的情况下，烂代码只会原来越多"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-fpsut4i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-fpsut4i",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-gvy1kdw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-gvy1kdw",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了维持系统有序，需要外界向系统不断输入能量。对于代码质量，我们需要主动投入资源，来有意识地抑制烂代码越来越多的自然趋势"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-qkaxmnq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806223539-qkaxmnq",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 经典循环"
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-dm118gj",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-dm118gj",
+				"updated": "20220806224604"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-lxgmzye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-lxgmzye",
+						"updated": "20220806224604"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-tk62b3o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-tk62b3o",
+								"updated": "20220806224557"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "烂代码产生的常见原因是业务压力大，导致没有时间或意愿讲究代码质量。因为向业务压力妥协而生产烂代码之后，开发效率会随之下降，导致业务压力更大，形成一种典型的恶性循环\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224600-plhu872",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224600-plhu872",
+								"updated": "20220806224604"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224604-7azulz0.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224558-t64n54y",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224558-t64n54y",
+				"updated": "20220806224633"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-m2fae2f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-m2fae2f",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-zw104be",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-zw104be",
+								"updated": "20220806224616"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了应对业务压力，常见的做法就是向项目中增加人力，但是单纯地增加人力的话，会因为风格不一致、沟通成本上升等原因导致烂代码更多\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224617-ztw2klc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224617-ztw2klc",
+								"updated": "20220806224619"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224619-m2armcx.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-b4udo3b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-b4udo3b",
+						"updated": "20220806224633"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-3ha4tau",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-3ha4tau",
+								"updated": "20220806224631"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要遏制这种恶性循环，需要多管齐下，主动对代码质量进行管控，并且持续进行技术升级，系统性地解决问题\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224631-yi9s1vj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224631-yi9s1vj",
+								"updated": "20220806224633"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224633-pldb330.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-73kw7uc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-73kw7uc",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-vplw0lb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-vplw0lb",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不过质量管控和技术升级需要长期投入才能产生效果。通常情况下人们还是倾向于通过增加人力快速地解决业务压力的问题，而忽略了对于代码质量的负面影响，导致代码质量越来越差"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-26iy1bi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806223539-26iy1bi",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 四个阶段"
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-8j2aosh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806223539-8j2aosh",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码质量管控通常需要经历的四个阶段："
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-vha6srz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-vha6srz",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-mgncec1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-mgncec1",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-9fsagnj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-9fsagnj",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "规范化：建立代码规范与Code Review制度"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-srekjq5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-srekjq5",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-kv13dmw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-kv13dmw",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自动化：使用工具自动检查代码质量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-y0ewcro",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-y0ewcro",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-kl203lh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-kl203lh",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程化：将代码质量检查与代码流动过程绑定"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-y22r2b7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-y22r2b7",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-l9r35u5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-l9r35u5",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "中心化：以团队整体为视角，集中管理代码规范，并实现质量状况透明化"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-ai7gnqz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223539-ai7gnqz",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "阶段一：规范化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-b811v8g",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-b811v8g",
+				"updated": "20220806224854"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-f11av2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-f11av2a",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-mtvm6bs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-mtvm6bs",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "保障代码质量的基础是建立团队的代码规范，通常包括："
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-bnztxw5",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-bnztxw5",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-af4xy8y",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-af4xy8y",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-wzdf2wd",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-wzdf2wd",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "风格规范：缩进、换行、大小写等风格问题"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-mmm6csh",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-mmm6csh",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-nidmt5s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-nidmt5s",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实践规范：规避一些常见的隐患，或者针对特定问题的最佳实践"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-xgc6ovq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-xgc6ovq",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-l2mied1",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-l2mied1",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "业务规范：与业务有关的特殊要求，比如文案中的关键词"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-xxoipqe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-xxoipqe",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-vzpm6ym",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-vzpm6ym",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "团队的代码规范通常以文档的形式存在，供新人们学习。但文档这种形式常见的情况就是新人看过之后就不再回顾了，也很难对实际写代码形成真正的约束"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-hinuylo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-hinuylo",
+						"updated": "20220806224854"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-c5u8prs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-c5u8prs",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在规范的基础上，要通过Code Review将规范落地。Code Review中大家可以对代码质量问题进行交流，并且相互监督，形成团队重视代码的习惯"
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-573wumt",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220806223539-573wumt",
+								"updated": "20220806224854"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220806223539-vehaz7v",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220806223539-vehaz7v",
+										"updated": "20220806224854"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "关于Code Review可以参考 "
+										},
+										{
+											"Type": "NodeBlockRef",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeBlockRefID",
+													"Data": "20220806224803-oxq3fpf"
+												},
+												{
+													"Type": "NodeBlockRefSpace"
+												},
+												{
+													"Type": "NodeBlockRefDynamicText",
+													"Data": "Code Review 体系与团队文化"
+												},
+												{
+													"Type": "NodeCloseParen"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-xybzhky",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223539-xybzhky",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "阶段二：自动化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-lyf25fz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-lyf25fz",
+				"updated": "20220806224654"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-s28ef0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-s28ef0a",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-w8078ri",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-w8078ri",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自动化是指在代码规范的基础上，使用自动化工具进行质量检查，通常包括："
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-s1xlht2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-s1xlht2",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-oin9hr5",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-oin9hr5",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-l13lhlv",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-l13lhlv",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码规范检查：包括风格规范、实践规范、业务规范"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-b4arwgo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-b4arwgo",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-zy52zbt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-zy52zbt",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "重复率：重复出现的代码区块占比，通常要求在5%以下"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-86zju3m",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-86zju3m",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-goz1ver",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-goz1ver",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "复杂度：总行数，模块大小，循环复杂度等"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-vtu3uph",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-vtu3uph",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-axz5343",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-axz5343",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "检查覆盖度：经过检查的行数占代码库总行数的比例"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-xr0tt32",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-xr0tt32",
+						"updated": "20220806224654"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-ubagcye",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-ubagcye",
+								"updated": "20220806224649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自动化质量检查可以覆盖多数常见问题，能够提升开发效率，也可以降低人工Code Review的成本\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224652-9lt52lt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224652-9lt52lt",
+								"updated": "20220806224654"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224654-xzf711w.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224651-80hgyg5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224651-80hgyg5",
+				"updated": "20220806224651"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-fu2y0qh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-fu2y0qh",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-cz1pbaf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-cz1pbaf",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自动化检查工具的规则集与代码规范直接对应。通过编辑器插件，在写代码的时候直接给出检查结果"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-u2jy5ux",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-u2jy5ux",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-mhgqhrc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-mhgqhrc",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "到这个阶段，团队的代码规范文档已经不再需要陈述各种细节，开发者可以直接通过查看自动化工具的规则集来了解代码规范"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-698uzvj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223539-698uzvj",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.3. "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "阶段三：流程化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-4889lci",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-4889lci",
+				"updated": "20220806224712"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-i5pojba",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-i5pojba",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-ybw1cln",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-ybw1cln",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "流程化的意思是将自动化代码质量检查和Code Review与代码流动的过程绑定，从而保证所有上线的代码都经过机器与人工多个环节的检查"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-u63xmft",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-u63xmft",
+						"updated": "20220806224712"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-u3vcc35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-u3vcc35",
+								"updated": "20220806224709"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代码流动过程\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224711-x7xoydr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224711-x7xoydr",
+								"updated": "20220806224712"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224712-llr0yjt.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806224710-3teal59",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806224710-3teal59",
+				"updated": "20220806224723"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-06y3be5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-06y3be5",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-m7ll9ox",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-m7ll9ox",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "执行自动化代码质量检查的时机"
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-f5xqdbm",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-f5xqdbm",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-3kvjjef",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-3kvjjef",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-zcnaorl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-zcnaorl",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "编辑时：使用编辑器插件，实时运行质量检查"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-5juivrj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-5juivrj",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-zb8b7f9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-zb8b7f9",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构建时：在本地或者开发机的构建脚本中运行质量检查"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-q4hssmt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-q4hssmt",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-o6ymhew",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-o6ymhew",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "提交时：利用Git Hooks，提交代码或者生成Pull Request时运行质量检查"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-qtpj8ou",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-qtpj8ou",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-6wzbbtg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-6wzbbtg",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "发布时：在发布脚本中再做一次质量检查，通常与自动化测试放在一起"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-kooe3sz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-kooe3sz",
+						"updated": "20220806224723"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-dmycxu7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-dmycxu7",
+								"updated": "20220806224721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "质量检查与代码流动绑定后的效果\n"
+								}
+							]
+						},
+						{
+							"ID": "20220806224722-dkw2cqd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806224722-dkw2cqd",
+								"updated": "20220806224723"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220806224723-l8hqn7v.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-cxeb4iy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-cxeb4iy",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-f7mlaz8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-f7mlaz8",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "除了人工的Code Review之外，各个环节的代码质量检查都是机器自动运行的，不会给开发者带来额外的成本"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-j39iqry",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806223539-j39iqry",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.4. "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "阶段四：中心化"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-o659yuh",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-o659yuh",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-figov3d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-figov3d",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-g83zkgn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-g83zkgn",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当团队规模越来越大，项目越来越多时，代码质量管控就会面临以下问题："
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-q3l65pf",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-q3l65pf",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-xtlipo7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-xtlipo7",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-23srhdp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-23srhdp",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不同项目使用的代码规范不一样"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-uej7zd3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-uej7zd3",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-p6p6o2q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-p6p6o2q",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "部分项目由于放松要求，没有接入质量检查，或者存在大量未修复的缺陷"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-ir4zgli",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-ir4zgli",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-gxuphe8",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-gxuphe8",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无法从团队整体层面上体现各个项目的质量状况对比"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-o2z9grj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-o2z9grj",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-q8w771b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-q8w771b",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了应对以上问题，需要建设中心化的代码质量管控体系，要点包括："
+								}
+							]
+						},
+						{
+							"ID": "20220806223539-y0l9u28",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806223539-y0l9u28",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"ID": "20220806223539-t6t9zdi",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-t6t9zdi",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-vfirw5q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-vfirw5q",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码规范统一管理。使用Git或者NPM包管理自动化代码质量检查的规则集，自动安装，不在本地写规则。一个团队、一类项目、一套规则"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-jjzwetc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-jjzwetc",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-dr95g3e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-dr95g3e",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "使用统一的持续集成服务。质量检查不通过的项目不能上线"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806223539-gh042aj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806223539-gh042aj",
+										"updated": "20220806223539"
+									},
+									"Children": [
+										{
+											"ID": "20220806223539-y2lknwc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806223539-y2lknwc",
+												"updated": "20220806223539"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "建立代码质量评分制度。让项目与项目之间能够横向对比，项目自身能够纵向对比，并且进行汇总反馈"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-0oolttg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220806223539-0oolttg",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 总结"
+				}
+			]
+		},
+		{
+			"ID": "20220806223539-byx4pt9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806223539-byx4pt9",
+				"updated": "20220806223539"
+			},
+			"Children": [
+				{
+					"ID": "20220806223539-qt715xj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-qt715xj",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-6b4u9ne",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-6b4u9ne",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在面临业务压力时，人们通常会倾向于通过增加人力来缓解业务压力。但从系统整体的角度来看，人力增加会造成代码质量变差，开发效率下降，从而再度增大业务压力。这种代码质量越来越差的循环，是熵增定律在软件工程领域的生动体现"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-80pvvlv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-80pvvlv",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-3gkcsmx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-3gkcsmx",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了抑制这种循环，我们需要有意识地投入资源来建设代码质量的管控体系。这个过程分为四个阶段：规范化，自动化，流程化，中心化。每个阶段都有不同关注的要点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806223539-219aui5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806223539-219aui5",
+						"updated": "20220806223539"
+					},
+					"Children": [
+						{
+							"ID": "20220806223539-87xre1l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806223539-87xre1l",
+								"updated": "20220806223539"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目前我们团队正在建设代码质量检测中心，是中心化质量管控的一种实践，已经接入几十个项目在进行试点。关于中心化建设的细节，我会在后续的文章中继续阐述"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

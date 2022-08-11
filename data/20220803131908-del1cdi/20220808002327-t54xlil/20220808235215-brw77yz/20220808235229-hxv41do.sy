@@ -1,0 +1,1273 @@
+{
+	"ID": "20220808235229-hxv41do",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220808235229-hxv41do",
+		"title": "Vagrant",
+		"updated": "20220809002440"
+	},
+	"Children": [
+		{
+			"ID": "20220808235254-k1qitvx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808235254-k1qitvx",
+				"updated": "20220809000554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 在线文档"
+				}
+			]
+		},
+		{
+			"ID": "20220809000452-saotwdz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000452-saotwdz",
+				"updated": "20220809000452"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Documentation | Vagrant by HashiCorp (vagrantup.com)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.vagrantup.com/docs"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000606-7zpdd47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000606-7zpdd47"
+			}
+		},
+		{
+			"ID": "20220808235254-xhy154f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808235254-xhy154f",
+				"updated": "20220809000555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 下载 box 文件（虚拟机镜像）"
+				}
+			]
+		},
+		{
+			"ID": "20220809000530-qcgst2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000530-qcgst2c",
+				"updated": "20220809000530"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "GitHub - chef/bento: Packer templates for building minimal Vagrant baseboxes for multiple platforms"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/chef/bento"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809000608-98heao6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809000608-98heao6"
+			}
+		},
+		{
+			"ID": "20220808235254-wphv1e2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808235254-wphv1e2",
+				"updated": "20220809000557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 安装应用"
+				}
+			]
+		},
+		{
+			"ID": "20220808235254-1bntpdv",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220808235254-1bntpdv",
+				"updated": "20220809002324"
+			},
+			"Children": [
+				{
+					"ID": "20220808235254-f9wjjm8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220808235254-f9wjjm8",
+						"updated": "20220809002324"
+					},
+					"Children": [
+						{
+							"ID": "20220808235254-tv1k0s1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235254-tv1k0s1",
+								"updated": "20220809002324"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先应安装 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "VirtualBox"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 虚拟机软件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808235254-9zprp3j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220808235254-9zprp3j",
+						"updated": "20220808235254"
+					},
+					"Children": [
+						{
+							"ID": "20220808235254-fijve2f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235254-fijve2f",
+								"updated": "20220809001628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从官网下载 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "vagrant"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 安装包进行安装，macOS 可通过 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "brew cask"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 进行安装"
+								}
+							]
+						},
+						{
+							"ID": "20220809001655-8jlz0or",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809001655-8jlz0or",
+								"updated": "20220809001902"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "brew cask install vagrant\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809001707-h93vuio",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220809001707-h93vuio"
+					},
+					"Children": [
+						{
+							"ID": "20220809001707-j4wk24w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001707-j4wk24w",
+								"updated": "20220809001751"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "导入 Box 文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809001754-ysuffqp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001754-ysuffqp",
+								"updated": "20220809001758"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以从官网下载指定的 Box 文件，通过如下命令导入："
+								}
+							]
+						},
+						{
+							"ID": "20220809001759-4nud9eu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809001759-4nud9eu",
+								"updated": "20220809001859"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant box add \u003cbox name\u003e \u003cbox file name\u003e.box\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809001724-as0bq4y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220809001724-as0bq4y"
+					},
+					"Children": [
+						{
+							"ID": "20220809001724-dytujy5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001724-dytujy5",
+								"updated": "20220809001820"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "初始化 Box"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809001820-z8xg466",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809001820-z8xg466",
+								"updated": "20220809001851"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant init \u003cbox name\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220809001726-4vd5q17",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001726-4vd5q17",
+								"updated": "20220809001930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此时当前目录下会产生 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Vagrantfile"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 配置文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809001728-t7fcger",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220809001728-t7fcger"
+					},
+					"Children": [
+						{
+							"ID": "20220809001728-ydmt6v3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001728-ydmt6v3",
+								"updated": "20220809001949"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "配置文件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809001950-kno1mik",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001950-kno1mik",
+								"updated": "20220809001956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "编辑 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Vagrantfile"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 文件，添加如下内容:"
+								}
+							]
+						},
+						{
+							"ID": "20220809002001-osxac81",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809002001-osxac81",
+								"updated": "20220809002016"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cnVieQ=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "# -*- mode: ruby -*-\n# vi: set ft=ruby :\n\nVagrant.configure(\"2\") do |config|\n  config.vm.define \"bastion\" do |bastion|\n    bastion.vm.hostname = 'debian-jessie-bastion'\n    bastion.vm.box = \"debian-jessie\"\n    bastion.vm.network \"private_network\", ip: \"192.168.50.11\"\n  end\n\n  config.vm.define \"web01\" do |web01|\n    web01.vm.hostname = 'debian-jessie-web01'\n    web01.vm.box = \"debian-jessie\"\n    web01.vm.network \"private_network\", ip: \"192.168.50.12\"\n    web01.vm.network \"private_network\", type: \"dhcp\"\n  end\n\n  config.vm.define \"web02\" do |web02|\n    web02.vm.hostname = 'debian-jessie-web02'\n    web02.vm.box = \"debian-jessie\"\n    web02.vm.network \"private_network\", ip: \"192.168.50.13\"\n    web02.vm.network \"private_network\", type: \"dhcp\"\n  end\nend\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						},
+						{
+							"ID": "20220809002027-iqlpegk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002027-iqlpegk",
+								"updated": "20220809002032"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上述配置文件给予同一个 Box，配置了 "
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "3"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 台虚拟机。其中："
+								}
+							]
+						},
+						{
+							"ID": "20220809001728-mgntqxn",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220809001728-mgntqxn",
+								"updated": "20220809002027"
+							},
+							"Children": [
+								{
+									"ID": "20220809002027-q778hsl",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809002027-q778hsl",
+										"updated": "20220809002027"
+									},
+									"Children": [
+										{
+											"ID": "20220809002027-e73np3t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809002027-e73np3t",
+												"updated": "20220809002042"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每台虚拟机默认拥有一个 NAT 虚拟网卡"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809002027-ntlyyi6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809002027-ntlyyi6",
+										"updated": "20220809002027"
+									},
+									"Children": [
+										{
+											"ID": "20220809002027-c50e11g",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809002027-c50e11g",
+												"updated": "20220809002045"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "每台虚拟机拥有一个 Host-only 类型的虚拟网卡，分配固定 IP 地址"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220809002027-7y99jgq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220809002027-7y99jgq",
+										"updated": "20220809002027"
+									},
+									"Children": [
+										{
+											"ID": "20220809002027-jsn7lcw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220809002027-jsn7lcw",
+												"updated": "20220809002055"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "web01"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 和 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "web02"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 拥有一个动态分配 IP 的虚拟网卡"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809001728-t7h3irx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220809001728-t7h3irx"
+					},
+					"Children": [
+						{
+							"ID": "20220809001728-b2qyeb8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001728-b2qyeb8",
+								"updated": "20220809002104"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "启动虚拟机"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809002113-y3cffie",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002113-y3cffie",
+								"updated": "20220809002114"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动配置文件中指定的所有虚拟机"
+								}
+							]
+						},
+						{
+							"ID": "20220809002119-yjoxini",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809002119-yjoxini",
+								"updated": "20220809002125"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant up\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809002110-xinwlms",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220809002110-xinwlms"
+					},
+					"Children": [
+						{
+							"ID": "20220809002110-pnmwivr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002110-pnmwivr",
+								"updated": "20220809002133"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "关闭虚拟机"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809002138-ikngw9g",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809002138-ikngw9g",
+								"updated": "20220809002139"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant halt\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220809001729-q0txyei",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220809001729-q0txyei",
+						"updated": "20220809002238"
+					},
+					"Children": [
+						{
+							"ID": "20220809001729-9jvcfqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809001729-9jvcfqw",
+								"updated": "20220809002148"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "重新载入虚拟机"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809002203-6tr4tui",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002203-6tr4tui",
+								"updated": "20220809002229"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果修改了 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Vagrantfile"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 配置文件，则需要重新载入虚拟机"
+								}
+							]
+						},
+						{
+							"ID": "20220809002236-flyfhxa",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809002236-flyfhxa",
+								"updated": "20220809002238"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant reload\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809002349-q2obfy2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809002349-q2obfy2"
+			}
+		},
+		{
+			"ID": "20220808235254-5sm41m4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220808235254-5sm41m4",
+				"updated": "20220809002354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 一些问题"
+				}
+			]
+		},
+		{
+			"ID": "20220808235254-h4ha2w0",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220808235254-h4ha2w0",
+				"updated": "20220809002440"
+			},
+			"Children": [
+				{
+					"ID": "20220808235254-spoqfux",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808235254-spoqfux",
+						"updated": "20220808235254"
+					},
+					"Children": [
+						{
+							"ID": "20220808235254-odfgkvc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235254-odfgkvc",
+								"updated": "20220809002405"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "虚拟机启动失败"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						},
+						{
+							"ID": "20220809002406-08ur8rf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002406-08ur8rf",
+								"updated": "20220809002407"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可能是由于虚拟机没有加载驱动，导致部分硬件无法启动。尝试在虚拟机配置中禁用USB等硬件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808235254-k99oh10",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808235254-k99oh10",
+						"updated": "20220808235254"
+					},
+					"Children": [
+						{
+							"ID": "20220808235254-j2asjqi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235254-j2asjqi",
+								"updated": "20220809002415"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "无法联网"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								}
+							]
+						},
+						{
+							"ID": "20220809002417-umc66ot",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220809002417-umc66ot",
+								"updated": "20220809002429"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可能是 NAT 网络设置错误，在 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Setting -\u003e Network -\u003e Adapter 1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 中修改 NAT 网络设置，在 Advanced 中启用 Cable Connected"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220808235254-yo6sleo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220808235254-yo6sleo",
+						"updated": "20220809002440"
+					},
+					"Children": [
+						{
+							"ID": "20220808235254-iqbrgn9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808235254-iqbrgn9",
+								"updated": "20220808235254"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "No guest additions were detected on the base box for this VM"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220809002435-1a2im44",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220809002435-1a2im44",
+								"updated": "20220809002440"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "YmFzaA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "vagrant plugin install vagrant-vbguest\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220809002433-svv1pu1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220809002433-svv1pu1"
+			}
+		}
+	]
+}

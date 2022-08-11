@@ -1,0 +1,978 @@
+{
+	"ID": "20220806221638-xik8cmb",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220806221638-xik8cmb",
+		"title": "Abstraction",
+		"updated": "20220806221721"
+	},
+	"Children": [
+		{
+			"ID": "20220806221641-468chmu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221641-468chmu",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "抽象"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-baprp29",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221641-baprp29",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "What"
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-9inuetp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221641-9inuetp",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "在概念上“划清界限”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-n39zlg9",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221641-n39zlg9",
+				"updated": "20220806221721"
+			},
+			"Children": [
+				{
+					"ID": "20220806221641-c9g3c40",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-c9g3c40",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-2hpydmo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-2hpydmo",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象，是指在概念上明确划清界限。这种明确划清界限的方式可以将一个模块与其他模块区分开来。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221641-n0lojf0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-n0lojf0",
+						"updated": "20220806221721"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-k6k9e7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-k6k9e7m",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象由“舍象”和“一般化”这两个观点组合而成。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221641-7hnruey",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221641-7hnruey",
+								"updated": "20220806221706"
+							},
+							"Children": [
+								{
+									"ID": "20220806221641-hp8ac44",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-hp8ac44",
+										"updated": "20220806221706"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-tj6aedi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-tj6aedi",
+												"updated": "20220806221655"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "舍象指的是舍去复杂对象的几个性质，只关注其特定的性质。\n"
+												}
+											]
+										},
+										{
+											"ID": "20220806221701-e9fl50q",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221701-e9fl50q",
+												"updated": "20220806221706"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806221706-1uvfi8v.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220806221658-6fc9qcq",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221658-6fc9qcq",
+								"updated": "20220806221721"
+							},
+							"Children": [
+								{
+									"ID": "20220806221641-dfe9ilr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-dfe9ilr",
+										"updated": "20220806221721"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-iyaydss",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-iyaydss",
+												"updated": "20220806221715"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般化指的是从具体对象中抽出共同的性质，将其固定为更加通用的概念。\n"
+												}
+											]
+										},
+										{
+											"ID": "20220806221717-a972apo",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221717-a972apo",
+												"updated": "20220806221721"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20220806221721-rploll9.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-w7f07wi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221641-w7f07wi",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Why"
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-eaz7sfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221641-eaz7sfx",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "抽象是对抗复杂的手段"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-ni8urw1",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221641-ni8urw1",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"ID": "20220806221641-e79iqt4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-e79iqt4",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-pvokda7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-pvokda7",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象是人们在处理复杂事物时使用的基本手段。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221641-fp9j47j",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221641-fp9j47j",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"ID": "20220806221641-0r5zf8t",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-0r5zf8t",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-wgx97le",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-wgx97le",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "舍象可以除去对象的枝叶，让它的本质暴露出来。"
+												}
+											]
+										},
+										{
+											"ID": "20220806221641-ptpyk8e",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806221641-ptpyk8e",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"ID": "20220806221641-w734dfj",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221641-w734dfj",
+														"updated": "20220806221641"
+													},
+													"Children": [
+														{
+															"ID": "20220806221641-o1gksz3",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221641-o1gksz3",
+																"updated": "20220806221641"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "复杂度下降后，便能集中精力去对付真正的问题。"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20220806221641-a8s9in0",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221641-a8s9in0",
+														"updated": "20220806221641"
+													},
+													"Children": [
+														{
+															"ID": "20220806221641-e1ewoxe",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221641-e1ewoxe",
+																"updated": "20220806221641"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "抽象化的概念简明扼要，便于使用，应用范围极广。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221641-2y9edu3",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-2y9edu3",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-yuy8vvl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-yuy8vvl",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般化通过抽取共同特征将多个对象聚成一组，将它们视为相同的事物。"
+												}
+											]
+										},
+										{
+											"ID": "20220806221641-10pztc4",
+											"Type": "NodeList",
+											"ListData": {},
+											"Properties": {
+												"id": "20220806221641-10pztc4",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"ID": "20220806221641-qyux7eh",
+													"Type": "NodeListItem",
+													"ListData": {
+														"BulletChar": 42,
+														"Marker": "Kg=="
+													},
+													"Properties": {
+														"id": "20220806221641-qyux7eh",
+														"updated": "20220806221641"
+													},
+													"Children": [
+														{
+															"ID": "20220806221641-4xbp2i7",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20220806221641-4xbp2i7",
+																"updated": "20220806221641"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "从一个事物中学到的东西就可以应用到其他事物中，也就是所谓的闻一知十。"
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221641-y3jrjzh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-y3jrjzh",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-ez9x01b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-ez9x01b",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在解决问题方面，抽象化思维是一个有力的武器，能帮我们引导出更好的、更有效率的解决方案。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-nwejk1r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221641-nwejk1r",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "How"
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-8c08y00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221641-8c08y00",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "使用“舍象”和“一般化”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-wj1kynq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221641-wj1kynq",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"ID": "20220806221641-komvok0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-komvok0",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-aq5l88t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-aq5l88t",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抽象化是程序员实现优秀设计的基本技术。要对事物进行抽象化处理。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221641-b2xlawq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-b2xlawq",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-536po68",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-536po68",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在处理复杂事物时要进行舍象。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221641-63vwzwy",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221641-63vwzwy",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"ID": "20220806221641-49il8nt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-49il8nt",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-xd95v97",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-xd95v97",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "舍弃多余的东西，抓住本质。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221641-4r8fghc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-4r8fghc",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-l4b7aqz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-l4b7aqz",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "需要注意的是，事物的本质固然重要，但在处理问题时，我们更应该关注当前问题的本质。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221641-cvqan6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-cvqan6h",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-a7bck8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-a7bck8k",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在处理多个不同的事物时要采用一般化的手段。"
+								}
+							]
+						},
+						{
+							"ID": "20220806221641-ni9o1ox",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220806221641-ni9o1ox",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"ID": "20220806221641-21zwdcq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-21zwdcq",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-ep99o68",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-ep99o68",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "抽取对象共同的性质，将这些共同点组合成通用的概念。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220806221641-e0925dc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220806221641-e0925dc",
+										"updated": "20220806221641"
+									},
+									"Children": [
+										{
+											"ID": "20220806221641-tktbo87",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220806221641-tktbo87",
+												"updated": "20220806221641"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "一般化是一种用于在多个事物之间总结原则的技术，是一种模式识别。可以从身边的事物中找出模式，为其命名，将其作为原则应用到其他场合中。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-udmuie4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220806221641-udmuie4",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Expand"
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-jdxntmb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220806221641-jdxntmb",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "抽象的反面是具体"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220806221641-luer6i7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220806221641-luer6i7",
+				"updated": "20220806221641"
+			},
+			"Children": [
+				{
+					"ID": "20220806221641-r7s9fqn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-r7s9fqn",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-ql8gdav",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-ql8gdav",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具体的事物便于理解，但一个一个分析具体级别不同的事物会消耗无尽的时间，况且这种具体事物的分析结果并不能应用到其他事物中。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220806221641-5cy220w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220806221641-5cy220w",
+						"updated": "20220806221641"
+					},
+					"Children": [
+						{
+							"ID": "20220806221641-n4dwfur",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220806221641-n4dwfur",
+								"updated": "20220806221641"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "经过抽象化处理，大量的对象才能套用统一的公式，因此在思考的效率上，抽象远胜于具体。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
