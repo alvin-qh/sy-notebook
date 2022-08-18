@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220808021130-2hv5a36",
 		"title": "ZSH",
-		"updated": "20220809001601"
+		"updated": "20220812215144"
 	},
 	"Children": [
 		{
@@ -145,12 +145,12 @@
 			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20220808021301-vz3g825",
-				"updated": "20220808021309"
+				"updated": "20220812215144"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "安装oh-my-zsh"
+					"Data": "安装 oh-my-zsh"
 				}
 			]
 		},

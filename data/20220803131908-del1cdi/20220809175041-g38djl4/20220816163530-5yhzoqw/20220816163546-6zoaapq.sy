@@ -1,0 +1,2561 @@
+{
+	"ID": "20220816163546-6zoaapq",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220816163546-6zoaapq",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220816163546-pk1bpkx\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220816173736-utmf83j\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220817111742-j14fs4s\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:107,\u0026amp;quot;focusEnd\u0026amp;quot;:107}",
+		"title": "子网掩码",
+		"updated": "20220817112356"
+	},
+	"Children": [
+		{
+			"ID": "20220816163546-pk1bpkx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220816163546-pk1bpkx",
+				"updated": "20220816163636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 子网掩码是什么"
+				}
+			]
+		},
+		{
+			"ID": "20220816163701-ndllnb2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220816163701-ndllnb2",
+				"updated": "20220816163735"
+			},
+			"Children": [
+				{
+					"ID": "20220816163719-j5wz6bk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220816163719-j5wz6bk",
+						"updated": "20220816163719"
+					},
+					"Children": [
+						{
+							"ID": "20220816163719-zrhfje8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816163719-zrhfje8",
+								"updated": "20220816163719"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网掩码又叫网络掩码、地址掩码、子网络遮罩，它是一种用来指明一个IP地址的哪些位标识的是主机所在的子网以及哪些位标识的是主机的"
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "位掩码"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816163721-74m7rqm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220816163721-74m7rqm",
+						"updated": "20220816163734"
+					},
+					"Children": [
+						{
+							"ID": "20220816163721-l1f3f75",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816163721-l1f3f75",
+								"updated": "20220816163734"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网掩码不能单独存在，它必须结合 IP 地址一起使用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816163726-l79axrb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220816163726-l79axrb",
+						"updated": "20220816163735"
+					},
+					"Children": [
+						{
+							"ID": "20220816163726-a8np9gt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816163726-a8np9gt",
+								"updated": "20220816163735"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网掩码只有一个作用，就是将某个 IP 地址划分成网络地址和主机地址两部分"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220816163644-noy62il",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220816163644-noy62il",
+				"updated": "20220816163648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 如何划分子网"
+				}
+			]
+		},
+		{
+			"ID": "20220816163746-79v5e1h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220816163746-79v5e1h",
+				"updated": "20220817140355"
+			},
+			"Children": [
+				{
+					"ID": "20220816163747-jgkz6gc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220816163747-jgkz6gc",
+						"updated": "20220816163747"
+					},
+					"Children": [
+						{
+							"ID": "20220816163747-oovqlpi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816163747-oovqlpi",
+								"updated": "20220816172909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先要熟记 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "2"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的幂，其中 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "2"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "0"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 次方到 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "9"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 次方的值分别为："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "2"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "4"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "8"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "16"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "32"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "64"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "128"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "256"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "512"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220816172909-694ov64",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816172909-694ov64",
+								"updated": "20220816172918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网划分是借助于取走主机位，把这个取走的部分作为子网位，因此这个意味划分越多的子网，主机将越少"
+								}
+							]
+						},
+						{
+							"ID": "20220816163928-crkm8xp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816163928-crkm8xp",
+								"updated": "20220816163929"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220816163929-nakdojo.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816164001-734eq0e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220816164001-734eq0e",
+						"updated": "20220816232341"
+					},
+					"Children": [
+						{
+							"ID": "20220816164001-lql8ua6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816164001-lql8ua6",
+								"updated": "20220816173555"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网掩码用于辨别 IP 地址中哪部分为网络地址，哪部分为主机地址。由 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "0"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 组成，长 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "32"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 位，全为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的位代表网络号"
+								}
+							]
+						},
+						{
+							"ID": "20220816173555-5fxxjjp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816173555-5fxxjjp"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不是所有的网络都需要子网，因此就引入一个概念：默认子网掩码 (Default Subnet Mask)；"
+								}
+							]
+						},
+						{
+							"ID": "20220817135737-ikyp0af",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220817135737-ikyp0af",
+								"updated": "20220817135738"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220816172848-fnm8s3q.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220817135447-d4o29e2",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220817135447-d4o29e2",
+								"updated": "20220817135448"
+							},
+							"Children": [
+								{
+									"ID": "20220817135448-n3nbrix",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817135448-n3nbrix",
+										"updated": "20220817135448"
+									},
+									"Children": [
+										{
+											"ID": "20220817135448-dd29i1l",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817135448-dd29i1l",
+												"updated": "20220817135547"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "A 类地址为："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "0.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "127.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817135448-flwyxla",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817135448-flwyxla",
+										"updated": "20220817135448"
+									},
+									"Children": [
+										{
+											"ID": "20220817135448-2swuph2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817135448-2swuph2",
+												"updated": "20220817135553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "B 类地址为："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "128.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817135448-975lymp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817135448-975lymp",
+										"updated": "20220817135448"
+									},
+									"Children": [
+										{
+											"ID": "20220817135448-nmci741",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817135448-nmci741",
+												"updated": "20220817135601"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "C 类地址为："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.0.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "223.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817135448-dyzaccj",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817135448-dyzaccj",
+										"updated": "20220817135448"
+									},
+									"Children": [
+										{
+											"ID": "20220817135448-tleciqi",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817135448-tleciqi",
+												"updated": "20220817135655"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "D 类地址为："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "224.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "  ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "239.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（组播）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817135448-lle1ldz",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817135448-lle1ldz",
+										"updated": "20220817135448"
+									},
+									"Children": [
+										{
+											"ID": "20220817135448-fyor6um",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817135448-fyor6um",
+												"updated": "20220817135652"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "E 类地址为："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "240.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "255.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "（科研）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816173008-vjjaunu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220816173008-vjjaunu",
+						"updated": "20220816181740"
+					},
+					"Children": [
+						{
+							"ID": "20220816173008-53zt9zm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816173008-53zt9zm",
+								"updated": "20220816173129"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CIDR 叫做无类域间路由，ISP 常用这样的方法给客户分配地址，ISP 提供给客户 1 个块 (Block Size)，类似这样："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "192.168.10.32/28"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，这排数字告诉你你的子网掩码是多少"
+								}
+							]
+						},
+						{
+							"ID": "20220816173129-j7fxi9l",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220816173129-j7fxi9l",
+								"updated": "20220816181740"
+							},
+							"Children": [
+								{
+									"ID": "20220816173135-s9hu58q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220816173135-s9hu58q",
+										"updated": "20220816181726"
+									},
+									"Children": [
+										{
+											"ID": "20220816173135-nwijuqm",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220816173135-nwijuqm",
+												"updated": "20220816181726"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "/28"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 代表网络 ID 使用了多少位为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "1"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，最大 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "/31"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220816173155-aajp4ji",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220816173155-aajp4ji",
+										"updated": "20220816181740"
+									},
+									"Children": [
+										{
+											"ID": "20220816173155-urndruu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220816173155-urndruu",
+												"updated": "20220816181740"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "不管是 A 类还是 B 类还是其他类地址，最大可用的只能为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "/30"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，即保留 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "1"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 位给主机位"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220817140200-aryaxc1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220817140200-aryaxc1"
+					},
+					"Children": [
+						{
+							"ID": "20220817140200-fcmexqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220817140200-fcmexqr",
+								"updated": "20220817140233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据 RFC1918 规定私有网络范围，以下私有网段不能再公网路由器中路由"
+								}
+							]
+						},
+						{
+							"ID": "20220817140207-m3os1zc",
+							"Type": "NodeTable",
+							"TableAligns": [
+								0,
+								0,
+								0
+							],
+							"Properties": {
+								"colgroup": "||",
+								"id": "20220817140207-m3os1zc",
+								"updated": "20220817140207"
+							},
+							"Children": [
+								{
+									"Type": "NodeTableHead",
+									"Data": "thead",
+									"Children": [
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "RFC1918 规定区块名"
+														},
+														{
+															"Type": "NodeBr",
+															"Data": "br"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "IP 地址区段"
+														},
+														{
+															"Type": "NodeBr",
+															"Data": "br"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "th",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "IP 数量"
+														},
+														{
+															"Type": "NodeBr",
+															"Data": "br"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "24 位区块"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "10.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "10.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "16,777,216"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "20 位区块"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "172.16.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "172.31.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "1,048,576"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "NodeTableRow",
+									"Data": "tr",
+									"Children": [
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "16 位区块"
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableCell",
+											"Data": "td",
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "65,536"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220817140310-uoqdyqx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220817140310-uoqdyqx",
+						"updated": "20220817140355"
+					},
+					"Children": [
+						{
+							"ID": "20220817140317-mqfv061",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220817140317-mqfv061",
+								"updated": "20220817140333"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "特殊的 IP 地址"
+								}
+							]
+						},
+						{
+							"ID": "20220817140339-8f9sc8s",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220817140339-8f9sc8s",
+								"updated": "20220817140355"
+							},
+							"Children": [
+								{
+									"ID": "20220817140339-he7ofht",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817140339-he7ofht",
+										"updated": "20220817140339"
+									},
+									"Children": [
+										{
+											"ID": "20220817140339-wh1hjzw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817140339-wh1hjzw",
+												"updated": "20220817140350"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "127.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " ~ "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "127.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "  网络回环的测试地址"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817140339-hq316p6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817140339-hq316p6",
+										"updated": "20220817140339"
+									},
+									"Children": [
+										{
+											"ID": "20220817140339-q5tbkw0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817140339-q5tbkw0",
+												"updated": "20220817140354"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "0.0.0.0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220817140339-yhtnp57",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817140339-yhtnp57",
+										"updated": "20220817140355"
+									},
+									"Children": [
+										{
+											"ID": "20220817140339-28gzpkh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817140339-28gzpkh",
+												"updated": "20220817140355"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "255.255.255.255"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220816163649-91uj4zc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220816163649-91uj4zc",
+				"updated": "20220816173633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 子网掩码的计算"
+				}
+			]
+		},
+		{
+			"ID": "20220816173636-so83um2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220816173636-so83um2",
+				"updated": "20220816173733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以 Ｃ 网为例，"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "192.168.1.53/27"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 为例讲解，需要计算："
+				}
+			]
+		},
+		{
+			"ID": "20220816173736-utmf83j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220816173736-utmf83j",
+				"updated": "20220817112356"
+			},
+			"Children": [
+				{
+					"ID": "20220816173738-vsowavy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220816173738-vsowavy",
+						"updated": "20220816173738"
+					},
+					"Children": [
+						{
+							"ID": "20220816173738-puhdr3k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816173738-puhdr3k",
+								"updated": "20220816175048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "具体的子网掩码："
+								}
+							]
+						},
+						{
+							"ID": "20220816175052-lyowime",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220816175052-lyowime",
+								"updated": "20220816181513"
+							},
+							"Children": [
+								{
+									"ID": "20220816181513-gui8cye",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220816181513-gui8cye",
+										"updated": "20220816181513"
+									},
+									"Children": [
+										{
+											"ID": "20220816181513-pqx7inr",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220816181513-pqx7inr",
+												"updated": "20220816181513"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.53/27"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 的相应掩码是："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "11111111.11111111.11111111.11100000"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，其中：27 位二进制为网络 ID（即前三段全为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "1"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，后一段为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "111"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "）"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220816181514-qzskllo",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220816181514-qzskllo"
+									},
+									"Children": [
+										{
+											"ID": "20220816181514-77u7cgl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220816181514-77u7cgl",
+												"updated": "20220816181636"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "11100000"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 对应的十进制是 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "224"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，所以整个子网掩码是："
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "255.255.255.224"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeBr",
+													"Data": "br"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816173740-mf1650h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220816173740-mf1650h"
+					},
+					"Children": [
+						{
+							"ID": "20220816173740-8ek5bpk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816173740-8ek5bpk",
+								"updated": "20220817095327"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "子网数："
+								}
+							]
+						},
+						{
+							"ID": "20220817095327-shl4f84",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220817095327-shl4f84",
+								"updated": "20220817110937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "该地址为一个 C 网地址，默认网络 ID 为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "11111111.11111111.11111111"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，剩余第四部分的 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "111"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是子网的掩码，共 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "3"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 个 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "1"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，所以子网数是 "
+								},
+								{
+									"Type": "NodeInlineMath",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeInlineMathOpenMarker"
+										},
+										{
+											"Type": "NodeInlineMathContent",
+											"Data": "2^3=8"
+										},
+										{
+											"Type": "NodeInlineMathCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 个"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220816173744-imdr65p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220816173744-imdr65p",
+						"updated": "20220817112356"
+					},
+					"Children": [
+						{
+							"ID": "20220816173744-5euhs0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220816173744-5euhs0y",
+								"updated": "20220816180627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可用的主机数："
+								}
+							]
+						},
+						{
+							"ID": "20220816180627-iv953b8",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220816180627-iv953b8",
+								"updated": "20220817111739"
+							},
+							"Children": [
+								{
+									"ID": "20220817111739-bpiz17q",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817111739-bpiz17q",
+										"updated": "20220817111739"
+									},
+									"Children": [
+										{
+											"ID": "20220817111739-dw6y0yz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817111739-dw6y0yz",
+												"updated": "20220817111739"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "所有可用的主机数为主机号所剩下的 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "5"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 位掩码中算出，剩余 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "5"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 个 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "0"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，所以主机数是 "
+												},
+												{
+													"Type": "NodeInlineMath",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeInlineMathOpenMarker"
+														},
+														{
+															"Type": "NodeInlineMathContent",
+															"Data": "2^5=32"
+														},
+														{
+															"Type": "NodeInlineMathCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220817111123-vl71cwk",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220817111123-vl71cwk",
+								"updated": "20220817111740"
+							},
+							"Children": [
+								{
+									"ID": "20220817111740-mojspqd",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817111740-mojspqd",
+										"updated": "20220817111740"
+									},
+									"Children": [
+										{
+											"ID": "20220817111740-c5s0yu9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817111740-c5s0yu9",
+												"updated": "20220817112109"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "其中，"
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "11111111.11111111.11111111.00100000"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 为网络号，IP 为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.32"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "；广播地址为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "11111111.11111111.11111111.00111111"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 为广播地址，IP 为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.63"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220817111121-kn85flj",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220817111121-kn85flj",
+								"updated": "20220817112356"
+							},
+							"Children": [
+								{
+									"ID": "20220817111742-j0ou2no",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220817111742-j0ou2no",
+										"updated": "20220817112356"
+									},
+									"Children": [
+										{
+											"ID": "20220817111742-j14fs4s",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220817111742-j14fs4s",
+												"updated": "20220817112356"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "掐头去尾（头是网络号，即 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.32"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "；尾是广播地址，即 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.63"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "）后，剩余 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "30"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 个主机数可用，第一个主机地址为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.33"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，最后一个主机地址为 "
+												},
+												{
+													"Type": "NodeCodeSpan",
+													"Data": "code",
+													"Children": [
+														{
+															"Type": "NodeCodeSpanOpenMarker"
+														},
+														{
+															"Type": "NodeCodeSpanContent",
+															"Data": "192.168.1.62"
+														},
+														{
+															"Type": "NodeCodeSpanCloseMarker"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
