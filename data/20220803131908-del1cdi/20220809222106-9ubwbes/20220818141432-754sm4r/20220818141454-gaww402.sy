@@ -1,0 +1,4256 @@
+{
+	"ID": "20220818141454-gaww402",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220818141454-gaww402",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220818141508-71ei5ha\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220818142917-bs13u1v\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:351,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220818142917-bs13u1v\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:37,\u0026amp;quot;focusEnd\u0026amp;quot;:37}",
+		"title": "PDCA 管理循环",
+		"updated": "20220818155605"
+	},
+	"Children": [
+		{
+			"ID": "20220818144652-48jddrl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818144652-48jddrl",
+				"updated": "20220818144708"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "v2-addab2097bab4e5d31aab26ab82ff2ad_1440w"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/v2-addab2097bab4e5d31aab26ab82ff2ad_1440w-20220818144708-235mu4e.jpeg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818144710-5c1vmy2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220818144710-5c1vmy2",
+				"updated": "20220818145224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 什么是 PDCA 循环"
+				}
+			]
+		},
+		{
+			"ID": "20220818144801-9d6kxbc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818144801-9d6kxbc",
+				"updated": "20220818144809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. PDCA 循环的概念"
+				}
+			]
+		},
+		{
+			"ID": "20220818144819-6nklh0y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818144819-6nklh0y",
+				"updated": "20220818145109"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA 是管理循环，是全面质量管理所应遵循的科学程序。具体来说，PDCA是指：P (Plan)，计划；D (Do)，实施或者执行；C (Check)，检查或者总结；A(Action)，行动或处置。全面质量管理活动的全部过程，就是质量计划的制订和组织实现的过程，这个过程就是按照 PDCA 循环不停顿地周而复始地运转的。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145023-ajb54iw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145023-ajb54iw",
+				"updated": "20220818145023"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220818145023-54higr8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818145126-f7dt5k9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145126-f7dt5k9"
+			}
+		},
+		{
+			"ID": "20220818145119-n81ew14",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818145119-n81ew14",
+				"updated": "20220818145220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. PDCA 循环的来源"
+				}
+			]
+		},
+		{
+			"ID": "20220818145139-jiy66on",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145139-jiy66on",
+				"updated": "20220818145156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA 的源头是 PDS，即 Plan, Do, See，它是由美国“统计质量控制（SQC）之父”休哈特（Wer A.Shewart）提出的。美国统计学家戴明博士（W.E.Deming）对其进行深度挖掘，并将其应用到产品质量管理的过程中，形成了一套独具特色的科学管理体系——PDCA循环。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145139-1bvw1at",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145139-1bvw1at",
+				"updated": "20220818145139"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "戴明博士是世界著名的质量管理专家，他因对世界质量管理发展作出的卓越贡献而享誉全球。当年，他在美国提出这个质量管理体系时，并没有被美国人采纳。于是，他就去了日本，在那里担任产业界的讲师及顾问，帮助日本整顿、创立产业制度，从而塑造了风靡世界的日本企业管理模式。他提出的“以较低的价格和较好的质量占领市场”的战略思想，使日本从一个衰退的工业国转变成世界经济强国。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145139-mnzkhbx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145139-mnzkhbx",
+				"updated": "20220818145205"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，也有人把 PDCA 循环叫做“戴明环”。而以戴明博士的名字命名的“戴明品质奖”，至今仍是日本品质管理界的最高荣誉。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145216-u04wyga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145216-u04wyga"
+			}
+		},
+		{
+			"ID": "20220818145212-kxcfndd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818145212-kxcfndd",
+				"updated": "20220818145219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3. PDCA 循环的重点"
+				}
+			]
+		},
+		{
+			"ID": "20220818145231-bltos04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145231-bltos04",
+				"updated": "20220818145240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "任何事物都有重点和非重点之分，就像任何事物都有主要矛盾和次要矛盾一样，PDCA 循环也是如此。那么，在这个循环中，哪一个环节更重要呢？对生产管理者而言，哪一点又是最重要的？有人说这四点都重要，但我要提醒大家的是：每样都重要等于每样都不重要，每样都是重点就等于没有重点。不要说 PDCA 循环有四个环节，就是只有两个环节，就重要性来说也是有主次之分的。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145249-s6c0tr9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145249-s6c0tr9",
+				"updated": "20220818145249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小问题能折射出大智慧，这其中也包含着管理的学问。作为管理者，在具体管理的过程中，要在问题还没发生时就把它解决掉，至少也要在问题刚刚发生且影响还不是很大时就把它解决掉。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145251-u2od3wt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145251-u2od3wt",
+				"updated": "20220818145301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那么，在 PDCA 循环中，哪个环节是可以避免问题发生的？"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "是计划"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。计划是在工作或行动前预先拟定具体内容和步骤，提出一些可能出现的问题并提供解决的方法。它能有效协调工作人员的行动，增加其主动性，减少盲目性，使工作能按部就班地进行。同时，计划本身又是对工作进度和质量的考核标准，能对工作人员起到较强的约束和督促作用。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145309-rwh77yj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145309-rwh77yj",
+				"updated": "20220818145310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "计划是对工作的预期，那么，哪一个环节可以让工作人员在问题刚刚出现时就找到症结所在？是检查。检查让我们在问题刚刚发生，但还不是很明显时就能发现它并找到解决的方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145311-31gdj3m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145311-31gdj3m",
+				"updated": "20220818145321"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，计划与检查在 PDCA 循环中是最重要的两个环节。作为生产管理者，每天都应该做计划。计划不一定要写下来，但一定要在大脑中有明确的规划。比如，今天要做什么工作、怎样进行这项工作、工作中会出现什么问题、出现问题应如何处理，等等。有了计划以后再让员工去执行。在员工执行过程中，生产管理者要及时检查，如果发现问题，要及时处理并要求员工改进。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145318-czqxjm0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145318-czqxjm0",
+				"updated": "20220818145328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总之，生产管理者一定要抓住计划、检查这两个环节。只有这两个环节都把握好了，才可能成为一个合格的管理者。如果管理者每天都在做实施的工作，那就不是称职的管理者，只是一个超级员工，因为如果管理者去做实施的事情，就没有人做计划和检查的工作了。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145339-0c1dv75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145339-0c1dv75"
+			}
+		},
+		{
+			"ID": "20220818145337-8gcyqp8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220818145337-8gcyqp8",
+				"updated": "20220818145410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. PDCA 循环的过程"
+				}
+			]
+		},
+		{
+			"ID": "20220818145403-h87cigx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818145403-h87cigx",
+				"updated": "20220818145411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. PDCA 循环的四阶段"
+				}
+			]
+		},
+		{
+			"ID": "20220818145417-0kbsblu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145417-0kbsblu",
+				"updated": "20220818145431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA 循环分为四个阶段，即 Plan（计划）、Do（执行）、Check（检查）和 Action（处理）。"
+				}
+			]
+		},
+		{
+			"ID": "20220818145509-jd01q1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145509-jd01q1m",
+				"updated": "20220818145509"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220818145509-4xohd49.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818145535-gcaukf7",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220818145535-gcaukf7",
+				"updated": "20220818145537"
+			},
+			"Children": [
+				{
+					"ID": "20220818145537-s0qx3cl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220818145537-s0qx3cl",
+						"updated": "20220818145537"
+					},
+					"Children": [
+						{
+							"ID": "20220818145537-2g7guif",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145537-2g7guif",
+								"updated": "20220818145537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "P：计划阶段，指确定方针、目标以及制订活动计划。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145539-4yxkpnx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220818145539-4yxkpnx"
+					},
+					"Children": [
+						{
+							"ID": "20220818145539-ew0kovd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145539-ew0kovd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "D：执行阶段，具体运作，实现计划的内容。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145541-b4z8eg7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220818145541-b4z8eg7"
+					},
+					"Children": [
+						{
+							"ID": "20220818145541-58aavh0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145541-58aavh0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "C：检查阶段，总结执行计划的结果，分清哪些做对了、哪些做错了，明确效果，找出问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145543-gxy9wez",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220818145543-gxy9wez"
+					},
+					"Children": [
+						{
+							"ID": "20220818145543-p6q5q7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145543-p6q5q7w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A：处理阶段，对检查的结果进行处理。成功的经验要加以肯定，并予以标准化或制成作业指导书，便于员工在以后工作时遵循；对于失败的教训也要总结并给出改进方法，以免问题重现。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818145551-5as0ac3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818145551-5as0ac3",
+				"updated": "20220818145657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. PDCA 循环的八步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220818145655-rixjlc6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145655-rixjlc6",
+				"updated": "20220818145659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA循环可分为八个步骤："
+				}
+			]
+		},
+		{
+			"ID": "20220818145629-2htqu66",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818145629-2htqu66",
+				"updated": "20220818145629"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220818145629-6pqvux4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818145720-c3sig36",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818145720-c3sig36",
+				"updated": "20220818145725"
+			},
+			"Children": [
+				{
+					"ID": "20220818145725-fxzh6sg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818145725-fxzh6sg",
+						"updated": "20220818145725"
+					},
+					"Children": [
+						{
+							"ID": "20220818145725-89j11zq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145725-89j11zq",
+								"updated": "20220818145725"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "分析现状、发现问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818145729-c9rpywe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145729-c9rpywe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者在做计划时一定要分析现状，查找工作中存在的问题，比如质量问题、安全问题、效率问题，等等。分析的目的是为了找到问题症结所在，使制订的计划更具针对性和操作性。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145733-i3swue8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818145733-i3swue8"
+					},
+					"Children": [
+						{
+							"ID": "20220818145733-5mdoukm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145733-5mdoukm"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "找到各种影响因素"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818145736-esbjq0i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145736-esbjq0i",
+								"updated": "20220818145740"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据分析的结果，找到影响问题的因素。影响问题的因素很多，生产管理者需要从不同的角度，用诸如鱼骨图、5W1H、4M 等方法进行分析。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145747-5wytw62",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220818145747-5wytw62"
+					},
+					"Children": [
+						{
+							"ID": "20220818145747-k4m0fzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145747-k4m0fzs"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "找准主要因素"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818145750-dk6rf3v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145750-dk6rf3v"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把所有影响因素找出以后，就要分析主要因素是什么。大家应该明白，问题的产生固然受很多因素的影响，但是，各种因素的影响程度是不均衡的。比如，影响问题的因素有十个，根据二八原则，其中大概有两三个是主要因素。只有找到主要因素才能够彻底解决问题；如果找不到主要因素，是没办法解决问题的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818145759-u9tv6w2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220818145759-u9tv6w2"
+					},
+					"Children": [
+						{
+							"ID": "20220818145759-6vy9pwf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145759-6vy9pwf"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "根据要因采取措施"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818145802-8bu0w2r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818145802-8bu0w2r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分析完主要因素以后，接下来要做的就是采取措施解决问题。在思考如何采取措施时，我们可以采取5W1H分析法来确定。"
+								}
+							]
+						},
+						{
+							"ID": "20220818145811-kdan9qp",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818145811-kdan9qp",
+								"updated": "20220818145812"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818145812-9k1mw5p",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818145812-9k1mw5p",
+										"updated": "20220818145842"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "所谓 5W1H 即 Why, What, Where, Who, When 及 How 五个英文单词首字母的缩写，分别指为什么要制订这些措施、制订这些措施要达到什么样的目标、这些措施应该在哪些部门实施、由谁来实施、什么时候实施以及怎么实施。其中，Why 和 When 是最重要的两点。只有明白了为什么要这么做，才有可能进行以后的一系列步骤；也只有明白实施措施的时间，才有可能把事情做好。这就好比说，我准备成为百万富翁，但如果没有确定什么时候实现这个目标，那就永远不可能实现。换句话说，对每个目标都必须设置实施的期限，没有期限的目标等于没有目标。"
+										}
+									]
+								},
+								{
+									"ID": "20220818145854-ll1byzl",
+									"Type": "NodeTable",
+									"TableAligns": [
+										0,
+										0
+									],
+									"Properties": {
+										"colgroup": "|",
+										"id": "20220818145854-ll1byzl",
+										"updated": "20220818150044"
+									},
+									"Children": [
+										{
+											"Type": "NodeTableHead",
+											"Data": "thead",
+											"Children": [
+												{
+													"Type": "NodeTableRow",
+													"Data": "tr",
+													"Children": [
+														{
+															"Type": "NodeTableCell",
+															"Data": "th",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "5W1H"
+																}
+															]
+														},
+														{
+															"Type": "NodeTableCell",
+															"Data": "th",
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "内容"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "Why"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "为什么要制订这些措施"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "What"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "制订这些措施要达到什么目标"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "Where"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "这些措施应当在那些部门执行"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "Who"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "由谁来执行"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "When"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "什么时候实施"
+														}
+													]
+												}
+											]
+										},
+										{
+											"Type": "NodeTableRow",
+											"Data": "tr",
+											"Children": [
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "How"
+														}
+													]
+												},
+												{
+													"Type": "NodeTableCell",
+													"Data": "td",
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "怎么来实施"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150131-k60a9zw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150131-k60a9zw",
+								"updated": "20220818150142"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在必要的时候，还可以给 5W1H 再加上一个 H，即 How much，意为实施这些措施需要多少钱。因为即使措施再好，如果投入与产出比失衡，这些措施也没有实施的必要。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150158-efc9g9f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220818150158-efc9g9f"
+					},
+					"Children": [
+						{
+							"ID": "20220818150158-qtxdiqm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150158-qtxdiqm",
+								"updated": "20220818150202"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "按照计划执行"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150203-8z14n69",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150203-8z14n69",
+								"updated": "20220818150206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "根据计划进行具体的执行工作，执行一般由员工去完成。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150210-8jlahck",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220818150210-8jlahck"
+					},
+					"Children": [
+						{
+							"ID": "20220818150210-0wb5sr8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150210-0wb5sr8",
+								"updated": "20220818150211"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "执行完成要检查"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150214-wuxaptc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150214-wuxaptc",
+								"updated": "20220818150216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查就是将完成的结果与之前计划要达到的目标进行对比。"
+								}
+							]
+						},
+						{
+							"ID": "20220818150230-pgoriz1",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818150230-pgoriz1",
+								"updated": "20220818150231"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818150231-cv8fnwc",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818150231-cv8fnwc",
+										"updated": "20220818150232"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】看板计划管理表"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818150232-ylxnuym",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818150232-ylxnuym",
+										"updated": "20220818150332"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我在一家企业的生产车间的看板上看到这样一张计划管理表：今天装配线计划总数是 1 万个，上午8:00-10:00 是 ×× 个，10:00-12:00 是 ×× 个，下午 14:00-16:00 是 ×× 个，16:00 - 18:00 是 ×× 个。表格中有两组数据：一组数据表示计划要达成的目标，另一组数据表示实际完成的情况，这就是检查。检查的目的就是看员工的工作到底有没有按照计划来执行。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150343-gu80oye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220818150343-gu80oye"
+					},
+					"Children": [
+						{
+							"ID": "20220818150343-th7fpv4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150343-th7fpv4",
+								"updated": "20220818150343"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "标准化成功经验"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150349-26x0ws8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150349-26x0ws8",
+								"updated": "20220818150350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查完执行情况以后，要总结经验教训，对于成功的经验，要把它们作为标准固定下来；对于失败的教训要吸取、改正。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150354-i2isdo8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220818150354-i2isdo8"
+					},
+					"Children": [
+						{
+							"ID": "20220818150354-t91hn22",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150354-t91hn22",
+								"updated": "20220818150355"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "发现新问题"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150356-xleb8fw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150356-xleb8fw",
+								"updated": "20220818150402"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决旧问题的同时，又会出现新的问题，这时又会进入一个新的 PDCA 循环。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818150408-laofvph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818150408-laofvph",
+				"updated": "20220818150416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "纵观 PDCA 循环的过程，它与医生看病有相似之处：一般医生看病都只开两天的药让病人吃，等过了两天，若病人的症状有所减轻就可以继续吃药，直至痊愈；若症状并无明显改善甚至加重就需重新诊治。我们解决问题也一样，谁也不能保证所有问题只通过一个 PDCA 循环就可以解决。"
+				}
+			]
+		},
+		{
+			"ID": "20220818150429-swjh0g6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818150429-swjh0g6"
+			}
+		},
+		{
+			"ID": "20220818150425-upc6lr0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220818150425-upc6lr0",
+				"updated": "20220818150444"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. PDCA 循环的特点与作用"
+				}
+			]
+		},
+		{
+			"ID": "20220818150437-688inn4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818150437-688inn4",
+				"updated": "20220818150442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. PDCA 循环的特点"
+				}
+			]
+		},
+		{
+			"ID": "20220818150447-d2xapmj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818150447-d2xapmj",
+				"updated": "20220818150725"
+			},
+			"Children": [
+				{
+					"ID": "20220818150452-i3b4wgu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818150452-i3b4wgu",
+						"updated": "20220818150452"
+					},
+					"Children": [
+						{
+							"ID": "20220818150452-v5bto0u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150452-v5bto0u",
+								"updated": "20220818150452"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "阶梯式上升"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150453-bs10wn3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150453-bs10wn3",
+								"updated": "20220818150511"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PDCA 循环不是停留在一个层面的循环，而是一个不断解决问题、逐步上升的过程。每一个 PDCA 循环结束后，随着一部分问题的解决，生产管理者的工作水平也会随之提高。这样，通过一个又一个的 PDCA 循环，生产管理者不断发现问题、解决问题，管理能力和工作效率就会不断得到提高。"
+								}
+							]
+						},
+						{
+							"ID": "20220818150539-x49nspz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150539-x49nspz",
+								"updated": "20220818150540"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220818150540-b89f1wb.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150559-gk4ha06",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818150559-gk4ha06"
+					},
+					"Children": [
+						{
+							"ID": "20220818150559-zf9estg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150559-zf9estg",
+								"updated": "20220818150559"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "统计数据的工具"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150616-ag23m9r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150616-ag23m9r",
+								"updated": "20220818150621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PDCA 循环应用了科学的统计观念和处理方法，是发现问题和解决问题的有效工具。在实施 PDCA 循环的过程中，数据无处不在。比如，计划就有数据，检查环节也会产生数据。有了这些数据，生产管理者就可以做一些统计工作，比如效率、设备的周转率、利用率等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150600-25tthzn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220818150600-25tthzn",
+						"updated": "20220818150701"
+					},
+					"Children": [
+						{
+							"ID": "20220818150600-fs59c1k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150600-fs59c1k",
+								"updated": "20220818150603"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "周而复始"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150629-yeaq8s5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150629-yeaq8s5",
+								"updated": "20220818150701"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PDCA 循环的四个阶段不是运行一次就终止了，它们是周而复始地运行的。一个循环结束后，虽然解决了一部分问题，但可能还有其他问题没有解决，或者又出现了新的问题，这时就会进入下一个 PDCA 循环。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150606-1yqxcwx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220818150606-1yqxcwx",
+						"updated": "20220818150725"
+					},
+					"Children": [
+						{
+							"ID": "20220818150606-7fqbuz6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150606-7fqbuz6",
+								"updated": "20220818150606"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "大环套小环"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818150645-j1er3v9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818150645-j1er3v9",
+								"updated": "20220818150725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个人可以做一个小型的 PDCA 循环，每个班组可以做一个中型的 PDCA 循环，每一个部门又可以做一个中大型的 PDCA 循环，而整个企业则可以做一个大型的 PDCA 循环。一个公司或组织的整体运行体系与其内部各子体系的关系，是大环套小环的有机组合。\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220818150725-pe1anqq.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818150758-vbi7wee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818150758-vbi7wee"
+			}
+		},
+		{
+			"ID": "20220818150748-93x13dr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818150748-93x13dr",
+				"updated": "20220818150757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. PDCA 循环的作用"
+				}
+			]
+		},
+		{
+			"ID": "20220818150810-gs56xzr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818150810-gs56xzr",
+				"updated": "20220818150812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA 循环可以发现、改善各种管理问题，可以应用于各个领域，大到企业的策略管理、环境污染管理，小到部门的项目管理、教育训练和自我管理，等等。它被人们持续地、正式或非正式地、有意识或下意识地运用于自己所做的每件事情中。"
+				}
+			]
+		},
+		{
+			"ID": "20220818150814-sv3m61g",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220818150814-sv3m61g",
+				"updated": "20220818150944"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220818150814-y7quc62",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818150814-y7quc62",
+						"updated": "20220818150828"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "【案例】成功的转型"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818150902-abxcmfh",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818150902-abxcmfh",
+						"updated": "20220818150913"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "很多人问过我这样一个问题：“张老师，你本来是学理工科的，怎么会成为一名管理干部，而且还做得不错呢？”我告诉他：“我只有一个心得，那就是每天做 PDCA。每天早上，我进办公室的第一件事就是为今天的工作做一个计划：哪些事情该做、主要的事情是哪几件、哪些是检查的重点、哪些地方最容易出问题、谁最容易出问题，等等。考虑好以后，我就开始布置工作，由下属去实施。在他们工作的过程中，我就去检查。检查不能没有目的和重点，要检查最容易出现问题的地方和最容易出现问题的人，这样才能对生产进行有效的管理。一天工作结束后，我要对今天的 PDCA 做个总结，例如哪些地方做得比较好、哪些地方需要改进，以便为第二天的 PDCA 做准备。"
+						}
+					]
+				},
+				{
+					"ID": "20220818150902-3jjy7rb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818150902-3jjy7rb",
+						"updated": "20220818150928"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "我每天做 PDCA，也这样要求我部门的每一个科长、每一个经理。我发给他们每人一张A4纸，纸上画有四个方格，方格里面分别标有 P、D、C、A 字样。我要他们每天都想一想，关于 P 做了什么、关于 D 做了什么、关于 C 做了什么、关于 A 做了什么；他们要在每个格子里面写几句话，但每天不能重复，因为重复就没有进步。这项工作，我让他们坚持了半年，半年后我就不要求他们了，但他们会主动去做，因为已经养成习惯了。"
+						}
+					]
+				},
+				{
+					"ID": "20220818150902-perrzr1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818150902-perrzr1",
+						"updated": "20220818150935"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "不仅是企业，个人也同样可以做 PDCA 循环，那样，我们就可以更好地学习和工作，也利于良好习惯的养成。比如，早上起床后，可以想一想今天要做什么、今天学习和工作的要点及重点在哪里、学习和工作中可能会出现哪些问题、应该重点检查哪些地方，等等。一天结束后，要回忆一下今天 PDCA 的执行情况，想想自己哪些地方做得好、哪些地方需要改进。"
+						}
+					]
+				},
+				{
+					"ID": "20220818150902-biphj95",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818150902-biphj95",
+						"updated": "20220818150944"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "个人的 PDCA 对个人进步是非常有帮助的，同样，一个部门的 PDCA 对部门的进步也是很有帮助的，一个企业的 PDCA 对企业的帮助也是非常大的。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818151006-93nltjg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818151006-93nltjg"
+			}
+		},
+		{
+			"ID": "20220818151004-amepwmm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220818151004-amepwmm",
+				"updated": "20220818151017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. PDCA 循环的解析"
+				}
+			]
+		},
+		{
+			"ID": "20220818151031-6bp76oj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818151031-6bp76oj",
+				"updated": "20220818151039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. 计划的拟订"
+				}
+			]
+		},
+		{
+			"ID": "20220818151031-qfhzh3v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818151031-qfhzh3v",
+				"updated": "20220818151042"
+			},
+			"Children": [
+				{
+					"ID": "20220818151042-86z2hwi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818151042-86z2hwi",
+						"updated": "20220818151042"
+					},
+					"Children": [
+						{
+							"ID": "20220818151042-dhs5bb9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151042-dhs5bb9",
+								"updated": "20220818151042"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "确定目的、目标"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818151044-wjw1adu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151044-wjw1adu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "做计划之前，生产管理者首先要确定自己想要实现的目的和目标。在确定目的和目标时一定要搞清楚上级的要求是什么，这是非常关键的。但很多人常常没有弄清楚上级的要求就去做，结果事倍功半。我们常说，做正确的事情比把事情做正确更重要，事情都没有选对，做得再对也没意义。"
+								}
+							]
+						},
+						{
+							"ID": "20220818151048-5y12p7w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151048-5y12p7w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "明确目标就是要做正确的事情，即一定要理解公司的目标，一定要理解上司的目标，如果这两点不理解清楚，那么制订的目标就没有任何意义。"
+								}
+							]
+						},
+						{
+							"ID": "20220818151052-yn34oth",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151052-yn34oth",
+								"updated": "20220818151104"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其次，目标确定后，还要预测可能的变化。有人说：“计划不如变化快，计划再好也没有意义。”但是，正因为计划没有变化快，所以才要做计划，如果计划完全没有变化，就体现不出其意义。因为有变化，所以定目标、做计划时就要预测到变化。例如，我们做生产计划时，都应对产量设置一个上下波动范围；又比如，做销售计划时，确定 2008 年的基本目标是 10 个亿，如果做得好可以达到 12 个亿，做得不好至少也要实现 8 个亿。所以，确定目标时要留有余地，考虑可能发生的情况、可能出现的问题，如果不考虑这些问题，计划就没有执行的意义。"
+								}
+							]
+						},
+						{
+							"ID": "20220818151110-maaaq71",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151110-maaaq71"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此外，定目标时还要把最终目标与眼前目标分清楚，因为很多事情不可能一蹴而就。"
+								}
+							]
+						},
+						{
+							"ID": "20220818151116-t1adyek",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818151116-t1adyek",
+								"updated": "20220818151117"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818151117-ouu3ft8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818151117-ouu3ft8",
+										"updated": "20220818151117"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】减肥的目标"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818151031-0z06oaf",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818151031-0z06oaf",
+										"updated": "20220818151150"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我现在的体重是 80 公斤，减肥的目标是达到 75 公斤，但我不可能一个月就减 5 公斤，而且减肥每个月超过 2 公斤对身体是有害的。所以，我制订了一个阶段性目标：第一个月减 1 公斤，第二个月减 1 公斤，第三个月减 1 公斤，第四个月再减 1 公斤，这样，第五个月我就可以达到目标。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818151210-31e9s2s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151210-31e9s2s",
+								"updated": "20220818151211"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "目标不但要明确、要分阶段，还要尽量将其量化，因为不能量化的目标不方便评估，也不不利于检查计划的执行情况。如果目标确实不能量化，那也要尽量将其具体化。如果有好几个目标，那就要把它们按重要性进行排列，并在执行过程中依次实现。"
+								}
+							]
+						},
+						{
+							"ID": "20220818151214-974wuoc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151214-974wuoc",
+								"updated": "20220818151323"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "综上所述，我们在制订计划时，要做到以下几点：清楚了解问题（事情）的状况、明确公司与上级的目标或方针、预测未来状况或条件的变化（内在与外在）、考虑可能发生的问题、要把最终目标和眼前目标分清楚、目标要能量化、多元性目标需列出优先顺序，等等。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152016-t614jhs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152016-t614jhs",
+								"updated": "20220818152017"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "image"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/image-20220818152017-1yx2gnm.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818151804-976a32o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818151804-976a32o"
+					},
+					"Children": [
+						{
+							"ID": "20220818151804-bh6ms96",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818151804-bh6ms96",
+								"updated": "20220818152320"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "决定达成目标的方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152325-lchb4gk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152325-lchb4gk",
+								"updated": "20220818152335"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "决定达成目标的方法时要研究因果关系，前文提到的 5W1H 法就是一个研究因果关系的例子。此外，还有 4M 法，即对人力（Manpower）、机器（Machine）、材料（Material）和方法（Method）进行分析，哪里有问题就解决哪里的问题。当然，还有时间、经费和场所这些因素我们也要考虑到，然后整理、判断所收集到的资料并进行分析、总结。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152343-n14zvvl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152343-n14zvvl",
+								"updated": "20220818152352"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了多角度评估并选定最佳方案，还可以采用头脑风暴法，即先让大家多提几个方案，然后在这些方案里面再选一个最优方案，根据其制订计划。需要注意的是，计划里面一定要有 5W1H 法所要求的要素。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818152428-dj9pfnv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818152428-dj9pfnv"
+			}
+		},
+		{
+			"ID": "20220818152412-8dxvqws",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818152412-8dxvqws",
+				"updated": "20220818152417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. 实施计划前要对员工进行培训"
+				}
+			]
+		},
+		{
+			"ID": "20220818152429-ftszefk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818152429-ftszefk",
+				"updated": "20220818152434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多企业在制订了计划后马上就要求员工去实施，没有考虑到这样一个问题：员工会不会做、愿不愿意做。如果问也不问就直接让他们去做，那么员工在做的过程中难免会出现很多问题。"
+				}
+			]
+		},
+		{
+			"ID": "20220818152436-9xw5xjr",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818152436-9xw5xjr",
+				"updated": "20220818152651"
+			},
+			"Children": [
+				{
+					"ID": "20220818152441-xsi3ewl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818152441-xsi3ewl",
+						"updated": "20220818152441"
+					},
+					"Children": [
+						{
+							"ID": "20220818152441-6cltunt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152441-6cltunt",
+								"updated": "20220818152442"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "培训员工会做事"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152446-hvb2abd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152446-hvb2abd",
+								"updated": "20220818152446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果员工不会做又该怎么办？教他们！在实施计划之前，企业要对员工进行相应的培训。如果没有进行培训就让他们去执行，可能会导致大量错误的产生，从而造成不必要的浪费。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152453-0684feb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152453-0684feb",
+								"updated": "20220818152455"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对员工进行培训是要讲究方法的，不要简单地讲给他们听，而是要一对一、手把手地教，要到工作现场教。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152501-up3b95d",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818152501-up3b95d",
+								"updated": "20220818152503"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818152503-mgzovta",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152503-mgzovta",
+										"updated": "20220818152503"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】培训员工要一对一"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818152511-bxtfrqf",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152511-bxtfrqf",
+										"updated": "20220818152511"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我曾经工作过的一家企业有一项焊锡的工作，此项工作有一定的技术含量。有一次，我去巡视现场，看到一个工人在笨手笨脚地焊锡，焊得满地都是锡渣。我就问他：“师傅在哪里？班长在哪里？”他告诉我班长本来在教他，教着教着有事情就走开了。他很无助，就自己在那里焊。可见，不对员工进行现场培训不仅导致员工工作质量不高，还会造成许多原材料的浪费。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152511-r91waj7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152511-r91waj7",
+										"updated": "20220818152511"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "发现这个问题后，我就下了一道命令：每个新工人到了工作岗位上，一定要有师傅手把手地教，一直到他学会了师傅才能离开。如果部门领导没有时间教，也要派一个技术娴熟的人员去教。这样，新员工做事才不会盲目，才会达到事半功倍的效果。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152521-91vjh4p",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152521-91vjh4p",
+										"updated": "20220818152521"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "所以，生产管理者在实施计划前一定要考虑实施者会不会做，不会做就一定要教会他。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152521-gxwx2r8",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152521-gxwx2r8",
+										"updated": "20220818152521"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "后来，我们公司把这一道命令程序化了，所有新手都必须先上课培训，直到他们熟悉了、学会了，才可以开始具体的工作。我发现用了这个方法以后，员工由生手变熟手的速度大大提高了，工作效率也提高了不少。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152521-sk9n8f5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152521-sk9n8f5",
+										"updated": "20220818152531"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "如果员工用心学，生产管理者又用心教，员工的工作效率起码可以提高 2 倍，甚至 5 倍都有可能，所以，企业一定要有岗前训练，特别是一对一的训练。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818152547-8myuaug",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818152547-8myuaug",
+						"updated": "20220818152651"
+					},
+					"Children": [
+						{
+							"ID": "20220818152547-7is1udx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152547-7is1udx",
+								"updated": "20220818152548"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "培训员工做事的意愿"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152558-0v82vv8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152558-0v82vv8",
+								"updated": "20220818152558"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "还有一条规则是生产管理者要谨记的：一定要告诉员工为什么要让他们这样做。很多领导对这一点都不以为然，以为只要告诉员工做什么、怎么做就可以，不用让他们知道为什么要这么做。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152606-7n4uiey",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818152606-7n4uiey",
+								"updated": "20220818152607"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818152607-f2srik7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152607-f2srik7",
+										"updated": "20220818152607"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】为什么要我挖坑"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818152607-gmdj2lj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152607-gmdj2lj",
+										"updated": "20220818152607"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "在一个工地上，工头知道水管漏水了，但水管埋在地面下一米深的地方，他需要把漏水的水管找出来。于是，他带了一个工人随他出去。等到了那个地方，工头在某个位置画了一个圈，就叫工人挖一个一米深的坑。工人挖了一米深的坑后，工头一看没有水管，就又在另外一个地方画了一个圈，又让工人在那里挖一个一米深的坑。那个工人又照做了，可还是没有发现水管。于是工头又在第三个地方画了一个圈，但工人却不干了，他把锄头一甩说：“你叫我东挖一个坑、西挖一个坑，我都不知道要干什么。我不挖了，要挖你自己来挖！”为什么会发生这种情况呢？就是因为管理者不告诉实施者为什么要这样做造成的。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152634-uwcr57v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152634-uwcr57v",
+								"updated": "20220818152634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "身为生产管理者，如果你只告诉员工做什么事情而不告诉他们为什么要这样做，他们就会缺乏工作的积极性，不能全力以赴投入工作，而在这样的状态下，他们是做不好工作的。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152634-cyk3dr0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152634-cyk3dr0",
+								"updated": "20220818152634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所以，生产管理者一定要让员工明白让他们做某项工作的意义。有一些生产管理者认为这样做太复杂、太烦琐，但是，如果不这样做就容易出问题，而且可能会出大问题。例如，一些药厂的安全操作规程是十分烦琐的，如果不按操作标准生产，制造出来的药品是十分危险的，后果将不堪设想。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152634-fk5wur2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152634-fk5wur2",
+								"updated": "20220818152634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "培训员工的目的一是要他们愿意做、二是要他们会做事。相比之下，让他们愿意做比较难，这也是我们培训时要告诉员工的，他们只有知道为什么这样做以后，才会增强责任感，才能更好地投入到工作中去。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152634-8f1yxax",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152634-8f1yxax",
+								"updated": "20220818152651"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者也可以用 5W2H 的方式对员工进行培训。具体说来，就是要告诉员工为什么要做、做什么、在哪儿做、谁来做、什么时候做、怎么做以及要花多少钱。当你告诉员工这些以后，可以激发员工的内动力，提高他们的工作热忱。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152634-jcjaelv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152634-jcjaelv",
+								"updated": "20220818152644"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在具体管理中，培训员工时可以参考以下几点内容：进行集合式教育或在职场上一对一实战演练；避免使用指示、命令、要求等强制性手段；不能只告诉员工怎样做，还要让他们了解工作的意义、必然性、依据和理由；注意激发员工的责任感与使命感；用 5W2H 法系统化教育员工；激发员工内动力、鼓舞他们的工作热忱。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818152019-ab92d5x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818152019-ab92d5x",
+				"updated": "20220818152714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.3. 工作的实施"
+				}
+			]
+		},
+		{
+			"ID": "20220818152725-k7pjipy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818152725-k7pjipy",
+				"updated": "20220818152725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对员工进行培训后，就要开始具体的实施工作。"
+				}
+			]
+		},
+		{
+			"ID": "20220818152726-epzprtf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818152726-epzprtf",
+				"updated": "20220818153111"
+			},
+			"Children": [
+				{
+					"ID": "20220818152727-tbpyuhv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818152727-tbpyuhv",
+						"updated": "20220818152727"
+					},
+					"Children": [
+						{
+							"ID": "20220818152727-x1e6yfs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152727-x1e6yfs",
+								"updated": "20220818152731"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "下达的命令要简洁明确"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152812-k0rj6ix",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152812-k0rj6ix",
+								"updated": "20220818152812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实施时要把计划所要达到的目标明确告诉员工，表达要简洁明确、不模棱两可，不要说“尽量做吧”、“尽可能完成”等语句。如果生产管理者对员工下达命令时说“尽量做”，最后员工做不到的情况就会占绝大多数。所以，生产管理者下达命令时一定要将什么时候做、什么时候完成说得明确清楚。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152812-b9blavm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152812-b9blavm",
+								"updated": "20220818152812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么军队的战斗力强？因为军队的军纪严明，上级叫你九点钟攻下那个山头，九点半攻下来可能就要被枪毙。当然，我们不可能枪毙员工，但起码要让员工知道，任务是必须按时完成的。生产管理者还要将这种做事风格慢慢融入到企业文化当中。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152812-0l5sn3w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152812-0l5sn3w",
+								"updated": "20220818152812"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "另外，生产管理者要一次性下达命令，不可拖泥带水。如果领导在让员工做事时说：“你先做第一步，做完第一步再来问我，我再告诉你第二步、第三步、第四步……”员工的工作效率就会大打折扣。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152841-dwqyw9h",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818152841-dwqyw9h",
+								"updated": "20220818152842"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818152843-jp1y10s",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152843-jp1y10s",
+										"updated": "20220818152843"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】要一次性下达命令"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818152843-0w9bpre",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152843-0w9bpre",
+										"updated": "20220818152843"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "有一次，我在广州上课。一个国有企业的领导对我说，他的员工太没有主动性了，踢一下屁股他们就动一动，不踢就不动，自己快被气死了，觉得这样的员工完全没有责任心。不过，后来他发现，员工缺乏主动性的原因在他自己身上。因为他布置工作时怕一次说太多员工记不住，所以他每次只告诉员工第一步怎么做，等员工做完以后才告诉他们第二步、第三步……如此一来，员工都变得傻乎乎的，管理者叫他们怎么做，他们就怎么做，一点儿脑筋都不动。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152843-8yhik8e",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152843-8yhik8e",
+										"updated": "20220818152843"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "这位领导发现自己的问题后，就改变了做法，在布置任务时就把所有工作告诉员工。他还激励员工好好去做，并许诺做好了帮他们请功，做坏了替他们承担责任。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152851-5jpy14m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152851-5jpy14m",
+								"updated": "20220818152857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "命令是上级给下级的指示，在实际工作中，命令是管理者对员工做事的要求，所以简单、明确的命令更容易让人理解，也更有利于工作的开展。所以，命令要一次性下达，不要让员工一次又一次询问。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818152732-8p9kp4i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818152732-8p9kp4i"
+					},
+					"Children": [
+						{
+							"ID": "20220818152732-31g8tpw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152732-31g8tpw",
+								"updated": "20220818152738"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "在实施过程中要多激励员工"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152907-ucmu6w1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152907-ucmu6w1",
+								"updated": "20220818152908"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在工作实施的过程中碰到困难时，生产管理者不要灰心，不仅要积极检讨自己的失误，还要鼓励员工不要担心，告诉他们管理者会帮助他们。一般情况下，部属遇到困难就会求助领导，当他们说“报告领导，碰到困难怎么办”时，领导者，尤其是生产管理者要给他们鼓劲，不能说消极的话。"
+								}
+							]
+						},
+						{
+							"ID": "20220818152923-viptgon",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818152923-viptgon",
+								"updated": "20220818152924"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818152925-0udf2m7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152925-0udf2m7",
+										"updated": "20220818152925"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】为什么要“炒掉”事业部经理"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818152925-05kxvm0",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152925-05kxvm0",
+										"updated": "20220818152933"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我在一家企业做总经理时，公司请来一个事业部经理。虽然公司每月给他 1.5 万元的薪水，可他从进事业部办公室开始，每天都说事业部不行、东西卖不出去，还说说不定哪天他就要离开了。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152925-iun54rl",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152925-iun54rl",
+										"updated": "20220818152925"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "经理每天说这样的话，下面的人还会有斗志吗？不久，整个事业部就被他弄得士气低沉，所以，不到一个月，公司就把他“炒”了。"
+										}
+									]
+								},
+								{
+									"ID": "20220818152925-j357a1p",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818152925-j357a1p",
+										"updated": "20220818152925"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "“炒掉”这个经理以后，公司公布了一条新的规章制度：所有主管都不允许在下属面前说消极的话，一旦发现，立即撤职查办。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152951-ssx9rbq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152951-ssx9rbq",
+								"updated": "20220818152952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者要清楚地知道在工作过程中一定会碰到困难，有困难就要想办法解决，同时要鼓励员工。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818152739-i3mf8x9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220818152739-i3mf8x9"
+					},
+					"Children": [
+						{
+							"ID": "20220818152739-uepmqf2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152739-uepmqf2",
+								"updated": "20220818152745"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "多做自我检讨"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818152959-1023n0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152959-1023n0y",
+								"updated": "20220818153005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者还要多做自我检讨，检讨的过程会变成一个小的 PDCA 循环，再把这个小循环放到企业这个大的 PDCA 循环里面。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818152748-q4nztex",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220818152748-q4nztex"
+					},
+					"Children": [
+						{
+							"ID": "20220818152748-plor4kg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152748-plor4kg",
+								"updated": "20220818152748"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "适当授权"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153010-db7kccz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153010-db7kccz",
+								"updated": "20220818153011"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者还应学会适当授权。有的生产管理者总是手握大权不肯放，什么事情都要自己决定。如果管理者要求下属去做事情，又不让下属有一定的权力，那下属的工作就很难开展。我们应该明白，每个人都喜欢做主，如果生产管理者能够适当授权，让员工做主，他们就会把事情做得更好。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153027-co29xc7",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818153027-co29xc7",
+								"updated": "20220818153029"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818153029-fyk3wvl",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153029-fyk3wvl",
+										"updated": "20220818153029"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】不肯带外孙的外婆"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818153029-84gyy0c",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153029-84gyy0c",
+										"updated": "20220818153029"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我有一个表哥，多年前生了一个儿子，他想请岳母来帮着带孩子，可他岳母偏偏不肯来。她在干吗呢？她到街上去做维持交通秩序的志愿者。我表哥就说对我说：“表弟，奇怪了，我岳母为了那点儿小钱连外孙都不带了。你知道吗，她一天才挣一元钱。”我就问表哥：“你岳母有没有做过领导？”他说：“没有，一辈子都没有做过领导。”我就告诉他：“她不是为了那一元钱才去工作的，她是为了获得做领导的感觉才去的。她一辈子被别人呼来喝去的，终于有机会可以指挥别人了，她肯定乐意做，因为这样的感觉她自己很享受。”"
+										}
+									]
+								},
+								{
+									"ID": "20220818153029-h6878at",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153029-h6878at",
+										"updated": "20220818153029"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "连老人家都想自己行使权力，又何况一个企业的员工？如果管理者不愿放权，员工就没有主人翁的感觉，他们又怎么能做好事情？所以，生产管理者一定要学会适当放权，工作中能恰当地处理自己与员工的关系，不要越俎代庖完全代替员工工作，而要给他们权力，自己只做些示范性的、辅助性的工作。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153052-29pme32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153052-29pme32",
+								"updated": "20220818153056"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果没有适当授权，员工的工作是做不好的；如果所有命令都是管理者下的，事情做坏了应该处罚谁？如果先处罚管理者，然后管理者又去处罚员工，这么做是不合逻辑的，因为员工是按管理者的方法做的，即使员工做错了，那也是管理者的错，为什么要处罚员工？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818152754-9glseay",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220818152754-9glseay",
+						"updated": "20220818153111"
+					},
+					"Children": [
+						{
+							"ID": "20220818152754-zh5rhp3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818152754-zh5rhp3",
+								"updated": "20220818152754"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "收集数据"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153111-0puu6l3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153111-0puu6l3",
+								"updated": "20220818153111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在工作实施的过程中，生产管理者还要不停地收集数据，因为没有数据就不方便检查生产，总结、改进工作方法。在工作中，生产管理者应多用数词、量词，少用形容词。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153111-sr7viaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153111-sr7viaj",
+								"updated": "20220818153111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "总之，管理一定要量化，而量化就要记录。只有在实施过程中不断记录，出了问题才便于检查。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818153126-3kt175p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153126-3kt175p"
+			}
+		},
+		{
+			"ID": "20220818153121-szj6eax",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818153121-szj6eax",
+				"updated": "20220818153908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.4. 工作的检查"
+				}
+			]
+		},
+		{
+			"ID": "20220818153135-ez1aqmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153135-ez1aqmh",
+				"updated": "20220818153135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实施完计划后，就要检查计划实施的效果。"
+				}
+			]
+		},
+		{
+			"ID": "20220818153135-3x1g2q6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153135-3x1g2q6",
+				"updated": "20220818153135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "人都是有惰性的，对员工的工作要检查，因为一个人没有督促、没有检查是很难自动自发地工作的。在世界上，大概只有一种人可以自动自发地工作，那就是老板。我们可以鼓励员工积极主动工作，但也应认清一个事实，那就是要员工像老板一样自动自发地工作的可能性不大。如果员工变得和老板一样，那他们就不是员工而是老板了。生产管理者要有弹性心态，不能老说“员工怎么可以这个样子”，因为员工就是员工。"
+				}
+			]
+		},
+		{
+			"ID": "20220818153144-695qhhv",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220818153144-695qhhv",
+				"updated": "20220818153145"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220818153145-vxnmtgn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818153145-vxnmtgn",
+						"updated": "20220818153145"
+					},
+					"Children": [
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "【案例】现在的员工到底有没有责任心"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818153145-fqvpzj6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818153145-fqvpzj6",
+						"updated": "20220818153145"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "有一次，我在江苏某地同两个民营企业老板吃饭。虽然这两人的企业有大小之分，但他们都有一个共同特点，就是以前都在国有企业工作过。吃饭时，小老板对我说：“李老师，现在的工人责任心简直太差了，甚至可以说一点儿责任心都没有。”我还没开口，那个大老板马上接话了：“兄弟可不要这么说，我觉得现在工人的责任心比我们当年在国有企业工作时强多了。”"
+						}
+					]
+				},
+				{
+					"ID": "20220818153145-drpjbtq",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220818153145-drpjbtq",
+						"updated": "20220818153145"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "可以说，这个大老板就有弹性心态，所以他是大老板；而那个小老板没有这种心态，所以他只能是个小老板。员工就是员工，你不要指望员工与老板一样。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818153221-lhfelh4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220818153221-lhfelh4",
+				"updated": "20220818153815"
+			},
+			"Children": [
+				{
+					"ID": "20220818153225-l84tmwd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220818153225-l84tmwd",
+						"updated": "20220818153225"
+					},
+					"Children": [
+						{
+							"ID": "20220818153225-h0o0yvl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153225-h0o0yvl",
+								"updated": "20220818153225"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "检查的方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153228-40461af",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153228-40461af"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查员工工作的方法有多种，例如查核、观察、测定等。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153322-7jb33a1",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818153322-7jb33a1",
+								"updated": "20220818153534"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818153534-epavg8n",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153534-epavg8n",
+										"updated": "20220818153534"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】最好的检查是不定时、不定次的"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818153534-wp7jzz5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153534-wp7jzz5",
+										"updated": "20220818153534"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我们要求员工要对设备定期做保养，有的项目是每天一次，有的项目是三天一次，有的项目是一周一次。做完后还要在设备保养表的项目栏上涂黑或打钩。员工会不会每次都认认真真做完？有没有可能做假？完全有可能。那么，怎样才能避免员工做假？方法就是进行检查。"
+										}
+									]
+								},
+								{
+									"ID": "20220818153534-4lkf1hx",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153534-4lkf1hx",
+										"updated": "20220818153534"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "对于生产管理者来说，有三种检查方式可供选择：第一种定次、定时；第二种定次、不定时；第三种不定时又不定次。在实际管理中，第三种检查方式效果最好，因为员工不知道管理者什么时候来检查，也不知道管理者要检查多少次，他们就必须按规定认认真真做设备保养。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153324-ts9wfm8",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818153324-ts9wfm8",
+								"updated": "20220818153606"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818153606-2deo88r",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153606-2deo88r",
+										"updated": "20220818153607"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】如何管理值夜班的保安"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818153614-vnxolif",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153614-vnxolif",
+										"updated": "20220818153614"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我曾在一家企业做部门经理，部门的副经理是一个台湾人，分管保安。由于他还是总经理的爸爸，所以我们管他叫王伯伯。"
+										}
+									]
+								},
+								{
+									"ID": "20220818153614-dq39xq7",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153614-dq39xq7",
+										"updated": "20220818153614"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "大家都知道，保安在值夜班时很容易睡着。保安晚上睡觉，小偷就容易进来，那怎么管理保安呢？王伯伯很尽心尽责，最初每天晚上都会定时查岗。但是，过了不久他发现一个问题：那些保安硬撑到他查完岗后就开始放心睡觉。"
+										}
+									]
+								},
+								{
+									"ID": "20220818153614-4jxvk7o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153614-4jxvk7o",
+										"updated": "20220818153636"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "王伯伯对我说：“张经理，我想了一个绝招，就是自己回房间刚刚睡下又爬起来杀他一个“回马枪”进行突击检查，这样就能逮住那些睡觉的保安了。”"
+										}
+									]
+								},
+								{
+									"ID": "20220818153614-0xg4j2m",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153614-0xg4j2m",
+										"updated": "20220818153614"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "当然，生产管理者不需要每天都要像王伯伯那样去检查，偶尔进行一两次还是可以的，目的就是让员工不知道管理者会什么时候查、查多少次，让员工摸不着规律。这样多做几次，他们就会认认真真地工作，检查也就达到目的了。"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818153650-2t11zt0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220818153650-2t11zt0"
+					},
+					"Children": [
+						{
+							"ID": "20220818153650-awhw5d2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153650-awhw5d2",
+								"updated": "20220818153703"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "检查要记录数据"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153703-4pamrcu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153703-4pamrcu",
+								"updated": "20220818153705"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查除了要不定时、不定次，每次检查还应记录一些重要数据。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153729-omqio24",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818153729-omqio24",
+								"updated": "20220818153736"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818153736-wy5hkzb",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153736-wy5hkzb",
+										"updated": "20220818153736"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】清晰的数据更方便检查"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818153736-jthb1f5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153736-jthb1f5",
+										"updated": "20220818153736"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "我在一家工厂讲课时，发现他们的检查记录做得很好，每一个部门、每一个岗位都有一张查检表，还配有示意图。举个例子：会客室有一张表和一张示意图，会客室沙发要怎么摆都有箭头指明，哪个地方要多干净、多长时间擦一次都写得很清楚。如果没有这些表格，检查工作也就无从做起。所以，怎么制作方便检查的表格也是管理者必须做的事。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153720-f18751k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153720-f18751k",
+								"updated": "20220818153721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查完了以后就要对数据进行分析、判断，用适当的方法让计划如期完成，而检查的目的也是为了如期完成计划。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153726-crgv5n0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153726-crgv5n0",
+								"updated": "20220818153727"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "此外，生产管理者在巡视现场时也需要用到一些表格来查验、衡量员工的工作。比如说，哪类问题由班长决定、哪类问题由组长决定、哪类问题要由科长、经理决定，要有一些数据作依据。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220818153750-eh4r2jp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220818153750-eh4r2jp",
+						"updated": "20220818153815"
+					},
+					"Children": [
+						{
+							"ID": "20220818153750-s5vsqfh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153750-s5vsqfh",
+								"updated": "20220818153756"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "检查员工作业方法"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153800-it557ac",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153800-it557ac",
+								"updated": "20220818153806"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "生产管理者在检查计划实施情况时还要考虑员工在实施过程中有没有完全遵守企业规定的作业方法。一般来说，企业会将各岗位的作业方法制成作业指导书，并将其放在员工易于看到的地方。作业指导书很重要，因为它除了给操作者看，还要给检查的人看。"
+								}
+							]
+						},
+						{
+							"ID": "20220818153823-08medst",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220818153823-08medst",
+								"updated": "20220818153824"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220818153824-iva3cf5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153824-iva3cf5",
+										"updated": "20220818153824"
+									},
+									"Children": [
+										{
+											"Type": "NodeStrong",
+											"Data": "strong",
+											"Children": [
+												{
+													"Type": "NodeStrongA6kOpenMarker",
+													"Data": "**"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "【案例】作业指导书的重要性"
+												},
+												{
+													"Type": "NodeStrongA6kCloseMarker",
+													"Data": "**"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220818153824-hbhk7px",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153824-hbhk7px",
+										"updated": "20220818153824"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "如果老板来车间参观，生产管理者就可以对他说：“老板，你放心，我们的质量是有保证的。”老板说：“为什么？”你可以这样解释：“你看看，我们的每一个操作步骤都在作业指导书上有明确指示，每一个员工都严格按作业指导书工作。”这时，老板就会走到员工身边看看作业指导书，再看看员工怎么做，如果员工完全按照作业指导书操作，老板就会放心地对生产管理者说：“不错！”"
+										}
+									]
+								},
+								{
+									"ID": "20220818153824-y6oyz77",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220818153824-y6oyz77",
+										"updated": "20220818153824"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "如果有客户来了，生产管理者可以对客户说：“买我们的产品你可以放心，我们都有质量保证。”客户肯定会问“为什么”，生产管理者就可以告诉他：“我们有作业指导书，员工都按作业指导书做。”客户就会去看一下作业指导书，再看看员工是不是真的按这些标准操作。"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220818153814-gagwn8i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220818153814-gagwn8i",
+								"updated": "20220818153815"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作业指导书一定要让每个人都看得懂，而且作业指导书的字要大、要清晰，最好能够用图片的方式呈现。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220818154007-hnyk4tf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154007-hnyk4tf"
+			}
+		},
+		{
+			"ID": "20220818153658-lgrptgd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818153658-lgrptgd",
+				"updated": "20220818153925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.5. 找出问题产生的要因"
+				}
+			]
+		},
+		{
+			"ID": "20220818153941-5suviyu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153941-5suviyu",
+				"updated": "20220818153941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当实施的结果与计划有差异时，一定要查出问题出在哪里，然后分析问题出现的原因。"
+				}
+			]
+		},
+		{
+			"ID": "20220818153941-zhqszi6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153941-zhqszi6",
+				"updated": "20220818153945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个时候，我们需要做一个 PDCA 循环，分析原因、做计划、实施计划、解决问题，每发生一个问题我们都要找出其发生的原因，防止类似问题再度发生，只有这样，工作才有价值，改进才有实效。从某种程度上说，防止问题再次发生才是最重要的，对此我们可以做横向展开。比如，生产线的某个流程出了问题，就要联想到其他相同的生产线是否也会如此。换句话说，一个人摔了一跤，就不要让其他人再摔跤了。源头管理是什么意思？就是要刨根问底找出根本原因。"
+				}
+			]
+		},
+		{
+			"ID": "20220818153941-rx91n7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818153941-rx91n7b",
+				"updated": "20220818153941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在具体查找要因时，我们可从以下几个方面入手：员工在实施过程中是否彻底遵守作业方法或条件；过程若与计划有差异，需迅速追究原因；要因查检由下级主管（班、组长）负责；重要的要因或以往未出现过的事件可由上级主管（科长以上）查检；结果需以数据呈现，并定期做比较、检查；结果与计划有差异时，需彻查过程中的异常原因；需追根究底追到源头，以发现潜在原因；需客观、诚实地面对自己。"
+				}
+			]
+		},
+		{
+			"ID": "20220818154004-khmxmtn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154004-khmxmtn"
+			}
+		},
+		{
+			"ID": "20220818153949-arf2996",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818153949-arf2996",
+				"updated": "20220818154000"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.6. 如何处理问题"
+				}
+			]
+		},
+		{
+			"ID": "20220818154025-2mww6ul",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154025-2mww6ul",
+				"updated": "20220818154029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "处理问题的方式有两种：第一种是发现了问题先采取应急措施，马上解决问题。这一点几乎所有生产管理者都可以做得很好。但生产管理者在采取应急措施时应该注意，采取的措施必须在自己的权限内，如超出自己的权限，必须向上级管理者报告。此外，在采取应急措施时，生产管理者还应该做到以下几点：暂时除去异常现象；使异常现象得到控制不再恶化、扩大；治标；以应变、调整的方式改正错误；处理问题要掌握时效。"
+				}
+			]
+		},
+		{
+			"ID": "20220818154035-plyinm3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154035-plyinm3",
+				"updated": "20220818154039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二种处理方式是把问题解决彻底，避免其再次发生。这个时候就需要做一个 PDCA 循环，具体方法有：使管理确实发挥功效；与标准化、制度化结合；横向做展开；纵向做源头管理。"
+				}
+			]
+		},
+		{
+			"ID": "20220818154104-8qucsv1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154104-8qucsv1"
+			}
+		},
+		{
+			"ID": "20220818154045-vus7pbk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220818154045-vus7pbk",
+				"updated": "20220818154103"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. SDCA 循环与 PDCA 循环"
+				}
+			]
+		},
+		{
+			"ID": "20220818154108-w99kjl5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818154108-w99kjl5",
+				"updated": "20220818154425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.1. SDCA 循环"
+				}
+			]
+		},
+		{
+			"ID": "20220818154426-ra99ar3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154426-ra99ar3",
+				"updated": "20220818154630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SDCA循环指标准化 (Standard)、执行 (Do)、查核 (Check)、处置 (Action)，即先订立一个标准，按照这个标准去执行，做完发现问题再检查、改进，然后再做、再标准化。PDCA与SDCA这两个循环其实大同小异："
+				}
+			]
+		},
+		{
+			"ID": "20220818154632-eh1jaz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154632-eh1jaz8",
+				"updated": "20220818154721"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220818154721-ibtn4ne.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818154803-tock4ip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154803-tock4ip"
+			}
+		},
+		{
+			"ID": "20220818154756-ozqcca2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220818154756-ozqcca2",
+				"updated": "20220818154759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5.2. PDCA循环是持续改善的工具"
+				}
+			]
+		},
+		{
+			"ID": "20220818154805-1da85q5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154805-1da85q5",
+				"updated": "20220818154824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每实施一次 PDCA 循环，生产管理者在工作中的错误就会减少，管理水平也会随之提高。就像前文所谈到的，个人的 PDCA 循环能让个人不断进步，企业的 PDCA 循环也会让企业不断进步。PDCA 循环其实就是一个持续改善的工具："
+				}
+			]
+		},
+		{
+			"ID": "20220818154944-rjbx9up",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818154944-rjbx9up",
+				"updated": "20220818155344"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220818155344-eygai37.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220818155406-dcd9km0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818155406-dcd9km0",
+				"updated": "20220818155413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以前，企业查出不良产品后就把它放在一边；现在查出不良产品后，生产管理者就要做一个 PDCA 循环来分析其产生的原因。只有把真实原因找到，才能避免同类问题再次发生。"
+				}
+			]
+		},
+		{
+			"ID": "20220818155605-a4l68d6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818155605-a4l68d6",
+				"updated": "20220818155605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA循环需在建立品质意识、问题意义及改善意识的基础上运转才能切实有效。只有做好全公司的品质管理，公司所制定的规章制度才能灵活化，才能避免形式化。"
+				}
+			]
+		},
+		{
+			"ID": "20220818155605-3z5o6xq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220818155605-3z5o6xq",
+				"updated": "20220818155605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PDCA循环是小规模的变化，慢慢地变，一环环地变。虽然小变化比较容易，大变化比较难，但很多小变化累积下来后就会成为大变化，我们的工作就完成了。"
+				}
+			]
+		}
+	]
+}
