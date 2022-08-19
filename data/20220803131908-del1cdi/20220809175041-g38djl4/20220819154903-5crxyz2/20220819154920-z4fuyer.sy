@@ -1,0 +1,76 @@
+{
+	"ID": "20220819154920-z4fuyer",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220819154920-z4fuyer",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220819154920-5ij0z33\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220819154920-5ij0z33\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220819154941-w5txct0\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "Prometheus",
+		"updated": "20220819154949"
+	},
+	"Children": [
+		{
+			"ID": "20220819154920-5ij0z33",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220819154920-5ij0z33",
+				"updated": "20220819154949"
+			},
+			"Children": [
+				{
+					"ID": "20220819154941-9ra6el8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819154941-9ra6el8",
+						"updated": "20220819154949"
+					},
+					"Children": [
+						{
+							"ID": "20220819154941-w5txct0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819154941-w5txct0",
+								"updated": "20220819154949"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220819154949-0p5pk4o"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "普罗米修斯基本介绍"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

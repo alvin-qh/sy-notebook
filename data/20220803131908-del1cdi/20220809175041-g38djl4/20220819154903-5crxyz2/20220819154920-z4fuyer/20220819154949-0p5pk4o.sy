@@ -1,0 +1,2324 @@
+{
+	"ID": "20220819154949-0p5pk4o",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220819154949-0p5pk4o",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220819154949-k2jj07m\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220819184907-p1ctga1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:6518,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220819184907-p1ctga1\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:7,\u0026amp;quot;focusEnd\u0026amp;quot;:7}",
+		"title": "普罗米修斯基本介绍",
+		"updated": "20220819185051"
+	},
+	"Children": [
+		{
+			"ID": "20220819154949-k2jj07m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819154949-k2jj07m",
+				"updated": "20220819155014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 简介"
+				}
+			]
+		},
+		{
+			"ID": "20220819155020-pi5rqz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155020-pi5rqz4",
+				"updated": "20220819155036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普罗米修斯 (Prometheus) 是一个 SoundCloud 公司开源的监控系统。当年，由于 SoundCloud 公司生产了太多的服务，传统的监控已经无法满足监控需求，于是他们在 2012 年决定着手开发新的监控系统，即普罗米修斯。"
+				}
+			]
+		},
+		{
+			"ID": "20220819155020-sljbsvt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155020-sljbsvt",
+				"updated": "20220819155104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普罗米修斯（下称普罗）的作者 Matt T.Proud 在 2012 年加入 SoundCloud 公司，他从 Google 的监控系统 Borgmon 中获得灵感，与另一名工程师 Julius Volz 合作开发了开源的普罗，后来其他开发人员陆续加入到该项目，最终于 2015 年正式发布。"
+				}
+			]
+		},
+		{
+			"ID": "20220819155109-winpb9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155109-winpb9q",
+				"updated": "20220819155110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普罗基于Go语言开发，其架构图如下："
+				}
+			]
+		},
+		{
+			"ID": "20220819155111-3s3kn6z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155111-3s3kn6z",
+				"updated": "20220819155117"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819155117-vxcqh6r.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819155126-rq3rjz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155126-rq3rjz5",
+				"updated": "20220819155126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中："
+				}
+			]
+		},
+		{
+			"ID": "20220819155126-turqsxq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220819155126-turqsxq",
+				"updated": "20220819155126"
+			},
+			"Children": [
+				{
+					"ID": "20220819155126-iz3m57i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155126-iz3m57i",
+						"updated": "20220819155126"
+					},
+					"Children": [
+						{
+							"ID": "20220819155126-6c2d9ua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155126-6c2d9ua",
+								"updated": "20220819155135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Prometheus Server：用数据的采集和存储，PromQL 查询，报警配置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155126-crj6tsg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155126-crj6tsg",
+						"updated": "20220819155126"
+					},
+					"Children": [
+						{
+							"ID": "20220819155126-9piljvt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155126-9piljvt",
+								"updated": "20220819155142"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Push Gateway：用于批量，短期的监控数据的汇报总节点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155126-ui3t13o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155126-ui3t13o",
+						"updated": "20220819155126"
+					},
+					"Children": [
+						{
+							"ID": "20220819155126-pxvwa9m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155126-pxvwa9m",
+								"updated": "20220819155410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Exporters：各种汇报数据的 Exporter，例如汇报机器数据的 node_exporter，汇报 MondogDB 信息的 MongoDB_exporter 等等。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155126-0qdp1v8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155126-0qdp1v8",
+						"updated": "20220819155126"
+					},
+					"Children": [
+						{
+							"ID": "20220819155126-apjqq2t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155126-apjqq2t",
+								"updated": "20220819155420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Alertmanager：用于高级通知管理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819155921-6qga5x8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155921-6qga5x8"
+			}
+		},
+		{
+			"ID": "20220819155439-08qt6zl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819155439-08qt6zl",
+				"updated": "20220819155452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 怎么采集监控数据"
+				}
+			]
+		},
+		{
+			"ID": "20220819155500-rlshr3w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155500-rlshr3w",
+				"updated": "20220819155524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "要采集目标（主机或服务）的监控数据，首先就要在被采集目标上安装采集组件，这种采集组件被称为Exporter。"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Prometheus - Monitoring system \u0026 time series database"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://prometheus.io/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 官网上有很多这种 Exporter，比如："
+				}
+			]
+		},
+		{
+			"ID": "20220819155535-iiamyfz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220819155535-iiamyfz",
+				"updated": "20220819155538"
+			},
+			"Children": [
+				{
+					"ID": "20220819155538-clxipem",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155538-clxipem",
+						"updated": "20220819155538"
+					},
+					"Children": [
+						{
+							"ID": "20220819155538-gdk6o5i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155538-gdk6o5i",
+								"updated": "20220819155544"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Consul exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155539-shvrjgp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155539-shvrjgp"
+					},
+					"Children": [
+						{
+							"ID": "20220819155539-4ti09hx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155539-4ti09hx",
+								"updated": "20220819155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Memcached exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155551-0p41p9u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155551-0p41p9u"
+					},
+					"Children": [
+						{
+							"ID": "20220819155551-1045f6i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155551-1045f6i",
+								"updated": "20220819155600"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "MySQL server exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155553-x2d3324",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155553-x2d3324"
+					},
+					"Children": [
+						{
+							"ID": "20220819155553-57mu0vh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155553-57mu0vh",
+								"updated": "20220819155604"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Node/system metrics exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155604-60uy4pa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155604-60uy4pa"
+					},
+					"Children": [
+						{
+							"ID": "20220819155604-4h3tsuv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155604-4h3tsuv",
+								"updated": "20220819155609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HAProxy exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155610-5jymdkl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155610-5jymdkl"
+					},
+					"Children": [
+						{
+							"ID": "20220819155610-1pjfw29",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155610-1pjfw29",
+								"updated": "20220819155611"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RabbitMQ exporter"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155611-sfgfhvm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155611-sfgfhvm"
+					},
+					"Children": [
+						{
+							"ID": "20220819155611-bu5n19a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155611-bu5n19a",
+								"updated": "20220819155612"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Grok exporter"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155613-a4h6489",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155613-a4h6489"
+					},
+					"Children": [
+						{
+							"ID": "20220819155613-6dv6fht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155613-6dv6fht",
+								"updated": "20220819155616"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "InfluxDB exporter ("
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "official"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155617-xfc9eou",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819155617-xfc9eou"
+					},
+					"Children": [
+						{
+							"ID": "20220819155617-a3bf49g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155617-a3bf49g",
+								"updated": "20220819155619"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "等等"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819155629-ylqkpah",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155629-ylqkpah",
+				"updated": "20220819155710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这些 Exporter 能为我们采集目标的监控数据，然后传输给普罗米修斯。这时候，Exporter 会暴露一个 HTTP 接口，普罗米修斯通过 HTTP 协议使用 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Pull"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的方式周期性拉取相应的数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220819155629-n3hvnbf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155629-n3hvnbf",
+				"updated": "20220819155721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不过，普罗也提供了 Push 模式来进行数据传输，通过增加 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "Push Gateway"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这个中间商实现 ，你可以将数据推送到 Push Gateway，普罗再通过 Pull 的方式从 Push Gateway 获取数据。"
+				}
+			]
+		},
+		{
+			"ID": "20220819155629-ztjf1pg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155629-ztjf1pg",
+				"updated": "20220819155747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这就是为什么你从架构图里能看到两个 Pull Metrics 的原因，一个是采集器直接被 Server 拉取数据 (Pull)；另一个是采集器主动 Push 数据到 Push Gateway，Server 再对 Push Gateway 主动拉取数据(Pull)。"
+				}
+			]
+		},
+		{
+			"ID": "20220819155758-ar4c0m4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155758-ar4c0m4",
+				"updated": "20220819155758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "采集数据的主要流程如下："
+				}
+			]
+		},
+		{
+			"ID": "20220819155758-rleknsd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220819155758-rleknsd",
+				"updated": "20220819155855"
+			},
+			"Children": [
+				{
+					"ID": "20220819155758-d6ym2nz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220819155758-d6ym2nz",
+						"updated": "20220819155758"
+					},
+					"Children": [
+						{
+							"ID": "20220819155758-xhtvtif",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155758-xhtvtif",
+								"updated": "20220819155821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Prometheus Server 定期从静态配置的主机或服务发现的 Targets 拉取数据（Zookeeper, Consul, DNS SRV Lookup 等方式）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155758-a32hzeh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220819155758-a32hzeh",
+						"updated": "20220819155758"
+					},
+					"Children": [
+						{
+							"ID": "20220819155758-ipk7e9l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155758-ipk7e9l",
+								"updated": "20220819155828"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当新拉取的数据大于配置内存缓存区的时候，Prometheus 会将数据持久化到磁盘，也可以远程持久化到云端"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155758-ldhdsja",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220819155758-ldhdsja",
+						"updated": "20220819155758"
+					},
+					"Children": [
+						{
+							"ID": "20220819155758-h6sak7v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155758-h6sak7v",
+								"updated": "20220819155842"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Prometheus 通过 PromQL, API, Console 和其他可视化组件如 Grafana, Promdash 展示数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155758-3sfuf42",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220819155758-3sfuf42",
+						"updated": "20220819155852"
+					},
+					"Children": [
+						{
+							"ID": "20220819155758-hoc0zhq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155758-hoc0zhq",
+								"updated": "20220819155852"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Prometheus 可以配置 Rules，然后定时查询数据，当条件触发的时候，会将告警推送到配置的 Alertmanager"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819155758-acyumyb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220819155758-acyumyb",
+						"updated": "20220819155855"
+					},
+					"Children": [
+						{
+							"ID": "20220819155758-r9f2jb3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819155758-r9f2jb3",
+								"updated": "20220819155855"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Alertmanager 收到告警的时候，会根据配置，聚合，去重，降噪，最后发出警告"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819155917-2b85un0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155917-2b85un0"
+			}
+		},
+		{
+			"ID": "20220819155903-te57kk7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819155903-te57kk7",
+				"updated": "20220819155916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 采集的数据结构与指标类型"
+				}
+			]
+		},
+		{
+			"ID": "20220819155928-0a2h6nm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220819155928-0a2h6nm",
+				"updated": "20220819155936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. 数据结构"
+				}
+			]
+		},
+		{
+			"ID": "20220819155928-y9n82in",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819155928-y9n82in",
+				"updated": "20220819164524"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "了解普罗米修斯的数据结构对于了解整个普罗生态非常重要。普罗采用"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "键值对"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "作为其基本的数据结构："
+				}
+			]
+		},
+		{
+			"ID": "20220819164520-3tdiy41",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819164520-3tdiy41",
+				"updated": "20220819164526"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819164526-nl5hha1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819164531-wsdj8h4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819164531-wsdj8h4",
+				"updated": "20220819184058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Key 是指标名字，Value 是该指标的值，此外 Metadata（元信息）也非常重要，也可称之为 Labels（标签信息）。这些标签信息指定了当前这个值属于哪个云区域下的哪台机器，如果没有 Labels，数据有可能会被丢失。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184113-3lh35eq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220819184113-3lh35eq",
+				"updated": "20220819184125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. 指标类型"
+				}
+			]
+		},
+		{
+			"ID": "20220819184113-dlq490l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184113-dlq490l",
+				"updated": "20220819184141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普罗米修斯的监控指标有 4 种基本类型："
+				}
+			]
+		},
+		{
+			"ID": "20220819184113-ybe7ey6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220819184113-ybe7ey6",
+				"updated": "20220819184450"
+			},
+			"Children": [
+				{
+					"ID": "20220819184133-hf8efwg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220819184133-hf8efwg",
+						"updated": "20220819184133"
+					},
+					"Children": [
+						{
+							"ID": "20220819184133-cdzw5mm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184133-cdzw5mm",
+								"updated": "20220819184231"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Counter："
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220819184159-yzv4cg8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184159-yzv4cg8",
+								"updated": "20220819184237"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Counter 计数器是我们最简单的指标类型。比如你想统计某个网站的 HTTP 错误总数，这时候就用计数器。"
+								}
+							]
+						},
+						{
+							"ID": "20220819184207-789tae3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184207-789tae3",
+								"updated": "20220819184217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计数器的值只能增加或重置为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "0"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，因此特别适合计算某个时段上某个时间的发生次数，即指标随时间演变发生的变化。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819184225-5d2rx0x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220819184225-5d2rx0x"
+					},
+					"Children": [
+						{
+							"ID": "20220819184225-ui61ncs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184225-ui61ncs"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Gauges"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220819184243-yibcnhk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184243-yibcnhk",
+								"updated": "20220819184353"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Gauges 仪表盘可以用于处理随时间增加或减少的指标，比如内存变化、温度变化。"
+								}
+							]
+						},
+						{
+							"ID": "20220819184249-tht5p44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184249-tht5p44",
+								"updated": "20220819184305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "这可能是最常见的指标类型，不过它也有一定缺点：如果系统每 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "5"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 秒发送一次指标，普罗服务每 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "15"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 秒抓取一次数据，那么这期间可能会丢失一些指标，如果你基于这些数据做汇总分析计算，则结果的准确性会有所下滑。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819184319-gl9x7cy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220819184319-gl9x7cy"
+					},
+					"Children": [
+						{
+							"ID": "20220819184319-7hawofn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184319-7hawofn",
+								"updated": "20220819184326"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Histogram"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220819184330-5bupbfw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184330-5bupbfw",
+								"updated": "20220819184336"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Histogram 直方图是一种更复杂的度量标准类型。它为我们的指标提供了额外信息，例如观察值的总和及其数量，常用于跟踪事件发生的规模。"
+								}
+							]
+						},
+						{
+							"ID": "20220819184401-bwr6wrj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184401-bwr6wrj",
+								"updated": "20220819184413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "比如，为了监控性能指标，我们希望在有 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "20%"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的服务器请求响应时间超过 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "300"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 毫秒时发送告警。对于涉及比例的指标就可以考虑使用直方图。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819184421-526vnwp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220819184421-526vnwp",
+						"updated": "20220819184450"
+					},
+					"Children": [
+						{
+							"ID": "20220819184421-jryo835",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184421-jryo835",
+								"updated": "20220819184423"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "Summary"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220819184427-v8ivg1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184427-v8ivg1c",
+								"updated": "20220819184432"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Summary 摘要更高级一些，是对直方图的扩展。除了提供观察的总和和计数之外，它们还提供滑动窗口上的分位数度量。分位数是将概率密度划分为相等概率范围的方法。"
+								}
+							]
+						},
+						{
+							"ID": "20220819184446-r0jw59c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184446-r0jw59c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对比直方图："
+								}
+							]
+						},
+						{
+							"ID": "20220819184450-de83j6t",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220819184450-de83j6t"
+							},
+							"Children": [
+								{
+									"ID": "20220819184449-w2jczsk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220819184449-w2jczsk"
+									},
+									"Children": [
+										{
+											"ID": "20220819184449-o44l17y",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220819184449-o44l17y"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "直方图随时间汇总值，给出总和和计数函数，使得易于查看给定指标的变化趋势。"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220819184453-tpjmqz2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220819184453-tpjmqz2"
+									},
+									"Children": [
+										{
+											"ID": "20220819184453-z5mvrwt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220819184453-z5mvrwt"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "而摘要则给出了滑动窗口上的分位数（即随时间不断变化）。"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819184516-b1ah8pm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184516-b1ah8pm"
+			}
+		},
+		{
+			"ID": "20220819184509-i6nt36f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819184509-i6nt36f",
+				"updated": "20220819184515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 实例概念"
+				}
+			]
+		},
+		{
+			"ID": "20220819184509-iddcjkq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184509-iddcjkq",
+				"updated": "20220819184509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "随着分布式架构的不断发展和云解决方案的普及，现在的架构已经变得越来越复杂了。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184509-y0crunb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184509-y0crunb",
+				"updated": "20220819184536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分布式的服务器复制和分发成了日常架构的必备组件。我们举一个经典的 Web 架构，该架构由 3 个后端 Web 服务器组成。在该例子中，我们要监视 Web 服务器返回的 HTTP 错误的数量。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184509-dxg38eq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184509-dxg38eq",
+				"updated": "20220819184543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用普罗米修斯语言，单个 Web 服务器单元称为实例（主机实例）。该任务是计算所有实例的 HTTP 错误数量。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184555-tuho7ah",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184555-tuho7ah",
+				"updated": "20220819184555"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819184555-pyw496t.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819184557-8buvsdy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184557-8buvsdy",
+				"updated": "20220819184605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事实上，这甚至可以说是最简单的架构了，再复杂一点，实例不仅能是主机实例，还能是服务实例，因此你需要增加一个 instance_type 的标签标记主机或服务。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184609-au83g6d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184609-au83g6d",
+				"updated": "20220819184622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "再复杂一点，同样的 IP，可能存在于不同云区域下，这属于不同的机器，因此还需要一个 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "cloud"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 标签，最终该数据结构可能会变为："
+				}
+			]
+		},
+		{
+			"ID": "20220819184633-rj57d3r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220819184633-rj57d3r",
+				"updated": "20220819184649"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "cpu_usage {job=\"1\", instance=\"128.0.0.1\", cloud=\"0\", instance_type=\"0\"}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220819184705-tlv8ek1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184705-tlv8ek1"
+			}
+		},
+		{
+			"ID": "20220819184656-38pejaz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819184656-38pejaz",
+				"updated": "20220819184703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 数据可视化"
+				}
+			]
+		},
+		{
+			"ID": "20220819184656-b0xiqhc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184656-b0xiqhc",
+				"updated": "20220819184722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果使用过基于 InfluxDB 的数据库，你可能会熟悉 InfluxQL。普罗米修斯也内置了自己的 SQL 查询语言用于查询和检索数据，这个内置的语言就是 PromQL。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184731-5fcr904",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184731-5fcr904",
+				"updated": "20220819184733"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们前面说过，普罗米修斯的数据是用键值对表示的。PromQL 也用相同的语法查询和返回结果集。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184731-bp2660g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184731-bp2660g",
+				"updated": "20220819184731"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "PromQL会处理两种向量："
+				}
+			]
+		},
+		{
+			"ID": "20220819184740-jw9b098",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220819184740-jw9b098",
+				"updated": "20220819184741"
+			},
+			"Children": [
+				{
+					"ID": "20220819184741-fg0ujdp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819184741-fg0ujdp",
+						"updated": "20220819184741"
+					},
+					"Children": [
+						{
+							"ID": "20220819184741-eqxyq7j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184741-eqxyq7j",
+								"updated": "20220819184741"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "即时向量：表示当前时间，某个指标的数据向量。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819184744-o7p0hmm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819184744-o7p0hmm"
+					},
+					"Children": [
+						{
+							"ID": "20220819184744-s3rvlgv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184744-s3rvlgv"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "时间范围向量：表示过去某时间范围内，某个指标的数据向量。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819184731-q8u4sus",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184731-q8u4sus",
+				"updated": "20220819184751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如针对 8 核 CPU 的使用率："
+				}
+			]
+		},
+		{
+			"ID": "20220819184758-6p2kq92",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184758-6p2kq92",
+				"updated": "20220819184759"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819184759-ywlnteg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819184823-xf8wilx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184823-xf8wilx",
+				"updated": "20220819184823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "知道怎么提取数据后，可视化数据就简单了。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184823-d3pllbl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184823-d3pllbl",
+				"updated": "20220819184826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Grafana 是一个大型可视化系统，功能强大，可以创建自己的自定义面板，支持多种数据来源，当然也支持普罗米修斯。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184823-k4uunsc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184823-k4uunsc",
+				"updated": "20220819184831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过配置数据源，Grafana 会使用相应的 SQL 拉取并绘制图表，能直接看到普罗米修斯的各个指标数据图表："
+				}
+			]
+		},
+		{
+			"ID": "20220819184836-ulc3i6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184836-ulc3i6m",
+				"updated": "20220819184836"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819184836-ix0lm1l.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819184842-dtvddzn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184842-dtvddzn",
+				"updated": "20220819184849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更方便的是，Grafana 有很多仪表盘模板供你使用，只要 import 模板进行简单的配置，就能得到以下效果："
+				}
+			]
+		},
+		{
+			"ID": "20220819184854-3jwgko9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184854-3jwgko9",
+				"updated": "20220819184855"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220819184855-moc1z90.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220819184916-l3f508z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184916-l3f508z"
+			}
+		},
+		{
+			"ID": "20220819184907-nd4wi72",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220819184907-nd4wi72",
+				"updated": "20220819184919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 应用前景"
+				}
+			]
+		},
+		{
+			"ID": "20220819184907-ltsuyj4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184907-ltsuyj4",
+				"updated": "20220819184907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "普罗米修斯非常强大，可以应用到各行各业。"
+				}
+			]
+		},
+		{
+			"ID": "20220819184907-wqg1l5a",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220819184907-wqg1l5a",
+				"updated": "20220819185051"
+			},
+			"Children": [
+				{
+					"ID": "20220819184926-ve17725",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819184926-ve17725",
+						"updated": "20220819184926"
+					},
+					"Children": [
+						{
+							"ID": "20220819184926-wwbywd0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184926-wwbywd0",
+								"updated": "20220819184931"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "DevOps"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220819184931-w2qag5s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184931-w2qag5s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为了观察整个服务体系是否在正常运转，运维非常需要监控系统。在实例的创建速度和销毁速度一样快的容器世界中，灵活配置各类容器的监控项并迅速安装启动监控是非常重要的。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819184939-b4m99uj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819184939-b4m99uj"
+					},
+					"Children": [
+						{
+							"ID": "20220819184939-562sp5e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184939-562sp5e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "金融行业"
+								}
+							]
+						},
+						{
+							"ID": "20220819184944-m3cjrod",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819184944-m3cjrod",
+								"updated": "20220819184956"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "金融服务巨头 Northern Trust 于 2017 年 6 月选择普罗米修斯，不是为了进行应用程序的监视，而是为了更好地了解其某些硬件的运作情况。Northern Trust 使用普罗米修斯监控其平台上的 750 多种微服务。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220819185001-amkwsdl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220819185001-amkwsdl",
+						"updated": "20220819185051"
+					},
+					"Children": [
+						{
+							"ID": "20220819185001-u6v0eef",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819185001-u6v0eef"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "汽车行业"
+								}
+							]
+						},
+						{
+							"ID": "20220819185005-1tw94x3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819185005-1tw94x3",
+								"updated": "20220819185008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Life360 是一款用于定位、行车安全和家庭成员之间共享信息的移动应用程序，他们需要给用户提供稳定的定位服务，而原有的监控方案都非常局限，无法监视到所有组件的工作状态。"
+								}
+							]
+						},
+						{
+							"ID": "20220819185015-wkv6lxv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819185015-wkv6lxv",
+								"updated": "20220819185025"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "因此该公司使用普罗米修斯来监视其 MySQL 多主群集和一个 12 节点的 Cassandra 环，该环可容纳约 4TB 的数据。普罗米修斯在初步测试中表现良好。"
+								}
+							]
+						},
+						{
+							"ID": "20220819185039-gdsfdsj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220819185039-gdsfdsj",
+								"updated": "20220819185051"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在普罗米修斯的有限部署之后，Life360 报告了监控方面的巨大进步，并设想在其数据中心基础架构的其他部分中使用它。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220819184907-p1ctga1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220819184907-p1ctga1",
+				"updated": "20220819184907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总而言之，普罗米修斯这样的分布式监控系统，在未来的世界中用处可能会越来越大，它或许将会成为监控领域寡头式的存在，希望我们能熟悉这个工具，并在以后的架构和实践中使用它解决系统和应用监控的问题。"
+				}
+			]
+		}
+	]
+}
