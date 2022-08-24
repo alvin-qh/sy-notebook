@@ -1,0 +1,1008 @@
+{
+	"ID": "20220822211128-0vvlkku",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220822211128-0vvlkku",
+		"title": "权限模型 ACL",
+		"updated": "20220823003212"
+	},
+	"Children": [
+		{
+			"ID": "20220822211200-pme9bbd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220822211200-pme9bbd",
+				"updated": "20220822211203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 简介"
+				}
+			]
+		},
+		{
+			"ID": "20220822211211-n6m2a2y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822211211-n6m2a2y",
+				"updated": "20220823002016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACL (Access Control List) 访问控制列表（又称为"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "存取控制串列"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），一种访问控制机制，主要包含三个关键要素用户 (User)、资源 (Resource) 和操作 (Operate)。当用户请求操作资源时会检查资源的权限列表，如果资源的权限列表中存在该用户的操作权限则允许否则拒绝。"
+				}
+			]
+		},
+		{
+			"ID": "20220823002030-gjej8bo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823002030-gjej8bo",
+				"updated": "20220823002035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACL是一种面向资源的访问控制模型，每一项资源，都配有一个列表，这个列表记录的就是哪些用户可以对这项资源执行 CRUD 中的那些操作。当系统试图访问这项资源时，会首先检查这个列表中是否有关于当前用户的访问权限，从而确定当前用户可否执行相应的操作。"
+				}
+			]
+		},
+		{
+			"ID": "20220823002044-oqtxknp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823002044-oqtxknp",
+				"updated": "20220823002052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ACL核心在于用户可以直接和权限挂钩，设计简单但缺点也是很明显的，由于需要维护大量的访问权限列表，所以在性能上有明显的不足，因而便有了对 ACL 设计的改进如 RBAC、ABAC。"
+				}
+			]
+		},
+		{
+			"ID": "20220822232851-gnpwfx1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822232851-gnpwfx1"
+			}
+		},
+		{
+			"ID": "20220822232855-3p4jayi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220822232855-3p4jayi",
+				"updated": "20220822232903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 特点"
+				}
+			]
+		},
+		{
+			"ID": "20220822232852-6e6qn3v",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220822232852-6e6qn3v",
+				"updated": "20220822232907"
+			},
+			"Children": [
+				{
+					"ID": "20220822232907-mcbck14",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822232907-mcbck14",
+						"updated": "20220822232907"
+					},
+					"Children": [
+						{
+							"ID": "20220822232907-j6t4gnp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822232907-j6t4gnp",
+								"updated": "20220822232925"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ACL 本身仅仅是负责了存储"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822232926-g8tr8dg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822232926-g8tr8dg",
+								"updated": "20220822232933"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个具体业务，根据那个维度进行数据权限划分，还是来自业务，存储成什么样的格式，ACL 本身是不知道的。业务只是基于 ACL 快速建立数据权限模型。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822232939-48584mf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822232939-48584mf"
+					},
+					"Children": [
+						{
+							"ID": "20220822232939-ocbd1fb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822232939-ocbd1fb",
+								"updated": "20220822232942"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "ACL 分为功能权限和数据权限"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822232946-rh564nn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822232946-rh564nn",
+								"updated": "20220822232947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户能访问那写表单和页面，属于功能权限。多个用户访问同一个表格，但是看到的数据不一样，这是数据权限。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822232956-6ghma4o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822232956-6ghma4o"
+					},
+					"Children": [
+						{
+							"ID": "20220822232956-qir0a0c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822232956-qir0a0c",
+								"updated": "20220822233232"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "正确理解用户、组、资源三者关系"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822233537-2ouszaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822233537-2ouszaj",
+								"updated": "20220822233537"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组包含用户；用户和组均通过权限列表（ACL）和资源关联"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822211240-mhl9zy7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822211240-mhl9zy7",
+				"updated": "20220822211241"
+			}
+		},
+		{
+			"ID": "20220822211242-ni88za8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220822211242-ni88za8",
+				"updated": "20220822211247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 图示"
+				}
+			]
+		},
+		{
+			"ID": "20220822211250-j3zj196",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822211250-j3zj196",
+				"updated": "20220822211251"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 597px;",
+						"style": "width: 587px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220822211251-tqjpodt.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 587px;\" parent-style=\"max-width: 597px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220822233810-307fwj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822233810-307fwj2",
+				"updated": "20220822234211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "操作，即 Action，一般定义为对资源的行为，一般包括 CRUD（Create, Read, Update, Delete）四种操作"
+				}
+			]
+		},
+		{
+			"ID": "20220823001924-zw8yv3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823001924-zw8yv3n",
+				"updated": "20220823001924"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220823001924-cgzp2z8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822232620-vru0abi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822232620-vru0abi",
+				"updated": "20220822232621"
+			}
+		},
+		{
+			"ID": "20220822232622-uxf4ka2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220822232622-uxf4ka2",
+				"updated": "20220822232630"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. E-R 模型"
+				}
+			]
+		},
+		{
+			"ID": "20220822232630-axbz9ej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822232630-axbz9ej",
+				"updated": "20220822233729"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220822233729-ab5ku7g.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220823000115-cwo6q2e",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220823000115-cwo6q2e",
+				"updated": "20220823001423"
+			},
+			"Children": [
+				{
+					"ID": "20220823000315-j39a75q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823000315-j39a75q",
+						"updated": "20220823001348"
+					},
+					"Children": [
+						{
+							"ID": "20220823000315-ok4p8h1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823000315-ok4p8h1",
+								"updated": "20220823001348"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "权限（Permission）指的是对一个资源（Resource）的具体行为的控制，Permission 表中的 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "action"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 字段表明了这些行为，一般为："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Create"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Read"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": ", "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Update"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Delete"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220823000119-kcy84im",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823000119-kcy84im",
+						"updated": "20220823001029"
+					},
+					"Children": [
+						{
+							"ID": "20220823000119-swlbxw1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823000119-swlbxw1",
+								"updated": "20220823001029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 ACL 表绑定用户（或组），提供对用户（或组）对于指定资源（Resource）的访问（或行为）权限"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220823000223-m8f4uue",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823000223-m8f4uue",
+						"updated": "20220823001423"
+					},
+					"Children": [
+						{
+							"ID": "20220823000223-nj0jze1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823000223-nj0jze1",
+								"updated": "20220823001423"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于资源（Resource ）类型比较单一（例如都是页面元素）的情形，可以在权限（Permission）表中将资源简化为资源名称（例如：Person），组成形如 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "name::resource::action"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 格式的权限属性（例如："
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "Management::Person::Read"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220823002117-8m4mwip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823002117-8m4mwip",
+				"updated": "20220823002119"
+			}
+		},
+		{
+			"ID": "20220823002121-m2tr5ta",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220823002121-m2tr5ta",
+				"updated": "20220823002533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 传递 ACL 的结构"
+				}
+			]
+		},
+		{
+			"ID": "20220823002534-3jdd42b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220823002534-3jdd42b",
+				"updated": "20220823002544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.1. 针对单一资源"
+				}
+			]
+		},
+		{
+			"ID": "20220823002353-d7uh9uj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220823002353-d7uh9uj",
+				"updated": "20220823003030"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"*\": {\n    \"read\": true,\n    \"write\": false\n  },\n  \"group:admin\": {\n    \"read\": true,\n    \"write\": true\n  },\n  \"58113fbda0bb9f0061ddc869\": {\n    \"read\": true,\n    \"write\": true\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220823002307-amvzbuo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823002307-amvzbuo",
+				"updated": "20220823002617"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这种结构针对于单一资源，返回该资源可访问的用户列表，以及每个用户在该资源上的权限"
+				}
+			]
+		},
+		{
+			"ID": "20220823002630-hattudz",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220823002630-hattudz",
+				"updated": "20220823002818"
+			},
+			"Children": [
+				{
+					"ID": "20220823002631-8qv96z6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823002631-8qv96z6",
+						"updated": "20220823002652"
+					},
+					"Children": [
+						{
+							"ID": "20220823002640-0a0m6bq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823002640-0a0m6bq",
+								"updated": "20220823002652"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "所有人可读，但不能写（"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 代表所有人）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220823002650-br4m6ax",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823002650-br4m6ax",
+						"updated": "20220823002727"
+					},
+					"Children": [
+						{
+							"ID": "20220823002650-elzi2oc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823002650-elzi2oc",
+								"updated": "20220823002727"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "admin"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 组下的所有用户可读可写"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220823002640-tn6ubyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220823002640-tn6ubyk",
+						"updated": "20220823002818"
+					},
+					"Children": [
+						{
+							"ID": "20220823002640-vnrcwy7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220823002640-vnrcwy7",
+								"updated": "20220823002818"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "ID"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "58113fbda0bb9f0061ddc869"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的用户可读可写"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220823002656-5eh7awc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220823002656-5eh7awc"
+			}
+		},
+		{
+			"ID": "20220823002902-h8gq89y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220823002902-h8gq89y",
+				"updated": "20220823002934"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4.2. 针对单一用户"
+				}
+			]
+		},
+		{
+			"ID": "20220823002915-zcayzch",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220823002915-zcayzch",
+				"updated": "20220823003212"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"Space::Room::Read\": \n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

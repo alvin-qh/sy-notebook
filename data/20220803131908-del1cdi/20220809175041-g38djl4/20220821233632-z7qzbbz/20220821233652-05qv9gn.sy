@@ -1,0 +1,917 @@
+{
+	"ID": "20220821233652-05qv9gn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220821233652-05qv9gn",
+		"title": "RBAC",
+		"updated": "20220822003902"
+	},
+	"Children": [
+		{
+			"ID": "20220821233652-thc61ra",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220821233652-thc61ra",
+				"updated": "20220821234135"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 什么是 RBAC"
+				}
+			]
+		},
+		{
+			"ID": "20220821234135-m36ra6h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821234135-m36ra6h",
+				"updated": "20220821234248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RBAC 全称是“基于角色的权限控制系统”，是通过“角色关联用户”，“角色关联权限”的方式，间接的赋予用户权限，具体如下图："
+				}
+			]
+		},
+		{
+			"ID": "20220821234249-kaa8ya1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821234249-kaa8ya1",
+				"updated": "20220821234849"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220821234849-wcrss6a.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220821234857-m7ujxjv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821234857-m7ujxjv",
+				"updated": "20220821235115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于通常的系统而言，存在多个用户具有相同的权限，再分配的时候，要为指定的用户分配相关的权限，修改的时候也要依次对这几个用户的权限进行修改，有了"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "角色"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "这个实体，在修改权限时，只要对角色进行修改，即可实现相关的权限修改。这样增加了效率，同时减少了权限漏洞的产生。"
+				}
+			]
+		},
+		{
+			"ID": "20220821235134-xrgh7u0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235134-xrgh7u0"
+			}
+		},
+		{
+			"ID": "20220821235116-32a5f3q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220821235116-32a5f3q",
+				"updated": "20220821235137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 模型分类"
+				}
+			]
+		},
+		{
+			"ID": "20220821235137-q7c94xb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235137-q7c94xb",
+				"updated": "20220821235236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对于 RBAC 来说，通常有如下四个模型："
+				}
+			]
+		},
+		{
+			"ID": "20220821235153-foyrobv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220821235153-foyrobv",
+				"updated": "20220821235154"
+			},
+			"Children": [
+				{
+					"ID": "20220821235154-gbe7qyf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235154-gbe7qyf",
+						"updated": "20220821235154"
+					},
+					"Children": [
+						{
+							"ID": "20220821235154-d2jobhc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235154-d2jobhc",
+								"updated": "20220821235203"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RBAC-0"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220821235212-y9qryhf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235212-y9qryhf"
+					},
+					"Children": [
+						{
+							"ID": "20220821235212-b0qp0fw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235212-b0qp0fw",
+								"updated": "20220821235213"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RBAC-1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220821235221-dikw000",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235221-dikw000"
+					},
+					"Children": [
+						{
+							"ID": "20220821235221-6xst3ja",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235221-6xst3ja",
+								"updated": "20220821235222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RBAC-2"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220821235223-qwb5e5s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235223-qwb5e5s"
+					},
+					"Children": [
+						{
+							"ID": "20220821235223-hxlh4ug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235223-hxlh4ug",
+								"updated": "20220821235224"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "RBAC-3"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220821235238-2tr5r7o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235238-2tr5r7o",
+				"updated": "20220821235247"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最常用的是 RBAC-0"
+				}
+			]
+		},
+		{
+			"ID": "20220821235516-4rh7hxq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235516-4rh7hxq"
+			}
+		},
+		{
+			"ID": "20220821235510-kjyrjno",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220821235510-kjyrjno",
+				"updated": "20220822000309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. RBAC-0 模型"
+				}
+			]
+		},
+		{
+			"ID": "20220821235524-5sy3nx3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235524-5sy3nx3",
+				"updated": "20220821235544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "RBAC-0 是最简单的 RBAC 模型，包含两种情况："
+				}
+			]
+		},
+		{
+			"ID": "20220821235544-zw7j946",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220821235544-zw7j946",
+				"updated": "20220821235545"
+			},
+			"Children": [
+				{
+					"ID": "20220821235545-v7p1n31",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235545-v7p1n31",
+						"updated": "20220821235545"
+					},
+					"Children": [
+						{
+							"ID": "20220821235545-mq59gew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235545-mq59gew",
+								"updated": "20220821235700"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "用户和角色是多对一关系"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：即一个用户只充当一种角色，一个角色可以有多个角色的担当；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220821235638-9cep2io",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821235638-9cep2io"
+					},
+					"Children": [
+						{
+							"ID": "20220821235638-ti75fbj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821235638-ti75fbj",
+								"updated": "20220821235719"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "用户和角色是多对多关系"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "：即一个用户可以同时充当多个角色，一个角色可以有多个用户；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220821235726-tp4wvyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235726-tp4wvyz",
+				"updated": "20220821235833"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此系统功能单一，人员较少，例如：张三既是行政，也负责财务，此时张三就有两个角色，分别是行政角色和财务角色。"
+				}
+			]
+		},
+		{
+			"ID": "20220821235835-9worb9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235835-9worb9m"
+			}
+		},
+		{
+			"ID": "20220821235836-fwce7tj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220821235836-fwce7tj",
+				"updated": "20220822000309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. RBAC-1 模型"
+				}
+			]
+		},
+		{
+			"ID": "20220821235842-edu3k0i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220821235842-edu3k0i",
+				"updated": "20220821235908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相对于 RBAC-0，增加了子角色，引入了“继承”的概念。"
+				}
+			]
+		},
+		{
+			"ID": "20220822000228-9qprj1w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822000228-9qprj1w",
+				"updated": "20220822000228"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220822000228-hs1cpvg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822000231-feynxfy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822000231-feynxfy"
+			}
+		},
+		{
+			"ID": "20220822000247-xiwc1i8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220822000247-xiwc1i8",
+				"updated": "20220822000301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. RBAC-2 模型"
+				}
+			]
+		},
+		{
+			"ID": "20220822000312-q02fpdh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822000312-q02fpdh",
+				"updated": "20220822000342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 RBAC-0 的基础上，增加了如下功能和限制："
+				}
+			]
+		},
+		{
+			"ID": "20220822000342-813tvjf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220822000342-813tvjf",
+				"updated": "20220822000343"
+			},
+			"Children": [
+				{
+					"ID": "20220822000343-v852k8b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822000343-v852k8b",
+						"updated": "20220822000343"
+					},
+					"Children": [
+						{
+							"ID": "20220822000343-azl14su",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000343-azl14su",
+								"updated": "20220822000500"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "角色互斥"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822000402-ptxiqef",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000402-ptxiqef",
+								"updated": "20220822000627"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同一个用户不能拥有两个互斥的角色，例如在财务系统中，一个用户不能拥有会计和审计这两种角色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822000348-w16m02c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822000348-w16m02c"
+					},
+					"Children": [
+						{
+							"ID": "20220822000348-8bvpcwl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000348-8bvpcwl",
+								"updated": "20220822000531"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "基数约束"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822000503-ps5gvne",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000503-ps5gvne",
+								"updated": "20220822000548"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "同一个角色，所拥有的成员是固定的，例如对于 CEO 这种角色，只能有一个用户"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822000357-x7xznae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822000357-x7xznae"
+					},
+					"Children": [
+						{
+							"ID": "20220822000357-xl3mggj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000357-xl3mggj",
+								"updated": "20220822000959"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "先决条件"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822000541-ugisfbf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000541-ugisfbf",
+								"updated": "20220822000800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于该角色来说，如果想要获得更高的角色，需要先获取低一级别的角色。例如对于副经理和经理这两个角色来说，需要先有副经理的角色，才能有权获取到经理的角色。即副经理是经理角色的先决条件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220822000539-f8b5g3k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822000539-f8b5g3k"
+					},
+					"Children": [
+						{
+							"ID": "20220822000539-mhd6nf1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822000539-mhd6nf1",
+								"updated": "20220822001006"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "运行时互斥"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220822001004-pal49l8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822001004-pal49l8",
+								"updated": "20220822001120"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一个用户可以拥有多个角色，但不能同时使用，需要切换角色才能使用另一个角色。例如对于总经理和专员这两个角色，系统只能在一段时间，拥有其一个角色，不能同时对这两种角色进行操作"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220822001126-3s9zaa2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822001126-3s9zaa2"
+			}
+		},
+		{
+			"ID": "20220822001127-fvtqp8w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220822001127-fvtqp8w",
+				"updated": "20220822001134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. RBAC-3 模型"
+				}
+			]
+		},
+		{
+			"ID": "20220822001138-gd2al86",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822001138-gd2al86",
+				"updated": "20220822001538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "相当于是 RBAC-1 + RBAC-2 模型的综合体，称之为“统一模型”："
+				}
+			]
+		},
+		{
+			"ID": "20220822001538-iqot4kk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822001538-iqot4kk",
+				"updated": "20220822001539"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220822001539-ye8ca2p.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220822000956-o0gevfg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822000956-o0gevfg"
+			}
+		},
+		{
+			"ID": "20220822001607-01rpscy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220822001607-01rpscy",
+				"updated": "20220822001611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 什么是权限"
+				}
+			]
+		},
+		{
+			"ID": "20220822001632-nofdtsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822001632-nofdtsq",
+				"updated": "20220822001738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权限是自由的集合，资源指的是软件中的所有内容，包括：对页面的操作权限，对页面的访问权限，对数据的操作（增删查改）权限。"
+				}
+			]
+		},
+		{
+			"ID": "20220822003709-mfh9vne",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220822003709-mfh9vne",
+				"updated": "20220822003902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如一个系统具备：计划管理、客户管理、合同管理、出入库通知单管理、粮食安全追溯、粮食统计查询、设备管理这几个页面，对于这几个页面的访问以及是否能访问到菜单，都属于权限"
+				}
+			]
+		}
+	]
+}

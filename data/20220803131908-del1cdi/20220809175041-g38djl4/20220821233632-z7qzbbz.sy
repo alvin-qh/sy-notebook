@@ -1,0 +1,129 @@
+{
+	"ID": "20220821233632-z7qzbbz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220821233632-z7qzbbz",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220821233632-mp47dxv\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220821233632-mp47dxv\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220821233642-h1q5yva\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
+		"title": "权限系统",
+		"updated": "20220822211128"
+	},
+	"Children": [
+		{
+			"ID": "20220821233632-mp47dxv",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220821233632-mp47dxv",
+				"updated": "20220822211128"
+			},
+			"Children": [
+				{
+					"ID": "20220822211118-pwvxfhp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220822211118-pwvxfhp",
+						"updated": "20220822211128"
+					},
+					"Children": [
+						{
+							"ID": "20220822211118-kcr4hn8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220822211118-kcr4hn8",
+								"updated": "20220822211128"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220822211128-0vvlkku"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "权限模型：ACL"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220821233642-ybpunoa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220821233642-ybpunoa",
+						"updated": "20220821233652"
+					},
+					"Children": [
+						{
+							"ID": "20220821233642-h1q5yva",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220821233642-h1q5yva",
+								"updated": "20220821233652"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220821233652-05qv9gn"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "RBAC"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
