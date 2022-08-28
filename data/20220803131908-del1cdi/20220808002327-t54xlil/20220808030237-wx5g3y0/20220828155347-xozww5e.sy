@@ -1,0 +1,55 @@
+{
+	"ID": "20220828155347-xozww5e",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220828155347-xozww5e",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220828155347-1p7ofch\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220828155347-1p7ofch\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220828155347-1p7ofch\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:2,\u0026amp;quot;focusEnd\u0026amp;quot;:2}",
+		"title": "Corntab",
+		"updated": "20220828155427"
+	},
+	"Children": [
+		{
+			"ID": "20220828155347-1p7ofch",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220828155347-1p7ofch",
+				"updated": "20220828155427"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "5c1e2249258b0ca88ece68ef640569c"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/5c1e2249258b0ca88ece68ef640569c-20220828155427-8pc0hfk.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}
