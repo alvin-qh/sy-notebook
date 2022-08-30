@@ -1,0 +1,728 @@
+{
+	"ID": "20220830185504-1l7jhl7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220830185504-1l7jhl7",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220830185504-637syj0\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220830192044-deo4ptt\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220830185504-637syj0\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:115,\u0026amp;quot;focusEnd\u0026amp;quot;:115}",
+		"title": "BGC 矩阵",
+		"updated": "20220830192051"
+	},
+	"Children": [
+		{
+			"ID": "20220830185504-637syj0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830185504-637syj0",
+				"updated": "20220830185619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "某公司的客户越来越多，业务线越来越复杂，老板担心公司逐渐迷失在收入、利润、应收帐款、常规更新等日常事务中，从而失去对未来的把握，于是聘请了一家咨询公司帮助梳理业务策略。咨询顾问了解完该公司的业务后说：“贵公司的金牛业务正在逐渐变成瘦狗，应尽快采取收割策略；问题业务的储备太少，明星业务的数量匮乏，增长乏力，估计不会发展为下一个金牛，也将变为瘦狗；要对这两个产品启动发展策略，对另外四个产品启动放弃策略。”。老板听得一头雾水。"
+				}
+			]
+		},
+		{
+			"ID": "20220830185533-rxlpgy8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830185533-rxlpgy8",
+				"updated": "20220830185711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这是咨询业的行业术语，咨询顾问对客户说这些术语，多半是为了通过“降维打击”，彰显自己的专业性。其实，这些术语并不复杂。"
+				}
+			]
+		},
+		{
+			"ID": "20220830185728-jzius54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830185728-jzius54",
+				"updated": "20220830185800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BCG 矩阵的发明者、波士顿咨询公司的创始人布鲁斯（Bruce Henderson）认为：公司若要取得成功，必须拥有市场增长率和相对市占率各不相同的产品组合。于是他用这两个维度，画了一个“四象限法矩阵图”，并给这个矩阵中的四象限各取了形象的名字："
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "金牛"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "明星"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "问题"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "和"
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "瘦狗"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220830185800-eg64dkf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830185800-eg64dkf",
+				"updated": "20220830191449"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220830191449-htgz12o.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220830191511-6hpi29h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220830191511-6hpi29h",
+				"updated": "20220830191827"
+			},
+			"Children": [
+				{
+					"ID": "20220830191517-ivg6vl2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220830191517-ivg6vl2",
+						"updated": "20220830191517"
+					},
+					"Children": [
+						{
+							"ID": "20220830191517-fn48gbq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191517-fn48gbq",
+								"updated": "20220830191530"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "金牛业务"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191531-w7fg6hg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191531-w7fg6hg",
+								"updated": "20220830191636"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "金牛业务也被戏称为“印钞机”，它通常占有很高的相对市占率，因此市场增长率较低，比如微软的Windows 和 Office，谷歌 (Google) 的搜寻业务"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830191547-h5l7bp8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220830191547-h5l7bp8"
+					},
+					"Children": [
+						{
+							"ID": "20220830191547-5w13gkq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191547-5w13gkq",
+								"updated": "20220830191559"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "明星业务"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191601-0soqv2d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191601-0soqv2d",
+								"updated": "20220830191643"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "明星业务通常是很有前景的新兴业务，在快速增长的市场中，占有相对较高的市占率。比如卖书起家的亚马逊 (Amazon)，进入高速发展的云端运算业务，并占据行业领先地位。虽然刚开始不赚钱，甚至需要大量资金投入，但未来可能会带来巨额利润。一旦明星业务成为金牛，公司就会进入一个爆发期。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830191702-9qg5l7d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220830191702-9qg5l7d"
+					},
+					"Children": [
+						{
+							"ID": "20220830191703-6rxob6n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191703-6rxob6n",
+								"updated": "20220830191729"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "问题业务"
+										},
+										{
+											"Type": "NodeBr",
+											"Data": "br"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191703-jcawgga",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191703-jcawgga",
+								"updated": "20220830191746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "问题业务是一些相对市占率还不高，但市场增长率提高很快的业务。比如谷歌的人工智慧、机器人、无人驾驶等业务。之所以叫“问题业务”，是因为它们最终会变成明星业务、金牛业务，还是会死掉，是不确定的问题。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830191751-37g153e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220830191751-37g153e",
+						"updated": "20220830191827"
+					},
+					"Children": [
+						{
+							"ID": "20220830191802-t2phaxy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191802-t2phaxy",
+								"updated": "20220830191808"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "瘦狗业务"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191802-poormy0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191802-poormy0",
+								"updated": "20220830191827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "瘦狗业务是相对市占率很低， 增长机会有限，“食之无味， 弃之可惜”的业务。比如微软的智能手机、腾讯的微博、百度的电商。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830191917-pxxu3hu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830191917-pxxu3hu"
+			}
+		},
+		{
+			"ID": "20220830191908-cf1nah7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830191908-cf1nah7",
+				"updated": "20220830191921"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "回到最初的案例，咨询顾问提出的建议可以总结为以下四项。"
+				}
+			]
+		},
+		{
+			"ID": "20220830191908-zvmrz2v",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220830191908-zvmrz2v",
+				"updated": "20220830192018"
+			},
+			"Children": [
+				{
+					"ID": "20220830191927-uv2pwq8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220830191927-uv2pwq8",
+						"updated": "20220830191927"
+					},
+					"Children": [
+						{
+							"ID": "20220830191927-8qbx7tz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191927-8qbx7tz",
+								"updated": "20220830191929"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "发展策略"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191929-atgrm2m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191929-atgrm2m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将金牛业务的收益投入到问题业务中，以提高问题业务的相对市占率，使问题业务尽快成为明星业务。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830191942-wbxh90o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220830191942-wbxh90o"
+					},
+					"Children": [
+						{
+							"ID": "20220830191942-f290vok",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191942-f290vok",
+								"updated": "20220830191946"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "保持策略"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830191946-8g4qwlp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830191946-8g4qwlp",
+								"updated": "20220830191955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不轻易投资新方向，好好“养牛”，保持市占率，让金牛业务产生更多收益。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830192001-xog9mrr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220830192001-xog9mrr"
+					},
+					"Children": [
+						{
+							"ID": "20220830192001-8a1hnu1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830192001-8a1hnu1",
+								"updated": "20220830192004"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "收割策略"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830192004-0maoyjt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830192004-0maoyjt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对强大的替代产品已经出现的金牛业务，比如柯达的底片相机，以及发展前景不佳的问题业务和瘦狗业务，尽可能快速的收割短期利益，然后准备放弃。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220830192016-dd8ojym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220830192016-dd8ojym",
+						"updated": "20220830192018"
+					},
+					"Children": [
+						{
+							"ID": "20220830192016-xff3pqg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830192016-xff3pqg",
+								"updated": "20220830192018"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "放弃策略"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220830192018-q5txsq3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220830192018-q5txsq3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "对于无利可图的瘦狗业务，果断清理、撤销、出售，把资源用在其他有前景的业务上。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220830192025-tjp9lrw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830192025-tjp9lrw"
+			}
+		},
+		{
+			"ID": "20220830191908-709yron",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830191908-709yron",
+				"updated": "20220830192042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每家全球知名的咨询公司都有自己的看家本领和“行话”，比如麦肯锡的金字塔原理、波特的五力分析、捷克．屈特 (Jack Trout) 的定位理论、布鲁斯的 BCG 矩阵等。"
+				}
+			]
+		},
+		{
+			"ID": "20220830192044-deo4ptt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220830192044-deo4ptt",
+				"updated": "20220830192051"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学会用 BCG 矩阵的术语和咨询顾问对答如流还不够，更重要的是，可以自己分析业务组合，思考策略问题。"
+				}
+			]
+		}
+	]
+}

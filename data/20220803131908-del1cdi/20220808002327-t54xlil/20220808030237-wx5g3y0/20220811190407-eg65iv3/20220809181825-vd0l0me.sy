@@ -3,9 +3,9 @@
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220809181825-vd0l0me",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220810101312-273paqe\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220810133822-y39dr0q\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220810101312-273paqe\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220810133822-y39dr0q\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220828230438-u2curip\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
 		"title": "快捷键",
-		"updated": "20220811190427"
+		"updated": "20220828230438"
 	},
 	"Children": [
 		{
@@ -2167,7 +2167,7 @@
 			"Properties": {
 				"colgroup": "|",
 				"id": "20220810132425-i2g2l2k",
-				"updated": "20220810133340"
+				"updated": "20220828230158"
 			},
 			"Children": [
 				{
@@ -2981,10 +2981,10 @@
 			]
 		},
 		{
-			"ID": "20220810133640-hq5fqni",
+			"ID": "20220828230438-u2curip",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220810133640-hq5fqni"
+				"id": "20220828230438-u2curip"
 			}
 		},
 		{
