@@ -1,0 +1,115 @@
+{
+	"ID": "20221110180142-pem7njs",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110180142-pem7njs",
+		"title": "MySQL",
+		"updated": "20221110180621"
+	},
+	"Children": [
+		{
+			"ID": "20221110180544-kbxamqd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110180544-kbxamqd",
+				"updated": "20221110180544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. docker-compose.yml"
+				}
+			]
+		},
+		{
+			"ID": "20221110180544-ubw07sy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110180544-ubw07sy",
+				"updated": "20221110180544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. Standalon"
+				}
+			]
+		},
+		{
+			"ID": "20221110180142-mctk7cz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110180142-mctk7cz",
+				"updated": "20221110180358"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eW1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: \"3.9\"\nservices:\n  percona:\n    image: percona:8\n    container_name: percona\n    restart: always\n    environment:\n      MYSQL_ROOT_PASSWORD: root\n    ports:\n      - 3306:3306\n    volumes:\n      - percona_data:/var/lib/mysql\n      - ./log:/var/log/mysql/\n      - ./my.cnf:/etc/my.cnf:ro\n    networks:\n      - percona_network\nnetworks:\n  percona_network:\n    external: false\nvolumes:\n  percona_data:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110180454-9vypfbn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110180454-9vypfbn",
+				"updated": "20221110180554"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221110180554-zxfr7hy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110180554-zxfr7hy",
+				"updated": "20221110180621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "assets/my-20221110180511-uvhaiar.cnf",
+					"TextMarkTextContent": "my.cnf"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221110180546-zbq8ebt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110180546-zbq8ebt"
+			}
+		}
+	]
+}

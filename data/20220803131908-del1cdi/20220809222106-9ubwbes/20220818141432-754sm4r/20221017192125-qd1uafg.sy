@@ -1,0 +1,1604 @@
+{
+	"ID": "20221017192125-qd1uafg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f195",
+		"id": "20221017192125-qd1uafg",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221017192125-w79nql4\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221017192701-uqj1oh8\u0026quot;,\u0026quot;scrollTop\u0026quot;:2680,\u0026quot;focusId\u0026quot;:\u0026quot;20221017200217-janjq8k\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "新产品开发",
+		"updated": "20221017200631"
+	},
+	"Children": [
+		{
+			"ID": "20221017192125-w79nql4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192125-w79nql4",
+				"updated": "20221017192210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 什么是新产品开发"
+				}
+			]
+		},
+		{
+			"ID": "20221017192909-0sthkt7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017192909-0sthkt7",
+				"updated": "20221017193024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新产品开发是指从"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "研究选择适应市场需要的产品"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "开始到"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "产品设计"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "工艺制造设计"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，直到投入正常生产的一系列决策过程。从广义而言，新产品开发既包括新产品的研制也包括原有的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "老产品改进与换代"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。新产品开发是企业"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "研究与开发"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的重点内容，也是企业生存和发展的战略核心之一。"
+				}
+			]
+		},
+		{
+			"ID": "20221017193236-bqg7reg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193236-bqg7reg"
+			}
+		},
+		{
+			"ID": "20221017192221-p00j0jc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192221-p00j0jc",
+				"updated": "20221017192231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 新产品开发的分类"
+				}
+			]
+		},
+		{
+			"ID": "20221017193116-8m2sxpc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193116-8m2sxpc",
+				"updated": "20221017193936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了便于对新产品进行分析研究，可以从多个角度进行分类："
+				}
+			]
+		},
+		{
+			"ID": "20221017193937-hum0rzc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193937-hum0rzc"
+			}
+		},
+		{
+			"ID": "20221017193138-lgvsr09",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017193138-lgvsr09",
+				"updated": "20221017193209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 按新产品创新程序分类"
+				}
+			]
+		},
+		{
+			"ID": "20221017193755-nb1mqef",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017193755-nb1mqef",
+				"updated": "20221017193923"
+			},
+			"Children": [
+				{
+					"ID": "20221017193756-5n8rzia",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017193756-5n8rzia",
+						"updated": "20221017193756"
+					},
+					"Children": [
+						{
+							"ID": "20221017193756-wme1fq0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017193756-wme1fq0",
+								"updated": "20221017193814"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "全新新产品：是指利用全新的技术和原理生产出来的产品；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017193815-tn8mor1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017193815-tn8mor1"
+					},
+					"Children": [
+						{
+							"ID": "20221017193815-brj8zf5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017193815-brj8zf5",
+								"updated": "20221017193851"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "改进新产品：是指在原有产品的技术和原理的基础上，采用相应的改进技术，使外观、性能有一定进步的新产品；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017193906-2222owz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017193906-2222owz",
+						"updated": "20221017193923"
+					},
+					"Children": [
+						{
+							"ID": "20221017193906-4654qax",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017193906-4654qax",
+								"updated": "20221017193923"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "换代新产品：采用新技术、新结构、新方法或新材料在原有技术基础上有较大突破的新产品；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017193941-6g4l1wl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193941-6g4l1wl"
+			}
+		},
+		{
+			"ID": "20221017193212-zglv9gp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017193212-zglv9gp",
+				"updated": "20221017193231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 按新产品所在地的特征分类"
+				}
+			]
+		},
+		{
+			"ID": "20221017193943-sbueams",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017193943-sbueams",
+				"updated": "20221017194111"
+			},
+			"Children": [
+				{
+					"ID": "20221017193945-rhd1gnj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017193945-rhd1gnj",
+						"updated": "20221017193945"
+					},
+					"Children": [
+						{
+							"ID": "20221017193945-xu0zs7s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017193945-xu0zs7s",
+								"updated": "20221017194005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "地区或企业新产品：指在国内其他地区或企业已经生产但本地区或本企业初次生产和销售的产品；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194022-kh3v42a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017194022-kh3v42a"
+					},
+					"Children": [
+						{
+							"ID": "20221017194022-iagtv8d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194022-iagtv8d",
+								"updated": "20221017194038"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "国内新产品：指在国外已经试制成功但国内尚属首次生产和销售的产品；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194039-mgksmhz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017194039-mgksmhz",
+						"updated": "20221017194111"
+					},
+					"Children": [
+						{
+							"ID": "20221017194039-4tfz6it",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194039-4tfz6it",
+								"updated": "20221017194111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "国际新产品：指在世界范围内首次研制成功并投入生产和销售的产品；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017193944-wvk6lih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193944-wvk6lih"
+			}
+		},
+		{
+			"ID": "20221017193238-9ezgd2r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017193238-9ezgd2r",
+				"updated": "20221017193325"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 按新产品的开发方式分类"
+				}
+			]
+		},
+		{
+			"ID": "20221017194144-pn0meqo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017194144-pn0meqo",
+				"updated": "20221017194349"
+			},
+			"Children": [
+				{
+					"ID": "20221017194145-xvllnyb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017194145-xvllnyb",
+						"updated": "20221017194145"
+					},
+					"Children": [
+						{
+							"ID": "20221017194145-lx855zh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194145-lx855zh",
+								"updated": "20221017194205"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "技术引进新产品：是直接引进市场上已有的成熟技术制造的产品，这样可以避开自身开发能力较弱的难点；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194207-sy6e050",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017194207-sy6e050"
+					},
+					"Children": [
+						{
+							"ID": "20221017194207-icymm56",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194207-icymm56",
+								"updated": "20221017194318"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "独立开发新产品：是指从用户所需要的产品功能出发，探索能够满足功能需求的原理和结构，结合新技术、新材料的研究独立开发制造的产品；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194334-krdmrti",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017194334-krdmrti",
+						"updated": "20221017194349"
+					},
+					"Children": [
+						{
+							"ID": "20221017194334-czsexaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194334-czsexaj",
+								"updated": "20221017194349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "混合开发新产品：是指在新产品的开发过程中，既有直接引进的部分，又有独立开发的部分，将两者有机结合在一起而制造出的新产品；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017193326-phsb18y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017193326-phsb18y"
+			}
+		},
+		{
+			"ID": "20221017192233-qo4tf21",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192233-qo4tf21",
+				"updated": "20221017192244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 新产品开发的方向"
+				}
+			]
+		},
+		{
+			"ID": "20221017194500-eq3ol39",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017194500-eq3ol39",
+				"updated": "20221017194650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业开发新产品，把有限的人、财、物，有效地分配在急需的开发项目上，使新产品开发取得最佳效果，关键在于准确地确定新产品开发方向。由于"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "市场竞争"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "日益激烈，消费需求的复合化、微型化、智能化、艺术化等发展趋势，以及日益多样化和个性化，新产品开发呈现出"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "多能化"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "系列化"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20221017194501-j0k2p7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017194501-j0k2p7p",
+				"updated": "20221017194706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业在选择新产品开发方向时应考虑以下几点："
+				}
+			]
+		},
+		{
+			"ID": "20221017194718-j08csai",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017194718-j08csai",
+				"updated": "20221017195331"
+			},
+			"Children": [
+				{
+					"ID": "20221017194719-34ttedo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017194719-34ttedo",
+						"updated": "20221017194719"
+					},
+					"Children": [
+						{
+							"ID": "20221017194719-t4o2oxh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194719-t4o2oxh",
+								"updated": "20221017194816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考虑产品性质和用途：在进行新产品开发前，应充分考察同类产品和相应的替代产品的技术含量和性能用途，确保所开发产品的先进性或独创性，避免“新”产品自诞生之日起就被市场淘汰；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194816-63mexe9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017194816-63mexe9"
+					},
+					"Children": [
+						{
+							"ID": "20221017194816-fevyji3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194816-fevyji3",
+								"updated": "20221017194910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "考虑价格和销售量：系列化产品成本低，可以降价出售增加销售量，但是系列化产品单调，也可能影响销售量。因此，对系列化、多样化产品以及价格、销售之间的关系，要经过调查研究再加以确定；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017194910-jxl7bzw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017194910-jxl7bzw"
+					},
+					"Children": [
+						{
+							"ID": "20221017194910-rb4oc91",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017194910-rb4oc91",
+								"updated": "20221017195025"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "充分考虑消费者需求变化速度和变化方向：随着人们物质生活水平的提高，消费者的需求呈多样化趋势，并且变化速度很快。而开发一样新产品需要一定的时间，这个时间一定要比消费者需求变动的时间短，才能有市场，才能获得经济效益；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195053-wylr2td",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221017195053-wylr2td"
+					},
+					"Children": [
+						{
+							"ID": "20221017195053-11rze6a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195053-11rze6a",
+								"updated": "20221017195240"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "企业产品创新满足市场需求的能力：曾经代表中国民族通信旗帜的巨龙、大唐、中兴、华为四家企业，面对的市场机会差不多，起步差不多，但经过三四年时间，华为、中兴已远走在了前面，巨龙则几乎退出了通信市场。而决定四家企业差距的最关键因素就是各自推向市场的产品所包含的产品和技术创新的能力；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195310-8094hpg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221017195310-8094hpg",
+						"updated": "20221017195331"
+					},
+					"Children": [
+						{
+							"ID": "20221017195310-o4isxck",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195310-o4isxck",
+								"updated": "20221017195331"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "企业技术力量储备和产品开发团队建设；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017195051-no37nx5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195051-no37nx5"
+			}
+		},
+		{
+			"ID": "20221017192244-1tggayn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192244-1tggayn",
+				"updated": "20221017192259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. 新产品开发的基本方式"
+				}
+			]
+		},
+		{
+			"ID": "20221017195401-2pztqcn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195401-2pztqcn",
+				"updated": "20221017195405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "企业开发新产品，选择合适的方式很重要。选择得当，适合企业实际，就能少承担风险，易获成功。一般有独创方式、引进方式、结合方式和改进方式四种："
+				}
+			]
+		},
+		{
+			"ID": "20221017195407-g8ludna",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017195407-g8ludna",
+				"updated": "20221017195410"
+			},
+			"Children": [
+				{
+					"ID": "20221017195410-rfgzmyo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017195410-rfgzmyo",
+						"updated": "20221017195410"
+					},
+					"Children": [
+						{
+							"ID": "20221017195410-emj37tu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195410-emj37tu",
+								"updated": "20221017195522"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "独创方式：从长远考虑，企业开发新产品最根本的途径是自行设计、自行研制，即所谓独创方式。采用这种方式开发新产品，有利于产品更新换代及形成企业的技术优势，也有利于产品竞争。自行研制、开发产品需要企业建立一支实力雄厚的研发队伍、一个深厚的技术平台和一个科学、高效率的产品开发流程；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195430-3e1lzcb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017195430-3e1lzcb"
+					},
+					"Children": [
+						{
+							"ID": "20221017195430-b7zkf6s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195430-b7zkf6s",
+								"updated": "20221017195524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "引进方式：技术引进是开发新产品的一种常用方式。企业采用这种方式可以很快地掌握新产品制造技术，减少研制经费和投入的力量，从而赢得时间，缩短与其他企业的差距。但引进技术不利于形成企业的技术优势和企业产品的更新换代；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195448-6bdv8pd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017195448-6bdv8pd"
+					},
+					"Children": [
+						{
+							"ID": "20221017195448-k8fn5yd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195448-k8fn5yd",
+								"updated": "20221017195606"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "改进方式：这种方式是以企业的现有产品为基础，根据用户的需要，采取改变性能、变换型式或扩大用途等措施来开发新产品。采用这种方式可以依靠企业现有设备和技术力量，开发费用低，成功把握大。但是，长期采用改进方式开发新产品，会影响企业的发展速度；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195607-23cr0ow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221017195607-23cr0ow"
+					},
+					"Children": [
+						{
+							"ID": "20221017195607-2dbey3h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195607-2dbey3h",
+								"updated": "20221017195621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "结合方式：结合方式是独创与引进相结合方式；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017195623-balsn1y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195623-balsn1y",
+				"updated": "20221017195624"
+			}
+		},
+		{
+			"ID": "20221017192300-768m7au",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192300-768m7au",
+				"updated": "20221017192308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. 新产品开发的意义"
+				}
+			]
+		},
+		{
+			"ID": "20221017195702-jj09oya",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017195702-jj09oya",
+				"updated": "20221017195910"
+			},
+			"Children": [
+				{
+					"ID": "20221017195703-dp74rcx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017195703-dp74rcx",
+						"updated": "20221017195703"
+					},
+					"Children": [
+						{
+							"ID": "20221017195703-w9os83k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195703-w9os83k",
+								"updated": "20221017195711"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发可以成为竞争优势的源泉；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195719-u6d88yc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017195719-u6d88yc"
+					},
+					"Children": [
+						{
+							"ID": "20221017195719-tmw9b19",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195719-tmw9b19",
+								"updated": "20221017195743"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发可以加强战略优势；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195743-lfa7wzv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017195743-lfa7wzv"
+					},
+					"Children": [
+						{
+							"ID": "20221017195743-xkkosk1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195743-xkkosk1",
+								"updated": "20221017195801"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发能够增强企业形象；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195818-lt5ollf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221017195818-lt5ollf"
+					},
+					"Children": [
+						{
+							"ID": "20221017195818-0doguxr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195818-0doguxr",
+								"updated": "20221017195821"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发有利于保持企业研究开发能力；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195834-hi6dcj1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221017195834-hi6dcj1"
+					},
+					"Children": [
+						{
+							"ID": "20221017195834-bnguzkx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195834-bnguzkx",
+								"updated": "20221017195838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发可以充分利用生产和经营资源；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195850-jqh2pb4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221017195850-jqh2pb4"
+					},
+					"Children": [
+						{
+							"ID": "20221017195850-oiuert5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195850-oiuert5",
+								"updated": "20221017195853"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发可以提高品牌权益；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017195907-g10kvzx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221017195907-g10kvzx",
+						"updated": "20221017195910"
+					},
+					"Children": [
+						{
+							"ID": "20221017195907-1iufpzb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017195907-1iufpzb",
+								"updated": "20221017195910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发可以影响人力资源；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017195714-21idxoo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195714-21idxoo",
+				"updated": "20221017195715"
+			}
+		},
+		{
+			"ID": "20221017192317-4lsg0da",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192317-4lsg0da",
+				"updated": "20221017192329"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. 新产品开发的程序"
+				}
+			]
+		},
+		{
+			"ID": "20221017195917-ihv7d2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195917-ihv7d2g",
+				"updated": "20221017200034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新产品开发是一项极其复杂的工作，从根据用户需要提出设想到正式生产产品投放市场为止，其中经历许多阶段，涉及面广、科学性强、持续时间长，因此必须按照一定的程序开展工作，这些程序之间互相促进、互相制约，才能使产品开发工作协调、顺利地进行。产品开发的程序是指从提出产品构思到正式投入生产的整个过程。由于行业的差别和产品生产技术的不同特点，特别是选择产品开发方式的不同，新产品开发所经历的阶段和具体内容并不完全一样："
+				}
+			]
+		},
+		{
+			"ID": "20221017200034-2vx16gc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017200034-2vx16gc",
+				"updated": "20221017200631"
+			},
+			"Children": [
+				{
+					"ID": "20221017200038-gznpw38",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017200038-gznpw38",
+						"updated": "20221017200038"
+					},
+					"Children": [
+						{
+							"ID": "20221017200038-zsiqine",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200038-zsiqine",
+								"updated": "20221017200102"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调查研究阶段："
+								}
+							]
+						},
+						{
+							"ID": "20221017200149-wzg1p72",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200149-wzg1p72",
+								"updated": "20221017200159"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "发展新产品的目的，是为了满足社会和用户需要。用户的要求是新产品开发选择决策的主要依据。为此必须认真作好调查计划工作。这个阶段主要是提出新产品构思以及新产品的原理、结构、功能、材料和工艺方面的开发设想和总体方案"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017200145-6ax7jxl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017200145-6ax7jxl",
+						"updated": "20221017200610"
+					},
+					"Children": [
+						{
+							"ID": "20221017200145-8u97bl4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200145-8u97bl4",
+								"updated": "20221017200216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "构思创意阶段："
+								}
+							]
+						},
+						{
+							"ID": "20221017200219-t4peaas",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200219-t4peaas",
+								"updated": "20221017200253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品开发是一种创新活动，产品创意是开发新产品的关键。在这一阶段，要根据社会调查掌握的市场需求情况以及企业本身条件，充分考虑用户的使用要求和的动向，有针对性地提出开发新产品的设想和构思。产品创意对新产品能否开发成功有至关重要的意义和作用。企业新产品开发构思创意主要来自三个方面："
+								}
+							]
+						},
+						{
+							"ID": "20221017200300-cpdt94x",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221017200300-cpdt94x"
+							},
+							"Children": [
+								{
+									"ID": "20221017200259-tztn4mx",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221017200259-tztn4mx"
+									},
+									"Children": [
+										{
+											"ID": "20221017200259-q63nc0n",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200259-q63nc0n",
+												"updated": "20221017200311"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "来自用户：企业着手开发新产品，首先要通过各种渠道掌握用户的需求，了解用户在使用老产品过程中有哪些改进意见和新的需求，并在此基础上形成新产品开发创意；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221017200311-n5zan48",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221017200311-n5zan48"
+									},
+									"Children": [
+										{
+											"ID": "20221017200311-890jz7e",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200311-890jz7e",
+												"updated": "20221017200321"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "来自本企业职工：特别是销售人员和技术服务人员，经常接触用户，用户对老产品的改进意见与需求变化他们都比较清楚；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221017200317-g5k4tfk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221017200317-g5k4tfk"
+									},
+									"Children": [
+										{
+											"ID": "20221017200317-bqr0sde",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200317-bqr0sde",
+												"updated": "20221017200330"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "来自专业科研人员：科研人员具有比较丰富的专业理论和技术知识，要鼓励他们发扬这方面的专长，为企业提供新产品开发的创意。此外，企业还通过情报部门、工商管理部门、外贸等渠道，征集新产品开发创意；"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221017200411-r22i6s4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200411-r22i6s4",
+								"updated": "20221017200446"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品创意包括三个方面的内容：产品构思、构思筛选和产品概念的形成："
+								}
+							]
+						},
+						{
+							"ID": "20221017200510-xerju9i",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221017200510-xerju9i",
+								"updated": "20221017200610"
+							},
+							"Children": [
+								{
+									"ID": "20221017200510-cnpm1fk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221017200510-cnpm1fk"
+									},
+									"Children": [
+										{
+											"ID": "20221017200510-n8uzwsb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200510-n8uzwsb",
+												"updated": "20221017200519"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "产品构思：产品构思是在市场调查和技术分析的基础上，提出新产品的构想或有关产品改良的建议；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221017200520-6aay791",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221017200520-6aay791"
+									},
+									"Children": [
+										{
+											"ID": "20221017200520-ouvb33f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200520-ouvb33f",
+												"updated": "20221017200546"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "构思筛选：并非所有的产品构思都能发展成为新产品。有的产品构思可能很好，但与企业的发展目标不符合，也缺乏相应的资源条件；有的产品构思可能本身就不切实际，缺乏开发的可能性。因此，必须对产品构思进行筛选；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221017200558-1ir3v9o",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "My4=",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20221017200558-1ir3v9o",
+										"updated": "20221017200610"
+									},
+									"Children": [
+										{
+											"ID": "20221017200558-rxaf16t",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221017200558-rxaf16t",
+												"updated": "20221017200610"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "产品概念的形成：经过筛选后的构思仅仅是设计人员或管理者头脑中的概念，离产品还有相当的距离。还需要形成能够为消费者接受的、具体的产品概念。产品概念的形成过程实际上就是构思创意与消费者需求相结合的过程；"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017200217-psunayl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017200217-psunayl",
+						"updated": "20221017200631"
+					},
+					"Children": [
+						{
+							"ID": "20221017200217-janjq8k",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017200217-janjq8k",
+								"updated": "20221017200631"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新产品设计阶段"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017195918-sxg9dpp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017195918-sxg9dpp"
+			}
+		},
+		{
+			"ID": "20221017192329-5vy479b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192329-5vy479b",
+				"updated": "20221017192343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. 新产品开发的策略"
+				}
+			]
+		},
+		{
+			"ID": "20221017192353-78wizl5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192353-78wizl5",
+				"updated": "20221017192410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8. 成功开发的新产品应具有的特征"
+				}
+			]
+		},
+		{
+			"ID": "20221017192410-d0p65ek",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192410-d0p65ek",
+				"updated": "20221017192430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9. 保障新产品开发成功的措施"
+				}
+			]
+		},
+		{
+			"ID": "20221017192430-mtlsyas",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192430-mtlsyas",
+				"updated": "20221017192612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10. 缩短新产品开发周期的途径"
+				}
+			]
+		},
+		{
+			"ID": "20221017192701-uqj1oh8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221017192701-uqj1oh8",
+				"updated": "20221017192710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "11. 新产品开发时应注意的问题"
+				}
+			]
+		}
+	]
+}

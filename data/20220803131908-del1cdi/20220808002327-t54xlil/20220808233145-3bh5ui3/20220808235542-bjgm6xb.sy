@@ -1,5 +1,6 @@
 {
 	"ID": "20220808235542-bjgm6xb",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220808235542-bjgm6xb",
@@ -114,30 +115,10 @@
 							"Data": "对于 macOS 系统，如果 dlib 无法被当前的 C 编译器编译，可能意味着目前安装的 X-Code Command Line Tools 版本过高，需要降级。可以从 "
 						},
 						{
-							"Type": "NodeLink",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeLinkText",
-									"Data": "https://developer.apple.com/download/more/"
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://developer.apple.com/download/more/"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://developer.apple.com/download/more/",
+							"TextMarkTextContent": "https://developer.apple.com/download/more/"
 						},
 						{
 							"Type": "NodeText",

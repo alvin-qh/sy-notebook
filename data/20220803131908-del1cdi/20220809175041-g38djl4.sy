@@ -1,11 +1,12 @@
 {
 	"ID": "20220809175041-g38djl4",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220809175041-g38djl4",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220809175041-0a91s0q\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220809175041-0a91s0q\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220821233619-540gy30\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220809175041-0a91s0q\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220809175041-0a91s0q\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221110155043-mcqkq2n\u0026quot;,\u0026quot;focusStart\u0026quot;:6,\u0026quot;focusEnd\u0026quot;:6}",
 		"title": "开发相关",
-		"updated": "20220821233632"
+		"updated": "20221110155053"
 	},
 	"Children": [
 		{
@@ -14,7 +15,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220809175041-0a91s0q",
-				"updated": "20220821233632"
+				"updated": "20221110155053"
 			},
 			"Children": [
 				{
@@ -38,33 +39,11 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeBlockRef",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeBlockRefID",
-											"Data": "20220809175113-y8v2pr5"
-										},
-										{
-											"Type": "NodeBlockRefSpace"
-										},
-										{
-											"Type": "NodeBlockRefText",
-											"Data": "Ymal"
-										},
-										{
-											"Type": "NodeCloseParen"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20220809175113-y8v2pr5",
+									"TextMarkBlockRefSubtype": "s",
+									"TextMarkTextContent": "Ymal"
 								}
 							]
 						}
@@ -91,33 +70,11 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeBlockRef",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeBlockRefID",
-											"Data": "20220816163530-5yhzoqw"
-										},
-										{
-											"Type": "NodeBlockRefSpace"
-										},
-										{
-											"Type": "NodeBlockRefDynamicText",
-											"Data": "Network"
-										},
-										{
-											"Type": "NodeCloseParen"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20220816163530-5yhzoqw",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Network"
 								}
 							]
 						}
@@ -144,33 +101,11 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeBlockRef",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeBlockRefID",
-											"Data": "20220819154903-5crxyz2"
-										},
-										{
-											"Type": "NodeBlockRefSpace"
-										},
-										{
-											"Type": "NodeBlockRefDynamicText",
-											"Data": "DevOps"
-										},
-										{
-											"Type": "NodeCloseParen"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20220819154903-5crxyz2",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "DevOps"
 								}
 							]
 						}
@@ -197,33 +132,73 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeBlockRef",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeBlockRefID",
-											"Data": "20220821233632-z7qzbbz"
-										},
-										{
-											"Type": "NodeBlockRefSpace"
-										},
-										{
-											"Type": "NodeBlockRefDynamicText",
-											"Data": "权限系统"
-										},
-										{
-											"Type": "NodeCloseParen"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20220821233632-z7qzbbz",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "权限系统"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911231506-rbivsbs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911231506-rbivsbs",
+						"updated": "20220911231516"
+					},
+					"Children": [
+						{
+							"ID": "20220911231506-ix7leyo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911231506-ix7leyo",
+								"updated": "20220911231516"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20220911231516-asourrf",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "加密算法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110155043-chhdwve",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110155043-chhdwve",
+						"updated": "20221110155053"
+					},
+					"Children": [
+						{
+							"ID": "20221110155043-mcqkq2n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110155043-mcqkq2n",
+								"updated": "20221110155053"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110155053-bvj9e9v",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Docker"
 								}
 							]
 						}

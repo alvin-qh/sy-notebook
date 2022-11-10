@@ -1,0 +1,70 @@
+{
+	"ID": "20221110161428-27a01w1",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110161428-27a01w1",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221110172710-j5pdqkk\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221110161428-xgrfud7\u0026quot;,\u0026quot;scrollTop\u0026quot;:648,\u0026quot;focusId\u0026quot;:\u0026quot;20221110172710-z2lg0tb\u0026quot;,\u0026quot;focusStart\u0026quot;:23,\u0026quot;focusEnd\u0026quot;:23}",
+		"title": "Neo4j",
+		"updated": "20221110175538"
+	},
+	"Children": [
+		{
+			"ID": "20221110175538-olu6x88",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110175538-olu6x88",
+				"updated": "20221110175538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. docker-compose.yml"
+				}
+			]
+		},
+		{
+			"ID": "20221110175538-a3atxms",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110175538-a3atxms",
+				"updated": "20221110175538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. Standalon"
+				}
+			]
+		},
+		{
+			"ID": "20221110161428-xgrfud7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110161428-xgrfud7",
+				"updated": "20221110173649"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eW1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: \"3.9\"\nservices:\n  neo4j:\n    image: neo4j:4.1.4\n    container_name: neo4j\n    volumes:\n      - neo4j_data:/data\n      - neo4j_log:/logs\n      - ./conf:/var/lib/neo4j/conf   # conf, import and plugins need to create manually\n      - ./import:/var/lib/neo4j/import\n      - ./plugins:/plugins\n    environment:\n      - NEO4J_AUTH=neo4j/neo4j_\n      - NEO4J_dbms_security_auth_enabled=false\n    networks:\n      - neo4j_network\n    ports:\n      - 7474:7474\n      - 7687:7687\n      - 7473:7473\n    ulimits:\n      nproc: 65535\n      nofile:\n        soft: 65536\n        hard: 65536\nnetworks:\n  neo4j_network:\nvolumes:\n  neo4j_data:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  neo4j_log:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

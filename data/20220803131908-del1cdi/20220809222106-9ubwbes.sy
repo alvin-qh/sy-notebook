@@ -1,11 +1,12 @@
 {
 	"ID": "20220809222106-9ubwbes",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220809222106-9ubwbes",
-		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220809222106-gw63bde\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220809222106-gw63bde\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220818141352-mpzj5iy\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:4,\u0026amp;quot;focusEnd\u0026amp;quot;:4}",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220809222106-gw63bde\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220921130058-x37zmcw\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220921130058-x37zmcw\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "研发管理",
-		"updated": "20220818141432"
+		"updated": "20220921130058"
 	},
 	"Children": [
 		{
@@ -124,6 +125,13 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220921130058-x37zmcw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220921130058-x37zmcw"
+			}
 		}
 	]
 }

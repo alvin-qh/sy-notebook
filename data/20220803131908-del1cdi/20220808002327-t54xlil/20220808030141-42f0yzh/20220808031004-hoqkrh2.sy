@@ -1,37 +1,31 @@
 {
 	"ID": "20220808031004-hoqkrh2",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220808031004-hoqkrh2",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220808031004-4v968yo\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220911224051-6vzate9\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220911223550-uqboqct\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:10,\u0026amp;quot;focusEnd\u0026amp;quot;:10}",
 		"title": "使用技巧",
-		"updated": "20220808031231"
+		"updated": "20221024210117"
 	},
 	"Children": [
 		{
 			"ID": "20220808031004-4v968yo",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20220808031004-4v968yo",
-				"updated": "20220808031225"
+				"updated": "20221024210044"
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "重置 Appx 应用"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "重置 Appx 应用"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（慎用）"
 				}
 			]
 		},
@@ -41,7 +35,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20220808031029-f3n1qp8",
-				"updated": "20220808031031"
+				"updated": "20220911223504"
 			},
 			"Children": [
 				{
@@ -63,77 +57,539 @@
 			]
 		},
 		{
-			"ID": "20220808031038-jgp78hd",
-			"Type": "NodeParagraph",
+			"ID": "20220911223446-3vbfx62",
+			"Type": "NodeBlockquote",
 			"Properties": {
-				"id": "20220808031038-jgp78hd",
-				"updated": "20220808031230"
+				"id": "20220911223446-3vbfx62",
+				"updated": "20220911224844"
 			},
 			"Children": [
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220911224833-s509fd3",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220911224833-s509fd3",
+						"updated": "20220911224844"
+					},
 					"Children": [
 						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
 							"Type": "NodeText",
-							"Data": "清理 WinSxS 目录"
+							"Data": "⚠"
 						},
 						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "使用结束后一定要第一时间重新录入登录信息（PIN 码，指纹，面部识别等），否则重启后可能会导致因用户信息丢而失无法登录 Windows"
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20220808031150-07xa8gk",
+			"ID": "20220911224726-wm2lt3p",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220808031150-07xa8gk",
+				"id": "20220911224726-wm2lt3p"
+			}
+		},
+		{
+			"ID": "20220911223518-hnwvprh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220911223518-hnwvprh",
+				"updated": "20221024210046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "DISM.exe"
+				}
+			]
+		},
+		{
+			"ID": "20220911223537-0nzytwi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220911223537-0nzytwi",
 				"updated": "20220808031153"
 			},
 			"Children": [
 				{
-					"Type": "NodeBlockRef",
-					"Data": "span",
+					"ID": "20220911223622-tk8rbjh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911223622-tk8rbjh"
+					},
 					"Children": [
 						{
-							"Type": "NodeOpenParen"
+							"ID": "20220911223622-0pk81ml",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911223622-0pk81ml",
+								"updated": "20220911223706"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看 Windows 映像版本"
+								}
+							]
 						},
 						{
-							"Type": "NodeOpenParen"
+							"ID": "20220911223652-a10m7y2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911223652-a10m7y2",
+								"updated": "20220911223833"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism /Online /Get-CurrentEdition\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911223538-pzlbiy8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911223538-pzlbiy8",
+						"updated": "20220911223538"
+					},
+					"Children": [
+						{
+							"ID": "20220911223538-q00uwsp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911223538-q00uwsp",
+								"updated": "20220911223709"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查 Windows 映像完整性"
+								}
+							]
 						},
 						{
-							"Type": "NodeBlockRefID",
-							"Data": "20220808030403-30m1stk"
+							"ID": "20220911223550-uqboqct",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911223550-uqboqct",
+								"updated": "20220911223555"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism /Online /Cleanup-Image /ScanHealth\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911223602-b368b43",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911223602-b368b43"
+					},
+					"Children": [
+						{
+							"ID": "20220911223602-hxrno14",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911223602-hxrno14",
+								"updated": "20220911223738"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "查看 Windows 映像损坏程度"
+								}
+							]
 						},
 						{
-							"Type": "NodeBlockRefSpace"
+							"ID": "20220911223752-ih2k4kq",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911223752-ih2k4kq",
+								"updated": "20220911223801"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism /Online /Cleanup-Image /CheckHealth\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911223739-yhoa4vm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911223739-yhoa4vm"
+					},
+					"Children": [
+						{
+							"ID": "20220911223739-6rdrup8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911223739-6rdrup8",
+								"updated": "20220911223750"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "修复损坏的 Windows 映像"
+								}
+							]
 						},
 						{
-							"Type": "NodeBlockRefDynamicText",
-							"Data": "How to Clean Up Component Store (WinSxS folder) in Windows 10"
+							"ID": "20220911223804-t2anma7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911223804-t2anma7",
+								"updated": "20220911223828"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism /Online /Cleanup-image /Restorehealth\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911224226-xi3ifu3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911224226-xi3ifu3",
+						"updated": "20220808031153"
+					},
+					"Children": [
+						{
+							"ID": "20220911224226-0xd1dyx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911224226-0xd1dyx",
+								"updated": "20220911224307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删除被更新的 WinSxS 组件"
+								}
+							]
 						},
 						{
-							"Type": "NodeCloseParen"
+							"ID": "20220911224308-au3y6rb",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911224308-au3y6rb",
+								"updated": "20220911224318"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "dism /Online /Cleanup-Image /StartComponentCleanup /ResetBase\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
 						},
 						{
-							"Type": "NodeCloseParen"
+							"ID": "20220808031150-07xa8gk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220808031150-07xa8gk",
+								"updated": "20220808031153"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockRef",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeBlockRefID",
+											"Data": "20220808030403-30m1stk"
+										},
+										{
+											"Type": "NodeBlockRefSpace"
+										},
+										{
+											"Type": "NodeBlockRefDynamicText",
+											"Data": "How to Clean Up Component Store (WinSxS folder) in Windows 10"
+										},
+										{
+											"Type": "NodeCloseParen"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								}
+							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20220808031231-kji9kp2",
+			"ID": "20220911223512-4vlz8qc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220808031231-kji9kp2"
+				"id": "20220911223512-4vlz8qc",
+				"updated": "20220911223847"
+			}
+		},
+		{
+			"ID": "20220911223847-buax4i2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220911223847-buax4i2",
+				"updated": "20221024210049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SFC.exe"
+				}
+			]
+		},
+		{
+			"ID": "20220911223946-z0p5nss",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911223946-z0p5nss",
+				"updated": "20220911223952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "系统文件检查器 (sfc.exe) ，它是一个命令行实用工具，用于 Windows 文件保护 (WFP) 功能"
+				}
+			]
+		},
+		{
+			"ID": "20220911224002-eyqb3k5",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220911224002-eyqb3k5",
+				"updated": "20220911224003"
+			},
+			"Children": [
+				{
+					"ID": "20220911224003-94kka18",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911224003-94kka18",
+						"updated": "20220911224003"
+					},
+					"Children": [
+						{
+							"ID": "20220911224003-tnetrx8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911224003-tnetrx8",
+								"updated": "20220911224013"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "检查保护文件完整性"
+								}
+							]
+						},
+						{
+							"ID": "20220911224015-7uclj32",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"Properties": {
+								"id": "20220911224015-7uclj32",
+								"updated": "20220911224027"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```"
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "sfc /scannow\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220911224051-6vzate9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911224051-6vzate9"
+			}
+		},
+		{
+			"ID": "20221024210029-hjnn413",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221024210029-hjnn413",
+				"updated": "20221024210056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改锁屏时间"
+				}
+			]
+		},
+		{
+			"ID": "20221024210059-xalrdzr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024210059-xalrdzr",
+				"updated": "20221024210114"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "cG93ZXJzaGVsbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "powercfg -change -monitor-timeout-dc \u003cminutes\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024210117-o167bio",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024210117-o167bio"
 			}
 		}
 	]

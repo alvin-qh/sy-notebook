@@ -1,0 +1,111 @@
+{
+	"ID": "20221110173524-3umzpbz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110173524-3umzpbz",
+		"title": "Elasticsearch",
+		"updated": "20221110175047"
+	},
+	"Children": [
+		{
+			"ID": "20221110174728-hgsaju9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110174728-hgsaju9",
+				"updated": "20221110175044"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. docker-compose.yml"
+				}
+			]
+		},
+		{
+			"ID": "20221110173537-q5ycjvy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110173537-q5ycjvy",
+				"updated": "20221110175047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. Standalon"
+				}
+			]
+		},
+		{
+			"ID": "20221110173609-1dhdu41",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110173609-1dhdu41",
+				"updated": "20221110173615"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eW1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: \"3.9\"\nservices:\n  es:\n    image: elasticsearch:7.16.2\n    container_name: es\n    environment:\n      - node.name=es\n      - discovery.type=single-node\n      - bootstrap.memory_lock=true\n      # - xpack.security.enabled=true\n      # - xpack.security.audit.enabled=true\n      - \"ES_JAVA_OPTS=-Xms512m -Xmx512m\"\n    ports:\n      - 9200:9200\n      - 9300:9300\n    networks:\n      - es_network\n    volumes:\n      - es_log:/usr/share/elasticsearch/logs\n      - es_data:/usr/share/elasticsearch/data\n      - ./es_plugins:/usr/share/elasticsearch/plugins\n      # - ./elasticsearch.keystore:/usr/share/elasticsearch/config/elasticsearch.keystore\n    ulimits:\n      memlock:\n        soft: -1\n        hard: -1\n      nofile:\n        soft: 65536\n        hard: 65536\n    restart: always\n    privileged: true\n  kibana:\n    image: kibana:7.16.2\n    container_name: kibana\n    depends_on:\n      - es\n    environment:\n      - SERVER_NAME=kibana\n      - ELASTICSEARCH_HOSTS=[\"http://es:9200\"]\n      # - MONITORING_UI_CONTAINER_ELASTICSEARCH_ENABLED=true\n      # - ELASTICSEARCH_USERNAME=elastic\n      # - ELASTICSEARCH_PASSWORD=dQUtviHdUCryzvBVLR8O\n    ports:\n      - 5601:5601\n    networks:\n      - es_network\n    # volumes:\n    #   - \"./kibana.keystore:/usr/share/kibana/config/kibana.keystore\"\n    #   - \"./kibana.yml:/usr/share/kibana/config/kibana.yml:ro\"\n    restart: always\n    privileged: true\nnetworks:\n  es_network:\nvolumes:\n  es_data:\n    # name: es_data # 使用实际分配的卷\n    driver_opts: # 使用临时卷\n      type: tmpfs\n      device: tmpfs\n  es_log:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110173752-bw5hq5c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110173752-bw5hq5c",
+				"updated": "20221110173938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. Cluster"
+				}
+			]
+		},
+		{
+			"ID": "20221110173938-8tt8nk3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110173938-8tt8nk3",
+				"updated": "20221110173945"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eW1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: \"3.9\"\nservices:\n  es1:\n    image: elasticsearch:7.16.2\n    container_name: es1\n    environment:\n      - node.name=es1\n      - network.host=es1\n      - discovery.seed_hosts=es1,es2,es3\n      - cluster.initial_master_nodes=es1,es2\n      - cluster.name=docker-cluster\n      - bootstrap.memory_lock=true\n      - ES_JAVA_OPTS=-Xms512m -Xmx512m\n      - ES_JAVA_OPTS=-Des.transport.cname_in_publish_address=true  # disable warning\n    ports:\n      - 9200:9200\n      - 9300:9300\n    networks:\n      - es_network\n    volumes:\n      - ./plugins:/usr/share/elasticsearch/plugins\n      - es_log1:/usr/share/elasticsearch/logs\n      - es_data1:/usr/share/elasticsearch/data\n    ulimits:\n      memlock:\n        soft: -1\n        hard: -1\n      nofile:\n        soft: 65536\n        hard: 65536\n    restart: always\n    privileged: true\n  es2:\n    image: elasticsearch:7.16.2\n    container_name: es2\n    environment:\n      - node.name=es2\n      - discovery.seed_hosts=es1,es2,es3\n      - cluster.initial_master_nodes=es1,es2\n      - cluster.name=docker-cluster\n      - bootstrap.memory_lock=true\n      - ES_JAVA_OPTS=-Xms512m -Xmx512m\n    ports:\n      - 9201:9200\n      - 9301:9300\n    networks:\n      - es_network\n    volumes:\n      - ./plugins:/usr/share/elasticsearch/plugins\n      - es_log2:/usr/share/elasticsearch/logs\n      - es_data2:/usr/share/elasticsearch/data\n    ulimits:\n      memlock:\n        soft: -1\n        hard: -1\n      nofile:\n        soft: 65536\n        hard: 65536\n    restart: always\n    privileged: true\n  es3:\n    image: elasticsearch:7.16.2\n    container_name: es3\n    environment:\n      - node.name=es3\n      - discovery.seed_hosts=es1,es2,es3\n      - cluster.initial_master_nodes=es1,es2\n      - cluster.name=docker-cluster\n      - bootstrap.memory_lock=true\n      - ES_JAVA_OPTS=-Xms512m -Xmx512m\n    ports:\n      - 9202:9200\n      - 9302:9300\n    networks:\n      - es_network\n    volumes:\n      - ./plugins:/usr/share/elasticsearch/plugins\n      - es_log3:/usr/share/elasticsearch/logs\n      - es_data3:/usr/share/elasticsearch/data\n    ulimits:\n      memlock:\n        soft: -1\n        hard: -1\n      nofile:\n        soft: 65536\n        hard: 65536\n    restart: always\n    privileged: true\n  kibana:\n    image: kibana:7.16.2\n    container_name: kibana\n    depends_on:\n      - es1\n      - es2\n      - es3\n    environment:\n      - SERVER_NAME=kibana\n      - ELASTICSEARCH_HOSTS=[\"http://es1:9200\",\"http://es2:9200\",\"http://es3:9200\"]\n    ports:\n      - 5601:5601\n    networks:\n      - es_network\n    restart: always\n    privileged: true\nnetworks:\n  es_network:\nvolumes:\n  es_data1:\n    # name: es_data1 # 使用实际分配的卷\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  es_log1:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  es_data2:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  es_log2:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  es_data3:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  es_log3:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

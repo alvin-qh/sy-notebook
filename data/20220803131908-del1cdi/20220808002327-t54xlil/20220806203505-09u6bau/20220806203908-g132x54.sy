@@ -1,5 +1,6 @@
 {
 	"ID": "20220806203908-g132x54",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220806203908-g132x54",
@@ -199,20 +200,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "android_sdk/platform-tools/"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "android_sdk/platform-tools/"
 								}
 							]
 						},
@@ -287,34 +277,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "brew cask install android-platform-tools",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "brew cask install android-platform-tools"
 								}
 							]
 						}
@@ -388,40 +356,18 @@
 									"Data": "启动⼀个 ADB 客户端时，此客户端首先检查是否有已运行的 ADB 服务器进程。如果没有，它将启动服务器进程。当服务器启动时，它与本地 TCP 端口"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5037"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5037"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "绑定，并侦听从 ADB 客户端发送的命令。所有 ADB 客户端均使⽤端口"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5037"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5037"
 								},
 								{
 									"Type": "NodeText",
@@ -460,40 +406,18 @@
 									"Data": "服务器设置与所有运行的模拟器/设备实例的连接。它通过扫描"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5555"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5555"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "到"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5585"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5585"
 								},
 								{
 									"Type": "NodeText",
@@ -532,120 +456,54 @@
 									"Data": "服务器和模拟器/设备连接时使⽤两个（⼀组）端口进行。一个奇数的"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5555"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5555"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "，先建立 ADBServer 与 ADB Daemon 的调试专⽤的连接；⼀个为偶数的"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5554"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5554"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "，再建立与 Emulator（或 Device）实例的连接。ADB Server 通过扫描"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5555~5585"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5555~5585"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "之间的奇数端口搜索 ADB Daemon，进行 ADB 连接；⽽⽤相应的偶数端口（奇数端口号减"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "1"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "，如"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5555"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5555"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "对应"
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "5554"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "5554"
 								},
 								{
 									"Type": "NodeText",
@@ -726,33 +584,12 @@
 									}
 								},
 								{
-									"Type": "NodeStrong",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeText",
-											"Data": "USB 调试",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "USB 调试"
 								},
 								{
 									"Type": "NodeText",
@@ -762,55 +599,12 @@
 									}
 								},
 								{
-									"Type": "NodeEmphasis",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeStrong",
-											"Properties": {
-												"id": ""
-											},
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeText",
-													"Data": "Settings",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												}
-											]
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "em strong",
+									"TextMarkTextContent": "Settings"
 								},
 								{
 									"Type": "NodeText",
@@ -820,55 +614,12 @@
 									}
 								},
 								{
-									"Type": "NodeEmphasis",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeStrong",
-											"Properties": {
-												"id": ""
-											},
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeText",
-													"Data": "About Phone",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												}
-											]
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "em strong",
+									"TextMarkTextContent": "About Phone"
 								},
 								{
 									"Type": "NodeText",
@@ -878,55 +629,12 @@
 									}
 								},
 								{
-									"Type": "NodeEmphasis",
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeEmA6kOpenMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeStrong",
-											"Properties": {
-												"id": ""
-											},
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeText",
-													"Data": "Build Number",
-													"Properties": {
-														"id": ""
-													}
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**",
-													"Properties": {
-														"id": ""
-													}
-												}
-											]
-										},
-										{
-											"Type": "NodeEmA6kCloseMarker",
-											"Data": "*",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "em strong",
+									"TextMarkTextContent": "Build Number"
 								},
 								{
 									"Type": "NodeText",
@@ -1279,34 +987,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "devices",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "devices"
 				},
 				{
 					"Type": "NodeText",
@@ -1471,34 +1157,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "serial_number",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "serial_number"
 								},
 								{
 									"Type": "NodeText",
@@ -1508,34 +1172,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "type-console-port",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "type-console-port"
 								}
 							]
 						}
@@ -1573,34 +1215,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "state",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "state"
 								},
 								{
 									"Type": "NodeText",
@@ -1651,34 +1271,12 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Type": "NodeTextMark",
 													"Properties": {
 														"id": ""
 													},
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "offline",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														}
-													]
+													"TextMarkType": "code",
+													"TextMarkTextContent": "offline"
 												},
 												{
 													"Type": "NodeText",
@@ -1716,34 +1314,12 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Type": "NodeTextMark",
 													"Properties": {
 														"id": ""
 													},
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "device",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														}
-													]
+													"TextMarkType": "code",
+													"TextMarkTextContent": "device"
 												},
 												{
 													"Type": "NodeText",
@@ -1781,34 +1357,12 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeCodeSpan",
-													"CodeMarkerLen": 1,
+													"Type": "NodeTextMark",
 													"Properties": {
 														"id": ""
 													},
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "no device",
-															"Properties": {
-																"id": ""
-															}
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker",
-															"Data": "`",
-															"Properties": {
-																"id": ""
-															}
-														}
-													]
+													"TextMarkType": "code",
+													"TextMarkTextContent": "no device"
 												},
 												{
 													"Type": "NodeText",
@@ -1865,34 +1419,12 @@
 					}
 				},
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "forward",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "forward"
 				},
 				{
 					"Type": "NodeText",
@@ -2016,20 +1548,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "d"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "d"
 								},
 								{
 									"Type": "NodeText",
@@ -2060,20 +1581,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "e"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "e"
 								},
 								{
 									"Type": "NodeText",
@@ -2104,62 +1614,27 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "s"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "s"
 								},
 								{
 									"Type": "NodeText",
 									"Data": ": "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "serial_number"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "serial_number"
 								},
 								{
 									"Type": "NodeText",
 									"Data": "，连接指定的"
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "设备/模拟器"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "设备/模拟器"
 								}
 							]
 						},
@@ -2390,20 +1865,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "logcat [option] [filter-specs]"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "logcat [option] [filter-specs]"
 								}
 							]
 						},
@@ -2464,80 +1928,36 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "bugreport"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "bugreport"
 												},
 												{
 													"Type": "NodeText",
 													"Data": ": 将 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "dumpsys"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "dumpsys"
 												},
 												{
 													"Type": "NodeText",
 													"Data": "、"
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "dumpstate"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "dumpstate"
 												},
 												{
 													"Type": "NodeText",
 													"Data": " 和 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "logcat"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "logcat"
 												},
 												{
 													"Type": "NodeText",
@@ -2568,40 +1988,18 @@
 											},
 											"Children": [
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "jdwp"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "jdwp"
 												},
 												{
 													"Type": "NodeText",
 													"Data": ": 输出给定设备上可⽤的 "
 												},
 												{
-													"Type": "NodeCodeSpan",
-													"Data": "code",
-													"Children": [
-														{
-															"Type": "NodeCodeSpanOpenMarker"
-														},
-														{
-															"Type": "NodeCodeSpanContent",
-															"Data": "JDWP"
-														},
-														{
-															"Type": "NodeCodeSpanCloseMarker"
-														}
-													]
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "JDWP"
 												},
 												{
 													"Type": "NodeText",
@@ -2669,20 +2067,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "install"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "install"
 								}
 							]
 						},
@@ -2757,20 +2144,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "pull"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "pull"
 								}
 							]
 						},
@@ -2845,20 +2221,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "push"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "push"
 								}
 							]
 						},
@@ -2924,34 +2289,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "forward",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "forward"
 				},
 				{
 					"Type": "NodeText",
@@ -3002,34 +2345,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "tcp",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "tcp"
 								},
 								{
 									"Type": "NodeText",
@@ -3067,34 +2388,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "local",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "local"
 								},
 								{
 									"Type": "NodeText",
@@ -3132,34 +2431,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "dev",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "dev"
 								},
 								{
 									"Type": "NodeText",
@@ -3197,34 +2474,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "jdwp",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "jdwp"
 								},
 								{
 									"Type": "NodeText",
@@ -3301,34 +2556,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "get-serialno",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "get-serialno"
 								},
 								{
 									"Type": "NodeText",
@@ -3366,34 +2599,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "get-state",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "get-state"
 								},
 								{
 									"Type": "NodeText",
@@ -3431,40 +2642,18 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "wait-for-device"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "wait-for-device"
 								},
 								{
 									"Type": "NodeText",
 									"Data": ": 阻⽌执行，直⾄至设备处于在线状态，即直⾄至此实例状态为 "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "device"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "device"
 								}
 							]
 						},
@@ -3561,34 +2750,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "start-server",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "start-server"
 								}
 							]
 						}
@@ -3619,34 +2786,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "kill-server",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "kill-server"
 								}
 							]
 						}
@@ -3716,34 +2861,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "shell",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "shell"
 								},
 								{
 									"Type": "NodeText",
@@ -3753,34 +2876,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/system/bin/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/system/bin/"
 								}
 							]
 						}
@@ -3818,34 +2919,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Control + D",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Control + D"
 								},
 								{
 									"Type": "NodeText",
@@ -3855,34 +2934,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "exit",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "exit"
 								},
 								{
 									"Type": "NodeText",
@@ -4605,33 +3662,12 @@
 					}
 				},
 				{
-					"Type": "NodeStrong",
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeText",
-							"Data": "软件包管理器",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "软件包管理器"
 				},
 				{
 					"Type": "NodeText",
@@ -4673,34 +3709,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "list packages [options] filter",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "list packages [options] filter"
 				},
 				{
 					"Type": "NodeText",
@@ -4751,34 +3765,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "f",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "f"
 								},
 								{
 									"Type": "NodeText",
@@ -4816,34 +3808,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "d",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "d"
 								},
 								{
 									"Type": "NodeText",
@@ -4881,34 +3851,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "e",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "e"
 								},
 								{
 									"Type": "NodeText",
@@ -4946,34 +3894,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "s",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "s"
 								},
 								{
 									"Type": "NodeText",
@@ -5011,20 +3937,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "3"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "3"
 								},
 								{
 									"Type": "NodeText",
@@ -5086,34 +4001,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "i",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "i"
 								},
 								{
 									"Type": "NodeText",
@@ -5151,34 +4044,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "u",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "u"
 								},
 								{
 									"Type": "NodeText",
@@ -5357,34 +4228,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "l",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "l"
 								},
 								{
 									"Type": "NodeText",
@@ -5422,34 +4271,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "r",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "r"
 								},
 								{
 									"Type": "NodeText",
@@ -5487,34 +4314,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "t",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "t"
 								},
 								{
 									"Type": "NodeText",
@@ -5552,34 +4357,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "i installer_package_name",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "i installer_package_name"
 								},
 								{
 									"Type": "NodeText",
@@ -5617,34 +4400,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "s",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "s"
 								},
 								{
 									"Type": "NodeText",
@@ -5682,34 +4443,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "f",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "f"
 								},
 								{
 									"Type": "NodeText",
@@ -5747,34 +4486,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "d",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "d"
 								},
 								{
 									"Type": "NodeText",
@@ -5812,34 +4529,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "g",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "g"
 								},
 								{
 									"Type": "NodeText",
@@ -5933,34 +4628,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "k",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
 								},
 								{
 									"Type": "NodeText",
@@ -6174,34 +4847,12 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeCodeSpan",
-					"CodeMarkerLen": 1,
+					"Type": "NodeTextMark",
 					"Properties": {
 						"id": ""
 					},
-					"Children": [
-						{
-							"Type": "NodeCodeSpanOpenMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanContent",
-							"Data": "screenrecord [options] \u003cfilename\u003e",
-							"Properties": {
-								"id": ""
-							}
-						},
-						{
-							"Type": "NodeCodeSpanCloseMarker",
-							"Data": "`",
-							"Properties": {
-								"id": ""
-							}
-						}
-					]
+					"TextMarkType": "code",
+					"TextMarkTextContent": "screenrecord [options] \u0026lt;filename\u0026gt;"
 				},
 				{
 					"Type": "NodeText",
@@ -6252,34 +4903,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-help",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-help"
 								},
 								{
 									"Type": "NodeText",
@@ -6317,34 +4946,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-size widthxheight",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-size widthxheight"
 								},
 								{
 									"Type": "NodeText",
@@ -6382,20 +4989,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-bit-rate \u003crate\u003e"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-bit-rate \u0026lt;rate\u0026gt;"
 								},
 								{
 									"Type": "NodeText",
@@ -6464,20 +5060,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-time-limit"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-time-limit"
 								},
 								{
 									"Type": "NodeText",
@@ -6508,20 +5093,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-rotate"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-rotate"
 								},
 								{
 									"Type": "NodeText",
@@ -6552,20 +5126,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "-verbose"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-verbose"
 								},
 								{
 									"Type": "NodeText",
@@ -6745,20 +5308,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell input text"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell input text"
 								},
 								{
 									"Type": "NodeText",
@@ -6837,20 +5389,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb input keyevent"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb input keyevent"
 								},
 								{
 									"Type": "NodeText",
@@ -6929,34 +5470,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "KeyCode",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "KeyCode"
 								},
 								{
 									"Type": "NodeText",
@@ -6966,34 +5485,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "android.view.KeyEvent.java",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "android.view.KeyEvent.java"
 								}
 							]
 						}
@@ -7024,40 +5521,18 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell input tap"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell input tap"
 								},
 								{
 									"Type": "NodeText",
 									"Data": ": 向设备发送⼀个点击操作的指令，参数是 "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "x, y"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "x, y"
 								},
 								{
 									"Type": "NodeText",
@@ -7148,20 +5623,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell dumpsys activity [activites|service | providers|intents | broadcasts | processes]"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell dumpsys activity [activites|service | providers|intents | broadcasts | processes]"
 								}
 							]
 						}
@@ -7188,20 +5652,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell dumpsys cpuinfo"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell dumpsys cpuinfo"
 								}
 							]
 						}
@@ -7228,20 +5681,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell dumpsys package"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell dumpsys package"
 								}
 							]
 						},
@@ -7306,20 +5748,9 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell dumpsys window"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell dumpsys window"
 								}
 							]
 						},
@@ -7500,34 +5931,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "bindConfig",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "bindConfig"
 								},
 								{
 									"Type": "NodeText",
@@ -7537,34 +5946,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/sdcard/roomis/bindConfig",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/sdcard/roomis/bindConfig"
 								}
 							]
 						}
@@ -7595,34 +5982,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "deviceSn",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "deviceSn"
 								},
 								{
 									"Type": "NodeText",
@@ -7632,34 +5997,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/sdcard/roomis/deviceSn",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/sdcard/roomis/deviceSn"
 								}
 							]
 						}
@@ -7690,34 +6033,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "log",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log"
 								},
 								{
 									"Type": "NodeText",
@@ -7727,34 +6048,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/sdcard/roomis/log",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/sdcard/roomis/log"
 								}
 							]
 						}
@@ -7785,34 +6084,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "database",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "database"
 								},
 								{
 									"Type": "NodeText",
@@ -7822,34 +6099,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/data/data/wg.roomis.launcher/databases/roomisDb.db",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/data/data/wg.roomis.launcher/databases/roomisDb.db"
 								}
 							]
 						}
@@ -7887,34 +6142,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/data/data/wg.roomis.launcher/shared_prefs/wg.roomis.launcher_preferences.xml",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/data/data/wg.roomis.launcher/shared_prefs/wg.roomis.launcher_preferences.xml"
 								}
 							]
 						}
@@ -7945,34 +6178,12 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "webview",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "webview"
 								},
 								{
 									"Type": "NodeText",
@@ -7982,34 +6193,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "/data/data/wg.roomis.launcher/cache",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/data/data/wg.roomis.launcher/cache"
 								}
 							]
 						}
@@ -8086,34 +6275,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb devices",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb devices"
 								}
 							]
 						}
@@ -8151,34 +6318,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb connect 192.168.11.255",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb connect 192.168.11.255"
 								}
 							]
 						}
@@ -8216,34 +6361,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb install rooomis.apk",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb install rooomis.apk"
 								}
 							]
 						}
@@ -8281,34 +6404,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb install -r roomis.apk",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb install -r roomis.apk"
 								}
 							]
 						}
@@ -8346,34 +6447,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb uninstall wg.roomis.launcher",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb uninstall wg.roomis.launcher"
 								}
 							]
 						}
@@ -8411,34 +6490,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb pull /sdcard/roomis/log/roomis.log ~/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb pull /sdcard/roomis/log/roomis.log ~/"
 								}
 							]
 						}
@@ -8476,34 +6533,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb pull /data/anr/traces.txt ~/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb pull /data/anr/traces.txt ~/"
 								}
 							]
 						}
@@ -8541,34 +6576,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb pull /data/data/wg.roomis.launcher/databases/roomisDb.db ~/",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb pull /data/data/wg.roomis.launcher/databases/roomisDb.db ~/"
 								}
 							]
 						}
@@ -8606,34 +6619,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell am broadcast -a wg.roomis.CARD_ENTER -e CardNo \"A56BDEC7\"",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell am broadcast -a wg.roomis.CARD_ENTER -e CardNo \u0026quot;A56BDEC7\u0026quot;"
 								}
 							]
 						}
@@ -8671,34 +6662,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell am broadcast -a wg.roomis.actions.UNLOCK_PASSWORD",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell am broadcast -a wg.roomis.actions.UNLOCK_PASSWORD"
 								}
 							]
 						}
@@ -8736,34 +6705,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell am broadcast -a wg.roomis.actions.WAKE_UP_UPDATE",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell am broadcast -a wg.roomis.actions.WAKE_UP_UPDATE"
 								}
 							]
 						}
@@ -8801,34 +6748,12 @@
 									}
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"CodeMarkerLen": 1,
+									"Type": "NodeTextMark",
 									"Properties": {
 										"id": ""
 									},
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "adb shell dumpsys package wg.roomis.launcher | grep versionCode",
-											"Properties": {
-												"id": ""
-											}
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker",
-											"Data": "`",
-											"Properties": {
-												"id": ""
-											}
-										}
-									]
+									"TextMarkType": "code",
+									"TextMarkTextContent": "adb shell dumpsys package wg.roomis.launcher | grep versionCode"
 								}
 							]
 						}

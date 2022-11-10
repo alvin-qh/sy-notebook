@@ -1,0 +1,177 @@
+{
+	"ID": "20221110155117-yl37fji",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110155117-yl37fji",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221110155117-3h3mmph\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221110155117-3h3mmph\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20221110172624-waidr1r\u0026quot;,\u0026quot;focusStart\u0026quot;:5,\u0026quot;focusEnd\u0026quot;:5}",
+		"title": "Compose Files",
+		"updated": "20221110180142"
+	},
+	"Children": [
+		{
+			"ID": "20221110155117-3h3mmph",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110155117-3h3mmph",
+				"updated": "20221110180142"
+			},
+			"Children": [
+				{
+					"ID": "20221110155137-isybt0s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110155137-isybt0s",
+						"updated": "20221110155150"
+					},
+					"Children": [
+						{
+							"ID": "20221110155137-9deyo6e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110155137-9deyo6e",
+								"updated": "20221110155150"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110155150-3zqc6mu",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Redis"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110161421-djyzoth",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110161421-djyzoth"
+					},
+					"Children": [
+						{
+							"ID": "20221110161421-o15qmr9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110161421-o15qmr9",
+								"updated": "20221110161428"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110161428-27a01w1",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Neo4j"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172624-kg2seev",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172624-kg2seev",
+						"updated": "20221110172628"
+					},
+					"Children": [
+						{
+							"ID": "20221110172624-waidr1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172624-waidr1r",
+								"updated": "20221110172628"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110172628-i9x080b",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Kafka"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173454-rr0aacm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173454-rr0aacm"
+					},
+					"Children": [
+						{
+							"ID": "20221110173454-580oq7x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173454-580oq7x",
+								"updated": "20221110173524"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110173524-3umzpbz",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "Elasticsearch"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110180134-0dndzc2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110180134-0dndzc2",
+						"updated": "20221110180142"
+					},
+					"Children": [
+						{
+							"ID": "20221110180134-bfutoqj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110180134-bfutoqj",
+								"updated": "20221110180142"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110180142-pem7njs",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "MySQL"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

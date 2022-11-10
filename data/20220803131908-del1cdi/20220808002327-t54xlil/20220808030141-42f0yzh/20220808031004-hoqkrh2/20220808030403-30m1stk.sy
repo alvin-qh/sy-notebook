@@ -1,5 +1,6 @@
 {
 	"ID": "20220808030403-30m1stk",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220808030403-30m1stk",
@@ -34,44 +35,15 @@
 					"Data": "The component store (WinSxS folder) contains all the components that make-up Windows to allow you operate your system. These components are kept to rollback any problematic change or to "
 				},
 				{
-					"Type": "NodeLink",
-					"Data": "span",
-					"Children": [
-						{
-							"Type": "NodeOpenBracket"
-						},
-						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "repair a file"
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
-						},
-						{
-							"Type": "NodeCloseBracket"
-						},
-						{
-							"Type": "NodeOpenParen"
-						},
-						{
-							"Type": "NodeLinkDest",
-							"Data": "https://www.tenforums.com/tutorials/2895-run-sfc-command-windows-10-a.html"
-						},
-						{
-							"Type": "NodeCloseParen"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.tenforums.com/tutorials/2895-run-sfc-command-windows-10-a.html",
+					"TextMarkTextContent": "https://www.tenforums.com/tutorials/2895-run-sfc-command-windows-10-a.html"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a strong",
+					"TextMarkTextContent": "repair a file"
 				},
 				{
 					"Type": "NodeText",
@@ -372,44 +344,15 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeStrong",
-											"Data": "strong",
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "Manage the Component Store | Microsoft Docs"
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**"
-												}
-											]
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/manage-the-component-store"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/manage-the-component-store",
+									"TextMarkTextContent": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/manage-the-component-store"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a strong",
+									"TextMarkTextContent": "Manage the Component Store | Microsoft Docs"
 								}
 							]
 						}
@@ -436,44 +379,15 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeStrong",
-											"Data": "strong",
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "Determine the Actual Size of the WinSxS Folder | Microsoft Docs"
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**"
-												}
-											]
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/determine-the-actual-size-of-the-winsxs-folder"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/determine-the-actual-size-of-the-winsxs-folder",
+									"TextMarkTextContent": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/determine-the-actual-size-of-the-winsxs-folder"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a strong",
+									"TextMarkTextContent": "Determine the Actual Size of the WinSxS Folder | Microsoft Docs"
 								}
 							]
 						}
@@ -500,44 +414,15 @@
 							},
 							"Children": [
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeStrong",
-											"Data": "strong",
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "Clean Up the WinSxS Folder | Microsoft Docs"
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**"
-												}
-											]
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder",
+									"TextMarkTextContent": "https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/clean-up-the-winsxs-folder"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a strong",
+									"TextMarkTextContent": "Clean Up the WinSxS Folder | Microsoft Docs"
 								}
 							]
 						}
@@ -558,22 +443,9 @@
 					"Data": "This tutorial will show you different ways on how to clean up the Component Store (WinSxS folder) to reduce its size in  "
 				},
 				{
-					"Type": "NodeStrong",
-					"Data": "strong",
-					"Children": [
-						{
-							"Type": "NodeStrongA6kOpenMarker",
-							"Data": "**"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Windows 10"
-						},
-						{
-							"Type": "NodeStrongA6kCloseMarker",
-							"Data": "**"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "Windows 10"
 				},
 				{
 					"Type": "NodeText",
@@ -606,44 +478,15 @@
 							"Data": "You must be signed in as an "
 						},
 						{
-							"Type": "NodeLink",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "administrator"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://www.tenforums.com/tutorials/21680-determine-account-type-windows-10-a.html"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://www.tenforums.com/tutorials/21680-determine-account-type-windows-10-a.html",
+							"TextMarkTextContent": "https://www.tenforums.com/tutorials/21680-determine-account-type-windows-10-a.html"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "a strong",
+							"TextMarkTextContent": "administrator"
 						},
 						{
 							"Type": "NodeText",
@@ -678,44 +521,15 @@
 							"Data": "If you like, you can "
 						},
 						{
-							"Type": "NodeLink",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "analyze the Component Store (WinSxS folder)"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://www.tenforums.com/tutorials/82638-analyze-component-store-winsxs-folder-windows-10-a.html"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://www.tenforums.com/tutorials/82638-analyze-component-store-winsxs-folder-windows-10-a.html",
+							"TextMarkTextContent": "https://www.tenforums.com/tutorials/82638-analyze-component-store-winsxs-folder-windows-10-a.html"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "a strong",
+							"TextMarkTextContent": "analyze the Component Store (WinSxS folder)"
 						},
 						{
 							"Type": "NodeText",
@@ -749,20 +563,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeMark",
-					"Data": "mark",
-					"Children": [
-						{
-							"Type": "NodeMark2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Clean Up Component Store (WinSxS folder) using StartComponentCleanup Task"
-						},
-						{
-							"Type": "NodeMark2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "mark",
+					"TextMarkTextContent": "Clean Up Component Store (WinSxS folder) using StartComponentCleanup Task"
 				}
 			]
 		},
@@ -847,64 +650,24 @@
 							"Data": "The StartComponentCleanup task can also be started from an "
 						},
 						{
-							"Type": "NodeLink",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeOpenBracket"
-								},
-								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "elevated command prompt"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
-								},
-								{
-									"Type": "NodeCloseBracket"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeLinkDest",
-									"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "a",
+							"TextMarkAHref": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html",
+							"TextMarkTextContent": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "a strong",
+							"TextMarkTextContent": "elevated command prompt"
 						},
 						{
 							"Type": "NodeText",
 							"Data": ":  "
 						},
 						{
-							"Type": "NodeCodeSpan",
-							"Data": "code",
-							"Children": [
-								{
-									"Type": "NodeCodeSpanOpenMarker"
-								},
-								{
-									"Type": "NodeCodeSpanContent",
-									"Data": "schtasks.exe /Run /TN \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\""
-								},
-								{
-									"Type": "NodeCodeSpanCloseMarker"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "code",
+							"TextMarkTextContent": "schtasks.exe /Run /TN \u0026quot;\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\u0026quot;"
 						}
 					]
 				}
@@ -948,66 +711,27 @@
 									"Data": "Press the "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Win+R"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Win+R"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " keys to open Run, type "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "taskschd.msc"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "taskschd.msc"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " into Run, and click/tap on "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "OK"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "OK"
 								},
 								{
 									"Type": "NodeText",
@@ -1044,22 +768,9 @@
 									"Data": "Navigate to and open the folder below in the left pane of Task Scheduler. (see screenshot below step 3)\n→ "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Task Scheduler Library\\Microsoft\\Windows\\Servicing"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Task Scheduler Library\\Microsoft\\Windows\\Servicing"
 								}
 							]
 						}
@@ -1092,88 +803,36 @@
 									"Data": "In the middle pane of  "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Servicing"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Servicing"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " , select the "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "StartComponentCleanup"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "StartComponentCleanup"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " task, and click/tap on "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Run"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Run"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " under "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Selected Item"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Selected Item"
 								},
 								{
 									"Type": "NodeText",
@@ -1426,20 +1085,9 @@
 									"Data": "Enter the command below into the elevated command prompt, and press Enter. (see screenshot below)\n→ "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Dism.exe /online /Cleanup-Image /StartComponentCleanup"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Dism.exe /online /Cleanup-Image /StartComponentCleanup"
 								}
 							]
 						}
@@ -1544,20 +1192,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeMark",
-					"Data": "mark",
-					"Children": [
-						{
-							"Type": "NodeMark2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Clean Up Component Store (WinSxS folder) using /StartComponentCleanup and /ResetBase with Dism Command"
-						},
-						{
-							"Type": "NodeMark2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "mark",
+					"TextMarkTextContent": "Clean Up Component Store (WinSxS folder) using /StartComponentCleanup and /ResetBase with Dism Command"
 				}
 			]
 		},
@@ -1655,44 +1292,15 @@
 									"Data": "Open an "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeStrong",
-											"Data": "strong",
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "elevated command prompt"
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**"
-												}
-											]
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html",
+									"TextMarkTextContent": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a strong",
+									"TextMarkTextContent": "elevated command prompt"
 								},
 								{
 									"Type": "NodeText",
@@ -1729,42 +1337,18 @@
 									"Data": "Enter the command below into the elevated command prompt, and press  "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Enter"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Enter"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " . (see screenshot below)\n→ "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase"
 								}
 							]
 						}
@@ -1869,20 +1453,9 @@
 			},
 			"Children": [
 				{
-					"Type": "NodeMark",
-					"Data": "mark",
-					"Children": [
-						{
-							"Type": "NodeMark2OpenMarker"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "Clean Up Component Store (WinSxS folder) using /SPSuperseded with Dism Co​mmand"
-						},
-						{
-							"Type": "NodeMark2CloseMarker"
-						}
-					]
+					"Type": "NodeTextMark",
+					"TextMarkType": "mark",
+					"TextMarkTextContent": "Clean Up Component Store (WinSxS folder) using /SPSuperseded with Dism Co​mmand"
 				}
 			]
 		},
@@ -1911,22 +1484,9 @@
 							"Data": "To reduce the amount of space used by a Service Pack, use the "
 						},
 						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "/SPSuperseded"
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "/SPSuperseded"
 						},
 						{
 							"Type": "NodeText",
@@ -1943,22 +1503,9 @@
 					},
 					"Children": [
 						{
-							"Type": "NodeStrong",
-							"Data": "strong",
-							"Children": [
-								{
-									"Type": "NodeStrongA6kOpenMarker",
-									"Data": "**"
-								},
-								{
-									"Type": "NodeText",
-									"Data": "This option will most likely never be needed for Windows 10 since service packs are no longer used for Windows 10."
-								},
-								{
-									"Type": "NodeStrongA6kCloseMarker",
-									"Data": "**"
-								}
-							]
+							"Type": "NodeTextMark",
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "This option will most likely never be needed for Windows 10 since service packs are no longer used for Windows 10."
 						}
 					]
 				}
@@ -2030,44 +1577,15 @@
 									"Data": "Open an "
 								},
 								{
-									"Type": "NodeLink",
-									"Data": "span",
-									"Children": [
-										{
-											"Type": "NodeOpenBracket"
-										},
-										{
-											"Type": "NodeStrong",
-											"Data": "strong",
-											"Children": [
-												{
-													"Type": "NodeStrongA6kOpenMarker",
-													"Data": "**"
-												},
-												{
-													"Type": "NodeText",
-													"Data": "elevated command prompt"
-												},
-												{
-													"Type": "NodeStrongA6kCloseMarker",
-													"Data": "**"
-												}
-											]
-										},
-										{
-											"Type": "NodeCloseBracket"
-										},
-										{
-											"Type": "NodeOpenParen"
-										},
-										{
-											"Type": "NodeLinkDest",
-											"Data": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
-										},
-										{
-											"Type": "NodeCloseParen"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html",
+									"TextMarkTextContent": "https://www.tenforums.com/tutorials/2790-open-elevated-command-prompt-windows-10-a.html"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a strong",
+									"TextMarkTextContent": "elevated command prompt"
 								},
 								{
 									"Type": "NodeText",
@@ -2104,42 +1622,18 @@
 									"Data": "Enter the command below into the elevated command prompt, and press  "
 								},
 								{
-									"Type": "NodeStrong",
-									"Data": "strong",
-									"Children": [
-										{
-											"Type": "NodeStrongA6kOpenMarker",
-											"Data": "**"
-										},
-										{
-											"Type": "NodeText",
-											"Data": "Enter"
-										},
-										{
-											"Type": "NodeStrongA6kCloseMarker",
-											"Data": "**"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Enter"
 								},
 								{
 									"Type": "NodeText",
 									"Data": " . (see screenshot below)\n→ "
 								},
 								{
-									"Type": "NodeCodeSpan",
-									"Data": "code",
-									"Children": [
-										{
-											"Type": "NodeCodeSpanOpenMarker"
-										},
-										{
-											"Type": "NodeCodeSpanContent",
-											"Data": "Dism.exe /online /Cleanup-Image /SPSuperseded"
-										},
-										{
-											"Type": "NodeCodeSpanCloseMarker"
-										}
-									]
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Dism.exe /online /Cleanup-Image /SPSuperseded"
 								}
 							]
 						}

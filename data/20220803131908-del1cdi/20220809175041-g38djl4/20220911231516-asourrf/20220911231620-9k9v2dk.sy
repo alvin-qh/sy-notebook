@@ -1,0 +1,2604 @@
+{
+	"ID": "20220911231620-9k9v2dk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220911231620-9k9v2dk",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20220911231639-ev48bf7\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20220912000246-bn1w72i\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20220912000005-91wc4fz\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:50,\u0026amp;quot;focusEnd\u0026amp;quot;:50}",
+		"title": "HMAC-SHA256",
+		"updated": "20220912000255"
+	},
+	"Children": [
+		{
+			"ID": "20220911231639-ev48bf7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220911231639-ev48bf7",
+				"updated": "20220911231703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. HMAC 算法"
+				}
+			]
+		},
+		{
+			"ID": "20220911231710-m1jnrf3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911231710-m1jnrf3",
+				"updated": "20220911231717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. HMAC 算法简介"
+				}
+			]
+		},
+		{
+			"ID": "20220911231722-6gvddaa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911231722-6gvddaa",
+				"updated": "20220911233403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC（Hash-based Message Authentication Code，散列消息认证码）是一种使用密码散列函数，同时结合一个加密密钥，通过特别计算方式之后产生的消息认证码（MAC）。它可以用来保证数据的完整性，同时可以用来作某个消息的身份验证。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233404-ch3e0xb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233404-ch3e0xb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC 算法 是一种基于密钥的报文完整性的验证方法。HMAC 算法利用哈希运算，以一个密钥和一个消息为输入，生成一个消息摘要作为输出。其安全性是建立在 Hash 加密算法基础上的。它要求通信双方共享密钥、约定算法、对报文进行散列运算，形成固定长度的认证码。通信双方通过认证码的校验来确定报文的合法性。HMAC 算法可以用来作加密、数字签名、报文验证等。"
+				}
+			]
+		},
+		{
+			"ID": "20220911231809-pgqou8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911231809-pgqou8n"
+			}
+		},
+		{
+			"ID": "20220911231805-6s3zc97",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911231805-6s3zc97",
+				"updated": "20220911231818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. HMAC 算法定义"
+				}
+			]
+		},
+		{
+			"ID": "20220911231826-voayy5b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911231826-voayy5b",
+				"updated": "20220911232134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC 算法的数学公式为："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "HMAC(k,m)=H(k' ⊕ opad,H(k' ⊕ ipad, m))"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n"
+				}
+			]
+		},
+		{
+			"ID": "20220911232134-tkyqfeh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911232134-tkyqfeh"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中："
+				}
+			]
+		},
+		{
+			"ID": "20220911231855-fpq7w5n",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220911231855-fpq7w5n",
+				"updated": "20220911231855"
+			},
+			"Children": [
+				{
+					"ID": "20220911231855-z3cjpip",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911231855-z3cjpip",
+						"updated": "20220911231855"
+					},
+					"Children": [
+						{
+							"ID": "20220911231855-1west8u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911231855-1west8u",
+								"updated": "20220911231922"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "H"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为密码散列函数（如 MD5 或 SHA-1），能够对明文进行分组循环压缩；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911231923-659c1ff",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911231923-659c1ff"
+					},
+					"Children": [
+						{
+							"ID": "20220911231923-9kpnnvr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911231923-9kpnnvr",
+								"updated": "20220911231933"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为密钥（Secret Key）；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911231933-ory6ow9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911231933-ory6ow9"
+					},
+					"Children": [
+						{
+							"ID": "20220911231933-4dvt52t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911231933-4dvt52t",
+								"updated": "20220911232125"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "m"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为要认证的消息；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911232126-gqkod4h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911232126-gqkod4h"
+					},
+					"Children": [
+						{
+							"ID": "20220911232126-llx6wnh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911232126-llx6wnh"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是从原始密钥 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 导出的另一个密钥（如果 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 短于散列函数的输入块大小，则向右填充零；如果比该块大小更长，则对 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 进行散列）；"
+								}
+							]
+						},
+						{
+							"ID": "20220911235604-51fngeg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220911235604-51fngeg"
+							},
+							"Children": [
+								{
+									"ID": "20220911232036-q0183kp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220911232036-q0183kp"
+									},
+									"Children": [
+										{
+											"ID": "20220911232036-tidy0bt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220911232036-tidy0bt",
+												"updated": "20220911232117"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "ipad"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 为内部填充（"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0x5C5C5C…5C5C"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，是一段十六进制常量）；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220911232104-vcco0wc",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220911232104-vcco0wc"
+									},
+									"Children": [
+										{
+											"ID": "20220911232104-rx8lyle",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220911232104-rx8lyle",
+												"updated": "20220911232121"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "opad"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 为外部填充（"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0x363636…3636"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，是一段十六进制常量）；"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220911232158-nmxes70",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911232158-nmxes70",
+				"updated": "20220911232159"
+			}
+		},
+		{
+			"ID": "20220911232142-91cjsto",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911232142-91cjsto",
+				"updated": "20220911232150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3. HMAC 算法步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220911232208-o715drk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911232208-o715drk",
+				"updated": "20220911232212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC 算法加密步骤如图所示："
+				}
+			]
+		},
+		{
+			"ID": "20220911232215-lhkjo7m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911232215-lhkjo7m",
+				"updated": "20220911232823"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 623px;",
+						"style": "width: 613px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911232823-95d8sk1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 613px;\" parent-style=\"max-width: 623px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220911233035-bi8c98v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233035-bi8c98v",
+				"updated": "20220911233051"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "整个运算的步骤如下："
+				}
+			]
+		},
+		{
+			"ID": "20220911233052-0jqrd89",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220911233052-0jqrd89",
+				"updated": "20220911233055"
+			},
+			"Children": [
+				{
+					"ID": "20220911233118-z67n83i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220911233118-z67n83i"
+					},
+					"Children": [
+						{
+							"ID": "20220911233118-klwhsjo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233118-klwhsjo",
+								"updated": "20220911233206"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在密钥 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 后面添加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，或者对密钥 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "H"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（Hash 函数）进行处理，创建一个字长为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的字符串（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为 Hash 函数的明文分组长度）；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233053-ophss94",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220911233053-ophss94",
+						"updated": "20220911233055"
+					},
+					"Children": [
+						{
+							"ID": "20220911233053-yys0prn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233053-yys0prn",
+								"updated": "20220911233055"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将上一步生成的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 字长的字符串 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 做异或运算；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233127-iofq85j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220911233127-iofq85j"
+					},
+					"Children": [
+						{
+							"ID": "20220911233127-60dhp1v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233127-60dhp1v",
+								"updated": "20220911233222"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将数据流 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "m"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 填充至第 2 步的结果字符串中；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233133-2kiyw6d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220911233133-2kiyw6d"
+					},
+					"Children": [
+						{
+							"ID": "20220911233133-7dagvc8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233133-7dagvc8"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "H"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 作用于第三步生成的数据流；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233135-9vot9eu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220911233135-9vot9eu"
+					},
+					"Children": [
+						{
+							"ID": "20220911233135-fok7p1o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233135-fok7p1o"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将第一步生成的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 字长字符串与 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "opad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 做异或运算；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233137-nqapbbe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220911233137-nqapbbe"
+					},
+					"Children": [
+						{
+							"ID": "20220911233137-e22pvr2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233137-e22pvr2",
+								"updated": "20220911233217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "再将第 4 步的结果填充进第 5 步的结果中；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911233140-7lssdlg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220911233140-7lssdlg"
+					},
+					"Children": [
+						{
+							"ID": "20220911233140-4jippm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911233140-4jippm1",
+								"updated": "20220911233233"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "H"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 作用于第 6 步生成的数据流，输出最终结果；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220911233253-57fgv0p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233253-57fgv0p"
+			}
+		},
+		{
+			"ID": "20220911233246-ybbbxhd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220911233246-ybbbxhd",
+				"updated": "20220911233302"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. SHA-256 算法"
+				}
+			]
+		},
+		{
+			"ID": "20220911233309-s9kl0xt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911233309-s9kl0xt",
+				"updated": "20220911233318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. SHA-256 算法简介"
+				}
+			]
+		},
+		{
+			"ID": "20220911233312-gpe3s83",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233312-gpe3s83",
+				"updated": "20220911233415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SHA-256（Secure Hash Algorithm 256，安全散列算法 256）是散列函数（或哈希函数）的一种，能对一个任意长度（按 bit 计算）的数字消息（Message），计算出一个 32 个字节长度的字符串（又称消息摘要，Message Digest）。散列函数它被认为是一种单向函数——根据函数输出的结果，极难回推输入的数据。散列函数把消息数据打乱混合，压缩成散列值（摘要），使得数据量变小。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233415-sxczed3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233415-sxczed3",
+				"updated": "20220911233449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SHA-256 由美国国家安全局研发，是 SHA-2 下细分出的一种算法，属于 SHA 算法之一，是 SHA-1 的后继者。对于任意长度的消息，SHA256 都会产生一个 256bit（32byte 数组）的哈希值，称作消息摘要。摘要通常用一个长度为 64 位的 16 进制字符串来表示。当接收到消息的时候，这个消息摘要可以用来验证数据是否发生改变，即验证其完整性。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233508-thusp8l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233508-thusp8l"
+			}
+		},
+		{
+			"ID": "20220911233458-sk8gvez",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911233458-sk8gvez",
+				"updated": "20220911233506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. SHA-256 算法描述"
+				}
+			]
+		},
+		{
+			"ID": "20220911233458-1rm8dbm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233458-1rm8dbm",
+				"updated": "20220911233650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先进行信息预处理（如下图所示），将原始消息（Message）拆解成 512bit 大小的消息块。最后一个的消息块需要进行信息补全，并附上原消息的长度信息。消息被分为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 块后，需要进行 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 次迭代，最后一次的结果就是最终的哈希值，即256bit 的数字摘要。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233546-ciwg0h9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233546-ciwg0h9",
+				"updated": "20220911233547"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 644px;",
+						"style": "width: 634px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911233547-o3u6slp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 634px;\" parent-style=\"max-width: 644px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220911233553-mb4md5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233553-mb4md5f",
+				"updated": "20220911233842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SHA256 算法的最小运算单元为“字”（Word, 32bit）。下图中 256bit 的中间状态 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Hi"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 被描述为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "8"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 个字。512bit 的消息块 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Mi"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 将由 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "16"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 个字扩展为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "64"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 个字，并与 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Hi"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 混合，压缩成新的散列值 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Hi+1"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。第i块数据经 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Map"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 函数映射的结果，将作为第 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "i+1"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 块的输入，即 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "Map(H_{(i-1)})=H_i"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "H0"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 是预设好的 Hash 初值（自然数中前 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "8"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 个质数的平方根的小数部分，取前 32bit），依次对数据进行 Hash 映射，得到的最后一个状态 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Hn"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 便是最终的数字摘要。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233849-af1l7bd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233849-af1l7bd",
+				"updated": "20220911233849"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 646px;",
+						"style": "width: 636px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911233849-z4rgph8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 636px;\" parent-style=\"max-width: 646px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220911233816-5aiypqu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233816-5aiypqu",
+				"updated": "20220911233912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而其中最关键的操作为映射函数 Map，其内部相当于是一个循环加密的过程，不断将原始信息进行打乱。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233933-9476y0e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233933-9476y0e"
+			}
+		},
+		{
+			"ID": "20220911233927-3f33ls6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911233927-3f33ls6",
+				"updated": "20220911233932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. SHA-256 算法步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220911233942-vx1jv9z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233942-vx1jv9z",
+				"updated": "20220911233949"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如下表所示，SHA256 散列函数中涉及的操作全部是按位进行的逻辑运算。"
+				}
+			]
+		},
+		{
+			"ID": "20220911233955-faili30",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911233955-faili30",
+				"updated": "20220911233955"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 657px;",
+						"style": "width: 647px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911233955-c4vfmiz.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 647px;\" parent-style=\"max-width: 657px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220911234009-2zqylgi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911234009-2zqylgi",
+				"updated": "20220911234210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设原始消息为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "M"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，原始消息长度 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "LM"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，消息块 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "Mi"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，哈希初值 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "H0"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，SHA-256 常量 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "K[0]~K[63]"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（自然数中前 64 个质数的立方根的小数部分，取前 32bit）。则 SHA-256 算法的加密步骤具体如下："
+				}
+			]
+		},
+		{
+			"ID": "20220911234210-dycq0ao",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220911234210-dycq0ao",
+				"updated": "20220911234922"
+			},
+			"Children": [
+				{
+					"ID": "20220911234211-gck2p0w",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220911234211-gck2p0w",
+						"updated": "20220911234211"
+					},
+					"Children": [
+						{
+							"ID": "20220911234211-3tdxtn5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911234211-3tdxtn5",
+								"updated": "20220911234541"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "消息（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "M"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "）预处理。在消息末尾进行添加 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 位 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "t"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 位 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，使得："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "(L_{M+t+1})\\,mod\\,512=448, (0≤t\u0026lt;512)"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "LM"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 表示为 64 位大端存储格式，并添加到 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "M"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 末尾，组成新的消息 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "M‘"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911234541-w2pd7ot",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220911234541-w2pd7ot"
+					},
+					"Children": [
+						{
+							"ID": "20220911234541-l7rg1kl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911234541-l7rg1kl",
+								"updated": "20220911234619"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "分解。将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "M'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 按照每块 512bit 大小分解为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Mi"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911234620-qpzf6c2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220911234620-qpzf6c2"
+					},
+					"Children": [
+						{
+							"ID": "20220911234620-zflckz4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911234620-zflckz4",
+								"updated": "20220911234805"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拓展 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Mi"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 到 64 字："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "W[0]~W[63]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Mi"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 分解为 16 个 32bit 的大端存储的字（Word），存为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "W[0], …, W[15]"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，其余字由以下公式得到："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "inline-math",
+									"TextMarkInlineMathContent": "W_t=σ_1 (W_{(t-2)})+W_{(t-7)}+σ_0(W_{(t-15)})+W_{(t-16)}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911234806-d3fgyou",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220911234806-d3fgyou"
+					},
+					"Children": [
+						{
+							"ID": "20220911234806-x4ixblc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911234806-x4ixblc",
+								"updated": "20220911234910"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "迭代。进行 64 次加密循环即可完成一次迭代。加密过程如下图所示："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ABCDEFGH"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 这 8 个字最开始分别是 8 个哈希初值，之后按照图示规则进行更新；深蓝色方块是事先定义好的非线性逻辑函数；红色方块代表加法（若结果大于 232，则进行一次 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mod 232"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 运算）；"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Kt"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为 SHA-256 常量，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "Wt"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为本区块产生第 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "t"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 个 Word，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0 ≤ t \u0026lt; 64"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "；最后一次循环所产生的 8 段字符串合起来即是此区块对应到的散列字符串；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911234917-hqkosx1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220911234917-hqkosx1",
+						"updated": "20220911234922"
+					},
+					"Children": [
+						{
+							"ID": "20220911234917-savn7m5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911234917-savn7m5",
+								"updated": "20220911234922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "若原消息包含数个区块，则最后还要将这些区块产生的散列字符串加入迭代才能产生最后的散列字符串"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220911234343-bw4g6ro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911234343-bw4g6ro",
+				"updated": "20220911234929"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 658px;",
+						"style": "width: 648px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911234929-pts4nv1.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 648px;\" parent-style=\"max-width: 658px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20220911234955-in6smz7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911234955-in6smz7"
+			}
+		},
+		{
+			"ID": "20220911234949-x3zqn01",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220911234949-x3zqn01",
+				"updated": "20220911234959"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. HAMAC-SHA256 算法定义"
+				}
+			]
+		},
+		{
+			"ID": "20220911234956-8bjesgh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911234956-8bjesgh",
+				"updated": "20220911235007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.1. HMAC-SHA256 算法描述"
+				}
+			]
+		},
+		{
+			"ID": "20220911235001-i5ncf1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911235001-i5ncf1t",
+				"updated": "20220911235239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC-SHA256 算法，即使用 SHA-256 生成哈希值的 HMAC 算法。依据 HMAC 算法和 SHA-256 算法内容，可知 HMAC-SHA256 算法的明文分组长度 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "B"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 为 512bit，可通过任意长度密钥 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "K"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（最小推荐长度为 256bit，一般应大于 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "B"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "），得出长度为 256bit 散列值（摘要）。定义为："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-math",
+					"TextMarkInlineMathContent": "[HMAC]_{SHA256 (k,m)}=SHA256(k' ⊕ opad ∥ SHA256(k'⊕ipad ∥ m))"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，其中："
+				}
+			]
+		},
+		{
+			"ID": "20220911235240-n7a3o0i",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220911235240-n7a3o0i",
+				"updated": "20220911235637"
+			},
+			"Children": [
+				{
+					"ID": "20220911235242-x738n24",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235242-x738n24",
+						"updated": "20220911235242"
+					},
+					"Children": [
+						{
+							"ID": "20220911235242-dhdfdo9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235242-dhdfdo9",
+								"updated": "20220911235252"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SHA256 为 SHA-256 加密算法，其输出散列值长度 256bit；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235252-jrzr86x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235252-jrzr86x"
+					},
+					"Children": [
+						{
+							"ID": "20220911235252-jg5z2pc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235252-jg5z2pc",
+								"updated": "20220911235312"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "∥"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为拼接操作，将两个字符串拼接在一起；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235257-gd5yg4o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235257-gd5yg4o"
+					},
+					"Children": [
+						{
+							"ID": "20220911235257-do13byh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235257-do13byh",
+								"updated": "20220911235353"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为 Hash 函数明文分组长度，SHA-256 算法中为 512bit；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235353-eraddtc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235353-eraddtc"
+					},
+					"Children": [
+						{
+							"ID": "20220911235353-fzl21d2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235353-fzl21d2",
+								"updated": "20220911235405"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为密钥（Secret Key）；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235406-os1g8jq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235406-os1g8jq"
+					},
+					"Children": [
+						{
+							"ID": "20220911235406-xyj6mna",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235406-xyj6mna",
+								"updated": "20220911235411"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "m"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 为要认证的消息；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235411-1cpbes5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220911235411-1cpbes5",
+						"updated": "20220911235637"
+					},
+					"Children": [
+						{
+							"ID": "20220911235411-gq53ynz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235411-gq53ynz",
+								"updated": "20220911235557"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k'"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是从原始密钥 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 导出的另一个密钥（若 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 短于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，则向右填充零，直到与 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 相同；若 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 长于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，则对 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "k"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 进行一次 SHA256 散列计算）"
+								}
+							]
+						},
+						{
+							"ID": "20220911235557-b9igelb",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20220911235557-b9igelb",
+								"updated": "20220911235637"
+							},
+							"Children": [
+								{
+									"ID": "20220911235557-yr8mem1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220911235557-yr8mem1",
+										"updated": "20220911235627"
+									},
+									"Children": [
+										{
+											"ID": "20220911235557-6j2pf4c",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220911235557-6j2pf4c",
+												"updated": "20220911235627"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "ipad"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 内部填充（"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0x5C5C5C…5C5C"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，512bit 常量）；"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220911235621-nl69gj1",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20220911235621-nl69gj1",
+										"updated": "20220911235637"
+									},
+									"Children": [
+										{
+											"ID": "20220911235621-0da0krx",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220911235621-0da0krx",
+												"updated": "20220911235637"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "opad"
+												},
+												{
+													"Type": "NodeText",
+													"Data": " 外部填充（"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0x363636…3636"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "，512bit 常量）；"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220911234949-40grsas",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220911234949-40grsas",
+				"updated": "20220911235654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.2. HMAC-SHA256 算法步骤"
+				}
+			]
+		},
+		{
+			"ID": "20220911235657-d6gh5gu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911235657-d6gh5gu",
+				"updated": "20220911235705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HMAC-SHA256 算法加密步骤如下图所示："
+				}
+			]
+		},
+		{
+			"ID": "20220911235711-d5ri5wy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220911235711-d5ri5wy",
+				"updated": "20220911235727"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 665px;",
+						"style": "width: 655px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220911235711-ixru56a.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 655px;\" parent-style=\"max-width: 665px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20220911235728-aevi2y5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220911235728-aevi2y5",
+				"updated": "20220912000018"
+			},
+			"Children": [
+				{
+					"ID": "20220911235729-yaq324t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220911235729-yaq324t",
+						"updated": "20220911235729"
+					},
+					"Children": [
+						{
+							"ID": "20220911235729-gmndkor",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235729-gmndkor",
+								"updated": "20220911235952"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "密钥填充：若密钥比 SHA-256 算法的分组长度 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "B"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（512bit）短，则需在末尾填充 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，直到其长度达到单向散列函数的分组长度为止。若密钥比分组长度长，则要用 SHA-256 算法求出密钥的散列值，然后将这个散列值作为新的密钥；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235752-0w0gaz3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220911235752-0w0gaz3"
+					},
+					"Children": [
+						{
+							"ID": "20220911235752-3g7ja1a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235752-3g7ja1a",
+								"updated": "20220911235953"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "内部填充：将填充后的密钥与被称为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的序列进行异或运算，所形成的值为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipadkey"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "00110110"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 这一序列不断循环反复直到达到分组长度；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235820-kva7zoq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220911235820-kva7zoq"
+					},
+					"Children": [
+						{
+							"ID": "20220911235820-zyospt7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235820-zyospt7",
+								"updated": "20220911235955"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与消息组合：将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipadkey"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 与消息组合，也就是将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "ipadkey"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 附加在消息的开头；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235905-5x682b2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220911235905-5x682b2"
+					},
+					"Children": [
+						{
+							"ID": "20220911235905-3nwv4t5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235905-3nwv4t5",
+								"updated": "20220911235957"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算散列值：将 3 的结果输入 SHA-256 函数，并计算出散列值；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235917-dheljj1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220911235917-dheljj1"
+					},
+					"Children": [
+						{
+							"ID": "20220911235917-zmnf28d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235917-zmnf28d",
+								"updated": "20220911235958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "外部填充：将填充后的密钥与被称为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "opad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 的序列进行异或运算，所形成的值为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "opadkey"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "opad"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 是将 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "01011100"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 这一序列不断循环反复直到达到分组长度；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220911235939-msads33",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220911235939-msads33"
+					},
+					"Children": [
+						{
+							"ID": "20220911235939-gpzil2q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220911235939-gpzil2q",
+								"updated": "20220912000005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "与散列值组合：将 4 的散列值拼在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "opadkey"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 后面；"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220912000005-6r3nxga",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220912000005-6r3nxga",
+						"updated": "20220912000018"
+					},
+					"Children": [
+						{
+							"ID": "20220912000005-91wc4fz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220912000005-91wc4fz",
+								"updated": "20220912000018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "计算散列值：将 6 的结果输入 SHA-256 函数，并计算出散列值，这个散列值就是最终的摘要内容\n"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220912000246-bn1w72i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220912000246-bn1w72i"
+			}
+		}
+	]
+}

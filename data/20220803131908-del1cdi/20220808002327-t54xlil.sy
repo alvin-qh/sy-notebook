@@ -1,5 +1,6 @@
 {
 	"ID": "20220808002327-t54xlil",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220808002327-t54xlil",
@@ -162,7 +163,7 @@
 										},
 										{
 											"Type": "NodeBlockRefDynamicText",
-											"Data": "macOs"
+											"Data": "macOS"
 										},
 										{
 											"Type": "NodeCloseParen"

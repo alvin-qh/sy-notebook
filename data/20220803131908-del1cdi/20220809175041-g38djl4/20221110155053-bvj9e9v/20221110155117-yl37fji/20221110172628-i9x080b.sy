@@ -1,0 +1,4586 @@
+{
+	"ID": "20221110172628-i9x080b",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110172628-i9x080b",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20221110172716-sp69s9k\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20221110173258-myjxdco\u0026quot;,\u0026quot;scrollTop\u0026quot;:5996,\u0026quot;focusId\u0026quot;:\u0026quot;20221110173258-puu8nsm\u0026quot;,\u0026quot;focusStart\u0026quot;:7,\u0026quot;focusEnd\u0026quot;:7}",
+		"title": "Kafka",
+		"updated": "20221110175556"
+	},
+	"Children": [
+		{
+			"ID": "20221110175548-hw8ph61",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110175548-hw8ph61",
+				"updated": "20221110175548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. docker-compose.yml"
+				}
+			]
+		},
+		{
+			"ID": "20221110175548-qgwji3o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110175548-qgwji3o",
+				"updated": "20221110175556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. Cluster"
+				}
+			]
+		},
+		{
+			"ID": "20221110172628-t99f4br",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110172628-t99f4br",
+				"updated": "20221110172644"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "eW1s"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "version: \"3.9\"\nservices:\n  zk01:\n    image: zookeeper:3.7.0\n    container_name: zk01\n    volumes:\n      - zk_data1:/usr/local/zookeeper\n    networks:\n      - kafka_network\n    ports:\n      - 2181\n    environment:\n      - ZOO_MY_ID=1 # zookeeper id\n      - ZOO_SERVERS=server.1=zk01:2888:3888;2181 server.2=zk02:2888:3888;2181 # zookeeper 集群情况\n    privileged: true\n    restart: always\n  zk02:\n    image: zookeeper:3.7.0\n    container_name: zk02\n    volumes:\n      - zk_data2:/usr/local/zookeeper\n    networks:\n      - kafka_network\n    ports:\n      - 2181\n    environment:\n      - ZOO_MY_ID=2\n      - ZOO_SERVERS=server.1=zk01:2888:3888;2181 server.2=zk02:2888:3888;2181\n    privileged: true\n    restart: always\n  kf01:\n    image: bitnami/kafka:3.0.0\n    container_name: kf01\n    ports:\n      - \"9093:9093\"\n    environment:\n      - ALLOW_PLAINTEXT_LISTENER=yes # 允许未加密的监听器\n      - KAFKA_CFG_BROKER_ID=1 # broker id\n      - KAFKA_CFG_ZOOKEEPER_CONNECT=zk01:2181,zk02:2181 # zookeeper 集群地址\n      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CLIENT:PLAINTEXT,EXTERNAL:PLAINTEXT # 定义侦听器的 alias，CLIENT 表示内部监听，EXTERNAL 表示外部监听（都是 PLAINTEXT 监听）\n      - KAFKA_CFG_LISTENERS=CLIENT://:9092,EXTERNAL://:9093 # 本地监听 9092 端口，对外监听 9093 端口. 对外监听端口可以通过端口映射进行暴露\n      - KAFKA_CFG_ADVERTISED_LISTENERS=CLIENT://kf01:9092,EXTERNAL://localhost:9093 # 该部分会注册到 zookeeper 里被集群其它节点或客户端发现\n      - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=CLIENT # 指定集群内部各 broker 使用的监听器\n      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true # 允许自动创建主题（生成环境禁用）\n      - KAFKA_CFG_LOG_RETENTION_HOURS=1 # 消息在服务端保留时长（生产环境可设置长一些）\n      - KAFKA_CFG_LOG_CLEARUP_POLICY=delete # 消息清理策略，删除\n      - KAFKA_CFG_LOG_RETENTION_BYTES=-1 # 消息在服务端保留的最大容量，-1 表示无限制\n      - KAFKA_CFG_LOG_SEGMENT_DELETE_DELAY_MS=60000 # segment 文件删除延迟时间\n      - KAFKA_CFG_LOG_CLEANUP_INTERVAL_MINS=3 # 检查日志是否可以删除的周期，单位 分钟\n      - KAFKA_CFG_LOG_ROLL_HOURS=1 # 存储记录的滚动时间，即每隔一小时产生一个新的 sagement 文件\n      - KAFKA_CFG_LOG_RETENTION_CHECK_INTERVAL_MS=120000 # 消息保留检测间隔时间\n      # - JMX_PORT=9999\n    networks:\n      - kafka_network\n    volumes:\n      - kf_data1:/bitnami/kafka\n    depends_on:\n      - zk01\n      - zk02\n  kf02:\n    image: bitnami/kafka:3.0.0\n    container_name: kf02\n    ports:\n      - \"9094:9094\"\n    environment:\n      - ALLOW_PLAINTEXT_LISTENER=yes\n      - KAFKA_CFG_BROKER_ID=2\n      - KAFKA_CFG_ZOOKEEPER_CONNECT=zk01:2181,zk02:2181\n      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CLIENT:PLAINTEXT,EXTERNAL:PLAINTEXT\n      - KAFKA_CFG_LISTENERS=CLIENT://:9092,EXTERNAL://:9094\n      - KAFKA_CFG_ADVERTISED_LISTENERS=CLIENT://kf02:9092,EXTERNAL://localhost:9094\n      - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=CLIENT\n      - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true\n      - KAFKA_CFG_LOG_RETENTION_HOURS=1\n      - KAFKA_CFG_LOG_CLEARUP_POLICY=delete\n      - KAFKA_CFG_LOG_RETENTION_BYTES=536870912\n      - KAFKA_CFG_LOG_SEGMENT_DELETE_DELAY_MS=60000\n      - KAFKA_CFG_LOG_CLEANUP_INTERVAL_MINS=3\n      - KAFKA_CFG_LOG_ROLL_HOURS=1\n      - KAFKA_CFG_LOG_RETENTION_CHECK_INTERVAL_MS=120000\n      # - JMX_PORT=9999\n    networks:\n      - kafka_network\n    volumes:\n      - kf_data2:/bitnami/kafka\n    depends_on:\n      - zk01\n      - zk02\nnetworks:\n  kafka_network:\n    driver: bridge\nvolumes:\n  zk_data1:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  zk_data2:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  kf_data1:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n  kf_data2:\n    driver_opts:\n      type: tmpfs\n      device: tmpfs\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110172742-8ov4a2h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110172742-8ov4a2h",
+				"updated": "20221110172749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 相关配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110172751-r4r9h3w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110172751-r4r9h3w",
+				"updated": "20221110172817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.1. 生产者配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110172839-ych9msq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110172839-ych9msq",
+				"updated": "20221110173059"
+			},
+			"Children": [
+				{
+					"ID": "20221110172839-andvine",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-andvine",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-bnngq77",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-bnngq77",
+								"updated": "20221110172925"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "metadata.broker.list=kf01:9092,kf02:9092,kf03:9092"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 指定节点列表"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-b2e69qz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-b2e69qz",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-u0nkq4c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-u0nkq4c",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "partitioner.class=kafka.producer.DefaultPartitioner"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 指定分区处理类。默认 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "kafka.producer.DefaultPartitioner"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-ql36wof",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-ql36wof",
+						"updated": "20221110173048"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-b4ra4a8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-b4ra4a8",
+								"updated": "20221110173048"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "compression.codec=0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是否压缩，有三个值 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20221110173029-4mdkllm",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221110173029-4mdkllm"
+							},
+							"Children": [
+								{
+									"ID": "20221110173029-eqw3xh6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173029-eqw3xh6"
+									},
+									"Children": [
+										{
+											"ID": "20221110173029-i1p1lor",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173029-i1p1lor",
+												"updated": "20221110173032"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 代表不压缩"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110173032-b92y0a2",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173032-b92y0a2"
+									},
+									"Children": [
+										{
+											"ID": "20221110173032-5pxx471",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173032-5pxx471",
+												"updated": "20221110173035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 代表用 gzip 压缩"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110173035-3rfzqod",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173035-3rfzqod"
+									},
+									"Children": [
+										{
+											"ID": "20221110173035-wa04v3i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173035-wa04v3i"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "2"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 代表用 snappy 压缩"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-t11j73g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-t11j73g",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-so4y00z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-so4y00z",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "serializer.class=kafka.serializer.DefaultEncoder"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 指定序列化处理类"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-b9ghj8h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-b9ghj8h",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-llz6bd5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-llz6bd5",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "compressed.topics="
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 如果要压缩消息，这里指定哪些 topic 要压缩消息，默认是 空，表示不压缩"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-s4nyokj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-s4nyokj",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-oyc94pv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-oyc94pv",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "request.required.acks=0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 设置发送数据是否需要服务端的反馈，有三个值 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						},
+						{
+							"ID": "20221110172839-j3g8gvg",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221110172839-j3g8gvg",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"ID": "20221110172839-hblprsr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110172839-hblprsr",
+										"updated": "20221110172839"
+									},
+									"Children": [
+										{
+											"ID": "20221110172839-qynesb5",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110172839-qynesb5",
+												"updated": "20221110172839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ producer 不会等待 broker 发送 ack"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110172839-6099cu7",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110172839-6099cu7",
+										"updated": "20221110172839"
+									},
+									"Children": [
+										{
+											"ID": "20221110172839-vn47w86",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110172839-vn47w86",
+												"updated": "20221110172839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 当 leader 接收到消息后发送 ack"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110172839-d4eebk6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110172839-d4eebk6",
+										"updated": "20221110172839"
+									},
+									"Children": [
+										{
+											"ID": "20221110172839-mv9vue9",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110172839-mv9vue9",
+												"updated": "20221110172839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "-1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 当所有的 follower 都同步消息成功后发送 ack"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-qmfqbdi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-qmfqbdi",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-clbpgdi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-clbpgdi",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "request.timeout.ms=10000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 在向 producer 发送 ack 之前，broker 均需等待的最大时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-59gc87g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-59gc87g",
+						"updated": "20221110173059"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-7ibvknv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-7ibvknv",
+								"updated": "20221110173059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "producer.type=async"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "sync"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 同步 (默认)，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "async"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 异步。异步可以提高发送吞吐量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-10o27sq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-10o27sq",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-lojqaoq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-lojqaoq",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queue.buffering.max.ms=5000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "async"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 模式下，当 message 缓存超时后，将会批量发送给broker。默认 5000ms"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-h31klnx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-h31klnx",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-sv6dbl5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-sv6dbl5",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queue.buffering.max.messages=20000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "async"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 模式下，producer 端允许 buffer 的最大消息量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-ci73c3q",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-ci73c3q",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-dfbniqc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-dfbniqc",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "batch.num.messages=500"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 在 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "async"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 模式下，指定每次批量发送的数据量，默认 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "200"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110172839-za4lxvo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110172839-za4lxvo",
+						"updated": "20221110172839"
+					},
+					"Children": [
+						{
+							"ID": "20221110172839-swv60bd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110172839-swv60bd",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queue.enqueue.timeout.ms=-1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 当消息在 producer 端沉积的条数达到 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queue.buffering.max.messages"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 阻塞一定时间后，队列仍然没有 enqueue（即 producer 仍然没有发送出任何消息），此时producer可以继续阻塞，或者将消息抛弃"
+								}
+							]
+						},
+						{
+							"ID": "20221110172839-p3hawsr",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221110172839-p3hawsr",
+								"updated": "20221110172839"
+							},
+							"Children": [
+								{
+									"ID": "20221110172839-2b0eiar",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110172839-2b0eiar",
+										"updated": "20221110172839"
+									},
+									"Children": [
+										{
+											"ID": "20221110172839-jqbhojg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110172839-jqbhojg",
+												"updated": "20221110172839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "-1"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 无阻塞超时限制，消息不会被抛弃"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110172839-nesmv09",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110172839-nesmv09",
+										"updated": "20221110172839"
+									},
+									"Children": [
+										{
+											"ID": "20221110172839-gpneyeg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110172839-gpneyeg",
+												"updated": "20221110172839"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "0"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 立即清空队列，消息被抛弃"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173112-gxacj3m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110173112-gxacj3m",
+				"updated": "20221110173118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.2. 消费者配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173145-pp2p5hm",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173145-pp2p5hm",
+				"updated": "20221110173145"
+			},
+			"Children": [
+				{
+					"ID": "20221110173145-mifugat",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-mifugat",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-z524e9i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-z524e9i",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group.id=group1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ consumer 归属的组 id，broker 是根据 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group.id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 来判断是队列模式还是发布订阅模式，非常重要"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-wvo0a31",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-wvo0a31",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-g4c6f03",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-g4c6f03",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "consumer.id=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 消费者的 id，若是没有设置的话，会自增"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-kb9o8hz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-kb9o8hz",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-xk89lig",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-xk89lig",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "client.id=group1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 一个用于跟踪调查的 id，最好同 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "group.id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 相同"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-ejfqtdd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-ejfqtdd",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-z4qll27",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-z4qll27",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.connect=localhost:2182"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对于 zookeeper 集群的指定，可以是多个，例如："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "hostname1:port1,hostname2:port2,hostname3:port3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。必须和 broker 使用同样的 zookeeper 配置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-r7pqrmw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-r7pqrmw",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-ah25y1v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-ah25y1v",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "bootstrap.servers"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 指定 Kafka 集群的地址。对于新版 Kafka，用以取代 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.connect"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 配置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-q0hhe0h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-q0hhe0h",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-baateif",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-baateif",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.session.timeout.ms=6000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zookeeper 的心跳超时时间，查过这个时间就认为是 dead 消费者"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-dx6bc2p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-dx6bc2p",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-vog8u8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-vog8u8q",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.connection.timeout.ms=6000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zookeeper 的等待连接时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-eerizk7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-eerizk7",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-fknu80z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-fknu80z",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.sync.time.ms=2000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zookeeper 的 follower 同 leader 的同步时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-a4sj94l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-a4sj94l",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-wy41h2g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-wy41h2g",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "auto.offset.reset=largest"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 当 zookeeper 中没有初始的 offset 时候的处理方式"
+								}
+							]
+						},
+						{
+							"ID": "20221110173145-xwygxcp",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221110173145-xwygxcp",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"ID": "20221110173145-bsljsxq",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173145-bsljsxq",
+										"updated": "20221110173145"
+									},
+									"Children": [
+										{
+											"ID": "20221110173145-grg3rjw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173145-grg3rjw",
+												"updated": "20221110173145"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "smallest"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 重置为最小值"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110173145-lny6g11",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173145-lny6g11",
+										"updated": "20221110173145"
+									},
+									"Children": [
+										{
+											"ID": "20221110173145-36fcttg",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173145-36fcttg",
+												"updated": "20221110173145"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "code",
+													"TextMarkTextContent": "largest"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​ 重置为最大值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-m8lidr4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-m8lidr4",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-rj6dyb3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-rj6dyb3",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.timeout.ms=30*1000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ socket 的超时时间，实际的超时时间是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "max.fetch.wait + socket.timeout.ms"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-7fm1sul",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-7fm1sul",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-oh9solu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-oh9solu",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.receive.buffer.bytes=64*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ socket 接收缓存空间大小"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-mtesyzf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-mtesyzf",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-4ow8ewp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-4ow8ewp",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch.message.max.bytes=1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 从每个分区获取的消息大小限制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-esm2bse",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-esm2bse",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-8dbb981",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-8dbb981",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "auto.commit.enable=true"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是否在消费消息后将 offset 同步到 zookeeper，当 consumer 失败后就能从 zookeeper 获取最新的 offset"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-6jckz3m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-6jckz3m",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-ercpxh2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-ercpxh2",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "auto.commit.interval.ms=60*1000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 自动提交的时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-lh8m71e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-lh8m71e",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-uf93r1y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-uf93r1y",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queued.max.message.chunks=10"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 用来处理消费消息的块，每个块可以等同于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch.message.max.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中数值"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-h5yps4x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-h5yps4x",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-oz4bmue",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-oz4bmue",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rebalance.max.retries=4"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 当有新的 consumer 加入到 group 时,将会 rebalance，此后将会有partitions 的消费端迁移到新的 consumer 上，如果一个 consumer 获得了某个 partition 的消费权限，那么它将会向 zookeeper 注册 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "Partition Owner registry"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 节点信息，但是有可能此时旧的 consumer 尚没有释放此节点。此值用于控制注册节点的重试次数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-m3xr3j3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-m3xr3j3",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-7fza874",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-7fza874",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "rebalance.backoff.ms=2000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每次再平衡的时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-cpilj9x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-cpilj9x",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-7czbn10",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-7czbn10",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "refresh.leader.backoff.ms"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每次重新选举 leader 的时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-rjos566",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-rjos566",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-1qt0s1f",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-1qt0s1f",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch.min.bytes=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ server 发送到消费端的最小数据，若是不满足这个数值则会等待，知道满足数值要求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-kx97kmg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-kx97kmg",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-gjev7gj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-gjev7gj",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch.wait.max.ms=100"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 若是不满足最小大小（"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fetch.min.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​）的话，等待消费端请求的最长等待时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173145-ounlo0o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173145-ounlo0o",
+						"updated": "20221110173145"
+					},
+					"Children": [
+						{
+							"ID": "20221110173145-pg131e6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173145-pg131e6",
+								"updated": "20221110173145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "consumer.timeout.ms=-1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 指定时间内没有消息到达就抛出异常，一般不需要修改"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173244-zgqrzhx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110173244-zgqrzhx",
+				"updated": "20221110173257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3. 服务端配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-fy4x3x8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110173258-fy4x3x8",
+				"updated": "20221110173312"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.1. 基本配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-qk2q4wq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173258-qk2q4wq",
+				"updated": "20221110173258"
+			},
+			"Children": [
+				{
+					"ID": "20221110173258-nu60tt6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-nu60tt6",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-zsbbidi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-zsbbidi",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "broker.id=0"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每一个 broker 在集群中的唯一表示，要求是正数，kafka 及其根据 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 来识别 broker 机器。当该服务器的 IP 地址发生改变时，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "broker.id"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 没有变化，则不会影响 consumers 的消息情况"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-skf21pi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-skf21pi",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-ycw8wcc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-ycw8wcc",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.dirs=/kafka/kafka-logs"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ Kafka 数据的存放地址，多个地址的话用逗号分割，如："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "/kafka/kafka-logs-1,/kafka/kafka-logs-2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-wb4ljag",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-wb4ljag",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-jjycvu0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-jjycvu0",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "port=9092"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ broker 服务端口"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-m3mo0ec",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-m3mo0ec",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-9qxqek6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-9qxqek6",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "message.max.bytes=6525000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 表示消息体的最大大小，单位是"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "字节"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-odkg3bl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-odkg3bl",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-1glz4e6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-1glz4e6",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "num.network.threads=4"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ broker 处理消息的最大线程数，一般情况下不需要去修改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-4deot9y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-4deot9y",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-xowecks",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-xowecks",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "num.io.threads=8"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ broker 处理磁盘 IO 的线程数，数值应该大于你的硬盘数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-1qu13ht",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-1qu13ht",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-rg5empk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-rg5empk",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "background.threads=4"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 一些后台任务处理的线程数，例如过期消息文件的删除等，一般情况下不需要去做修改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-8ti86j8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-8ti86j8",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-3mflhp4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-3mflhp4",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "queued.max.requests=500"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 等待 IO 线程处理的请求队列最大数，若是等待 IO 的请求超过这个数值，那么会停止接受外部消息"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-o05zpub",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-o05zpub",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-x1s1k78",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-x1s1k78",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "host.name"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ broker 的主机地址，若是设置了，那么会绑定到这个地址上，若是没有，会绑定到所有的接口上，并将其中之一发送到 zookeeper，一般不设置"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-itq7ya8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-itq7ya8",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-g7smi5u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-g7smi5u",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.send.buffer.bytes=100*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ socket 的发送缓冲区，socket 的调优参数 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "SO_SNDBUFF"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-nxfbu6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-nxfbu6h",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-jqhw2mb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-jqhw2mb",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.receive.buffer.bytes=100*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ socket 的接受缓冲区，socket 的调优参数 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "SO_RCVBUFF"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-jn7tbzt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-jn7tbzt",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-e3mmee6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-e3mmee6",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.request.max.bytes=100*1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ socket 请求的最大数值，防止服务端 OOM，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "message.max.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 必然要小于 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "socket.request.max.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-cdrnbil",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110173258-cdrnbil",
+				"updated": "20221110173327"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.2. 记录存储参数配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-7o2o2p2",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173258-7o2o2p2",
+				"updated": "20221110173258"
+			},
+			"Children": [
+				{
+					"ID": "20221110173258-wfmad46",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-wfmad46",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-fi2us32",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-fi2us32",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.segment.bytes=1024*1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ topic 的分区是以一堆 segment 文件存储的，这个控制每个segment 的大小，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-bji0dfg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-bji0dfg",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-rp0zv16",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-rp0zv16",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.roll.hours=24*7"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 这个参数会在日志 segment 没有达到 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.segment.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 设置的大小，也会强制新建一个 segment 会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-lotyav4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-lotyav4",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-hxr2y59",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-hxr2y59",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleanup.policy=delete"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 日志清理策略选择有："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "delete"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "compact"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。主要针对过期数据的处理，或是日志文件达到限制的额度，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-yopvhx9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-yopvhx9",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-9mcqdto",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-9mcqdto",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.minutes=3days"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 数据存储的最大时间超过这个时间会根据 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleanup.policy"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 设置的策略处理数据，也就是消费端能够多久去消费数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-lg9n69u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-lg9n69u",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-jjjvas7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-jjjvas7",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.minutes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 任意一个达到要求，都会执行删除，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-bly03xo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-bly03xo",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-95z7qii",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-95z7qii",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.bytes=-1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ topic 每个分区的最大文件大小，一个 topic 的大小限制 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "= 分区数 * log.retention.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "-1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 表示没有限制。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 和 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.minutes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 任意一个达到要求，都会执行删除，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-3qxfm8h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-3qxfm8h",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-9bdfou6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-9bdfou6",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.check.interval.ms=5minutes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 文件大小检查的周期时间，是否触发 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleanup.policy"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 中设置的策略"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-s4vyc9u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-s4vyc9u",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-4galgj3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-4galgj3",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.enable=false"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是否开启日志压缩"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-sdv8xh2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-sdv8xh2",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-sowutkq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-sowutkq",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.threads=2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 日志压缩运行的线程数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-hlz0i2m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-hlz0i2m",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-jqgr7hu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-jqgr7hu",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.io.max.bytes.per.second=None"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 压缩时每秒处理日志的上限大小"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-xvjo8w5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-xvjo8w5",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-9bwl86d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-9bwl86d",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.dedupe.buffer.size=500*1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 日志压缩去重时候的缓存空间，在空间允许的情况下，越大越好"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-guyia14",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-guyia14",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-itm73xg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-itm73xg",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.io.buffer.size=512*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 日志清理时候用到的 IO 块大小一般不需要修改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-tj78lky",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-tj78lky",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-7098wq9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-7098wq9",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.backoff.ms=15000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 检查是否触发日志清理的间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-wndxlgt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-wndxlgt",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-oyjzs3d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-oyjzs3d",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.min.cleanable.ratio=0.5"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 日志清理的频率控制，越大意味着更高效的清理，同时会存在一些空间上的浪费，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-0ypamgq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-0ypamgq",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-8mvimka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-8mvimka",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.cleaner.delete.retention.ms=1day"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对于压缩的日志保留的最长时间，也是客户端消费消息的最长时间，同 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.retention.minutes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的区别在于一个控制未压缩数据，一个控制压缩后的数据。会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-9dz3u9m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-9dz3u9m",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-mcl0l4d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-mcl0l4d",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.index.size.max.bytes=10*1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 对于 segment 日志的索引文件大小限制，会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-ps7wyw6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-ps7wyw6",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-esei0zk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-esei0zk",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.index.interval.bytes=4096"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 当执行一个 fetch 操作后，需要一定的空间来扫描最近的 offset 大小，设置越大，代表扫描速度越快，但是也更耗内存。一般情况下不需要修改这个参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-b9mudd2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-b9mudd2",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-ixtefbk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-ixtefbk",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.flush.interval.messages=None"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ log 文件同步到磁盘之前累积的消息条数，因为磁盘 IO 操作是一个慢操作，但又是一个“数据可靠性”的必要手段，所以此参数的设置，需要在“数据可靠性”与“性能”之间做必要的权衡。如果此值过大，将会导致每次 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fsync"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的时间较长（IO 阻塞）；如果此值过小，将会导致 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fsync"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的次数较多，这也意味着整体的 client 请求有一定的延迟。服务器的物理故障，将会导致没有 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fsync"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的消息丢失"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-x4oig36",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-x4oig36",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-mjgg9sg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-mjgg9sg",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.flush.scheduler.interval.ms=3000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 检查是否需要固化到硬盘的时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-l6g1z87",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-l6g1z87",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-t3ac305",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-t3ac305",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.flush.interval.ms=None"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 仅仅通过 interval 来控制消息的磁盘写入时机是不足的。此参数用于控制 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "fsync"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的时间间隔，如果消息量始终没有达到阀值，但是离上一次磁盘同步的时间间隔达到阀值也将触发"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-i6bxxto",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-i6bxxto",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-6n6i6m5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-6n6i6m5",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.delete.delay.ms=60000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 文件在索引中清除后保留的时间一般不需要去修改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-z6o7b8d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-z6o7b8d",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-zi1h8yt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-zi1h8yt",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "log.flush.offset.checkpoint.interval.ms=60000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 控制上次固化硬盘的时间点，以便于数据恢复一般不需要去修改"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-qmcgpg4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110173258-qmcgpg4",
+				"updated": "20221110173336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.3. Topic 配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-p7q7mei",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173258-p7q7mei",
+				"updated": "20221110173258"
+			},
+			"Children": [
+				{
+					"ID": "20221110173258-fji656d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-fji656d",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-m4qoxdd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-m4qoxdd",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "auto.create.topics.enable=true"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是否允许自动创建 topic，若是 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "false"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，就需要通过命令创建 topic"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-iy1zxbj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-iy1zxbj",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-mrrd9by",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-mrrd9by",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "default.replication.factor=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 默认为主题创建副本的数量"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-3l5j6q4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-3l5j6q4",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-l5aix4h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-l5aix4h",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "num.partitions=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每个 topic 的分区个数，若是在 topic 创建时候没有指定的话会被 topic 创建时的指定参数覆盖"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-2jxnbka",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110173258-2jxnbka",
+				"updated": "20221110173347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.4. leader 和 replicas 参数配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-lunwqv8",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173258-lunwqv8",
+				"updated": "20221110173258"
+			},
+			"Children": [
+				{
+					"ID": "20221110173258-94zrmbc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-94zrmbc",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-p23iq3s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-p23iq3s",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controller.socket.timeout.ms=30000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ partition leader 与 replicas 之间通讯时 socket 的超时时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-2a40fv7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-2a40fv7",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-njdyyhy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-njdyyhy",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controller.message.queue.size=10"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ partition leader 与 replicas 数据同步时消息的队列尺寸"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-g41e61h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-g41e61h",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-uzmxpzz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-uzmxpzz",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.lag.time.max.ms=10000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ replicas 响应 partition leader 的最长等待时间，若是超过这个时间，就将 replicas 列入 ISR (in-sync replicas)，并认为它是死的，不会再加入管理中"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-zks89fn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-zks89fn",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-sef8egp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-sef8egp",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.lag.max.messages=4000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 如果 follower 落后与 leader 太多，将会认为此 follower（或者说 partition replicas）已经失效"
+								}
+							]
+						},
+						{
+							"ID": "20221110173258-q7bw4kt",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221110173258-q7bw4kt",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"ID": "20221110173258-ue8jjv0",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173258-ue8jjv0",
+										"updated": "20221110173258"
+									},
+									"Children": [
+										{
+											"ID": "20221110173258-9zjk7es",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173258-9zjk7es",
+												"updated": "20221110173258"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通常，在 follower 与 leader 通讯时，因为网络延迟或者链接断开，总会导致 replicas 中消息同步滞后"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110173258-qlnfn3i",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173258-qlnfn3i",
+										"updated": "20221110173258"
+									},
+									"Children": [
+										{
+											"ID": "20221110173258-tu2i2p2",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173258-tu2i2p2",
+												"updated": "20221110173258"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "如果消息之后太多，leader 将认为此 follower 网络延迟较大或者消息吞吐能力有限，将会把此 replicas 迁移到其他 follower 中"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221110173258-vqv8uu6",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221110173258-vqv8uu6",
+										"updated": "20221110173258"
+									},
+									"Children": [
+										{
+											"ID": "20221110173258-vmf18gc",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221110173258-vmf18gc",
+												"updated": "20221110173258"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "在 broker 数量较少，或者网络不足的环境中，建议提高此值"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-sjh6ovv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-sjh6ovv",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-eew3s0s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-eew3s0s",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.socket.timeout.ms=30*1000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ follower 与 leader 之间的 socket 超时时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-7krq5r6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-7krq5r6",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-1svbrfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-1svbrfr",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.socket.receive.buffer.bytes=64*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ leader 复制时候的 socket 缓存大小"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-dwi7cgi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-dwi7cgi",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-eg4jteb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-eg4jteb",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.fetch.max.bytes=1024*1024"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ replicas 每次获取数据的最大大小"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-0jt0j9z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-0jt0j9z",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-nz5h4tr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-nz5h4tr",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.fetch.wait.max.ms=500"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ replicas 同 leader 之间通信的最大等待时间，失败了会重试"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-xskjz52",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-xskjz52",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-0eqbo1s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-0eqbo1s",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.fetch.min.bytes=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ fetch 的最小数据尺寸，如果 leader 中尚未同步的数据不足此值，将会阻塞，直到满足条件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-pbzy951",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-pbzy951",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-dpwoqpj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-dpwoqpj",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "num.replica.fetchers=1"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ leader 进行复制的线程数，增大这个数值会增加 follower 的 IO"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-15nr3jr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-15nr3jr",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-a1ppxve",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-a1ppxve",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica.high.watermark.checkpoint.interval.ms=5000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每个 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "replica"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 检查是否将最高水位进行固化的频率"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-fupy6or",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-fupy6or",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-58i56aa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-58i56aa",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controlled.shutdown.enable=false"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 是否允许控制器关闭 broker ,若是设置为 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "true"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，会关闭所有在这个 broker 上的 leader，并转移到其他 broker"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-qszrham",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-qszrham",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-zg2xyu9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-zg2xyu9",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controlled.shutdown.max.retries=3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 控制器关闭的尝试次数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-fqmjf89",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-fqmjf89",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-sx9rkbh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-sx9rkbh",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "controlled.shutdown.retry.backoff.ms=5000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 每次关闭尝试的时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-4p48cvb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-4p48cvb",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-762f6nj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-762f6nj",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "leader.imbalance.per.broker.percentage=10"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ leader 的不平衡比例，若是超过这个数值，会对分区进行重新的平衡"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-qhnfx0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-qhnfx0a",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-t3oexu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-t3oexu2",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "leader.imbalance.check.interval.seconds=300"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 检查 leader 是否不平衡的时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-vbgs84x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-vbgs84x",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-pd6oamh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-pd6oamh",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "offset.metadata.max.bytes"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 客户端保留 offset 信息的最大空间大小"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-puu8nsm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110173258-puu8nsm",
+				"updated": "20221110173356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.3.5. zookeeper 参数配置"
+				}
+			]
+		},
+		{
+			"ID": "20221110173258-myjxdco",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110173258-myjxdco",
+				"updated": "20221110173258"
+			},
+			"Children": [
+				{
+					"ID": "20221110173258-7bblv43",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-7bblv43",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-0dp4qcz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-0dp4qcz",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.connect=localhost:2181"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zookeeper 集群的地址，可以是多个，用逗号分割。例如："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "host1:port1,host2:port2,host3:port3"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-zd2iofg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-zd2iofg",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-85h8tpo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-85h8tpo",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.session.timeout.ms=6000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zooKeeper 的最大超时时间，就是心跳的间隔，若是没有反映，那么认为已经死了，不易过大"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-9vkw14c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-9vkw14c",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-x25t3br",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-x25t3br",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.connection.timeout.ms=6000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zooKeeper 的连接超时时间"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221110173258-r7gk2dk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110173258-r7gk2dk",
+						"updated": "20221110173258"
+					},
+					"Children": [
+						{
+							"ID": "20221110173258-px5daan",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110173258-px5daan",
+								"updated": "20221110173258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "zookeeper.sync.time.ms =2000"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ zooKeeper 集群中 leader 和 follower 之间的同步实际那"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

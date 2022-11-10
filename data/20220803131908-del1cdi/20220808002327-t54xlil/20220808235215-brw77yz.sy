@@ -1,10 +1,11 @@
 {
 	"ID": "20220808235215-brw77yz",
+	"Spec": "1",
 	"Type": "NodeDocument",
 	"Properties": {
 		"id": "20220808235215-brw77yz",
-		"title": "macOs",
-		"updated": "20220811190144"
+		"title": "macOS",
+		"updated": "20220911223407"
 	},
 	"Children": [
 		{
