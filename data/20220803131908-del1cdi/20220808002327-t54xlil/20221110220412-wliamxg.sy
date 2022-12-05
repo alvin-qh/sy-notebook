@@ -1,0 +1,61 @@
+{
+	"ID": "20221110220412-wliamxg",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110220412-wliamxg",
+		"title": "Golang",
+		"updated": "20221110220823"
+	},
+	"Children": [
+		{
+			"ID": "20221110220412-delh3aa",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20221110220412-delh3aa",
+				"updated": "20221110220823"
+			},
+			"Children": [
+				{
+					"ID": "20221110220420-dznguqw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20221110220420-dznguqw",
+						"updated": "20221110220823"
+					},
+					"Children": [
+						{
+							"ID": "20221110220420-3h7sbzu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221110220420-3h7sbzu",
+								"updated": "20221110220823"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221110220427-y8ej3ix",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "安装开发环境"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221110220503-2956bl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110220503-2956bl2"
+			}
+		}
+	]
+}

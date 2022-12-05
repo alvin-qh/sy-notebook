@@ -1,3 +1,4 @@
 {
-  "local-codelang": "yml"
+  "local-codelang": "bash",
+  "local-searchedata": "{\"idPath\":\"\",\"hPath\":\"\",\"types\":{\"document\":true,\"heading\":true,\"list\":true,\"listItem\":true,\"codeBlock\":true,\"htmlBlock\":true,\"mathBlock\":true,\"table\":true,\"blockquote\":true,\"superBlock\":true,\"paragraph\":true},\"list\":[\"golang\"],\"k\":\"golang\"}"
 }

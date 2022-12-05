@@ -1,0 +1,272 @@
+{
+	"ID": "20221110220427-y8ej3ix",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221110220427-y8ej3ix",
+		"title": "安装开发环境",
+		"updated": "20221110222340"
+	},
+	"Children": [
+		{
+			"ID": "20221110220427-00fhohz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221110220427-00fhohz",
+				"updated": "20221110220515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. Linux 系统安装"
+				}
+			]
+		},
+		{
+			"ID": "20221110220516-u56vgop",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110220516-u56vgop",
+				"updated": "20221110220529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1. 设置软件源"
+				}
+			]
+		},
+		{
+			"ID": "20221110220621-v8qg4gd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110220621-v8qg4gd",
+				"updated": "20221110220919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.1. 添加原始软件源"
+				}
+			]
+		},
+		{
+			"ID": "20221110220530-f5v358b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110220530-f5v358b",
+				"updated": "20221110220830"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo add-apt-repository ppa:longsleep/golang-backports\n\n Golang 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15 and 1.16 PPA for Ubuntu\n More info: https://launchpad.net/~longsleep/+archive/ubuntu/golang-backports\nPress [ENTER] to continue or Ctrl-c to cancel adding it.\n......\nFetched 11.7 MB in 31s (382 kB/s)\nReading package lists... Done\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110220617-l6q54ha",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221110220617-l6q54ha",
+				"updated": "20221110220936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.1.2. 设置为国内镜像"
+				}
+			]
+		},
+		{
+			"ID": "20221110220937-lmhlvhz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110220937-lmhlvhz",
+				"updated": "20221110220945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编辑软件源文件"
+				}
+			]
+		},
+		{
+			"ID": "20221110220708-8h54uex",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110220708-8h54uex",
+				"updated": "20221110220947"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo vi /etc/apt/sources.list.d/longsleep-ubuntu-golang-backports-focal.list\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110220957-yf70dg5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110220957-yf70dg5",
+				"updated": "20221110221012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改 URL 为国内镜像地址"
+				}
+			]
+		},
+		{
+			"ID": "20221110221022-uo2eh7r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110221022-uo2eh7r",
+				"updated": "20221110221118"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# deb http://ppa.launchpad.net/longsleep/golang-backports/ubuntu jammy main\ndeb https://launchpad.proxy.ustclug.org/longsleep/golang-backports/ubuntu jammy main\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110221119-4eie9n9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110221119-4eie9n9",
+				"updated": "20221110221149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.2. 安装"
+				}
+			]
+		},
+		{
+			"ID": "20221110221150-5g4i30o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110221150-5g4i30o",
+				"updated": "20221110221228"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "sudo apt update -y\nsudo apt install golang-go\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110221447-zjbavoo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221110221447-zjbavoo",
+				"updated": "20221110221459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.3. 设置环境变量"
+				}
+			]
+		},
+		{
+			"ID": "20221110221500-js0b6rt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221110221500-js0b6rt",
+				"updated": "20221110222340"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# 开启 go mod 包管理\nexport GO111MODULE=on\n\n# 设置 go 包管理国内代理地址\nexport GOPROXY=https://goproxy.cn\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221110222315-zss4nqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221110222315-zss4nqo"
+			}
+		}
+	]
+}

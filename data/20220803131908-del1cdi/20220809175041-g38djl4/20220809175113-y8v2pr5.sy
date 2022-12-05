@@ -6,7 +6,7 @@
 		"id": "20220809175113-y8v2pr5",
 		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20220809175126-254jrmd\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20220809175126-6cdrpjg\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20220809175126-254jrmd\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
 		"title": "Ymal",
-		"updated": "20220911223354"
+		"updated": "20221110220253"
 	},
 	"Children": [
 		{
@@ -3400,7 +3400,7 @@
 			"ListData": {},
 			"Properties": {
 				"id": "20220809175126-0t7j65l",
-				"updated": "20220809175126"
+				"updated": "20221110220253"
 			},
 			"Children": [
 				{
@@ -3412,7 +3412,7 @@
 					},
 					"Properties": {
 						"id": "20220809175126-b8ri7e5",
-						"updated": "20220809175126"
+						"updated": "20221110220253"
 					},
 					"Children": [
 						{
@@ -3420,14 +3420,14 @@
 							"Type": "NodeParagraph",
 							"Properties": {
 								"id": "20220809175126-7n2oew0",
-								"updated": "20220809175126"
+								"updated": "20221110220253"
 							},
 							"Children": [
 								{
 									"Type": "NodeTextMark",
 									"TextMarkType": "a",
 									"TextMarkAHref": "https://yaml.org/spec/1.2/spec.html",
-									"TextMarkTextContent": "YAML 1.2规格"
+									"TextMarkTextContent": "YAML 1.2 规格"
 								}
 							]
 						}
